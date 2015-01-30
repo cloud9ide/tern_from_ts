@@ -1,0 +1,22 @@
+{
+  "CometD": {
+    "onListenerException": "fn(exception: ?, subscriptionHandle: ?, isListener: bool, message: string)",
+    "init": "fn(options: ConfigurationOptions)",
+    "addListener": "fn(channel: string, listener: fn(message: ?))",
+    "removeListener": "fn(listener: fn(message: ?))",
+    "publish": "fn(channel: string, message: ?)",
+    "ConfigurationOptions": {
+      "url": "string",
+      "logLevel": "string",
+      "maxConnections": "number",
+      "backoffIncrement": "number",
+      "maxBackoff": "number",
+      "reverseIncomingExtensions": "bool",
+      "maxNetworkDelay": "number",
+      "requestHeaders": "?",
+      "appendMessageTypeToURL": "bool",
+      "autoBatch": "bool"
+    }
+  },
+  "!name": "cometd.d.ts"
+}

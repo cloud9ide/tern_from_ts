@@ -1,0 +1,220 @@
+{
+  "esprima": {
+    "version": "string",
+    "parse": "fn(code: string, options?: Options) -> Syntax.Program",
+    "tokenize": "fn(code: string, options?: Options) -> ?",
+    "Token": {
+      "type": "string",
+      "value": "string"
+    },
+    "Options": {
+      "loc": "bool",
+      "range": "bool",
+      "raw": "bool",
+      "tokens": "bool",
+      "comment": "bool",
+      "attachComment": "bool",
+      "tolerant": "bool",
+      "source": "bool"
+    },
+    "Syntax": {
+      "Node": {
+        "type": "string",
+        "loc": "LineLocation",
+        "range": "[number]",
+        "leadingComments": "[Comment]",
+        "trailingComments": "[Comment]"
+      },
+      "LineLocation": {
+        "start": "Position",
+        "end": "Position"
+      },
+      "Position": {
+        "line": "number",
+        "column": "number"
+      },
+      "Comment": {
+        "value": "string"
+      },
+      "Program": {
+        "body": "[Statement]",
+        "comments": "[Comment]"
+      },
+      "Function": {
+        "id": "Identifier",
+        "params": "[Identifier]",
+        "defaults": "[Expression]",
+        "rest": "Identifier",
+        "body": "BlockStatementOrExpression",
+        "generator": "bool",
+        "expression": "bool"
+      },
+      "BlockStatementOrExpression": {},
+      "Statement": {},
+      "EmptyStatement": {},
+      "BlockStatement": {
+        "body": "[Statement]"
+      },
+      "ExpressionStatement": {
+        "expression": "Expression"
+      },
+      "IfStatement": {
+        "test": "Expression",
+        "consequent": "Statement",
+        "alternate": "Statement"
+      },
+      "LabeledStatement": {
+        "label": "Identifier",
+        "body": "Statement"
+      },
+      "BreakStatement": {
+        "label": "Identifier"
+      },
+      "ContinueStatement": {
+        "label": "Identifier"
+      },
+      "WithStatement": {
+        "object": "Expression",
+        "body": "Statement"
+      },
+      "SwitchStatement": {
+        "discriminant": "Expression",
+        "cases": "[SwitchCase]",
+        "lexical": "bool"
+      },
+      "ReturnStatement": {
+        "argument": "Expression"
+      },
+      "ThrowStatement": {
+        "argument": "Expression"
+      },
+      "TryStatement": {
+        "block": "BlockStatement",
+        "handler": "CatchClause",
+        "guardedHandlers": "[CatchClause]",
+        "finalizer": "BlockStatement"
+      },
+      "WhileStatement": {
+        "test": "Expression",
+        "body": "Statement"
+      },
+      "DoWhileStatement": {
+        "body": "Statement",
+        "test": "Expression"
+      },
+      "ForStatement": {
+        "init": "VariableDeclaratorOrExpression",
+        "test": "Expression",
+        "update": "Expression",
+        "body": "Statement"
+      },
+      "ForInStatement": {
+        "left": "VariableDeclaratorOrExpression",
+        "right": "Expression",
+        "body": "Statement",
+        "each": "bool"
+      },
+      "VariableDeclaratorOrExpression": {},
+      "DebuggerStatement": {},
+      "StatementOrList": {},
+      "Declaration": {},
+      "FunctionDeclaration": {
+        "id": "Identifier",
+        "params": "[Identifier]",
+        "defaults": "[Expression]",
+        "rest": "Identifier",
+        "body": "BlockStatementOrExpression",
+        "generator": "bool",
+        "expression": "bool"
+      },
+      "VariableDeclaration": {
+        "declarations": "[VariableDeclarator]",
+        "kind": "string"
+      },
+      "VariableDeclarator": {
+        "id": "Identifier",
+        "init": "Expression"
+      },
+      "Expression": {},
+      "ThisExpression": {},
+      "ArrayExpression": {
+        "elements": "[Expression]"
+      },
+      "ObjectExpression": {
+        "properties": "[Property]"
+      },
+      "Property": {
+        "key": "LiteralOrIdentifier",
+        "value": "Expression",
+        "kind": "string"
+      },
+      "LiteralOrIdentifier": {},
+      "FunctionExpression": {},
+      "ArrowFunctionExpression": {},
+      "SequenceExpression": {
+        "expressions": "[Expression]"
+      },
+      "UnaryExpression": {
+        "operator": "string",
+        "prefix": "bool",
+        "argument": "Expression"
+      },
+      "BinaryExpression": {
+        "operator": "string",
+        "left": "Expression",
+        "right": "Expression"
+      },
+      "AssignmentExpression": {
+        "operator": "string",
+        "left": "Expression",
+        "right": "Expression"
+      },
+      "UpdateExpression": {
+        "operator": "string",
+        "argument": "Expression",
+        "prefix": "bool"
+      },
+      "LogicalExpression": {
+        "operator": "string",
+        "left": "Expression",
+        "right": "Expression"
+      },
+      "ConditionalExpression": {
+        "test": "Expression",
+        "alternate": "Expression",
+        "consequent": "Expression"
+      },
+      "NewExpression": {
+        "callee": "Expression",
+        "arguments": "[Expression]"
+      },
+      "CallExpression": {
+        "callee": "Expression",
+        "arguments": "[Expression]"
+      },
+      "MemberExpression": {
+        "object": "Expression",
+        "property": "IdentifierOrExpression",
+        "computed": "bool"
+      },
+      "IdentifierOrExpression": {},
+      "SwitchCase": {
+        "test": "Expression",
+        "consequent": "[Statement]"
+      },
+      "CatchClause": {
+        "param": "Identifier",
+        "guard": "Expression",
+        "body": "BlockStatement"
+      },
+      "Identifier": {
+        "name": "string"
+      },
+      "Literal": {
+        "value": "?"
+      }
+    },
+    "!type": "esprima"
+  },
+  "!name": "esprima.d.ts"
+}

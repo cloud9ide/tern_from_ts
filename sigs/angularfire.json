@@ -1,0 +1,58 @@
+{
+  "AngularFireService": {},
+  "AngularFire": {
+    "$asArray": "fn() -> AngularFireArray",
+    "$asObject": "fn() -> AngularFireObject",
+    "$ref": "fn() -> Firebase",
+    "$push": "fn(data: ?) -> ?",
+    "$set": "fn(key: string, data: ?) -> ?",
+    "$remove": "fn(key?: string) -> ?",
+    "$update": "fn(key: string, data: Object) -> ?",
+    "$transaction": "fn(updateFn: fn(currentData: ?), applyLocally?: bool) -> ?"
+  },
+  "AngularFireObject": {
+    "$id": "string",
+    "$priority": "number",
+    "$value": "?",
+    "$save": "fn() -> ?",
+    "$loaded": "fn(resolve?: fn(x: AngularFireObject), reject?: fn(err: ?)) -> ?",
+    "$inst": "fn() -> AngularFire",
+    "$bindTo": "fn(scope: ng.IScope, varName: string) -> ?",
+    "$watch": "fn(callback: Function, context?: ?) -> Function",
+    "$destroy": "fn()"
+  },
+  "AngularFireObjectService": {
+    "$extendFactory": "fn(ChildClass: Object, methods?: Object) -> Object"
+  },
+  "AngularFireArray": {
+    "$add": "fn(newData: ?) -> ?",
+    "$save": "fn(recordOrIndex: ?) -> ?",
+    "$remove": "fn(recordOrIndex: ?) -> ?",
+    "$getRecord": "fn(key: string) -> AngularFireSimpleObject",
+    "$keyAt": "fn(recordOrIndex: ?) -> string",
+    "$indexFor": "fn(key: string) -> number",
+    "$loaded": "fn(resolve?: fn(x: AngularFireArray), reject?: fn(err: ?)) -> ?",
+    "$inst": "fn() -> AngularFire",
+    "$watch": "fn(cb: fn(event: string, key: string, prevChild: string), context?: ?) -> Function",
+    "$destroy": "fn()"
+  },
+  "AngularFireArrayService": {
+    "$extendFactory": "fn(ChildClass: Object, methods?: Object) -> Object"
+  },
+  "AngularFireSimpleObject": {
+    "$id": "string",
+    "$priority": "number",
+    "$value": "?"
+  },
+  "AngularFireAuthService": {},
+  "AngularFireAuth": {
+    "$getCurrentUser": "fn() -> ?",
+    "$login": "fn(provider: string, options?: Object) -> ?",
+    "$logout": "fn()",
+    "$createUser": "fn(email: string, password: string) -> ?",
+    "$changePassword": "fn(email: string, oldPassword: string, newPassword: string) -> ?",
+    "$removeUser": "fn(email: string, password: string) -> ?",
+    "$sendPasswordResetEmail": "fn(email: string) -> ?"
+  },
+  "!name": "angularfire.d.ts"
+}

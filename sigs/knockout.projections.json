@@ -1,0 +1,7 @@
+{
+  "KnockoutObservableArrayFunctions": {
+    "map": "fn(mapping: fn(value: T)) -> ?",
+    "filter": "fn(predicate: fn(value: T)) -> ?"
+  },
+  "!name": "knockout.projections.d.ts"
+}

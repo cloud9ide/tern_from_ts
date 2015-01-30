@@ -1,0 +1,60 @@
+{
+  "chai": {
+    "request": {
+      "agent": "fn(server: ?) -> chaiHttp.Agent",
+      "addPromises": "fn(promiseConstructor: chaiHttp.PromiseConstructor)",
+      "!type": "fn(server: ?) -> chaiHttp.Agent"
+    },
+    "Assertions": {},
+    "TypeComparison": {}
+  },
+  "chaiHttp": {
+    "PromiseConstructor": {},
+    "Promise": {
+      "then": "fn(onFulfilled: fn(value: T), onRejected?: fn(reason: ?)) -> ?"
+    },
+    "Response": {
+      "body": "?",
+      "type": "string",
+      "status": "number"
+    },
+    "Request": {
+      "attach": "fn(field: string, file: string, filename: string) -> Request",
+      "set": "fn(field: string, val: string) -> Request",
+      "query": "fn(key: string, value: string) -> Request",
+      "send": "fn(data: Object) -> Request",
+      "auth": "fn(user: string, name: string) -> Request",
+      "field": "fn(name: string, val: string) -> Request",
+      "end": "fn(callback?: fn(err: ?, res: Response)) -> FinishedRequest"
+    },
+    "FinishedRequest": {
+      "then": "fn(success?: fn(res: Response), failure?: fn(err: ?)) -> FinishedRequest",
+      "catch": "fn(failure?: fn(err: ?)) -> FinishedRequest"
+    },
+    "Agent": {
+      "get": "fn(url: string, callback?: fn(err: ?, res: Response)) -> Request",
+      "post": "fn(url: string, callback?: fn(err: ?, res: Response)) -> Request",
+      "put": "fn(url: string, callback?: fn(err: ?, res: Response)) -> Request",
+      "head": "fn(url: string, callback?: fn(err: ?, res: Response)) -> Request",
+      "del": "fn(url: string, callback?: fn(err: ?, res: Response)) -> Request",
+      "options": "fn(url: string, callback?: fn(err: ?, res: Response)) -> Request",
+      "patch": "fn(url: string, callback?: fn(err: ?, res: Response)) -> Request"
+    },
+    "Assertions": {
+      "status": "fn(code: number) -> ?",
+      "header": "fn(key: string, value?: string) -> ?",
+      "headers": "?",
+      "json": "?",
+      "redirect": "?",
+      "redirectTo": "fn(location: string) -> ?",
+      "param": "fn(key: string, value?: string) -> ?",
+      "cookie": "fn(key: string, value?: string) -> ?"
+    },
+    "TypeComparison": {
+      "ip": "?"
+    },
+    "!type": "fn(chai: ?, utils: ?)"
+  },
+  "chai-http": "chaiHttp",
+  "!name": "chai-http.d.ts"
+}

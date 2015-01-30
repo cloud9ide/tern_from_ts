@@ -1,0 +1,285 @@
+{
+  "Vega": {
+    "Parse": {
+      "spec": "fn(url: string, callback: fn(chart: fn(args: ViewArgs)))",
+      "data": "fn(dataSet: [Data], callback: fn())"
+    },
+    "ViewArgs": {
+      "el": "?",
+      "data": "?",
+      "hover": "bool",
+      "renderer": "string"
+    },
+    "View": {
+      "width": "fn() -> number",
+      "height": "fn() -> number",
+      "padding": "fn() -> Padding",
+      "viewport": "fn() -> [number]",
+      "renderer": "fn(r: string) -> View",
+      "data": "fn() -> Runtime.DataSets",
+      "initialize": "fn(selector: string) -> View",
+      "render": "fn(r?: [?]) -> View",
+      "update": "fn(options?: UpdateOptions) -> View",
+      "model": "fn() -> Vega.Model",
+      "defs": "fn() -> Defs"
+    },
+    "Padding": {
+      "top": "number",
+      "right": "number",
+      "bottom": "number",
+      "left": "number"
+    },
+    "UpdateOptions": {
+      "props": "string",
+      "items": "?",
+      "duration": "number",
+      "ease": "string"
+    },
+    "Bounds": {
+      "x1": "number",
+      "y1": "number",
+      "x2": "number",
+      "y2": "number",
+      "clear": "fn() -> Bounds",
+      "set": "fn(x1: number, y1: number, x2: number, y2: number) -> Bounds",
+      "add": "fn(x: number, y: number) -> Bounds",
+      "expand": "fn(d: number) -> Bounds",
+      "round": "fn() -> Bounds",
+      "translate": "fn(dx: number, dy: number) -> Bounds",
+      "rotate": "fn(angle: number, x: number, y: number) -> Bounds",
+      "union": "fn(b: Bounds) -> Bounds",
+      "encloses": "fn(b: Bounds) -> bool",
+      "intersects": "fn(b: Bounds) -> bool",
+      "contains": "fn(x: number, y: number) -> bool",
+      "width": "fn() -> number",
+      "height": "fn() -> number"
+    },
+    "Model": {
+      "defs": "fn() -> Defs",
+      "data": "fn() -> Runtime.DataSets",
+      "ingest": "fn(name: string, tx: ?, input: ?)",
+      "dependencies": "fn(name: string, tx: ?)",
+      "width": "fn(w: number) -> Model",
+      "height": "fn(h: number) -> Model",
+      "scene": "fn() -> Node",
+      "build": "fn() -> Model",
+      "encode": "fn(trans?: ?, request?: string, item?: ?) -> Model",
+      "reset": "fn() -> Model"
+    },
+    "Runtime": {
+      "DataSets": {},
+      "Datum": {},
+      "Marks": {
+        "type": "string",
+        "width": "number",
+        "height": "number",
+        "scales": "[Scale]",
+        "axes": "[Axis]",
+        "legends": "[Legend]",
+        "marks": "[Mark]"
+      },
+      "Mark": {
+        "type": "string",
+        "name": "string",
+        "description": "string",
+        "from": "Mark.From",
+        "key": "string",
+        "delay": "Properties",
+        "properties": "PropertySets"
+      },
+      "PropertySets": {
+        "enter": "Properties",
+        "exit": "Properties",
+        "update": "Properties",
+        "hover": "Properties"
+      },
+      "Properties": {}
+    },
+    "Node": {
+      "def": "Runtime.Mark",
+      "marktype": "string",
+      "interactive": "bool",
+      "items": "[Node]",
+      "bounds": "Bounds",
+      "hasPropertySet": "fn(name: string) -> bool",
+      "cousin": "fn(offset: number, index: number) -> Node",
+      "sibling": "fn(offset: number) -> Node",
+      "remove": "fn() -> Node",
+      "touch": "fn()",
+      "scales": {},
+      "axisItems": "[Node]"
+    },
+    "Defs": {
+      "width": "number",
+      "height": "number",
+      "viewport": "[number]",
+      "padding": "?",
+      "marks": "Runtime.Marks",
+      "data": "[Data]"
+    },
+    "Spec": {
+      "name": "string",
+      "width": "number",
+      "height": "number",
+      "viewport": "[number]",
+      "padding": "?",
+      "data": "[Data]",
+      "scales": "[Scale]",
+      "axes": "[Axis]",
+      "legends": "[Legend]",
+      "marks": "[Mark]"
+    },
+    "Data": {
+      "name": "string",
+      "format": "Data.Format",
+      "values": "?",
+      "source": "string",
+      "url": "string",
+      "transform": "[Data.Transform]",
+      "Format": {
+        "type": "string"
+      },
+      "Transform": {}
+    },
+    "Scale": {
+      "name": "string",
+      "type": "string",
+      "domain": "?",
+      "domainMin": "?",
+      "domainMax": "?",
+      "range": "?",
+      "rangeMin": "?",
+      "rangeMax": "?",
+      "reverse": "bool",
+      "round": "bool",
+      "points": "bool",
+      "padding": "number",
+      "sort": "bool",
+      "clamp": "bool",
+      "nice": "?",
+      "exponent": "number",
+      "zero": "bool"
+    },
+    "Axis": {
+      "type": "string",
+      "scale": "string",
+      "orient": "string",
+      "title": "string",
+      "titleOffset": "number",
+      "format": "string",
+      "ticks": "number",
+      "values": "[?]",
+      "subdivide": "number",
+      "tickPadding": "number",
+      "tickSize": "number",
+      "tickSizeMajor": "number",
+      "tickSizeMinor": "number",
+      "tickSizeEnd": "number",
+      "offset": "?",
+      "layer": "string",
+      "grid": "bool",
+      "properties": "Axis.Properties",
+      "Properties": {
+        "majorTicks": "PropertySet",
+        "minorTicks": "PropertySet",
+        "grid": "PropertySet",
+        "labels": "PropertySet",
+        "title": "PropertySet",
+        "axis": "PropertySet"
+      }
+    },
+    "Legend": {},
+    "Mark": {
+      "type": "string",
+      "name": "string",
+      "description": "string",
+      "from": "Mark.From",
+      "properties": "PropertySets",
+      "key": "string",
+      "delay": "ValueRef",
+      "From": {
+        "data": "string",
+        "transform": "[Data.Transform]"
+      }
+    },
+    "PropertySets": {
+      "enter": "PropertySet",
+      "exit": "PropertySet",
+      "update": "PropertySet",
+      "hover": "PropertySet"
+    },
+    "PropertySet": {
+      "x": "ValueRef",
+      "x2": "ValueRef",
+      "width": "ValueRef",
+      "y": "ValueRef",
+      "y2": "ValueRef",
+      "height": "ValueRef",
+      "opacity": "ValueRef",
+      "fill": "ValueRef",
+      "fillOpacity": "ValueRef",
+      "stroke": "ValueRef",
+      "strokeWidth": "ValueRef",
+      "strokeOpacity": "ValueRef",
+      "strokeDash": "ValueRef",
+      "strokeDashOffset": "ValueRef",
+      "size": "ValueRef",
+      "shape": "ValueRef",
+      "path": "ValueRef",
+      "innerRadius": "ValueRef",
+      "outerRadius": "ValueRef",
+      "startAngle": "ValueRef",
+      "endAngle": "ValueRef",
+      "interpolate": "ValueRef",
+      "tension": "ValueRef",
+      "align": "ValueRef",
+      "baseline": "ValueRef",
+      "url": "ValueRef",
+      "text": "ValueRef",
+      "dx": "ValueRef",
+      "dy": "ValueRef",
+      "angle": "ValueRef",
+      "font": "ValueRef",
+      "fontSize": "ValueRef",
+      "fontWeight": "ValueRef",
+      "fontStyle": "ValueRef"
+    },
+    "ValueRef": {
+      "value": "?",
+      "field": "?",
+      "group": "?",
+      "scale": "?",
+      "mult": "number",
+      "offset": "number",
+      "band": "bool"
+    }
+  },
+  "vg": {
+    "parse": "Vega.Parse",
+    "scene": {
+      "item": "fn(mark: Vega.Node) -> Vega.Node"
+    },
+    "Bounds": {
+      "prototype": {
+        "x1": "number",
+        "y1": "number",
+        "x2": "number",
+        "y2": "number",
+        "clear": "fn() -> Bounds",
+        "set": "fn(x1: number, y1: number, x2: number, y2: number) -> Bounds",
+        "add": "fn(x: number, y: number) -> Bounds",
+        "expand": "fn(d: number) -> Bounds",
+        "round": "fn() -> Bounds",
+        "translate": "fn(dx: number, dy: number) -> Bounds",
+        "rotate": "fn(angle: number, x: number, y: number) -> Bounds",
+        "union": "fn(b: Bounds) -> Bounds",
+        "encloses": "fn(b: Bounds) -> bool",
+        "intersects": "fn(b: Bounds) -> bool",
+        "contains": "fn(x: number, y: number) -> bool",
+        "width": "fn() -> number",
+        "height": "fn() -> number"
+      }
+    }
+  },
+  "!name": "vega.d.ts"
+}

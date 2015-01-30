@@ -1,0 +1,20 @@
+{
+  "jsonwebtoken": {
+    "SignOptions": {
+      "algorithm": "string",
+      "expiresInMinutes": "number",
+      "audience": "string",
+      "subject": "string",
+      "issuer": "string"
+    },
+    "VerifyOptions": {
+      "audience": "string",
+      "issuer": "string"
+    },
+    "VerifyCallbak": {},
+    "sign": "fn(payload: string, secretOrPrivateKey: string) -> string",
+    "verify": "fn(token: string, secretOrPublicKey: string, callback: VerifyCallbak)",
+    "decode": "fn(token: string) -> ?"
+  },
+  "!name": "jsonwebtoken.d.ts"
+}

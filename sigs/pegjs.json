@@ -1,0 +1,17 @@
+{
+  "PEG": {
+    "parse": "fn(input: string) -> ?",
+    "SyntaxError": {
+      "prototype": {
+        "line": "number",
+        "column": "number",
+        "offset": "number",
+        "expected": "[?]",
+        "found": "?",
+        "name": "string",
+        "message": "string"
+      }
+    }
+  },
+  "!name": "pegjs.d.ts"
+}

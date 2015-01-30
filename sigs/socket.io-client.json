@@ -1,0 +1,30 @@
+{
+  "io": "SocketIOClientStatic",
+  "'socket.io-client'": "io",
+  "SocketIOClientStatic": {
+    "connect": "fn(host: string, details?: ?) -> SocketIOClient.Socket",
+    "protocol": "number",
+    "Socket": {},
+    "Manager": "SocketIOClient.ManagerStatic"
+  },
+  "SocketIOClient": {
+    "Socket": {
+      "on": "fn(event: string, fn: Function) -> Socket",
+      "once": "fn(event: string, fn: Function) -> Socket",
+      "off": "fn(event?: string, fn?: Function) -> Socket",
+      "emit": "fn(event: string, args: [?]) -> Socket",
+      "listeners": "fn(event: string) -> [Function]",
+      "hasListeners": "fn(event: string) -> bool",
+      "connected": "bool"
+    },
+    "ManagerStatic": {},
+    "Manager": {
+      "reconnection": "fn(v: bool) -> Manager",
+      "reconnectionAttempts": "fn(v: bool) -> Manager",
+      "reconnectionDelay": "fn(v: bool) -> Manager",
+      "reconnectionDelayMax": "fn(v: bool) -> Manager",
+      "timeout": "fn(v: bool) -> Manager"
+    }
+  },
+  "!name": "socket.io-client.d.ts"
+}

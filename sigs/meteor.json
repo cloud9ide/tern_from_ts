@@ -1,0 +1,424 @@
+{
+  "EJSON": {
+    "newBinary": "?",
+    "addType": "fn(name: string, factory: Function)",
+    "toJSONValue": "fn(val: EJSON) -> JSON",
+    "fromJSONValue": "fn(val: JSON) -> ?",
+    "stringify": "fn(val: EJSON, options?: [object Object]) -> string",
+    "parse": "fn(str: string) -> EJSON",
+    "isBinary": "fn(x: Object) -> bool",
+    "equals": "fn(a: EJSON, b: EJSON, options?: [object Object]) -> bool",
+    "clone": "fn(val: T) -> T",
+    "CustomType": {
+      "typeName": "fn() -> string",
+      "toJSONValue": "fn() -> JSON",
+      "clone": "fn() -> EJSON.CustomType",
+      "equals": "fn(other: Object) -> bool",
+      "!type": "fn()"
+    }
+  },
+  "Template": {
+    "!type": "fn()",
+    "onCreated": "?",
+    "onRendered": "?",
+    "onDestroyed": "?",
+    "created": "Function",
+    "rendered": "Function",
+    "destroyed": "Function",
+    "body": "Meteor.TemplateBase",
+    "helpers": "fn(helpers: [object Object])",
+    "events": "fn(eventMap: [object Object])",
+    "instance": "fn() -> Blaze.TemplateInstance",
+    "currentData": "fn() -> ret4",
+    "parentData": "fn(numLevels?: number) -> ret5",
+    "registerHelper": "fn(name: string, helperFunction: Function)"
+  },
+  "Match": {
+    "Any": "?",
+    "String": "?",
+    "Integer": "?",
+    "Boolean": "?",
+    "undefined": "?",
+    "Object": "?",
+    "Optional": "fn(pattern: ?) -> bool",
+    "ObjectIncluding": "fn(dico: ?) -> bool",
+    "OneOf": "fn(patterns: ?)",
+    "Where": "fn(condition: ?)",
+    "test": "fn(value: ?, pattern: ?) -> bool"
+  },
+  "Meteor": {
+    "Event": {
+      "type": "string",
+      "target": "HTMLElement",
+      "currentTarget": "HTMLElement",
+      "which": "number",
+      "stopPropagation": "fn()",
+      "stopImmediatePropagation": "fn()",
+      "preventDefault": "fn()",
+      "isPropagationStopped": "fn() -> bool",
+      "isImmediatePropagationStopped": "fn() -> bool",
+      "isDefaultPrevented": "fn() -> bool"
+    },
+    "EventHandlerFunction": {},
+    "EventMap": {},
+    "TemplateBase": {},
+    "Template": {
+      "rendered": "Function",
+      "created": "Function",
+      "destroyed": "Function",
+      "events": "fn(eventMap: Meteor.EventMap)",
+      "helpers": "fn(helpers: [object Object])"
+    },
+    "LoginWithExternalServiceOptions": {
+      "requestPermissions": "[string]",
+      "requestOfflineToken": "Boolean",
+      "forceApprovalPrompt": "Boolean",
+      "userEmail": "string",
+      "loginStyle": "string"
+    },
+    "loginWithMeteorDeveloperAccount": "fn(options?: Meteor.LoginWithExternalServiceOptions, callback?: Function)",
+    "loginWithFacebook": "fn(options?: Meteor.LoginWithExternalServiceOptions, callback?: Function)",
+    "loginWithGithub": "fn(options?: Meteor.LoginWithExternalServiceOptions, callback?: Function)",
+    "loginWithGoogle": "fn(options?: Meteor.LoginWithExternalServiceOptions, callback?: Function)",
+    "loginWithMeetup": "fn(options?: Meteor.LoginWithExternalServiceOptions, callback?: Function)",
+    "loginWithTwitter": "fn(options?: Meteor.LoginWithExternalServiceOptions, callback?: Function)",
+    "loginWithWeibo": "fn(options?: Meteor.LoginWithExternalServiceOptions, callback?: Function)",
+    "UserEmail": {
+      "address": "string",
+      "verified": "bool"
+    },
+    "User": {
+      "_id": "string",
+      "username": "string",
+      "emails": "[Meteor.UserEmail]",
+      "createdAt": "number",
+      "profile": "?",
+      "services": "?"
+    },
+    "SubscriptionHandle": {
+      "stop": "fn()",
+      "ready": "fn() -> bool"
+    },
+    "Tinytest": {
+      "add": "fn(name: string, func: Function)",
+      "addAsync": "fn(name: string, func: Function)"
+    },
+    "StatusEnum": "number",
+    "LiveQueryHandle": {
+      "stop": "fn()"
+    },
+    "EmailFields": {
+      "subject": "Function",
+      "text": "Function"
+    },
+    "EmailTemplates": {
+      "from": "string",
+      "siteName": "string",
+      "resetPassword": "Meteor.EmailFields",
+      "enrollAccount": "Meteor.EmailFields",
+      "verifyEmail": "Meteor.EmailFields"
+    },
+    "Error": "fn(error: string, reason?: string, details?: string)",
+    "Connection": {
+      "id": "string",
+      "close": "Function",
+      "onClose": "Function",
+      "clientAddress": "string",
+      "httpHeaders": "Object"
+    },
+    "users": "?",
+    "isClient": "bool",
+    "isServer": "bool",
+    "settings": {},
+    "isCordova": "bool",
+    "release": "string",
+    "userId": "fn() -> string",
+    "loggingIn": "fn() -> bool",
+    "user": "fn() -> Meteor.User",
+    "logout": "fn(callback?: Function)",
+    "logoutOtherClients": "fn(callback?: Function)",
+    "loginWith": "fn(options?: [object Object], callback?: Function)",
+    "loginWithPassword": "fn(user: Object, string: ?, password: string, callback?: Function)",
+    "subscribe": "fn(name: string, args: ?) -> SubscriptionHandle",
+    "call": "fn(name: string, args: ?)",
+    "apply": "fn(name: string, args: [EJSON], options?: [object Object], asyncCallback?: Function)",
+    "status": "fn() -> Meteor.StatusEnum",
+    "reconnect": "fn()",
+    "disconnect": "fn()",
+    "onConnection": "fn(callback: Function)",
+    "publish": "fn(name: string, func: Function)",
+    "methods": "fn(methods: Object)",
+    "wrapAsync": "fn(func: Function, context?: Object) -> ?",
+    "startup": "fn(func: Function)",
+    "setTimeout": "fn(func: Function, delay: number) -> number",
+    "setInterval": "fn(func: Function, delay: number) -> number",
+    "clearInterval": "fn(id: number)",
+    "clearTimeout": "fn(id: number)",
+    "absoluteUrl": "fn(path?: string, options?: [object Object]) -> string"
+  },
+  "Mongo": {
+    "Selector": {},
+    "Modifier": {},
+    "SortSpecifier": {},
+    "FieldSpecifier": {},
+    "IdGenerationEnum": "number",
+    "AllowDenyOptions": {
+      "insert": "fn(userId: string, doc: ?)",
+      "update": "fn(userId: ?, doc: ?, fieldNames: ?, modifier: ?)",
+      "remove": "fn(userId: ?, doc: ?)",
+      "fetch": "[string]",
+      "transform": "Function"
+    },
+    "Collection": {
+      "insert": "fn(doc: Object, callback?: Function) -> string",
+      "update": "fn(selector: Mongo.Selector, modifier: Mongo.Modifier, options?: [object Object], callback?: Function) -> number",
+      "find": "fn(selector?: Mongo.Selector, options?: [object Object]) -> ?",
+      "findOne": "fn(selector?: Mongo.Selector, options?: [object Object]) -> T",
+      "remove": "fn(selector: Mongo.Selector, callback?: Function)",
+      "upsert": "fn(selector: Mongo.Selector, modifier: Mongo.Modifier, options?: [object Object], callback?: Function) -> ret3",
+      "allow": "fn(options: [object Object]) -> bool",
+      "deny": "fn(options: [object Object]) -> bool",
+      "!type": "fn(name: string, options?: [object Object])"
+    },
+    "ObjectID": "fn(hexString: string)",
+    "Cursor": {
+      "forEach": "fn(callback: Function, thisArg?: ?)",
+      "map": "fn(callback: Function, thisArg?: ?)",
+      "fetch": "fn() -> ?",
+      "count": "fn() -> number",
+      "observe": "fn(callbacks: Object) -> Meteor.LiveQueryHandle",
+      "observeChanges": "fn(callbacks: Object) -> Meteor.LiveQueryHandle",
+      "!type": "fn()"
+    }
+  },
+  "HTTP": {
+    "HTTPRequest": {
+      "content": "string",
+      "data": "?",
+      "query": "string",
+      "params": {},
+      "auth": "string",
+      "headers": {},
+      "timeout": "number",
+      "followRedirects": "bool"
+    },
+    "HTTPResponse": {
+      "statusCode": "number",
+      "content": "string",
+      "data": "?",
+      "headers": {}
+    },
+    "call": "fn(method: string, url: string, options?: [object Object], asyncCallback?: Function) -> HTTP.HTTPResponse",
+    "get": "fn(url: string, callOptions?: Object, asyncCallback?: Function) -> HTTP.HTTPResponse",
+    "post": "fn(url: string, callOptions?: Object, asyncCallback?: Function) -> HTTP.HTTPResponse",
+    "put": "fn(url: string, callOptions?: Object, asyncCallback?: Function) -> HTTP.HTTPResponse",
+    "del": "fn(url: string, callOptions?: Object, asyncCallback?: Function) -> HTTP.HTTPResponse"
+  },
+  "Email": {
+    "EmailMessage": {
+      "from": "string",
+      "to": "?",
+      "cc": "?",
+      "bcc": "?",
+      "replyTo": "?",
+      "subject": "string",
+      "text": "string",
+      "html": "string",
+      "headers": {}
+    },
+    "send": "fn(options: [object Object])"
+  },
+  "DDP": {
+    "DDPStatic": {
+      "subscribe": "fn(name: ?, rest: ?)",
+      "call": "fn(method: string, parameters: ?)",
+      "apply": "fn(method: string, parameters: ?)",
+      "methods": "fn(IMeteorMethodsDictionary: ?)",
+      "status": "fn() -> DDPStatus",
+      "reconnect": "fn()",
+      "disconnect": "fn()",
+      "onReconnect": "fn()"
+    },
+    "DDPStatus": {
+      "connected": "bool",
+      "status": "Meteor.StatusEnum",
+      "retryCount": "number",
+      "retryTime": "number",
+      "reason": "string"
+    },
+    "connect": "fn(url: string) -> DDP.DDPStatic"
+  },
+  "Random": {
+    "id": "fn(numberOfChars?: number) -> string",
+    "secret": "fn(numberOfChars?: number) -> string",
+    "fraction": "fn() -> number",
+    "hexString": "fn(numberOfDigits: number) -> string",
+    "choice": "fn(array: [?]) -> string"
+  },
+  "Blaze": {
+    "View": "fn(name?: string, renderFunction?: Function)",
+    "Template": "fn(viewName?: string, renderFunction?: Function)",
+    "currentView": "Blaze.View",
+    "With": "fn(data: Object, Function: ?, contentFunc: Function) -> Blaze.View",
+    "If": "fn(conditionFunc: Function, contentFunc: Function, elseFunc?: Function) -> Blaze.View",
+    "Unless": "fn(conditionFunc: Function, contentFunc: Function, elseFunc?: Function) -> Blaze.View",
+    "Each": "fn(argFunc: Function, contentFunc: Function, elseFunc?: Function) -> Blaze.View",
+    "isTemplate": "fn(value: ?) -> bool",
+    "render": "fn(templateOrView: Template, Blaze: ?, View: ?, parentNode: Node, nextNode?: Node, parentView?: Blaze.View) -> Blaze.View",
+    "renderWithData": "fn(templateOrView: Template, Blaze: ?, View: ?, data: Object, Function: ?, parentNode: Node, nextNode?: Node, parentView?: Blaze.View) -> Blaze.View",
+    "remove": "fn(renderedView: Blaze.View)",
+    "toHTML": "fn(templateOrView: Template, Blaze: ?, View: ?) -> string",
+    "toHTMLWithData": "fn(templateOrView: Template, Blaze: ?, View: ?, data: Object, Function: ?) -> string",
+    "getData": "fn(elementOrView?: HTMLElement, Blaze: ?, View: ?) -> Object",
+    "getView": "fn(element?: HTMLElement) -> Blaze.View",
+    "TemplateInstance": {
+      "data": "fn() -> Object",
+      "view": "fn() -> Object",
+      "firstNode": "fn() -> Object",
+      "lastNode": "fn() -> Object",
+      "$": "fn(selector: string) -> [Node]",
+      "findAll": "fn(selector: string) -> [HTMLElement]",
+      "find": "fn(selector?: string) -> HTMLElement",
+      "autorun": "fn(runFunc: Function) -> Object",
+      "!type": "fn(view: Blaze.View)"
+    }
+  },
+  "Accounts": {
+    "ui": {
+      "config": "fn(options: [object Object])"
+    },
+    "emailTemplates": "Meteor.EmailTemplates",
+    "config": "fn(options: [object Object])",
+    "validateLoginAttempt": "fn(func: Function) -> ret",
+    "onLogin": "fn(func: Function) -> ret1",
+    "onLoginFailure": "fn(func: Function) -> ret2",
+    "onCreateUser": "fn(func: Function)",
+    "validateNewUser": "fn(func: Function)",
+    "onResetPasswordLink": "fn(callback: Function)",
+    "onEmailVerificationLink": "fn(callback: Function)",
+    "onEnrollmentLink": "fn(callback: Function)",
+    "createUser": "fn(options: [object Object], callback?: Function) -> string",
+    "changePassword": "fn(oldPassword: string, newPassword: string, callback?: Function)",
+    "forgotPassword": "fn(options: [object Object], callback?: Function)",
+    "resetPassword": "fn(token: string, newPassword: string, callback?: Function)",
+    "verifyEmail": "fn(token: string, callback?: Function)",
+    "setPassword": "fn(userId: string, newPassword: string)",
+    "sendResetPasswordEmail": "fn(userId: string, email?: string)",
+    "sendEnrollmentEmail": "fn(userId: string, email?: string)",
+    "sendVerificationEmail": "fn(userId: string, email?: string)"
+  },
+  "Tracker": {
+    "active": "bool",
+    "currentComputation": "Tracker.Computation",
+    "Computation": {
+      "stopped": "fn() -> bool",
+      "invalidated": "fn() -> bool",
+      "firstRun": "fn() -> bool",
+      "onInvalidate": "fn(callback: Function)",
+      "invalidate": "fn()",
+      "stop": "fn()",
+      "!type": "fn()"
+    },
+    "flush": "fn()",
+    "autorun": "fn(runFunc: Function) -> Tracker.Computation",
+    "nonreactive": "fn(func: Function)",
+    "onInvalidate": "fn(callback: Function)",
+    "afterFlush": "fn(callback: Function)",
+    "Dependency": {
+      "depend": "fn(fromComputation?: Tracker.Computation) -> bool",
+      "changed": "fn()",
+      "hasDependents": "fn() -> bool",
+      "!type": "fn()"
+    }
+  },
+  "Assets": {
+    "getText": "fn(assetPath: string, asyncCallback?: Function) -> string",
+    "getBinary": "fn(assetPath: string, asyncCallback?: Function) -> EJSON"
+  },
+  "App": {
+    "info": "fn(options: [object Object])",
+    "setPreference": "fn(name: string, value: string)",
+    "configurePlugin": "fn(pluginName: string, config: Object)",
+    "icons": "fn(icons: Object)",
+    "launchScreens": "fn(launchScreens: Object)"
+  },
+  "Package": {
+    "describe": "fn(options: [object Object])",
+    "onUse": "fn(func: Function)",
+    "onTest": "fn(func: Function)",
+    "registerBuildPlugin": "fn(options?: [object Object])"
+  },
+  "Npm": {
+    "depends": "fn(dependencies: [object Object])",
+    "require": "fn(name: string)"
+  },
+  "Cordova": {
+    "depends": "fn(dependencies: [object Object])"
+  },
+  "Session": {
+    "set": "fn(key: string, value: EJSON, any: ?)",
+    "setDefault": "fn(key: string, value: EJSON, any: ?)",
+    "get": "fn(key: string) -> ?",
+    "equals": "fn(key: string, value: string, number: ?, boolean: ?, any: ?, any: ?) -> bool"
+  },
+  "Subscription": {
+    "connection": "Meteor.Connection",
+    "userId": "string",
+    "error": "fn(error: Error)",
+    "stop": "fn()",
+    "onStop": "fn(func: Function)",
+    "added": "fn(collection: string, id: string, fields: Object)",
+    "changed": "fn(collection: string, id: string, fields: Object)",
+    "removed": "fn(collection: string, id: string)",
+    "ready": "fn()",
+    "!type": "fn()"
+  },
+  "ReactiveVar": {
+    "get": "fn() -> ?",
+    "set": "fn(newValue: ?)",
+    "!type": "fn(initialValue: ?, equalsFunc?: fn(oldVal: ?, newVal: ?))"
+  },
+  "CompileStep": {
+    "inputSize": "?",
+    "inputPath": "?",
+    "fullInputPath": "?",
+    "pathForSourceMap": "?",
+    "packageName": "?",
+    "rootOutputPath": "?",
+    "arch": "?",
+    "fileOptions": "?",
+    "declaredExports": "?",
+    "read": "fn(n?: number)",
+    "addHtml": "fn(options: [object Object])",
+    "addStylesheet": "fn(options: [object Object], path: string, data: string, sourceMap: string)",
+    "addJavaScript": "fn(options: [object Object])",
+    "addAsset": "fn(options: [object Object], path: string, data: ?, string: ?)",
+    "error": "fn(options: [object Object], message: string, sourcePath?: string, line?: number, func?: string)",
+    "!type": "fn()"
+  },
+  "PackageAPI": {
+    "use": "fn(packageNames: string, string: ?, architecture?: string, options?: [object Object])",
+    "imply": "fn(packageSpecs: string, string: ?)",
+    "addFiles": "fn(filename: string, string: ?, architecture?: string)",
+    "versionsFrom": "fn(meteorRelease: string, string: ?)",
+    "!type": "fn()"
+  },
+  "!name": "meteor.d.ts",
+  "!define": {
+    "ret": {
+      "stop": "Function"
+    },
+    "ret1": {
+      "stop": "Function"
+    },
+    "ret2": {
+      "stop": "Function"
+    },
+    "ret3": {
+      "numberAffected": "number",
+      "insertedId": "string"
+    },
+    "ret4": {},
+    "ret5": {}
+  }
+}

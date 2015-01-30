@@ -1,0 +1,69 @@
+{
+  "DropzoneFile": {
+    "previewElement": "HTMLElement",
+    "previewTemplate": "HTMLElement",
+    "previewsContainer": "HTMLElement",
+    "status": "string",
+    "accepted": "bool"
+  },
+  "DropzoneOptions": {
+    "url": "string",
+    "method": "string",
+    "withCredentials": "bool",
+    "parallelUploads": "number",
+    "maxFilesize": "number",
+    "paramName": "string",
+    "uploadMultiple": "bool",
+    "headers": "?",
+    "addRemoveLinks": "bool",
+    "previewsContainer": "string",
+    "clickable": "?",
+    "createImageThumbnails": "bool",
+    "maxThumbnailFilesize": "number",
+    "thumbnailWidth": "number",
+    "thumbnailHeight": "number",
+    "maxFiles": "number",
+    "resize": "fn(file?: ?)",
+    "init": "fn()",
+    "acceptedFiles": "string",
+    "accept": "fn(file: DropzoneFile, doneCallback: fn(args: ?))",
+    "autoProcessQueue": "bool",
+    "previewTemplate": "string",
+    "forceFallback": "bool",
+    "fallback": "fn()",
+    "dictDefaultMessage": "string",
+    "dictFallbackMessage": "string",
+    "dictFallbackText": "string",
+    "dictInvalidFileType": "string",
+    "dictFileTooBig": "string",
+    "dictResponseError": "string",
+    "dictCancelUpload": "string",
+    "dictCancelUploadConfirmation": "string",
+    "dictRemoveFile": "string",
+    "dictRemoveFileConfirmation": "string",
+    "dictMaxFilesExceeded": "string"
+  },
+  "Dropzone": {
+    "!type": "fn(container: string, options?: DropzoneOptions)",
+    "autoDiscover": "bool",
+    "options": "?",
+    "confirm": "fn(question: string, accepted: fn(), rejected?: fn())",
+    "prototype": {
+      "files": "[DropzoneFile]",
+      "on": "fn(eventName: ?, callback: fn(args: ?))",
+      "off": "fn(eventName: ?)",
+      "removeFile": "fn(file: DropzoneFile)",
+      "removeAllFiles": "fn(cancelIfNecessary?: bool)",
+      "processQueue": "fn()",
+      "getAcceptedFiles": "fn() -> [DropzoneFile]",
+      "getRejectedFiles": "fn() -> [DropzoneFile]",
+      "getQueuedFiles": "fn() -> [DropzoneFile]",
+      "getUploadingFiles": "fn() -> [DropzoneFile]",
+      "emit": "fn(eventName: string, file: DropzoneFile, str?: string)"
+    }
+  },
+  "JQuery": {
+    "dropzone": "fn(options: DropzoneOptions) -> Dropzone"
+  },
+  "!name": "dropzone.d.ts"
+}

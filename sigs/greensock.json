@@ -1,0 +1,309 @@
+{
+  "IDispatcher": {
+    "addEventListener": "fn(type: string, callback: Function, scope?: Object, useParam?: bool, priority?: number)",
+    "removeEventListener": "fn(type: string, callback: Function)"
+  },
+  "Animation": {
+    "ticker": "IDispatcher",
+    "!type": "fn(duration?: number, vars?: Object)",
+    "prototype": {
+      "data": "?",
+      "timeline": "SimpleTimeline",
+      "vars": "Object",
+      "delay": "fn(value: number) -> ?",
+      "duration": "fn(value: number) -> ?",
+      "eventCallback": "fn(type: string, callback?: Function, params?: [?], scope?: ?) -> ?",
+      "invalidate": "fn() -> ?",
+      "isActive": "fn() -> bool",
+      "kill": "fn(vars?: Object, target?: Object) -> ?",
+      "pause": "fn(atTime?: ?, suppressEvents?: bool) -> ?",
+      "paused": "fn(value?: bool) -> ?",
+      "play": "fn(from?: ?, suppressEvents?: bool) -> ?",
+      "restart": "fn(includeDelay?: bool, suppressEvents?: bool) -> ?",
+      "resume": "fn(from?: ?, suppressEvents?: bool) -> ?",
+      "reverse": "fn(from?: ?, suppressEvents?: bool) -> ?",
+      "reversed": "fn(value?: bool) -> ?",
+      "seek": "fn(time: ?, suppressEvents?: bool) -> ?",
+      "startTime": "fn(value: number) -> ?",
+      "time": "fn(value: number, suppressEvents?: bool) -> ?",
+      "timeScale": "fn(value: number) -> ?",
+      "totalDuration": "fn(value: number) -> ?",
+      "totalTime": "fn(time: number, suppressEvents?: bool) -> ?"
+    }
+  },
+  "SimpleTimeline": {
+    "!type": "fn(vars?: Object)",
+    "prototype": {
+      "autoRemoveChildren": "bool",
+      "smoothChildTiming": "bool",
+      "add": "fn(value: ?, position?: ?, align?: string, stagger?: number) -> ?",
+      "insert": "fn(tween: ?, time: ?) -> ?",
+      "render": "fn(time: number, suppressEvents?: bool, force?: bool)"
+    }
+  },
+  "TweenLite": {
+    "defaultEase": "Ease",
+    "defaultOverwrite": "string",
+    "selector": "?",
+    "ticker": "IDispatcher",
+    "!type": "fn(target: Object, duration: number, vars: Object)",
+    "delayedCall": "fn(delay: number, callback: Function, params?: [?], scope?: ?, useFrames?: bool) -> TweenLite",
+    "from": "fn(target: Object, duration: number, vars: Object) -> TweenLite",
+    "fromTo": "fn(target: Object, duration: number, fromVars: Object, toVars: Object) -> TweenLite",
+    "getTweensOf": "fn(target: Object) -> [?]",
+    "killDelayedCallsTo": "fn(func: Function)",
+    "killTweensOf": "fn(target: Object, vars?: Object)",
+    "set": "fn(target: Object, vars: Object) -> TweenLite",
+    "to": "fn(target: Object, duration: number, vars: Object) -> TweenLite",
+    "prototype": {
+      "target": "Object",
+      "timeline": "SimpleTimeline",
+      "vars": "Object",
+      "invalidate": "fn() -> ?"
+    }
+  },
+  "TweenMax": {
+    "ticker": "IDispatcher",
+    "!type": "fn(target: Object, duration: number, vars: Object)",
+    "delayedCall": "fn(delay: number, callback: Function, params?: [?], scope?: ?, useFrames?: bool) -> TweenMax",
+    "from": "fn(target: Object, duration: number, vars: Object) -> TweenMax",
+    "fromTo": "fn(target: Object, duration: number, fromVars: Object, toVars: Object) -> TweenMax",
+    "getAllTweens": "fn(includeTimelines?: bool) -> [?]",
+    "getTweensOf": "fn(target: Object) -> [?]",
+    "isTweening": "fn(target: Object) -> bool",
+    "killAll": "fn(complete?: bool, tweens?: bool, delayedCalls?: bool, timelines?: bool)",
+    "killChildTweensOf": "fn(parent: ?, complete?: bool)",
+    "killDelayedCallsTo": "fn(func: Function)",
+    "killTweensOf": "fn(target: Object, vars?: Object)",
+    "pauseAll": "fn(tweens?: bool, delayedCalls?: bool, timelines?: bool)",
+    "resumeAll": "fn(tweens?: bool, delayedCalls?: bool, timelines?: bool)",
+    "set": "fn(target: Object, vars: Object) -> TweenMax",
+    "staggerFrom": "fn(targets: ?, duration: number, vars: Object, stagger: number, onCompleteAll?: Function, onCompleteAllParams?: [?], onCompleteAllScope?: ?) -> [?]",
+    "staggerFromTo": "fn(targets: ?, duration: number, fromVars: Object, toVars: Object, stagger: number, onCompleteAll?: Function, onCompleteAllParams?: [?], onCompleteAllScope?: ?) -> [?]",
+    "staggerTo": "fn(targets: ?, duration: number, vars: Object, stagger: number, onCompleteAll?: Function, onCompleteAllParams?: [?], onCompleteAllScope?: ?) -> [?]",
+    "to": "fn(target: Object, duration: number, vars: Object) -> TweenMax",
+    "prototype": {
+      "invalidate": "fn() -> ?",
+      "progress": "fn(value: number) -> ?",
+      "repeat": "fn(value: number) -> ?",
+      "repeatDelay": "fn(value: number) -> ?",
+      "time": "fn(value: number, suppressEvents?: bool) -> ?",
+      "totalDuration": "fn(value: number) -> ?",
+      "totalProgress": "fn(value: number) -> ?",
+      "updateTo": "fn(vars: Object, resetDuration?: bool) -> ?",
+      "yoyo": "fn(value?: bool) -> ?"
+    }
+  },
+  "TimelineLite": {
+    "!type": "fn(vars?: Object)",
+    "prototype": {
+      "add": "fn(value: ?, position?: ?, align?: string, stagger?: number) -> ?",
+      "addLabel": "fn(label: string, position: ?) -> ?",
+      "addPause": "fn(position?: ?, callback?: Function, params?: [?], scope?: ?) -> ?",
+      "append": "fn(value: ?, offsetOrLabel?: ?) -> ?",
+      "appendMultiple": "fn(tweens: [?], offsetOrLabel?: ?, align?: string, stagger?: number) -> ?",
+      "call": "fn(callback: Function, params?: [?], scope?: ?, position?: ?) -> ?",
+      "clear": "fn(labels?: bool) -> ?",
+      "duration": "fn(value: number) -> ?",
+      "exportRoot": "fn(vars?: Object, omitDelayedCalls?: bool) -> TimelineLite",
+      "from": "fn(target: Object, duration: number, vars: Object, position?: ?) -> ?",
+      "fromTo": "fn(target: Object, duration: number, fromVars: Object, toVars: Object, position?: ?) -> ?",
+      "getChildren": "fn(nested?: bool, tweens?: bool, timelines?: bool, ignoreBeforeTime?: number) -> [?]",
+      "getLabelTime": "fn(label: string) -> number",
+      "getTweensOf": "fn(target: Object, nested?: bool) -> [?]",
+      "insert": "fn(value: ?, timeOrLabel?: ?) -> ?",
+      "insertMultiple": "fn(tweens: [?], timeOrLabel?: ?, align?: string, stagger?: number) -> ?",
+      "invalidate": "fn() -> ?",
+      "progress": "fn(value: number) -> ?",
+      "remove": "fn(value: ?) -> ?",
+      "removeLabel": "fn(label: string) -> ?",
+      "set": "fn(target: Object, vars: Object, position?: ?) -> ?",
+      "seek": "fn(position: ?, suppressEvents?: bool) -> ?",
+      "shiftChildren": "fn(amount: number, adjustLabels?: bool, ignoreBeforeTime?: number) -> ?",
+      "staggerFrom": "fn(targets: ?, duration: number, vars: Object, stagger?: number, position?: ?, onCompleteAll?: Function, onCompleteAllParams?: [?], onCompleteScope?: ?) -> ?",
+      "staggerFromTo": "fn(targets: ?, duration: number, fromVars: Object, toVars: Object, stagger?: number, position?: ?, onCompleteAll?: Function, onCompleteAllParams?: [?], onCompleteAllScope?: ?) -> ?",
+      "staggerTo": "fn(targets: ?, duration: number, vars: Object, stagger: number, position?: ?, onCompleteAll?: Function, onCompleteAllParams?: [?], onCompleteAllScope?: ?) -> ?",
+      "stop": "fn() -> ?",
+      "to": "fn(target: Object, duration: number, vars: Object, position?: ?) -> ?",
+      "usesFrames": "fn() -> Boolean"
+    }
+  },
+  "TimelineMax": {
+    "!type": "fn(vars?: Object)",
+    "prototype": {
+      "addCallback": "fn(callback: Function, position: ?, params?: [?], scope?: ?) -> TimelineMax",
+      "currentLabel": "fn(value?: string) -> ?",
+      "getActive": "fn(nested?: bool, tweens?: bool, timelines?: bool) -> [?]",
+      "getLabelAfter": "fn(time: number) -> string",
+      "getLabelBefore": "fn(time: number) -> string",
+      "getLabelsArray": "fn() -> [?]",
+      "invalidate": "fn() -> ?",
+      "progress": "fn(value: number) -> ?",
+      "removeCallback": "fn(callback: Function, timeOrLabel?: ?) -> TimelineMax",
+      "repeat": "fn(value?: number) -> ?",
+      "repeatDelay": "fn(value?: number) -> ?",
+      "time": "fn(value: number, suppressEvents?: bool) -> ?",
+      "totalDuration": "fn(value: number) -> ?",
+      "totalProgress": "fn(value: number) -> ?",
+      "tweenFromTo": "fn(fromPosition: ?, toPosition: ?, vars?: Object) -> TweenLite",
+      "tweenTo": "fn(position: ?, vars?: Object) -> TweenLite",
+      "yoyo": "fn(value?: bool) -> ?"
+    }
+  },
+  "Back": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Back"
+  },
+  "Bounce": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Bounce"
+  },
+  "Circ": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Circ"
+  },
+  "Cubic": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Cubic"
+  },
+  "Ease": {
+    "getRatio": "fn(p: number) -> number",
+    "!type": "Ease"
+  },
+  "EaseLookup": {
+    "find": "fn(name: string) -> Ease",
+    "!type": "EaseLookup"
+  },
+  "Elastic": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Elastic"
+  },
+  "Expo": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Expo"
+  },
+  "Linear": {
+    "ease": "Linear",
+    "easeIn": "Linear",
+    "easeInOut": "Linear",
+    "easeNone": "Linear",
+    "easeOut": "Linear",
+    "!type": "Linear"
+  },
+  "Power0": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Power0"
+  },
+  "Power1": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Power1"
+  },
+  "Power2": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Power2"
+  },
+  "Power3": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Power3"
+  },
+  "Power4": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Power4"
+  },
+  "Quad": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Quad"
+  },
+  "Quart": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Quart"
+  },
+  "Quint": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Quint"
+  },
+  "Sine": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Sine"
+  },
+  "SlowMo": {
+    "ease": "SlowMo",
+    "config": "fn(linearRatio: number, power: number, yoyoMode: bool) -> SlowMo",
+    "getRatio": "fn(p: number) -> number",
+    "!type": "SlowMo"
+  },
+  "SteppedEase": {
+    "config": "fn(steps: number) -> SteppedEase",
+    "getRatio": "fn(p: number) -> number",
+    "!type": "SteppedEase"
+  },
+  "Strong": {
+    "easeIn": "Ease",
+    "easeInOut": "Ease",
+    "easeOut": "Ease",
+    "!type": "Strong"
+  },
+  "BezierPlugin": {
+    "bezierThrough": "fn(values: [?], curviness?: number, quadratic?: bool, correlate?: string, prepend?: Object, calcDifs?: bool) -> Object",
+    "cubicToQuadratic": "fn(a: number, b: number, c: number, d: number) -> [?]",
+    "quadraticToCubic": "fn(a: number, b: number, c: number) -> Object",
+    "!type": "BezierPlugin"
+  },
+  "ColorPropsPlugin": {
+    "!type": "ColorPropsPlugin"
+  },
+  "CSSPlugin": {
+    "!type": "CSSPlugin"
+  },
+  "CSSRulePlugin": {
+    "getRule": "fn(selector: string) -> Object",
+    "!type": "CSSRulePlugin"
+  },
+  "EaselPlugin": {
+    "!type": "EaselPlugin"
+  },
+  "RaphaelPlugin": {
+    "!type": "RaphaelPlugin"
+  },
+  "RoundPropsPlugin": {
+    "!type": "RoundPropsPlugin"
+  },
+  "ScrollToPlugin": {
+    "!type": "ScrollToPlugin"
+  },
+  "TweenPlugin": {
+    "activate": "fn(plugins: [?]) -> bool",
+    "!type": "TweenPlugin"
+  },
+  "!name": "greensock.d.ts"
+}

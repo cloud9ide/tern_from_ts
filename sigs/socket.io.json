@@ -1,0 +1,51 @@
+{
+  "'socket.io'": "server",
+  "SocketIOStatic": {
+    "listen": "SocketIOStatic"
+  },
+  "SocketIO": {
+    "Server": {
+      "serveClient": "fn(v: bool) -> Server",
+      "path": "fn(v: string) -> Server",
+      "adapter": "fn(v: ?) -> Server",
+      "origins": "fn(v: string) -> Server",
+      "sockets": "Namespace",
+      "attach": "fn(srv: ?, opts?: ?) -> Server",
+      "listen": "fn(srv: ?, opts?: ?) -> Server",
+      "bind": "fn(srv: ?) -> Server",
+      "onconnection": "fn(socket: ?) -> Server",
+      "of": "fn(nsp: string) -> Namespace",
+      "emit": "fn(name: string, args: [?]) -> Socket",
+      "use": "fn(fn: Function) -> Namespace",
+      "on": "fn(event: string, listener: fn(socket: Socket)) -> ?"
+    },
+    "Namespace": {
+      "name": "string",
+      "connected": {},
+      "use": "fn(fn: Function) -> Namespace",
+      "on": "fn(event: string, listener: fn(socket: Socket)) -> ?"
+    },
+    "Socket": {
+      "rooms": "[string]",
+      "client": "Client",
+      "conn": "Socket",
+      "request": "?",
+      "id": "string",
+      "emit": "fn(name: string, args: [?]) -> Socket",
+      "join": "fn(name: string, fn?: Function) -> Socket",
+      "leave": "fn(name: string, fn?: Function) -> Socket",
+      "to": "fn(room: string) -> Socket",
+      "in": "fn(room: string) -> Socket",
+      "on": "fn(event: string, listener: Function) -> ?",
+      "broadcast": "Socket",
+      "volatile": "Socket",
+      "connected": "bool",
+      "disconnect": "fn(close: bool) -> Socket"
+    },
+    "Client": {
+      "conn": "?",
+      "request": "?"
+    }
+  },
+  "!name": "socket.io.d.ts"
+}

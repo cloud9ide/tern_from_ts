@@ -1,0 +1,29 @@
+{
+  "'nodeunit'": {
+    "Test": {
+      "done": "ICallbackFunction",
+      "expect": "fn(num: number)",
+      "fail": "fn(actual: ?, expected: ?, message: string, operator: string)",
+      "assert": "fn(value: ?, message: string)",
+      "ok": "fn(value: ?, message?: string)",
+      "equal": "fn(actual: ?, expected: ?, message?: string)",
+      "notEqual": "fn(actual: ?, expected: ?, message?: string)",
+      "deepEqual": "fn(actual: ?, expected: ?, message?: string)",
+      "notDeepEqual": "fn(actual: ?, expected: ?, message?: string)",
+      "strictEqual": "fn(actual: ?, expected: ?, message?: string)",
+      "notStrictEqual": "fn(actual: ?, expected: ?, message?: string)",
+      "throws": "fn(block: ?, error?: ?, message?: string)",
+      "doesNotThrow": "fn(block: ?, error?: ?, message?: string)",
+      "ifError": "fn(value: ?)",
+      "equals": "fn(actual: ?, expected: ?, message?: string)",
+      "same": "fn(actual: ?, expected: ?, message?: string)"
+    },
+    "ITestBody": {},
+    "ITestGroup": {
+      "setUp": "fn(callback: ICallbackFunction)",
+      "tearDown": "fn(callback: ICallbackFunction)"
+    },
+    "ICallbackFunction": {}
+  },
+  "!name": "nodeunit.d.ts"
+}

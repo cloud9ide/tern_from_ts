@@ -1,0 +1,30 @@
+{
+  "chai": {
+    "Expect": {
+      "afterDate": "fn(date: Date) -> bool",
+      "beforeDate": "fn(date: Date) -> bool",
+      "equalDate": "fn(date: Date) -> bool",
+      "afterTime": "fn(date: Date) -> bool",
+      "beforeTime": "fn(date: Date) -> bool",
+      "equalTime": "fn(date: Date) -> bool"
+    },
+    "Assert": {
+      "equalTime": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "notEqualTime": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "beforeTime": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "notBeforeTime": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "afterTime": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "notAfterTime": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "equalDate": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "notEqualDate": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "beforeDate": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "notBeforeDate": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "afterDate": "fn(val: Date, exp: Date, msg?: string) -> bool",
+      "notAfterDate": "fn(val: Date, exp: Date, msg?: string) -> bool"
+    }
+  },
+  "Date": {
+    "should": "chai.Expect"
+  },
+  "!name": "chai-datetime.d.ts"
+}

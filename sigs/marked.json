@@ -1,0 +1,22 @@
+{
+  "MarkedStatic": {
+    "lexer": "fn(src: string, options?: MarkedOptions) -> [?]",
+    "parse": "fn(src: string, callback: Function) -> string",
+    "parser": "fn(src: [?], options?: MarkedOptions) -> string",
+    "setOptions": "fn(options: MarkedOptions)"
+  },
+  "MarkedOptions": {
+    "gfm": "bool",
+    "tables": "bool",
+    "breaks": "bool",
+    "pedantic": "bool",
+    "sanitize": "bool",
+    "smartLists": "bool",
+    "silent": "bool",
+    "highlight": "fn(code: string, lang: string, callback?: Function) -> string",
+    "langPrefix": "string",
+    "smartypants": "bool"
+  },
+  "marked": "marked",
+  "!name": "marked.d.ts"
+}

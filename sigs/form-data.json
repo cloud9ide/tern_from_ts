@@ -1,0 +1,12 @@
+{
+  "form-data": {
+    "FormData": {
+      "prototype": {
+        "append": "fn(key: string, value: ?) -> FormData",
+        "getHeaders": "fn() -> Object",
+        "pipe": "fn(to: ?) -> ?"
+      }
+    }
+  },
+  "!name": "form-data.d.ts"
+}

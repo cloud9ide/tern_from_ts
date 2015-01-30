@@ -1,0 +1,18 @@
+{
+  "ChosenOptions": {
+    "allow_single_deselect": "bool",
+    "disable_search_threshold": "number",
+    "disable_search": "bool",
+    "search_contains": "bool",
+    "single_backstroke_delete": "bool",
+    "max_selected_options": "number",
+    "placeholder_text_multiple": "string",
+    "placeholder_text": "string",
+    "placeholder_text_single": "string",
+    "no_results_text": "string"
+  },
+  "JQuery": {
+    "chosen": "fn() -> JQuery"
+  },
+  "!name": "chosen.jquery.d.ts"
+}

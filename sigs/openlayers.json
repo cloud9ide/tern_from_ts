@@ -1,0 +1,1228 @@
+{
+  "OpenLayers": {
+    "MapOptions": {
+      "projection": "string",
+      "maxExtend": "Bounds",
+      "center": "LonLat"
+    },
+    "DistanceOptions": {
+      "details": "bool",
+      "edge": "bool"
+    },
+    "BoundsOptions": {
+      "inclusive": "bool",
+      "worldBounds": "Bounds"
+    },
+    "WrapDateLineOptions": {
+      "leftTolerance": "number",
+      "rightTolerance": "number"
+    },
+    "LayerOptions": {},
+    "Animation": {
+      "prototype": {}
+    },
+    "String": {
+      "prototype": {}
+    },
+    "Number": {
+      "prototype": {}
+    },
+    "Function": {
+      "prototype": {}
+    },
+    "Array": {
+      "prototype": {}
+    },
+    "Console": {
+      "prototype": {}
+    },
+    "Control": {
+      "prototype": {},
+      "ArgParser": {
+        "prototype": {}
+      },
+      "Attribution": {
+        "prototype": {}
+      },
+      "Button": {
+        "prototype": {}
+      },
+      "CacheRead": {
+        "prototype": {}
+      },
+      "CacheWrite": {
+        "prototype": {}
+      },
+      "DragFeature": {
+        "prototype": {}
+      },
+      "DragPan": {
+        "prototype": {}
+      },
+      "DrawFeature": {
+        "prototype": {}
+      },
+      "EditingToolbar": {
+        "prototype": {}
+      },
+      "Geolocate": {
+        "prototype": {}
+      },
+      "GetFeature": {
+        "prototype": {}
+      },
+      "Graticule": {
+        "prototype": {}
+      },
+      "KeyboardDefaults": {
+        "prototype": {}
+      },
+      "LayerSwitcher": {
+        "prototype": {}
+      },
+      "Measure": {
+        "prototype": {}
+      },
+      "ModifyFeature": {
+        "prototype": {}
+      },
+      "MousePosition": {
+        "prototype": {}
+      },
+      "NavToolbar": {
+        "prototype": {}
+      },
+      "Navigation": {
+        "prototype": {}
+      },
+      "NavigationHistory": {
+        "prototype": {}
+      },
+      "OverviewMap": {
+        "prototype": {}
+      },
+      "Pan": {
+        "prototype": {}
+      },
+      "PanPanel": {
+        "prototype": {}
+      },
+      "PanZoom": {
+        "prototype": {}
+      },
+      "PanZoomBar": {
+        "prototype": {}
+      },
+      "Panel": {
+        "prototype": {}
+      },
+      "Permalink": {
+        "prototype": {}
+      },
+      "PinchZoom": {
+        "prototype": {}
+      },
+      "SLDSelect": {
+        "prototype": {}
+      },
+      "Scale": {
+        "prototype": {}
+      },
+      "ScaleLine": {
+        "prototype": {}
+      },
+      "SelectFeature": {
+        "prototype": {}
+      },
+      "Snapping": {
+        "prototype": {}
+      },
+      "Split": {
+        "prototype": {}
+      },
+      "TextButtonPanel": {
+        "prototype": {}
+      },
+      "TouchNavigation": {
+        "prototype": {}
+      },
+      "TransformFeature": {
+        "prototype": {}
+      },
+      "UTFGrid": {
+        "prototype": {}
+      },
+      "WMSGetFeatureInfo": {
+        "prototype": {}
+      },
+      "WMTSGetFeatureInfo": {
+        "prototype": {}
+      },
+      "Zoom": {
+        "prototype": {}
+      },
+      "ZoomBox": {
+        "prototype": {}
+      },
+      "ZoomIn": {
+        "prototype": {}
+      },
+      "ZoomOut": {
+        "prototype": {}
+      },
+      "ZoomPanel": {
+        "prototype": {}
+      },
+      "ZoomToMaxExtent": {
+        "prototype": {}
+      }
+    },
+    "Event": {
+      "prototype": {}
+    },
+    "Events": {
+      "prototype": {
+        "attachToElement": "fn(element: HTMLElement)",
+        "on": "fn(object: ?)",
+        "register": "fn(type: string, obj: ?, func: fn(), priority: bool)",
+        "registerPriority": "fn(type: string, obj: ?, func: fn())",
+        "un": "fn(object: ?)",
+        "unregister": "fn(type: string, obj: ?, func: fn())",
+        "remove": "fn(type: string)",
+        "triggerEvent": "fn(type: string, evt: Event) -> bool",
+        "handleBrowserEvent": "fn(evt: Event)",
+        "getMousePosition": "fn(evt: Event) -> Pixel"
+      },
+      "buttonclick": {
+        "prototype": {}
+      },
+      "featureclick": {
+        "prototype": {}
+      }
+    },
+    "Feature": {
+      "prototype": {},
+      "Vector": {
+        "prototype": {}
+      }
+    },
+    "Filter": {
+      "prototype": {},
+      "Comparison": {
+        "prototype": {}
+      },
+      "FeatureId": {
+        "prototype": {}
+      },
+      "Function": {
+        "prototype": {}
+      },
+      "Logical": {
+        "prototype": {}
+      },
+      "Spatial": {
+        "prototype": {}
+      }
+    },
+    "Format": {
+      "prototype": {},
+      "ArcXML": {
+        "!type": "fn()",
+        "prototype": {},
+        "Features": {
+          "prototype": {}
+        }
+      },
+      "Atom": {
+        "prototype": {}
+      },
+      "CQL": {
+        "prototype": {}
+      },
+      "CSWGetDomain": {
+        "prototype": {},
+        "v2_0_2": {
+          "prototype": {}
+        }
+      },
+      "CSWGetRecords": {
+        "prototype": {},
+        "v2_0_2": {
+          "prototype": {}
+        }
+      },
+      "Context": {
+        "prototype": {}
+      },
+      "EncodedPolyline": {
+        "prototype": {}
+      },
+      "Filter": {
+        "prototype": {}
+      },
+      "GML": {
+        "prototype": {}
+      },
+      "GPX": {
+        "prototype": {}
+      },
+      "GeoJSON": {
+        "prototype": {}
+      },
+      "GeoRSS": {
+        "prototype": {}
+      },
+      "JSON": {
+        "prototype": {}
+      },
+      "KML": {
+        "prototype": {}
+      },
+      "OGCExceptionReport": {
+        "prototype": {}
+      },
+      "OSM": {
+        "prototype": {}
+      },
+      "OWSCommon": {
+        "prototype": {}
+      },
+      "OWSContext": {
+        "prototype": {}
+      },
+      "QueryStringFilter": {
+        "prototype": {}
+      },
+      "SLD": {
+        "prototype": {}
+      },
+      "SOSCapabilities": {
+        "prototype": {}
+      },
+      "SOSGetFeatureOfInterest": {
+        "prototype": {}
+      },
+      "SOSGetObservation": {
+        "prototype": {}
+      },
+      "TMSCapabilities": {
+        "prototype": {}
+      },
+      "Text": {
+        "prototype": {}
+      },
+      "WCSCapabilities": {
+        "prototype": {}
+      },
+      "WCSDescribeCoverage": {
+        "prototype": {}
+      },
+      "WCSGetCoverage": {
+        "prototype": {}
+      },
+      "WFS": {
+        "prototype": {}
+      },
+      "WFSCapabilities": {
+        "prototype": {}
+      },
+      "WFSDescribeFeatureType": {
+        "prototype": {}
+      },
+      "WFST": {
+        "prototype": {}
+      },
+      "WKT": {
+        "prototype": {}
+      },
+      "WMC": {
+        "prototype": {}
+      },
+      "WMSCapabilities": {
+        "prototype": {}
+      },
+      "WMSDescribeLayer": {
+        "prototype": {}
+      },
+      "WMSGetFeatureInfo": {
+        "prototype": {}
+      },
+      "WMTSCapabilities": {
+        "prototype": {}
+      },
+      "WPSCapabilities": {
+        "prototype": {}
+      },
+      "WPSDescribeProcess": {
+        "prototype": {}
+      },
+      "WPSExecute": {
+        "prototype": {}
+      },
+      "XLS": {
+        "prototype": {}
+      },
+      "XML": {
+        "prototype": {}
+      }
+    },
+    "Handler": {
+      "prototype": {},
+      "Box": {
+        "prototype": {}
+      },
+      "Click": {
+        "prototype": {}
+      },
+      "Drag": {
+        "prototype": {}
+      },
+      "Feature": {
+        "prototype": {}
+      },
+      "Hover": {
+        "prototype": {}
+      },
+      "Keyboard": {
+        "prototype": {}
+      },
+      "MouseWheel": {
+        "prototype": {}
+      },
+      "Path": {
+        "prototype": {}
+      },
+      "Pinch": {
+        "prototype": {}
+      },
+      "Point": {
+        "prototype": {}
+      },
+      "Polygon": {
+        "prototype": {}
+      },
+      "RegularPolygon": {
+        "prototype": {}
+      }
+    },
+    "Icon": {
+      "prototype": {}
+    },
+    "Kinetic": {
+      "prototype": {}
+    },
+    "Lang": {
+      "prototype": {}
+    },
+    "Layer": {
+      "!type": "fn(name: string, options: LayerOptions)",
+      "CLASS_NAME": "string",
+      "prototype": {
+        "id": "string",
+        "name": "string",
+        "div": "HTMLElement",
+        "opacity": "number",
+        "alwaysInRange": "bool",
+        "RESOLUTION_PROPERTIES": "[string]",
+        "events": "Events",
+        "map": "Map",
+        "isBaseLayer": "bool",
+        "alpha": "bool",
+        "displayInLayerSwitcher": "bool",
+        "visibility": "bool",
+        "attribution": "string",
+        "inRange": "bool",
+        "imageSize": "Size",
+        "options": "Object",
+        "eventListeners": "Object",
+        "gutter": "number",
+        "projection": "Projection",
+        "units": "string",
+        "scales": "[?]",
+        "resolutions": "[?]",
+        "maxExtent": "Bounds",
+        "minExtent": "Bounds",
+        "maxResolution": "number",
+        "minResolution": "number",
+        "numZoomLevels": "number",
+        "minScale": "number",
+        "maxScale": "number",
+        "displayOutsideMaxExtent": "bool",
+        "wrapDateLine": "bool",
+        "metadata": "Object",
+        "destroy": "fn(setNewBaseLayer?: bool)",
+        "clone": "fn() -> Layer",
+        "getOptions": "fn() -> LayerOptions",
+        "setName": "fn(newName: string)",
+        "addOptions": "fn(newOptions: LayerOptions, reinitialize: bool)",
+        "onMapResize": "fn()",
+        "redraw": "fn()",
+        "moveTo": "fn(bounds: Bounds, zoomChanged: bool, dragging: bool)",
+        "moveByPx": "fn(dx: number, dy: number)",
+        "setMap": "fn(map: Map)",
+        "afterAdd": "fn()",
+        "removeMap": "fn(map: Map)",
+        "getImageSize": "fn(bounds: Bounds) -> Size",
+        "setTileSize": "fn(size: Size)",
+        "getVisibility": "fn() -> bool",
+        "setVisibility": "fn(visibility: bool)",
+        "display": "fn(display: bool)",
+        "calculateInRange": "fn() -> bool",
+        "setIsBaseLayer": "fn(isBaseLayer: bool)",
+        "initResolutions": "fn()",
+        "resolutionsFromScales": "fn(scales: [number]) -> [number]",
+        "calculateResolutions": "fn(props: Object) -> [number]",
+        "getResolution": "fn() -> number",
+        "getExtent": "fn() -> Bounds",
+        "getZoomForExtent": "fn(extent: Bounds, closest?: bool) -> number",
+        "getDataExtent": "fn() -> Bounds",
+        "getResolutionForZoom": "fn(zoom: number) -> number",
+        "getZoomForResolution": "fn(resolution: number, closest?: bool) -> number",
+        "getLonLatFromViewPortPx": "fn(viewPortPx: Pixel) -> LonLat",
+        "getViewPortPxFromLonLat": "fn(lonlat: LonLat, resolution: number) -> Pixel",
+        "setOpacity": "fn(opacity: number)",
+        "getZIndex": "fn() -> number",
+        "setZIndex": "fn(zIndex: number)",
+        "adjustBounds": "fn(bounds: Bounds) -> Bounds"
+      },
+      "WMSGetMapParams": {
+        "version": "string",
+        "exceptions": "string",
+        "transparent": "string",
+        "format": "string",
+        "styles": "string",
+        "layers": "string",
+        "service": "string"
+      },
+      "WMSOptions": {
+        "opacity": "number",
+        "singleTile": "bool",
+        "isBaseLayer": "bool",
+        "encodeBBOX": "bool",
+        "noMagic": "bool",
+        "yx": "Object"
+      },
+      "TileOptions": {
+        "crossOriginKeyword": "string"
+      },
+      "ArcGIS93Rest": {
+        "prototype": {}
+      },
+      "ArcGISCache": {
+        "prototype": {}
+      },
+      "ArcIMS": {
+        "prototype": {}
+      },
+      "Bing": {
+        "prototype": {}
+      },
+      "Boxes": {
+        "prototype": {}
+      },
+      "EventPane": {
+        "prototype": {}
+      },
+      "FixedZoomLevels": {
+        "prototype": {}
+      },
+      "GeoRSS": {
+        "prototype": {}
+      },
+      "Google": {
+        "prototype": {},
+        "v3": {
+          "prototype": {}
+        }
+      },
+      "Grid": {
+        "!type": "fn(name: string, url: string, params: [object Object], options: [object Object])",
+        "prototype": {
+          "tileSize": "Size",
+          "tileOriginCorner": "string",
+          "tileOrigin": "LonLat",
+          "tileOptions": "Object",
+          "tileClass": "OpenLayers.Tile",
+          "grid": "[[OpenLayers.Tile]]",
+          "singleTile": "bool",
+          "ratio": "number",
+          "buffer": "number",
+          "transitionEffect": "string",
+          "numLoadingTiles": "number",
+          "serverResolutions": "[number]",
+          "loading": "bool",
+          "backBuffer": "HTMLElement",
+          "gridResolution": "number",
+          "backBufferResolution": "number",
+          "backBufferLonLat": {
+            "lon": "number",
+            "lat": "number"
+          },
+          "backBufferTimerId": "number",
+          "removeBackBufferDelay": "number",
+          "className": "string",
+          "gridLayout": {
+            "tilelon": "number",
+            "tilelat": "number",
+            "startcol": "number",
+            "startrow": "number"
+          },
+          "rowSign": "number",
+          "transitionendEvents": "[string]",
+          "initProperties": "fn()",
+          "setMap": "fn(map: Map)",
+          "removeMap": "fn(map: Map)",
+          "destroy": "fn()",
+          "clearGrid": "fn()",
+          "addOptions": "fn(newOptions: [object Object], reinitialize: bool)",
+          "clone": "fn(obj?: Object) -> Layer.Grid",
+          "moveTo": "fn(bounds: Bounds, zoomChanged: bool, dragging: bool)",
+          "getTileData": "fn(loc: LonLat) -> ret",
+          "destroyTile": "fn(tile: Tile)",
+          "getServerResolution": "fn(resolution: number) -> number",
+          "getServerZoom": "fn() -> number",
+          "applyBackBuffer": "fn(resolution: number)",
+          "createBackBuffer": "fn() -> HTMLElement",
+          "removeBackBuffer": "fn()",
+          "moveByPx": "fn(dx: number, dy: number)",
+          "setTileSize": "fn(size: Size)",
+          "getTilesBounds": "fn() -> Bounds",
+          "initSingleTile": "fn(bounds: Bounds)",
+          "calculateGridLayout": "fn(bounds: Bounds, origin: LonLat, resolution: number) -> ret1",
+          "getImageSize": "fn() -> Size",
+          "getTileOrigin": "fn() -> LonLat",
+          "getTileBoundsForGridIndex": "fn(row: number, col: number) -> Bounds",
+          "initGriddedTiles": "fn(bounds: Bounds)",
+          "getMaxExtent": "fn() -> Bounds",
+          "addTile": "fn(bounds: Bounds, position: number) -> Tile",
+          "addTileMonitoringHooks": "fn(tile: Tile)",
+          "removeTileMonitoringHooks": "fn(tile: Tile)",
+          "moveGriddedTiles": "fn()",
+          "shiftRow": "fn(prepend: bool, tileSize: [object Object])",
+          "shiftColumn": "fn(prepend: bool, tileSize: [object Object])",
+          "removeExcessTiles": "fn(rows: number, columns: number)",
+          "onMapResize": "fn()",
+          "getTileBounds": "fn(viewPortPx: Pixel) -> Bounds"
+        }
+      },
+      "HTTPRequest": {
+        "URL_HASH_FACTOR": "number",
+        "!type": "fn(name: string, url: string, params: Object, options: Object)",
+        "prototype": {
+          "url": "[string]",
+          "params": "Object",
+          "reproject": "bool",
+          "destroy": "fn()",
+          "clone": "fn(obj?: Object) -> HTTPRequest",
+          "setUrl": "fn(newUrl: string)",
+          "mergeNewParams": "fn(newParams: Object) -> bool",
+          "redraw": "fn(force?: bool) -> bool",
+          "selectUrl": "fn(paramString: string, urls: [string]) -> string",
+          "getFullRequestString": "fn(newParams: Object, altUrl: string) -> string"
+        }
+      },
+      "Image": {
+        "!type": "fn(name: string, url: string, extent: OpenLayers.Bounds, size: OpenLayers.Size, options: ?)",
+        "prototype": {
+          "isBaseLayer": "bool",
+          "url": "string",
+          "extent": "OpenLayers.Bounds",
+          "size": "OpenLayers.Size",
+          "tile": "OpenLayers.Tile.Image",
+          "aspectRatio": "number",
+          "destroy": "fn()",
+          "clone": "fn(obj?: ?) -> OpenLayers.Layer.Image",
+          "setMap": "fn(map: OpenLayers.Map)",
+          "moveTo": "fn(bounds: OpenLayers.Bounds, zoomChanged: bool, dragging: bool)",
+          "setTileSize": "fn()",
+          "addTileMonitoringHooks": "fn(tile: OpenLayers.Tile)",
+          "removeTileMonitoringHooks": "fn(tile: OpenLayers.Tile)",
+          "setUrl": "fn(newUrl: string)",
+          "getURL": "fn(bounds: OpenLayers.Bounds) -> string",
+          "CLASS_NAME": "string"
+        }
+      },
+      "KaMap": {
+        "prototype": {}
+      },
+      "KaMapCache": {
+        "prototype": {}
+      },
+      "MapGuide": {
+        "prototype": {}
+      },
+      "MapServer": {
+        "prototype": {}
+      },
+      "Markers": {
+        "prototype": {}
+      },
+      "OSM": {
+        "!type": "fn()",
+        "CLASS_NAME": "string",
+        "prototype": {
+          "name": "string",
+          "url": "[string]",
+          "attribution": "string",
+          "sphericalMercator": "bool",
+          "wrapDateLine": "bool",
+          "tileOptions": "TileOptions",
+          "clone": "fn(obj?: Object) -> Layer.OSM"
+        }
+      },
+      "PointGrid": {
+        "prototype": {}
+      },
+      "PointTrack": {
+        "prototype": {}
+      },
+      "SphericalMercator": {
+        "prototype": {}
+      },
+      "TMS": {
+        "prototype": {}
+      },
+      "Text": {
+        "prototype": {}
+      },
+      "TileCache": {
+        "prototype": {}
+      },
+      "UTFGrid": {
+        "prototype": {}
+      },
+      "Vector": {
+        "prototype": {},
+        "RootContainer": {
+          "prototype": {}
+        }
+      },
+      "WMS": {
+        "!type": "fn(name: string, url: string, params: WMSGetMapParams, options: WMSOptions)",
+        "CLASS_NAME": "string",
+        "prototype": {
+          "isBaseLayer": "bool",
+          "encodeBBOX": "bool",
+          "noMagic": "bool",
+          "yx": "Object",
+          "clone": "fn() -> Layer.WMS",
+          "reverseAxisOrder": "fn() -> bool",
+          "getURL": "fn(bounds: Bounds) -> string",
+          "mergeNewParams": "fn(newParams: Object) -> bool",
+          "getFullRequestString": "fn(newParams: Object, altUrl: string) -> string"
+        }
+      },
+      "WMTS": {
+        "prototype": {}
+      },
+      "WorldWind": {
+        "prototype": {}
+      },
+      "XYZ": {
+        "!type": "fn(name: string, url: string, options?: ?)",
+        "prototype": {
+          "isBaseLayer": "bool",
+          "sphericalMercator": "bool",
+          "zoomOffset": "number",
+          "serverResolutions": "[number]",
+          "clone": "fn(obj?: ?) -> Layer.XYZ",
+          "getURL": "fn(bounds: Bounds) -> string",
+          "getXYZ": "fn(bounds: Bounds) -> ret2",
+          "setMap": "fn(map: Map)"
+        }
+      },
+      "Zoomify": {
+        "prototype": {}
+      }
+    },
+    "Marker": {
+      "prototype": {},
+      "Box": {
+        "prototype": {}
+      }
+    },
+    "Popup": {
+      "prototype": {},
+      "Anchored": {
+        "prototype": {}
+      },
+      "Framed": {
+        "prototype": {}
+      },
+      "FramedCloud": {
+        "prototype": {}
+      }
+    },
+    "Protocol": {
+      "prototype": {},
+      "CSW": {
+        "prototype": {},
+        "v2_0_2": {
+          "prototype": {}
+        }
+      },
+      "HTTP": {
+        "prototype": {}
+      },
+      "SOS": {
+        "prototype": {},
+        "v1_0_0": {
+          "prototype": {}
+        }
+      },
+      "Script": {
+        "prototype": {}
+      },
+      "WFS": {
+        "prototype": {},
+        "v2_0_0": {
+          "prototype": {}
+        }
+      }
+    },
+    "Renderer": {
+      "prototype": {},
+      "Canvas": {
+        "prototype": {}
+      },
+      "Elements": {
+        "prototype": {}
+      },
+      "SVG": {
+        "prototype": {}
+      },
+      "VML": {
+        "prototype": {}
+      }
+    },
+    "Request": {
+      "prototype": {},
+      "XMLHttpRequest": {
+        "prototype": {}
+      }
+    },
+    "Rule": {
+      "prototype": {}
+    },
+    "SingleFile": {
+      "prototype": {}
+    },
+    "Spherical": {
+      "prototype": {}
+    },
+    "Strategy": {
+      "prototype": {},
+      "BBOX": {
+        "prototype": {}
+      },
+      "Cluster": {
+        "prototype": {}
+      },
+      "Filter": {
+        "prototype": {}
+      },
+      "Fixed": {
+        "prototype": {}
+      },
+      "Paging": {
+        "prototype": {}
+      },
+      "Refresh": {
+        "prototype": {}
+      },
+      "Save": {
+        "prototype": {}
+      }
+    },
+    "Style": {
+      "prototype": {}
+    },
+    "Style2": {
+      "prototype": {}
+    },
+    "StyleMap": {
+      "prototype": {}
+    },
+    "Symbolizer": {
+      "prototype": {},
+      "Line": {
+        "prototype": {}
+      },
+      "Point": {
+        "prototype": {}
+      },
+      "Polygon": {
+        "prototype": {}
+      },
+      "Raster": {
+        "prototype": {}
+      },
+      "Text": {
+        "prototype": {}
+      }
+    },
+    "Tile": {
+      "prototype": {},
+      "Image": {
+        "prototype": {},
+        "IFrame": {
+          "prototype": {}
+        }
+      },
+      "UTFGrid": {
+        "prototype": {}
+      }
+    },
+    "TileManager": {
+      "prototype": {}
+    },
+    "Tween": {
+      "prototype": {}
+    },
+    "Util": {
+      "prototype": {},
+      "vendorPrefix": {
+        "prototype": {}
+      }
+    },
+    "WPSClient": {
+      "prototype": {}
+    },
+    "WPSProcess": {
+      "prototype": {}
+    },
+    "Geometry": {
+      "!type": "fn()",
+      "CLASS_NAME": "string",
+      "prototype": {
+        "id": "string",
+        "parent": "Geometry",
+        "bounds": "Bounds",
+        "destroy": "fn()",
+        "clone": "fn() -> Geometry",
+        "setBounds": "fn(bounds: Bounds)",
+        "clearBounds": "fn()",
+        "extendBounds": "fn(newBounds: Bounds)",
+        "getBounds": "fn() -> Bounds",
+        "distanceTo": "fn(geometry: Geometry, options: Object) -> Object",
+        "getVertices": "fn(nodes: bool) -> [?]",
+        "atPoint": "fn(lonlat: LonLat, toleranceLon?: number, toleranceLat?: number) -> bool",
+        "getLength": "fn() -> number",
+        "getArea": "fn() -> number",
+        "getCentroid": "fn() -> Geometry.Point"
+      },
+      "Collection": {
+        "!type": "fn(components: [Geometry])",
+        "CLASS_NAME": "string",
+        "prototype": {
+          "components": "[Geometry]",
+          "componentTypes": "[string]",
+          "destroy": "fn()",
+          "clone": "fn() -> Collection",
+          "getComponentsString": "fn() -> string",
+          "calculateBounds": "fn()",
+          "addComponents": "fn(components: [Geometry])",
+          "addComponent": "fn(component: Geometry, index: number) -> bool",
+          "removeComponents": "fn(components: [Geometry]) -> bool",
+          "removeComponent": "fn(component: Geometry) -> bool",
+          "getLength": "fn() -> number",
+          "getArea": "fn() -> number",
+          "getGeodesicArea": "fn(projection: Projection) -> number",
+          "getCentroid": "fn(weighted?: bool) -> Point",
+          "getGeodesicLength": "fn(projection: Projection) -> number",
+          "move": "fn(x: number, y: number)",
+          "rotate": "fn(angle: number, origin: Point)",
+          "resize": "fn(scale: number, origin: Point, ratio: number) -> Geometry",
+          "distanceTo": "fn(geometry: Geometry, options: DistanceOptions) -> Object",
+          "equals": "fn(geometry: Geometry) -> bool",
+          "transform": "fn(source: Projection, dest: Projection) -> Geometry",
+          "intersects": "fn(geometry: Geometry) -> bool",
+          "getVertices": "fn(nodes: bool) -> [?]"
+        }
+      },
+      "Point": {
+        "!type": "fn(x: number, y: number)",
+        "prototype": {
+          "x": "number",
+          "y": "number",
+          "clone": "fn() -> Geometry",
+          "distanceTo": "fn(geometry: Geometry, options: DistanceOptions) -> Object",
+          "equals": "fn(geom: Point) -> bool",
+          "move": "fn(x: number, y: number)",
+          "rotate": "fn(angle: number, origin: Point)",
+          "resize": "fn(scale: number, origin: Point, ratio: number) -> Geometry",
+          "intersects": "fn(geometry: Geometry) -> bool",
+          "transform": "fn(source: Projection, dest: Projection) -> Geometry",
+          "getVertices": "fn(nodes: bool) -> [?]"
+        }
+      },
+      "Curve": {
+        "prototype": {}
+      },
+      "LineString": {
+        "prototype": {}
+      },
+      "LinearRing": {
+        "prototype": {}
+      },
+      "MultiLineString": {
+        "prototype": {}
+      },
+      "MultiPoint": {
+        "prototype": {}
+      },
+      "MultiPolygon": {
+        "prototype": {}
+      },
+      "Polygon": {
+        "prototype": {}
+      }
+    },
+    "Projection": {
+      "!type": "fn(projCode: string, options?: ?)",
+      "prototype": {
+        "getCode": "fn() -> string",
+        "getUnits": "fn() -> string",
+        "addTransform": "fn(from: string, to: string, method: fn())",
+        "transform": "fn(point: Geometry.Point, source: Projection, dest: OpenLayers.Projection) -> Object",
+        "nullTransform": "fn(point: Object) -> Function"
+      }
+    },
+    "Bounds": {
+      "!type": "fn(left: number, bottom: number, right: number, top: number)",
+      "CLASS_NAME": "string",
+      "fromString": "fn(str: string, reverseAxisOrder: bool) -> Bounds",
+      "fromArray": "fn(bbox: [number], reverseAxisOrder: bool) -> Bounds",
+      "fromSize": "fn(size: Size) -> Bounds",
+      "oppositeQuadrant": "fn(quadrant: string) -> string",
+      "prototype": {
+        "left": "number",
+        "bottom": "number",
+        "right": "number",
+        "top": "number",
+        "clone": "fn() -> Bounds",
+        "equals": "fn(bounds: Bounds) -> bool",
+        "toArray": "fn(reverseAxisOrder?: bool) -> [number]",
+        "toBBOX": "fn(decimal?: number, reverseAxisOrder?: bool) -> string",
+        "toGeometry": "fn() -> OpenLayers.Geometry.Polygon",
+        "getWidth": "fn() -> number",
+        "getHeight": "fn() -> number",
+        "getSize": "fn() -> Size",
+        "getCenterPixel": "fn() -> Pixel",
+        "getCenterLonLat": "fn() -> LonLat",
+        "scale": "fn(ratio: number, origin?: Pixel)",
+        "add": "fn(x: number, y: number) -> Bounds",
+        "extend": "fn(object: LonLat)",
+        "extendXY": "fn(x: number, y: number)",
+        "containsLonLat": "fn(ll: LonLat, options: BoundsOptions) -> bool",
+        "containsPixel": "fn(px: Pixel, inclusive: bool) -> bool",
+        "contains": "fn(x: number, y: number, inclusive?: bool) -> bool",
+        "intersectsBounds": "fn(bounds: Bounds, options: BoundsOptions) -> bool",
+        "containsBounds": "fn(bounds: Bounds, partial: bool, inclusive: bool) -> bool",
+        "determineQuadrant": "fn(lonlat: LonLat) -> string",
+        "transform": "fn(source: Projection, dest: Projection) -> Bounds",
+        "wrapDateLine": "fn(maxExtent: Bounds, options: WrapDateLineOptions) -> Bounds"
+      }
+    },
+    "LonLat": {
+      "!type": "fn(lon: number, lat: number)",
+      "prototype": {
+        "toShortString": "fn() -> string",
+        "clone": "fn() -> LonLat",
+        "add": "fn(lon: number, lat: number) -> LonLat",
+        "equals": "fn(ll: LonLat) -> bool",
+        "transform": "fn(source: Projection, dest: Projection) -> LonLat",
+        "wrapDateLine": "fn(maxExtend: Bounds) -> LonLat"
+      }
+    },
+    "Map": {
+      "!type": "fn(id: HTMLElement, options?: MapOptions)",
+      "TILE_WIDTH": "string",
+      "TILE_HEIGHT": "string",
+      "prototype": {
+        "id": "string",
+        "fractionalZoom": "bool",
+        "events": "Events",
+        "allOverlays": "bool",
+        "div": "HTMLElement",
+        "dragging": "bool",
+        "size": "Size",
+        "viewPortDiv": "HTMLDivElement",
+        "layerContainerOrigin": "LonLat",
+        "layerContainerDiv": "HTMLDivElement",
+        "layers": "[Layer]",
+        "controls": "[Control]",
+        "popups": "[Popup]",
+        "baseLayer": "Layer",
+        "center": "LonLat",
+        "resolution": "number",
+        "zoom": "number",
+        "panRatio": "number",
+        "options": "Object",
+        "tileSize": "Size",
+        "projection": "string",
+        "units": "string",
+        "resolutions": "[number]",
+        "maxResolution": "number",
+        "minResolution": "number",
+        "maxScale": "number",
+        "minScale": "number",
+        "maxExtent": "Bounds",
+        "minExtent": "Bounds",
+        "restrictedExtent": "Bounds",
+        "numZoomLevels": "number",
+        "theme": "string",
+        "displayProjection": "Projection",
+        "fallThrough": "bool",
+        "autoUpdateSize": "bool",
+        "eventListeners": "Object",
+        "panTween": "Tween",
+        "panMethod": "fn()",
+        "panDuration": "number",
+        "zoomTween": "Tween",
+        "zoomMethod": "fn()",
+        "zoomDuration": "number",
+        "paddingForPopups": "Bounds",
+        "layerContainerOriginPx": "Object",
+        "minPx": {
+          "x": "number",
+          "y": "number"
+        },
+        "maxPx": {
+          "x": "number",
+          "y": "number"
+        },
+        "getViewport": "fn() -> HTMLElement",
+        "render": "fn(div: string)",
+        "unloadDestroy": "fn() -> fn()",
+        "updateSizeDestroy": "fn()",
+        "destroy": "fn()",
+        "setOptions": "fn(options: [object Object])",
+        "getTileSize": "fn() -> Size",
+        "getBy": "fn(array: string, property: string, match: string) -> [?]",
+        "getLayersBy": "fn(property: string, match: string) -> [Layer]",
+        "getLayersByName": "fn(match: string) -> [Layer]",
+        "getLayersByClass": "fn(match: string) -> [Layer]",
+        "getControlsBy": "fn(property: string, match: string) -> [Control]",
+        "getControlsByClass": "fn(match: string) -> [Control]",
+        "getLayer": "fn(id: string) -> Layer",
+        "setLayerZIndex": "fn(layer: Layer, zIdx: number)",
+        "resetLayersZIndex": "fn()",
+        "addLayer": "fn(layer: Layer) -> bool",
+        "addLayers": "fn(layers: [Layer])",
+        "removeLayer": "fn(layer: Layer, setNewBaseLayer?: bool)",
+        "getNumLayers": "fn() -> number",
+        "getLayerIndex": "fn(layer: Layer) -> number",
+        "setLayerIndex": "fn(layer: Layer, idx: number)",
+        "raiseLayer": "fn(layer: Layer, delta: number)",
+        "setBaseLayer": "fn(newBaseLayer: Layer)",
+        "addControl": "fn(control: Control, px: Pixel)",
+        "addControls": "fn(controls: [Control], pixels: [Pixel])",
+        "addControlToMap": "fn(control: Control, px: Pixel)",
+        "getControl": "fn(id: string) -> Control",
+        "removeControl": "fn(control: Control)",
+        "addPopup": "fn(popup: Popup, exclusive: bool)",
+        "removePopup": "fn(popup: Popup)",
+        "getSize": "fn() -> Size",
+        "updateSize": "fn()",
+        "getCurrentSize": "fn() -> Size",
+        "calculateBounds": "fn(center?: LonLat, resolution?: number) -> Bounds",
+        "getCenter": "fn() -> LonLat",
+        "getZoom": "fn() -> number",
+        "pan": "fn(dx: number, dy: number, options?: [object Object])",
+        "panTo": "fn(lonlat: LonLat)",
+        "setCenter": "fn(lonlat: LonLat, zoom?: number, dragging?: bool, forceZoomChange?: bool)",
+        "getMinZoom": "fn() -> number",
+        "getProjection": "fn() -> string",
+        "getProjectionObject": "fn() -> Projection",
+        "getMaxResolution": "fn() -> string",
+        "getMaxExtent": "fn(options: [object Object]) -> Bounds",
+        "getNumZoomLevels": "fn() -> number",
+        "getExtent": "fn() -> Bounds",
+        "getResolution": "fn() -> number",
+        "getUnits": "fn() -> number",
+        "getScale": "fn() -> number",
+        "getZoomForExtent": "fn(bounds: Bounds, closest?: bool) -> number",
+        "getResolutionForZoom": "fn(zoom: number) -> number",
+        "getZoomForResolution": "fn(resolution: number, closest?: bool) -> number",
+        "zoomTo": "fn(zoom: number, px: Pixel)",
+        "zoomIn": "fn()",
+        "zoomOut": "fn()",
+        "zoomToExtent": "fn(bounds: Bounds, closest?: bool)",
+        "zoomToMaxExtent": "fn(options?: [object Object])",
+        "zoomToScale": "fn(scale: number, closest: bool)",
+        "getViewPortPxFromLonLat": "fn(lonlat: LonLat) -> Pixel",
+        "getLonLatFromPixel": "fn(px: Pixel) -> LonLat",
+        "getPixelFromLonLat": "fn(lonlat: LonLat) -> Pixel",
+        "getViewPortPxFromLayerPx": "fn(layerPx: Pixel) -> Pixel",
+        "getLayerPxFromViewPortPx": "fn(viewPortPx: Pixel) -> Pixel",
+        "getLayerPxFromLonLat": "fn(lonlat: LonLat) -> Pixel"
+      }
+    },
+    "Class": {
+      "prototype": {}
+    },
+    "Date": {
+      "prototype": {
+        "dateRegEx": "string",
+        "toISOString": "fn(date: Date) -> string",
+        "parse": "fn(str: string) -> Date"
+      }
+    },
+    "Element": {
+      "prototype": {
+        "visible": "fn(element: HTMLElement) -> bool",
+        "toggle": "fn(element: HTMLElement)",
+        "remove": "fn(element: HTMLElement)",
+        "getHeight": "fn(element: HTMLElement) -> number",
+        "hasClass": "fn(element: HTMLElement, name: string) -> bool",
+        "addClass": "fn(element: HTMLElement, name: string) -> HTMLElement",
+        "removeClass": "fn(element: HTMLElement, name: string) -> HTMLElement",
+        "toggleClass": "fn(element: HTMLElement, name: string) -> HTMLElement",
+        "getStyle": "fn(element: HTMLElement, style: ?) -> ?"
+      }
+    },
+    "Pixel": {
+      "!type": "fn(x: number, y: number)",
+      "prototype": {
+        "x": "number",
+        "y": "number",
+        "clone": "fn() -> Pixel",
+        "equals": "fn(px: Pixel) -> bool",
+        "distanceTo": "fn(px: Pixel) -> number",
+        "add": "fn(x: number, y: number) -> Pixel",
+        "offset": "fn(px: Pixel) -> Pixel",
+        "CLASS_NAME": "string"
+      }
+    },
+    "Size": {
+      "!type": "fn(w: number, h: number)",
+      "prototype": {
+        "w": "number",
+        "h": "number",
+        "clone": "fn() -> Size",
+        "equals": "fn(sz: Size) -> bool",
+        "CLASS_NAME": "string"
+      }
+    }
+  },
+  "!name": "openlayers.d.ts",
+  "!define": {
+    "ret": {
+      "tile": "Tile",
+      "i": "number",
+      "j": "number"
+    },
+    "ret1": {
+      "tilelon": "number",
+      "tilelat": "number",
+      "startcol": "number",
+      "startrow": "number"
+    },
+    "ret2": {
+      "x": "number",
+      "y": "number",
+      "z": "number"
+    }
+  }
+}

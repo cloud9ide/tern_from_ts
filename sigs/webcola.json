@@ -1,0 +1,46 @@
+{
+  "WebCola": {
+    "Adaptor": {
+      "avoidOverlaps": "fn(avodOverLaps: bool) -> Adaptor",
+      "constraints": "fn(constraints: ?) -> Adaptor",
+      "convergenceThreshold": "fn(convergenceThreshold: number) -> Adaptor",
+      "dragend": "fn(node: [object Object])",
+      "dragstart": "fn(node: [object Object])",
+      "flowLayout": "fn(axis: string, minSeparation: number) -> Adaptor",
+      "handleDisconnected": "fn(handleDisconnected: bool) -> Adaptor",
+      "links": "fn(links: ?) -> Adaptor",
+      "linkDistance": "fn(linkLength: number) -> Adaptor",
+      "nodes": "fn(nodes: ?) -> Adaptor",
+      "resume": "fn()",
+      "size": "fn(dimension: [number]) -> Adaptor",
+      "start": "fn(initialUnconstrainedIterations: number, initialUserConstraintIterations: number, initialAllConstraintsIterations: number)",
+      "stop": "fn()"
+    },
+    "Cola": {
+      "adaptor": "fn(options: [object Object]) -> Adaptor",
+      "start": "fn()",
+      "stop": "fn()"
+    },
+    "FlowLayout": {
+      "axis": "string",
+      "minSeparation": "number"
+    },
+    "Options": {
+      "avoidOverlaps": "bool",
+      "convergenceThreshold": "number",
+      "constraints": "[]",
+      "flowLayout": "FlowLayout",
+      "handleDisconnected": "bool",
+      "linkDistance": "number",
+      "initialUnconstrainedIterations": "number",
+      "initialUserConstraintIterations": "number",
+      "initialAllConstraintsIterations": "number",
+      "symmetricDiffLinkLengths": "number"
+    }
+  },
+  "cola": "WebCola.Cola",
+  "!name": "webcola.d.ts",
+  "!define": {
+    "": {}
+  }
+}

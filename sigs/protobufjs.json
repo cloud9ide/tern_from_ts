@@ -1,0 +1,14 @@
+{
+  "ProtoBuf": {
+    "IBuilder": {
+      "build": "fn()"
+    },
+    "IProtoBufMessage": {
+      "toArrayBuffer": "fn() -> ArrayBuffer",
+      "toBuffer": "fn() -> Buffer"
+    },
+    "loadProtoFile": "fn(filePath: string, callback: fn(builder: IBuilder)) -> ?"
+  },
+  "protobufjs": "ProtoBuf",
+  "!name": "protobufjs.d.ts"
+}

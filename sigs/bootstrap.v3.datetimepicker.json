@@ -1,0 +1,54 @@
+{
+  "BootstrapV3DatetimePicker": {
+    "DatetimepickerChangeEventObject": {
+      "date": "?",
+      "oldDate": "?"
+    },
+    "DatetimepickerEventObject": {
+      "date": "?"
+    },
+    "DatetimepickerIcons": {
+      "time": "string",
+      "date": "string",
+      "up": "string",
+      "down": "string"
+    },
+    "DatetimepickerOptions": {
+      "pickDate": "bool",
+      "pickTime": "bool",
+      "useMinutes": "bool",
+      "useSeconds": "bool",
+      "useCurrent": "bool",
+      "minuteStepping": "number",
+      "minDate": "?",
+      "maxDate": "?",
+      "showToday": "bool",
+      "collapse": "bool",
+      "language": "string",
+      "defaultDate": "string",
+      "disabledDates": "?",
+      "enabledDates": "?",
+      "icons": "DatetimepickerIcons",
+      "useStrict": "bool",
+      "direction": "string",
+      "sideBySide": "bool",
+      "daysOfWeekDisabled": "?"
+    },
+    "Datetimepicker": {
+      "setDate": "fn(date: ?)",
+      "setMinDate": "fn(date: ?)",
+      "setMaxDate": "fn(date: ?)",
+      "show": "fn()",
+      "disable": "fn()",
+      "enable": "fn()",
+      "getDate": "fn()"
+    }
+  },
+  "JQuery": {
+    "datetimepicker": "fn() -> JQuery",
+    "off": "fn(events: string, selector?: string, handler?: fn(eventobject: BootstrapV3DatetimePicker.DatetimepickerChangeEventObject)) -> JQuery",
+    "on": "fn(events: string, selector: string, data: ?, handler?: fn(eventobject: BootstrapV3DatetimePicker.DatetimepickerChangeEventObject)) -> JQuery",
+    "data": "fn(key: string) -> BootstrapV3DatetimePicker.Datetimepicker"
+  },
+  "!name": "bootstrap.v3.datetimepicker.d.ts"
+}

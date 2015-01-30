@@ -1,0 +1,50 @@
+{
+  "BootboxAlertOptions": {
+    "message": "string",
+    "callback": "fn()"
+  },
+  "BootboxConfirmOptions": {
+    "message": "string",
+    "callback": "fn(result: bool)"
+  },
+  "BootboxPromptOptions": {
+    "message": "string",
+    "callback": "fn(result: string)"
+  },
+  "BootboxButton": {
+    "label": "string",
+    "className": "string",
+    "callback": "fn()"
+  },
+  "BootboxDialogOptions": {
+    "message": "string",
+    "Element": "?",
+    "title": "string",
+    "callback": "fn(result: bool)",
+    "show": "bool",
+    "onEscape": "fn()",
+    "backdrop": "bool",
+    "closeButton": "bool",
+    "animate": "bool",
+    "className": "string",
+    "buttons": "Object"
+  },
+  "BootboxDefaultOptions": {
+    "locale": "string",
+    "show": "bool",
+    "backdrop": "bool",
+    "closeButton": "bool",
+    "animate": "bool",
+    "className": "string"
+  },
+  "BootboxStatic": {
+    "alert": "fn(message: string, callback?: fn())",
+    "confirm": "fn(message: string, callback?: fn(result: bool))",
+    "prompt": "fn(message: string, callback?: fn(result: string))",
+    "dialog": "fn(message: string, callback?: fn(result: string))",
+    "setDefaults": "fn(options: BootboxDefaultOptions)",
+    "hideAll": "fn()"
+  },
+  "bootbox": "BootboxStatic",
+  "!name": "bootbox.d.ts"
+}

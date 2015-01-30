@@ -1,0 +1,14 @@
+{
+  "Slick": {
+    "RowSelectionModel": {
+      "!type": "fn(options?: [object Object])",
+      "prototype": {
+        "getSelectedRows": "fn() -> [number]",
+        "setSelectedRows": "fn(rows: [number])",
+        "getSelectedRanges": "fn() -> [number]",
+        "setSelectedRanges": "fn(ranges: [number])"
+      }
+    }
+  },
+  "!name": "slick.rowselectionmodel.d.ts"
+}

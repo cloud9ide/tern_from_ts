@@ -1,0 +1,222 @@
+{
+  "log4javascript": {
+    "getLogger": "fn(loggerName?: string) -> Logger",
+    "getDefaultLogger": "fn() -> Logger",
+    "getNullLogger": "fn() -> Logger",
+    "getRootLogger": "fn() -> Logger",
+    "resetConfiguration": "fn()",
+    "setEnabled": "fn(enabled: bool)",
+    "isEnabled": "fn() -> bool",
+    "addEventListener": "fn(eventType: string, listener: [object Object])",
+    "removeEventListener": "fn(eventType: string, listener: [object Object])",
+    "dispatchEvent": "fn(eventType: string, eventArgs: ?)",
+    "setEventTypes": "fn(eventTypes: [string])",
+    "setShowStackTraces": "fn(show: bool)",
+    "evalInScope": "fn(expr: string) -> ?",
+    "Level": "number",
+    "Logger": {
+      "prototype": {
+        "addAppender": "fn(appender: Appender)",
+        "removeAppender": "fn(appender: Appender)",
+        "removeAllAppenders": "fn()",
+        "setLevel": "fn(level: Level)",
+        "getLevel": "fn() -> Level",
+        "getEffectiveLevel": "fn() -> Level",
+        "setAdditivity": "fn(additivity: bool)",
+        "getAdditivity": "fn() -> bool",
+        "log": "fn(level: Level, params: [?])",
+        "trace": "fn(messages: [?])",
+        "debug": "fn(messages: [?])",
+        "info": "fn(messages: [?])",
+        "warn": "fn(messages: [?])",
+        "error": "fn(messages: [?])",
+        "fatal": "fn(messages: [?])",
+        "isEnabledFor": "fn(level: Level, exception: Error) -> bool",
+        "isTraceEnabled": "fn() -> bool",
+        "isDebugEnabled": "fn() -> bool",
+        "isInfoEnabled": "fn() -> bool",
+        "isWarnEnabled": "fn() -> bool",
+        "isErrorEnabled": "fn() -> bool",
+        "isFatalEnabled": "fn() -> bool",
+        "group": "fn(name: string, initiallyExpanded?: bool)",
+        "groupEnd": "fn()",
+        "time": "fn(name: string, level?: Level)",
+        "timeEnd": "fn(name: string)",
+        "assert": "fn(expr: ?)"
+      }
+    },
+    "LoggingEvent": {
+      "prototype": {}
+    },
+    "Appender": {
+      "prototype": {
+        "doAppend": "fn(loggingEvent: LoggingEvent)",
+        "append": "fn(loggingEvent: LoggingEvent)",
+        "setLayout": "fn(layout: Layout)",
+        "getLayout": "fn() -> Layout",
+        "setThreshold": "fn(level: Level)",
+        "getThreshold": "fn() -> Level"
+      }
+    },
+    "AlertAppender": {
+      "!type": "fn()",
+      "prototype": {}
+    },
+    "AjaxAppender": {
+      "!type": "fn(url: string, withCredentials?: bool)",
+      "prototype": {
+        "setSendAllOnUnload": "fn(sendAllOnUnload: bool)",
+        "isSendAllOnUnload": "fn() -> bool",
+        "setPostVarName": "fn(postVarName: string)",
+        "getPostVarName": "fn() -> string",
+        "setTimed": "fn(timed: bool)",
+        "isTimed": "fn() -> bool",
+        "setWaitForResponse": "fn(waitForResponse: bool)",
+        "isWaitForResponse": "fn() -> bool",
+        "setBatchSize": "fn(batchSize: number)",
+        "getBatchSize": "fn() -> number",
+        "setTimerInterval": "fn(timerInterval: number)",
+        "getTimerInterval": "fn() -> number",
+        "setRequestSuccessCallback": "fn(requestSuccessCallback: [object Object])",
+        "setFailCallback": "fn(failCallback: [object Object])",
+        "setSessionId": "fn(sessionId: string)",
+        "getSessionId": "fn() -> string",
+        "addHeader": "fn(name: string, value: string)",
+        "getHeaders": "fn() -> ?",
+        "sendAll": "fn()"
+      }
+    },
+    "PopUpAppender": {
+      "!type": "fn(lazyInit?: bool, initiallyMinimized?: bool, useDocumentWrite?: bool, width?: number, height?: number)",
+      "prototype": {
+        "isInitiallyMinimized": "fn() -> bool",
+        "setInitiallyMinimized": "fn(initiallyMinimized: bool)",
+        "isFocusPopUp": "fn() -> bool",
+        "setFocusPopUp": "fn(focusPopUp: bool)",
+        "isUseOldPopUp": "fn() -> bool",
+        "setUseOldPopUp": "fn(useOldPopUp: bool)",
+        "isComplainAboutPopUpBlocking": "fn() -> bool",
+        "setComplainAboutPopUpBlocking": "fn(complainAboutPopUpBlocking: bool)",
+        "isNewestMessageAtTop": "fn() -> bool",
+        "setNewestMessageAtTop": "fn(newestMessageAtTop: bool)",
+        "isScrollToLatestMessage": "fn() -> bool",
+        "setScrollToLatestMessage": "fn(scrollToLatestMessage: bool)",
+        "isReopenWhenClosed": "fn() -> bool",
+        "setReopenWhenClosed": "fn(reopenWhenClosed: bool)",
+        "getWidth": "fn() -> number",
+        "setWidth": "fn(width: number)",
+        "getHeight": "fn() -> number",
+        "setHeight": "fn(height: number)",
+        "getMaxMessages": "fn() -> number",
+        "setMaxMessages": "fn(maxMessages: number)",
+        "isShowCommandLine": "fn() -> bool",
+        "setShowCommandLine": "fn(showCommandLine: bool)",
+        "getCommandLineObjectExpansionDepth": "fn() -> number",
+        "setCommandLineObjectExpansionDepth": "fn(expansionDepth: number)",
+        "getCommandWindow": "fn() -> Window",
+        "setCommandWindow": "fn(commandWindow: Window)",
+        "getCommandLayout": "fn() -> Layout",
+        "setCommandLayout": "fn(commandLayout: Layout)",
+        "clear": "fn()",
+        "close": "fn()",
+        "show": "fn()",
+        "hide": "fn()",
+        "focus": "fn()",
+        "focusCommandLine": "fn()",
+        "focusSearch": "fn()",
+        "evalCommandAndAppend": "fn(expr: string)",
+        "addCommandLineFunction": "fn(functionName: string, commandLineFunction: [object Object])"
+      }
+    },
+    "InPageAppender": {
+      "!type": "fn(container: HTMLElement, lazyInit?: bool, initiallyMinimized?: bool, useDocumentWrite?: bool, width?: number, height?: number)",
+      "prototype": {
+        "addCssProperty": "fn(name: string, value: string)",
+        "isVisible": "fn() -> bool",
+        "isInitiallyMinimized": "fn() -> bool",
+        "setInitiallyMinimized": "fn(initiallyMinimized: bool)",
+        "isNewestMessageAtTop": "fn() -> bool",
+        "setNewestMessageAtTop": "fn(newestMessageAtTop: bool)",
+        "isScrollToLatestMessage": "fn() -> bool",
+        "setScrollToLatestMessage": "fn(scrollToLatestMessage: bool)",
+        "getWidth": "fn() -> number",
+        "setWidth": "fn(width: number)",
+        "getHeight": "fn() -> number",
+        "setHeight": "fn(height: number)",
+        "getMaxMessages": "fn() -> number",
+        "setMaxMessages": "fn(maxMessages: number)",
+        "isShowCommandLine": "fn() -> bool",
+        "setShowCommandLine": "fn(showCommandLine: bool)",
+        "getCommandLineObjectExpansionDepth": "fn() -> number",
+        "setCommandLineObjectExpansionDepth": "fn(expansionDepth: number)",
+        "getCommandWindow": "fn() -> Window",
+        "setCommandWindow": "fn(commandWindow: Window)",
+        "getCommandLayout": "fn() -> Layout",
+        "setCommandLayout": "fn(commandLayout: Layout)",
+        "clear": "fn()",
+        "close": "fn()",
+        "show": "fn()",
+        "hide": "fn()",
+        "focus": "fn()",
+        "focusCommandLine": "fn()",
+        "focusSearch": "fn()",
+        "evalCommandAndAppend": "fn(expr: string)",
+        "addCommandLineFunction": "fn(functionName: string, commandLineFunction: [object Object])"
+      }
+    },
+    "BrowserConsoleAppender": {
+      "!type": "fn()",
+      "prototype": {}
+    },
+    "Layout": {
+      "prototype": {
+        "format": "fn(loggingEvent: LoggingEvent) -> string",
+        "ignoresThrowable": "fn() -> bool",
+        "getContentType": "fn() -> string",
+        "allowBatching": "fn() -> bool",
+        "getDataValues": "fn(loggingEvent: LoggingEvent) -> ?",
+        "setKeys": "fn(loggerKey: string, timeStampKey: string, levelKey: string, messageKey: string, exceptionKey: string, urlKey: string)",
+        "setCustomField": "fn(name: string, value: string) -> string",
+        "hasCustomFields": "fn() -> bool"
+      }
+    },
+    "NullLayout": {
+      "!type": "fn()",
+      "prototype": {}
+    },
+    "SimpleLayout": {
+      "!type": "fn()",
+      "prototype": {}
+    },
+    "PatternLayout": {
+      "TTCC_CONVERSION_PATTERN": "string",
+      "DEFAULT_CONVERSION_PATTERN": "string",
+      "ISO8601_DATEFORMAT": "string",
+      "DATETIME_DATEFORMAT": "string",
+      "ABSOLUTETIME_DATEFORMAT": "string",
+      "!type": "fn(pattern: string)",
+      "prototype": {}
+    },
+    "XmlLayout": {
+      "!type": "fn(combineMessages?: bool)",
+      "prototype": {}
+    },
+    "JsonLayout": {
+      "!type": "fn(readable?: bool, combineMessages?: bool)",
+      "prototype": {
+        "isReadable": "fn() -> bool"
+      }
+    },
+    "HttpPostDataLayout": {
+      "!type": "fn()",
+      "prototype": {}
+    },
+    "setQuietMode": "fn(quietMode: bool)",
+    "setAlertAllErrors": "fn(alertAllErrors: bool)",
+    "debug": "fn(message: string, exception?: Error)",
+    "displayDebug": "fn()",
+    "warn": "fn(message: string, exception?: Error)",
+    "error": "fn(message: string, exception?: Error)"
+  },
+  "!name": "log4javascript.d.ts"
+}

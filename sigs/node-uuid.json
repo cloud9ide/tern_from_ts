@@ -1,0 +1,16 @@
+{
+  "UUIDOptions": {
+    "node": "[?]",
+    "clockseq": "number",
+    "msecs": "?",
+    "nsecs": "number"
+  },
+  "UUID": {
+    "v1": "fn(options?: UUIDOptions, buffer?: [number], offset?: number) -> string",
+    "v2": "fn(options?: UUIDOptions, buffer?: [number], offset?: number) -> string",
+    "v3": "fn(options?: UUIDOptions, buffer?: [number], offset?: number) -> string",
+    "v4": "fn(options?: UUIDOptions, buffer?: [number], offset?: number) -> string"
+  },
+  "node-uuid": "uuid",
+  "!name": "node-uuid.d.ts"
+}

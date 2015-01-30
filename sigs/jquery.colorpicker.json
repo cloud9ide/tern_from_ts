@@ -1,0 +1,141 @@
+{
+  "JQueryColorpickerOptions": {
+    "alpha": "bool",
+    "altAlpha": "bool",
+    "altField": "string",
+    "altOnChange": "bool",
+    "altProperties": "string",
+    "autoOpen": "bool",
+    "buttonClass": "string",
+    "buttonColorize": "bool",
+    "buttonImage": "string",
+    "buttonImageOnly": "bool",
+    "buttonText": "string",
+    "closeOnEscape": "bool",
+    "closeOnOutside": "bool",
+    "color": "string",
+    "colorFormat": "string",
+    "dragggable": "bool",
+    "duration": "string",
+    "hsv": "bool",
+    "inline": "bool",
+    "inlineFrame": "bool",
+    "layout": {},
+    "limit": "string",
+    "modal": "bool",
+    "mode": "string",
+    "okOnEnter": "bool",
+    "part": "?",
+    "parts": "?",
+    "regional": "string",
+    "revert": "bool",
+    "rgb": "bool",
+    "showAnim": "string",
+    "showCancelButton": "bool",
+    "showCloseButton": "bool",
+    "showNoneButton": "bool",
+    "showOn": "string",
+    "showOptions": "?",
+    "swatches": "?",
+    "swatchesWidth": "number",
+    "title": "string"
+  },
+  "JQueryColorpickerStatic": {
+    "limits": {},
+    "parsers": {},
+    "parts": {},
+    "partslists": {},
+    "regional": {},
+    "swatches": {},
+    "writers": {},
+    "Color": {
+      "set": "bool",
+      "copy": "fn() -> Color",
+      "distance": "fn(color: Color) -> number",
+      "equals": "fn(color: Color) -> bool",
+      "getAlpha": "fn() -> number",
+      "getChannels": "fn() -> ret",
+      "getCMYK": "fn() -> CMYK",
+      "getHSL": "fn() -> HSL",
+      "getHSV": "fn() -> HSV",
+      "getLAB": "fn() -> LAB",
+      "getRGB": "fn() -> RGB",
+      "getSpaces": "fn() -> ret1",
+      "limit": "fn(steps: number)",
+      "normalize": "fn() -> Color",
+      "setAlpha": "fn(a: number) -> Color",
+      "setCMYK": "fn(c: number, m: number, y: number, k: number) -> Color",
+      "setHSL": "fn(h: number, s: number, l: number) -> Color",
+      "setHSV": "fn(h: number, s: number, v: number) -> Color",
+      "setLAB": "fn(l: number, a: number, b: number) -> Color",
+      "setRGB": "fn(r: number, g: number, b: number) -> Color",
+      "setSpaces": "fn(new_spaces: ?) -> Color",
+      "toCSS": "fn() -> string",
+      "toHEX": "fn() -> string"
+    },
+    "CMYK": {
+      "c": "number",
+      "m": "number",
+      "y": "number",
+      "k": "number"
+    },
+    "HSL": {
+      "h": "number",
+      "s": "number",
+      "l": "number"
+    },
+    "HSV": {
+      "h": "number",
+      "s": "number",
+      "v": "number"
+    },
+    "LAB": {
+      "l": "number",
+      "a": "number",
+      "b": "number"
+    },
+    "RGB": {
+      "r": "number",
+      "g": "number",
+      "b": "number"
+    }
+  },
+  "JQueryColorpickerInstance": {
+    "close": "fn()",
+    "destroy": "fn()",
+    "open": "fn()",
+    "setColor": "fn(color: ?)"
+  },
+  "JQueryStatic": {
+    "colorpicker": "JQueryColorpickerStatic"
+  },
+  "JQuery": {
+    "colorpicker": "fn(options?: JQueryColorpickerOptions) -> JQuery"
+  },
+  "!name": "jquery.colorpicker.d.ts",
+  "!define": {
+    "ret": {
+      "A": "number",
+      "B": "number",
+      "L": "number",
+      "a": "number",
+      "b": "number",
+      "c": "number",
+      "g": "number",
+      "h": "number",
+      "k": "number",
+      "m": "number",
+      "r": "number",
+      "s": "number",
+      "v": "number",
+      "y": "number"
+    },
+    "ret1": {
+      "cmyk": "CMYK",
+      "hsl": "HSL",
+      "hsv": "HSV",
+      "lab": "LAB",
+      "rgb": "RGB"
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "CodeMirror": {
+    "Pass": "?",
+    "fromTextArea": "fn(host: HTMLTextAreaElement, options?: EditorConfiguration) -> CodeMirror.EditorFromTextArea",
+    "version": "string",
+    "defineExtension": "fn(name: string, value: ?)",
+    "defineDocExtension": "fn(name: string, value: ?)",
+    "defineOption": "fn(name: string, default_: ?, updateFunc: Function)",
+    "defineInitHook": "fn(func: Function)",
+    "on": "fn(element: ?, eventName: string, handler: Function)",
+    "off": "fn(element: ?, eventName: string, handler: Function)",
+    "signal": "fn(target: ?, name: string, args: [?])",
+    "Editor": {
+      "hasFocus": "fn() -> bool",
+      "findPosH": "fn(start: CodeMirror.Position, amount: number, unit: string, visually: bool) -> ret",
+      "findPosV": "fn(start: CodeMirror.Position, amount: number, unit: string) -> ret1",
+      "setOption": "fn(option: string, value: ?)",
+      "getOption": "fn(option: string) -> ?",
+      "addKeyMap": "fn(map: ?, bottom?: bool)",
+      "removeKeyMap": "fn(map: ?)",
+      "addOverlay": "fn(mode: ?, options?: ?)",
+      "removeOverlay": "fn(mode: ?)",
+      "getDoc": "fn() -> CodeMirror.Doc",
+      "swapDoc": "fn(doc: CodeMirror.Doc) -> CodeMirror.Doc",
+      "setGutterMarker": "fn(line: ?, gutterID: string, value: HTMLElement) -> CodeMirror.LineHandle",
+      "clearGutter": "fn(gutterID: string)",
+      "addLineClass": "fn(line: ?, where: string, _class_: string) -> CodeMirror.LineHandle",
+      "removeLineClass": "fn(line: ?, where: string, class_: string) -> CodeMirror.LineHandle",
+      "lineInfo": "fn(line: ?) -> ret2",
+      "addWidget": "fn(pos: CodeMirror.Position, node: HTMLElement, scrollIntoView: bool)",
+      "addLineWidget": "fn(line: ?, node: HTMLElement, options?: [object Object]) -> CodeMirror.LineWidget",
+      "setSize": "fn(width: ?, height: ?)",
+      "scrollTo": "fn(x: number, y: number)",
+      "getScrollInfo": "fn() -> ret3",
+      "scrollIntoView": "fn(pos: CodeMirror.Position, margin?: number)",
+      "cursorCoords": "fn(where: bool, mode: string) -> ret4",
+      "charCoords": "fn(pos: CodeMirror.Position, mode: string) -> ret6",
+      "coordsChar": "fn(object: [object Object], mode?: string) -> CodeMirror.Position",
+      "defaultTextHeight": "fn() -> number",
+      "defaultCharWidth": "fn() -> number",
+      "getViewport": "fn() -> ret7",
+      "refresh": "fn()",
+      "getTokenAt": "fn(pos: CodeMirror.Position) -> ret8",
+      "getStateAfter": "fn(line?: number) -> ?",
+      "operation": "fn(fn: fn()) -> T",
+      "indentLine": "fn(line: number, dir?: string)",
+      "focus": "fn()",
+      "getInputField": "fn() -> HTMLTextAreaElement",
+      "getWrapperElement": "fn() -> HTMLElement",
+      "getScrollerElement": "fn() -> HTMLElement",
+      "getGutterElement": "fn() -> HTMLElement",
+      "on": "fn(eventName: string, handler: fn(instance: CodeMirror.Editor))",
+      "off": "fn(eventName: string, handler: fn(instance: CodeMirror.Editor))"
+    },
+    "EditorFromTextArea": {
+      "save": "fn()",
+      "toTextArea": "fn()",
+      "getTextArea": "fn() -> HTMLTextAreaElement"
+    },
+    "Doc": {
+      "!type": "fn(text: string, mode?: ?, firstLineNumber?: number)",
+      "prototype": {
+        "getValue": "fn(seperator?: string) -> string",
+        "setValue": "fn(content: string)",
+        "getRange": "fn(from: Position, to: CodeMirror.Position, seperator?: string) -> string",
+        "replaceRange": "fn(replacement: string, from: CodeMirror.Position, to: CodeMirror.Position)",
+        "getLine": "fn(n: number) -> string",
+        "setLine": "fn(n: number, text: string)",
+        "removeLine": "fn(n: number)",
+        "lineCount": "fn() -> number",
+        "firstLine": "fn() -> number",
+        "lastLine": "fn() -> number",
+        "getLineHandle": "fn(num: number) -> CodeMirror.LineHandle",
+        "getLineNumber": "fn(handle: CodeMirror.LineHandle) -> number",
+        "eachLine": "fn(f: fn(line: CodeMirror.LineHandle))",
+        "markClean": "fn()",
+        "isClean": "fn() -> bool",
+        "getSelection": "fn() -> string",
+        "replaceSelection": "fn(replacement: string, collapse?: string)",
+        "getCursor": "fn(start?: string) -> CodeMirror.Position",
+        "somethingSelected": "fn() -> bool",
+        "setCursor": "fn(pos: CodeMirror.Position)",
+        "setSelection": "fn(anchor: CodeMirror.Position, head: CodeMirror.Position)",
+        "extendSelection": "fn(from: CodeMirror.Position, to?: CodeMirror.Position)",
+        "setExtending": "fn(value: bool)",
+        "getEditor": "fn() -> CodeMirror.Editor",
+        "copy": "fn(copyHistory: bool) -> CodeMirror.Doc",
+        "linkedDoc": "fn(options: [object Object]) -> CodeMirror.Doc",
+        "unlinkDoc": "fn(doc: CodeMirror.Doc)",
+        "iterLinkedDocs": "fn(fn: fn(doc: CodeMirror.Doc, sharedHist: bool))",
+        "undo": "fn()",
+        "redo": "fn()",
+        "historySize": "fn() -> ret9",
+        "clearHistory": "fn()",
+        "getHistory": "fn() -> ?",
+        "setHistory": "fn(history: ?)",
+        "markText": "fn(from: CodeMirror.Position, to: CodeMirror.Position, options?: CodeMirror.TextMarkerOptions) -> TextMarker",
+        "setBookmark": "fn(pos: CodeMirror.Position, options?: [object Object]) -> CodeMirror.TextMarker",
+        "findMarksAt": "fn(pos: CodeMirror.Position) -> [TextMarker]",
+        "getAllMarks": "fn() -> [CodeMirror.TextMarker]",
+        "getMode": "fn() -> ?",
+        "posFromIndex": "fn(index: number) -> CodeMirror.Position",
+        "indexFromPos": "fn(object: CodeMirror.Position) -> number"
+      }
+    },
+    "LineHandle": {
+      "text": "string"
+    },
+    "TextMarker": {
+      "clear": "fn()",
+      "find": "fn() -> CodeMirror.Position",
+      "getOptions": "fn(copyWidget: bool) -> CodeMirror.TextMarkerOptions"
+    },
+    "LineWidget": {
+      "clear": "fn()",
+      "changed": "fn()"
+    },
+    "EditorChange": {
+      "from": "CodeMirror.Position",
+      "to": "CodeMirror.Position",
+      "text": "[string]",
+      "removed": "string"
+    },
+    "EditorChangeLinkedList": {
+      "next": "CodeMirror.EditorChangeLinkedList"
+    },
+    "EditorChangeCancellable": {
+      "update": "fn(from?: CodeMirror.Position, to?: CodeMirror.Position, text?: string)",
+      "cancel": "fn()"
+    },
+    "Position": {
+      "ch": "number",
+      "line": "number"
+    },
+    "EditorConfiguration": {
+      "value": "?",
+      "mode": "?",
+      "theme": "string",
+      "indentUnit": "number",
+      "smartIndent": "bool",
+      "tabSize": "number",
+      "indentWithTabs": "bool",
+      "electricChars": "bool",
+      "rtlMoveVisually": "bool",
+      "keyMap": "string",
+      "extraKeys": "?",
+      "lineWrapping": "bool",
+      "lineNumbers": "bool",
+      "firstLineNumber": "number",
+      "lineNumberFormatter": "fn(line: number)",
+      "gutters": "[string]",
+      "fixedGutter": "bool",
+      "readOnly": "?",
+      "showCursorWhenSelecting": "bool",
+      "undoDepth": "number",
+      "historyEventDelay": "number",
+      "tabindex": "number",
+      "autofocus": "bool",
+      "dragDrop": "bool",
+      "onDragEvent": "fn(instance: CodeMirror.Editor, event: Event)",
+      "onKeyEvent": "fn(instance: CodeMirror.Editor, event: Event)",
+      "cursorBlinkRate": "number",
+      "cursorHeight": "number",
+      "workTime": "number",
+      "workDelay": "number",
+      "pollInterval": "number",
+      "flattenSpans": "bool",
+      "maxHighlightLength": "number",
+      "viewportMargin": "number"
+    },
+    "TextMarkerOptions": {
+      "className": "string",
+      "inclusiveLeft": "bool",
+      "inclusiveRight": "bool",
+      "atomic": "bool",
+      "collapsed": "bool",
+      "clearOnEnter": "bool",
+      "replacedWith": "HTMLElement",
+      "readOnly": "bool",
+      "addToHistory": "bool",
+      "startStyle": "string",
+      "endStyle": "string",
+      "shared": "bool"
+    },
+    "StringStream": {
+      "lastColumnPos": "number",
+      "lastColumnValue": "number",
+      "lineStart": "number",
+      "pos": "number",
+      "start": "number",
+      "string": "string",
+      "tabSize": "number",
+      "eol": "fn() -> bool",
+      "sol": "fn() -> bool",
+      "peek": "fn() -> string",
+      "next": "fn() -> string",
+      "eat": "fn(match: string) -> string",
+      "eatWhile": "fn(match: string) -> bool",
+      "eatSpace": "fn() -> bool",
+      "skipToEnd": "fn()",
+      "skipTo": "fn(ch: string) -> bool",
+      "match": "fn(pattern: string, consume?: bool, caseFold?: bool) -> bool",
+      "backUp": "fn(n: number)",
+      "column": "fn() -> number",
+      "indentation": "fn() -> number",
+      "current": "fn() -> string"
+    },
+    "!type": "fn(host: HTMLElement, options?: CodeMirror.EditorConfiguration) -> CodeMirror.Editor"
+  },
+  "!name": "codemirror.d.ts",
+  "!define": {
+    "ret": {
+      "line": "number",
+      "ch": "number",
+      "hitSide": "bool"
+    },
+    "ret1": {
+      "line": "number",
+      "ch": "number",
+      "hitSide": "bool"
+    },
+    "ret2": {
+      "line": "?",
+      "handle": "?",
+      "text": "string",
+      "gutterMarks": "?",
+      "textClass": "string",
+      "bgClass": "string",
+      "wrapClass": "string",
+      "widgets": "?"
+    },
+    "ret3": {
+      "left": "?",
+      "top": "?",
+      "width": "?",
+      "height": "?",
+      "clientWidth": "?",
+      "clientHeight": "?"
+    },
+    "ret4": {
+      "left": "number",
+      "top": "number",
+      "bottom": "number"
+    },
+    "ret5": {
+      "left": "number",
+      "top": "number",
+      "bottom": "number"
+    },
+    "ret6": {
+      "left": "number",
+      "right": "number",
+      "top": "number",
+      "bottom": "number"
+    },
+    "ret7": {
+      "from": "number",
+      "to": "number"
+    },
+    "ret8": {
+      "start": "number",
+      "end": "number",
+      "string": "string",
+      "type": "string",
+      "state": "?"
+    },
+    "ret9": {
+      "undo": "number",
+      "redo": "number"
+    }
+  }
+}

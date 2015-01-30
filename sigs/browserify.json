@@ -1,0 +1,14 @@
+{
+  "BrowserifyObject": {
+    "add": "fn(file: string) -> BrowserifyObject",
+    "require": "fn(file: string, opts?: [object Object]) -> BrowserifyObject",
+    "bundle": "fn(opts?: [object Object], cb?: fn(err: ?, src: ?)) -> NodeJS.ReadableStream",
+    "external": "fn(file: string) -> BrowserifyObject",
+    "ignore": "fn(file: string) -> BrowserifyObject",
+    "transform": "fn(tr: string) -> BrowserifyObject",
+    "plugin": "fn(plugin: string, opts?: ?) -> BrowserifyObject"
+  },
+  "Browserify": {},
+  "browserify": "browserify",
+  "!name": "browserify.d.ts"
+}

@@ -1,0 +1,74 @@
+{
+  "ModalOptions": {
+    "backdrop": "bool",
+    "keyboard": "bool",
+    "show": "bool",
+    "remote": "string"
+  },
+  "ModalOptionsBackdropString": {
+    "backdrop": "string",
+    "keyboard": "bool",
+    "show": "bool",
+    "remote": "string"
+  },
+  "ScrollSpyOptions": {
+    "offset": "number"
+  },
+  "TooltipOptions": {
+    "animation": "bool",
+    "html": "bool",
+    "placement": "?",
+    "selector": "string",
+    "title": "?",
+    "trigger": "string",
+    "delay": "?",
+    "container": "?"
+  },
+  "PopoverOptions": {
+    "animation": "bool",
+    "html": "bool",
+    "placement": "?",
+    "selector": "string",
+    "trigger": "string",
+    "title": "?",
+    "content": "?",
+    "delay": "?",
+    "container": "?"
+  },
+  "CollapseOptions": {
+    "parent": "?",
+    "toggle": "bool"
+  },
+  "CarouselOptions": {
+    "interval": "number",
+    "pause": "string"
+  },
+  "TypeaheadOptions": {
+    "source": "?",
+    "items": "number",
+    "minLength": "number",
+    "matcher": "fn(item: ?)",
+    "sorter": "fn(items: [?])",
+    "updater": "fn(item: ?)",
+    "highlighter": "fn(item: ?)"
+  },
+  "AffixOptions": {
+    "offset": "?"
+  },
+  "JQuery": {
+    "modal": "fn(options?: ModalOptions) -> JQuery",
+    "dropdown": "fn() -> JQuery",
+    "scrollspy": "fn(command: string) -> JQuery",
+    "tab": "fn() -> JQuery",
+    "tooltip": "fn(options?: TooltipOptions) -> JQuery",
+    "popover": "fn(options?: PopoverOptions) -> JQuery",
+    "alert": "fn() -> JQuery",
+    "button": "fn() -> JQuery",
+    "collapse": "fn(options?: CollapseOptions) -> JQuery",
+    "carousel": "fn(options?: CarouselOptions) -> JQuery",
+    "typeahead": "fn(options?: TypeaheadOptions) -> JQuery",
+    "affix": "fn(options?: AffixOptions) -> JQuery"
+  },
+  "bootstrap": {},
+  "!name": "bootstrap.d.ts"
+}

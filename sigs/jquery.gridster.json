@@ -1,0 +1,65 @@
+{
+  "GridsterDraggable": {
+    "items": "?",
+    "distance": "number",
+    "limit": "bool",
+    "offset_left": "number",
+    "drag": "fn(event: Event, ui: GridsterUi)",
+    "start": "fn(event: Event, ui: [object Object])",
+    "stop": "fn(event: Event, ui: [object Object])"
+  },
+  "GridsterUi": {
+    "position": {
+      "left": "number",
+      "top": "number"
+    }
+  },
+  "GridsterCollision": {
+    "on_overlap_start": "fn(data: GridsterCollisionData)",
+    "on_overlap_stop": "fn(data: GridsterCollisionData)",
+    "on_overlap": "fn(data: GridsterCollisionData)"
+  },
+  "GridsterCollisionData": {
+    "area": "number",
+    "area_coords": "GridsterCoords",
+    "region": "string",
+    "coords": "GridsterCoords",
+    "player_coords": "GridsterCoords",
+    "el": "HTMLElement"
+  },
+  "GridsterCoords": {
+    "col": "number",
+    "row": "number",
+    "size_x": "number",
+    "size_y": "number"
+  },
+  "GridsterOptions": {
+    "widget_selector": "?",
+    "widget_margins": "[number]",
+    "widget_base_dimensions": "[number]",
+    "extra_cols": "number",
+    "extra_rows": "number",
+    "min_cols": "number",
+    "max_cols": "number",
+    "min_rows": "number",
+    "max_size_x": "number",
+    "autogenerate_sytesheet": "bool",
+    "avoid_overlapped_widgets": "bool",
+    "serialize_params": "fn($w: JQuery, wgd: GridsterCoords)",
+    "collision": "GridsterCollision",
+    "draggable": "GridsterDraggable"
+  },
+  "JQuery": {
+    "gridster": "fn(el: HTMLElement, options?: GridsterOptions) -> JQuery"
+  },
+  "Gridster": {
+    "add_widget": "fn(html: string, size_x?: number, size_y?: number, col?: number, row?: number) -> JQuery",
+    "resize_widget": "fn($widget: JQuery, size_x?: number, size_y?: number, callback?: fn(size_x: number, size_y: number)) -> JQuery",
+    "remove_widget": "fn(el: HTMLElement, silent?: bool, callback?: fn(el: HTMLElement)) -> Gridster",
+    "serialize": "fn($widgets?: [HTMLElement]) -> [T]",
+    "serialize_changed": "fn() -> [T]",
+    "enable": "fn() -> Gridster",
+    "disable": "fn() -> Gridster"
+  },
+  "!name": "gridster.d.ts"
+}

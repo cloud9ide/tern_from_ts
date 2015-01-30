@@ -1,0 +1,20 @@
+{
+  "JQuery": {
+    "payment": "fn(validatorName: string)"
+  },
+  "JQueryStatic": {
+    "payment": "JQueryPayment"
+  },
+  "JQueryPayment": {
+    "validateCardNumber": "fn(cardNumber: string) -> bool",
+    "validateCardExpiry": "fn(year: string, month: string) -> bool",
+    "validateCardCVC": "fn(cvc: string, type: string) -> bool",
+    "cardType": "fn(cardNumber: string) -> string",
+    "cardExpiryVal": "fn(monthYear: string) -> JQueryPaymentExpiryInfo"
+  },
+  "JQueryPaymentExpiryInfo": {
+    "month": "number",
+    "year": "number"
+  },
+  "!name": "jquery.payment.d.ts"
+}

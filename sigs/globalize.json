@@ -1,0 +1,90 @@
+{
+  "GlobalizePercent": {
+    "pattern": "[string]",
+    "decimals": "number",
+    "groupSizes": "[number]",
+    "symbol": "string"
+  },
+  "GlobalizeCurrency": {
+    "pattern": "[string]",
+    "decimals": "number",
+    "groupSizes": "[number]",
+    "symbol": "string"
+  },
+  "GlobalizeNumberFormat": {
+    "pattern": "[string]",
+    "decimals": "string",
+    "groupSizes": "[number]",
+    "NaN": "string",
+    "negativeInfinity": "string",
+    "positiveInfinity": "string",
+    "percent": "GlobalizePercent",
+    "currency": "GlobalizeCurrency"
+  },
+  "GlobalizeEra": {
+    "name": "string",
+    "start": "?",
+    "offset": "number"
+  },
+  "GlobalizeDays": {
+    "names": "[string]",
+    "namesAbbr": "[string]",
+    "namesShort": "[string]"
+  },
+  "GlobalizeMonths": {
+    "names": "[string]",
+    "namesAbbr": "[string]"
+  },
+  "GlobalizePatterns": {
+    "d": "string",
+    "D": "string",
+    "t": "string",
+    "T": "string",
+    "f": "string",
+    "F": "string",
+    "M": "string",
+    "Y": "string",
+    "S": "string"
+  },
+  "GlobalizeCalendar": {
+    "name": "string",
+    "firstDay": "number",
+    "days": "GlobalizeDays",
+    "months": "GlobalizeMonths",
+    "AM": "[string]",
+    "PM": "[string]",
+    "eras": "[GlobalizeEra]",
+    "twoDigitYearMax": "number",
+    "patterns": "GlobalizePatterns"
+  },
+  "GlobalizeCalendars": {
+    "standard": "GlobalizeCalendar"
+  },
+  "GlobalizeCulture": {
+    "name": "string",
+    "englishName": "string",
+    "nativeName": "string",
+    "isRTL": "bool",
+    "language": "string",
+    "numberFormat": "GlobalizeNumberFormat",
+    "calendar": "GlobalizeCalendar",
+    "calendars": "GlobalizeCalendars",
+    "messages": "?"
+  },
+  "GlobalizeCultures": {},
+  "GlobalizeStatic": {
+    "cultures": "GlobalizeCultures",
+    "init": "fn(cultureSelector: string) -> GlobalizeStatic",
+    "cultureSelector": "string",
+    "culture": "fn() -> GlobalizeCulture",
+    "addCultureInfo": "fn(cultureName: string, baseCultureName: string, info: Object)",
+    "findClosestCulture": "fn(cultureSelector: string) -> GlobalizeStatic",
+    "format": "fn(value: number, format: string, cultureSelector?: string) -> string",
+    "localize": "fn(key: string, cultureSelector?: string) -> string",
+    "parseDate": "fn(value: string, format?: string, cultureSelector?: string) -> Date",
+    "parseInt": "fn(value: string, radix?: number, cultureSelector?: string) -> number",
+    "parseFloat": "fn(value: string, radix?: number, cultureSelector?: string) -> number"
+  },
+  "Globalize": "GlobalizeStatic",
+  "!name": "globalize.d.ts"
+}

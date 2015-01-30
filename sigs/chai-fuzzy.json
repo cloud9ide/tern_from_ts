@@ -1,0 +1,13 @@
+{
+  "chai": {
+    "Assert": {
+      "like": "fn(act: ?, exp: ?, msg?: string)",
+      "notLike": "fn(act: ?, exp: ?, msg?: string)",
+      "containOneLike": "fn(act: ?, exp: ?, msg?: string)",
+      "notContainOneLike": "fn(act: ?, exp: ?, msg?: string)",
+      "jsonOf": "fn(act: ?, exp: ?, msg?: string)",
+      "notJsonOf": "fn(act: ?, exp: ?, msg?: string)"
+    }
+  },
+  "!name": "chai-fuzzy.d.ts"
+}

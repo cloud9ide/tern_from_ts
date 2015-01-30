@@ -1,0 +1,481 @@
+{
+  "less": {
+    "LessError": {
+      "!type": "fn(e: Error, env: ?)",
+      "prototype": {
+        "type": "?",
+        "message": "string",
+        "filename": "string",
+        "index": "?",
+        "line": "number",
+        "callLine": "number",
+        "callExtract": "?",
+        "stack": "?",
+        "column": "?",
+        "extract": "[?]"
+      }
+    },
+    "Options": {
+      "contents": "?",
+      "rootpath": "string",
+      "files": "?",
+      "paths": "[string]",
+      "mime": "string",
+      "filename": "string",
+      "optimization": "number",
+      "dumpLineNumbers": "bool",
+      "strictImports": "?",
+      "entryPath": "string",
+      "relativeUrls": "?",
+      "errback": "fn(path: string, paths: [string], callback: Function, env: Options)",
+      "frames": "?",
+      "compress": "bool"
+    },
+    "tree": {
+      "mixin": {
+        "Call": {
+          "prototype": {}
+        },
+        "Definition": {
+          "prototype": {}
+        }
+      },
+      "functions": {
+        "rgb": "fn(r: number, g: number, b: number) -> Color",
+        "rgba": "fn(r: number, g: number, b: number, a: number) -> Color",
+        "hsl": "fn(h: number, s?: number, l?: number) -> Color",
+        "hsla": "fn(h: number, s?: number, l?: number, a?: number) -> Color",
+        "hsv": "fn(h: number, s: number, v: number) -> Color",
+        "hsva": "fn(h: number, s: number, v: number, a: number) -> Color",
+        "hue": "fn(color: Color) -> Dimension",
+        "saturation": "fn(color: Color) -> Dimension",
+        "lightness": "fn(color: Color) -> Dimension",
+        "red": "fn(color: Color) -> Dimension",
+        "green": "fn(color: Color) -> Dimension",
+        "blue": "fn(color: Color) -> Dimension",
+        "alpha": "fn(color: Color) -> Dimension",
+        "luma": "fn(color: Color) -> Dimension",
+        "saturate": "fn(color: Color, amount: IValuableNumber) -> Color",
+        "desaturate": "fn(color: Color, amount: IValuableNumber) -> Color",
+        "lighten": "fn(color: Color, amount: IValuableNumber) -> Color",
+        "darken": "fn(color: Color, amount: IValuableNumber) -> Color",
+        "fadein": "fn(color: Color, amount: IValuableNumber) -> Color",
+        "fadeout": "fn(color: Color, amount: IValuableNumber) -> Color",
+        "fade": "fn(color: Color, amount: IValuableNumber) -> Color",
+        "spin": "fn(color: Color, amount: IValuableNumber) -> Color",
+        "mix": "fn(color1: Color, color2: Color, weight: Dimension) -> Color",
+        "greyscale": "fn(color: Color) -> Color",
+        "contrast": "fn(color: Color, dark?: Color, light?: Color, threshold?: IValuableNumber) -> Color",
+        "e": "fn(str: string) -> Anonymous",
+        "escape": "fn(str: IValuableString) -> Anonymous",
+        "unit": "fn(val: IValuableNumber, unit?: ICSSable) -> Dimension",
+        "round": "fn(n: Dimension, f?: IValuableNumber) -> Dimension",
+        "ceil": "fn(n: number) -> number",
+        "floor": "fn(n: number) -> number",
+        "argb": "fn(color: Color) -> Anonymous",
+        "percentage": "fn(n: IValuableNumber) -> Dimension",
+        "color": "fn(n: Quoted) -> Color",
+        "iscolor": "fn(n: ?) -> Keyword",
+        "isnumber": "fn(n: ?) -> Keyword",
+        "isstring": "fn(n: ?) -> Keyword",
+        "iskeyword": "fn(n: ?) -> Keyword",
+        "isurl": "fn(n: ?) -> Keyword",
+        "ispixel": "fn(n: ?) -> Keyword",
+        "ispercentage": "fn(n: ?) -> Keyword",
+        "isem": "fn(n: ?) -> Keyword",
+        "multiply": "fn(color1: Color, color2: Color) -> Color",
+        "screen": "fn(color1: Color, color2: Color) -> Color",
+        "overlay": "fn(color1: Color, color2: Color) -> Color",
+        "softlight": "fn(color1: Color, color2: Color) -> Color",
+        "hardlight": "fn(color1: Color, color2: Color) -> Color",
+        "difference": "fn(color1: Color, color2: Color) -> Color",
+        "exclusion": "fn(color1: Color, color2: Color) -> Color",
+        "average": "fn(color1: Color, color2: Color) -> Color",
+        "negation": "fn(color1: Color, color2: Color) -> Color",
+        "tint": "fn(color: Color, amount: Dimension) -> Color",
+        "shade": "fn(color: Color, amount: Dimension) -> Color"
+      },
+      "colors": "?",
+      "HasDebugInfo": {
+        "debugInfo": "DebugInfo"
+      },
+      "DebugInfo": {
+        "lineNumber": "?",
+        "fileName": "string"
+      },
+      "HSL": {
+        "h": "number",
+        "s": "number",
+        "l": "number",
+        "a": "number"
+      },
+      "DebugInfoFunction": {
+        "asComment": "fn(ctx: HasDebugInfo) -> string",
+        "asMediaQuery": "fn(ctx: HasDebugInfo) -> string"
+      },
+      "RuleContainer": {},
+      "ICSSable": {
+        "toCSS": "fn(ctx?: ?, env?: Options) -> string"
+      },
+      "IEvalable": {
+        "eval": "fn(env: Options) -> IEvalable"
+      },
+      "IInjectable": {},
+      "IOperable": {
+        "operate": "fn(op: Operation, other: IOperable) -> IOperable"
+      },
+      "IComparable": {
+        "compare": "fn(x: IComparable) -> number"
+      },
+      "IColorable": {
+        "toColor": "fn() -> Color"
+      },
+      "IValuableNumber": {
+        "value": "number"
+      },
+      "IValuableString": {
+        "value": "string"
+      },
+      "Color": {
+        "!type": "fn(rgb: string, a: number)",
+        "prototype": {
+          "rgb": "[number]",
+          "alpha": "number",
+          "eval": "fn() -> Color",
+          "toCSS": "fn() -> string",
+          "operate": "fn(op: Operation, other: Color) -> Color",
+          "toHSL": "fn() -> HSL",
+          "toARGB": "fn() -> string",
+          "compare": "fn(x: Color) -> number"
+        }
+      },
+      "Directive": {
+        "!type": "fn(name: ?, value: ?)",
+        "prototype": {
+          "name": "?",
+          "value": "ICSSable",
+          "ruleset": "Ruleset",
+          "toCSS": "fn(ctx?: ?, env?: Options) -> string",
+          "eval": "fn(env: Options) -> Directive",
+          "variable": "fn(name: ?)",
+          "find": "fn()",
+          "rulesets": "fn()"
+        }
+      },
+      "Operation": {
+        "!type": "fn(op: ?, operands: ?)",
+        "prototype": {
+          "op": "string",
+          "operands": "IEvalable",
+          "eval": "fn(env: Options) -> IEvalable",
+          "operate": "fn(op: string, a: number, b: number) -> number"
+        }
+      },
+      "Dimension": {
+        "!type": "fn(value: number, unit: string)",
+        "prototype": {
+          "value": "number",
+          "unit": "string",
+          "eval": "fn() -> Dimension",
+          "toColor": "fn() -> Color",
+          "toCSS": "fn() -> string",
+          "operate": "fn(op: Operation, other: Dimension) -> Dimension",
+          "compare": "fn(other: IComparable) -> number"
+        }
+      },
+      "Keyword": {
+        "!type": "fn(value: string)",
+        "True": "Keyword",
+        "False": "Keyword",
+        "prototype": {
+          "value": "string",
+          "eval": "fn() -> Keyword",
+          "toCSS": "fn() -> string",
+          "compare": "fn(other: IComparable) -> number"
+        }
+      },
+      "Variable": {
+        "!type": "fn(name: string, index: ?, file: string)",
+        "prototype": {
+          "name": "string",
+          "index": "?",
+          "file": "string",
+          "eval": "fn(env: Options) -> IEvalable"
+        }
+      },
+      "AbstractRuleset": {
+        "prototype": {
+          "selectors": "[Selector]",
+          "rules": "[?]",
+          "strictImports": "?",
+          "eval": "fn(env: Options) -> Ruleset",
+          "evalImports": "fn(env: Options)",
+          "makeImportant": "fn() -> Ruleset",
+          "matchArgs": "fn(args: ?) -> bool",
+          "resetCache": "fn()",
+          "variables": "fn() -> RuleContainer",
+          "variable": "fn() -> Rule",
+          "rulesets": "fn() -> [Ruleset]",
+          "find": "fn(selector: Selector, self: Rule) -> [Rule]",
+          "joinSelectors": "fn(paths: [string], context: [[?]], selectors: [Selector])",
+          "joinSelector": "fn(paths: [string], context: [[?]], selector: Selector)",
+          "mergeElementsOnToSelectors": "fn(elements: [Element], selectors: [Selector])"
+        }
+      },
+      "Ruleset": {
+        "!type": "fn(selectors: [Selector], rules: [Rule], strictImports: ?)",
+        "prototype": {
+          "toCSS": "fn(context?: [[?]], env?: Options) -> string"
+        }
+      },
+      "Element": {
+        "!type": "fn(combinator: Combinator, value: ?, index: ?)",
+        "prototype": {
+          "combinator": "Combinator",
+          "value": "?",
+          "index": "?",
+          "eval": "fn(env: Options) -> Element",
+          "toCSS": "fn(env?: Options) -> string"
+        }
+      },
+      "Combinator": {
+        "!type": "fn(value: string)",
+        "prototype": {
+          "value": "string",
+          "toCSS": "fn(env?: Options) -> string"
+        }
+      },
+      "Selector": {
+        "!type": "fn(elements: [Element])",
+        "prototype": {
+          "match": "fn(other: Selector) -> bool",
+          "eval": "fn(env: Options) -> Selector",
+          "toCSS": "fn(env?: Options) -> string"
+        }
+      },
+      "Quoted": {
+        "!type": "fn(str: string, content: string, escaped: bool, i: ?)",
+        "prototype": {
+          "escaped": "bool",
+          "value": "string",
+          "quote": "string",
+          "index": "?",
+          "toCSS": "fn() -> string",
+          "eval": "fn(env: Options) -> Quoted",
+          "compare": "fn(x: IComparable) -> number"
+        }
+      },
+      "Expression": {
+        "!type": "fn(value: [IEvalable])",
+        "prototype": {
+          "value": "[IEvalable]",
+          "eval": "fn(env: Options) -> IEvalable",
+          "toCSS": "fn(env?: Options) -> string"
+        }
+      },
+      "Rule": {
+        "!type": "fn(name: string, value?: Value, important?: string, index?: ?, inline?: bool)",
+        "prototype": {
+          "name": "string",
+          "value": "Value",
+          "important": "string",
+          "index": "?",
+          "inline": "bool",
+          "toCSS": "fn(env?: Options) -> string",
+          "eval": "fn(context: ?) -> Rule",
+          "makeImportant": "fn() -> Rule"
+        }
+      },
+      "Shorthand": {
+        "!type": "fn(a: ICSSable, b: ICSSable)",
+        "prototype": {
+          "a": "ICSSable",
+          "b": "ICSSable",
+          "toCSS": "fn(env?: Options) -> string",
+          "eval": "fn() -> Shorthand"
+        }
+      },
+      "Call": {
+        "!type": "fn(name: string, args: [IEvalable], index: ?, filename: string)",
+        "prototype": {
+          "name": "string",
+          "args": "[IEvalable]",
+          "index": "?",
+          "filename": "string",
+          "eval": "fn(env: Options) -> IEvalable",
+          "toCSS": "fn(env?: Options) -> string"
+        }
+      },
+      "URL": {
+        "!type": "fn(val: ?, rootpath: string)",
+        "prototype": {
+          "value": "?",
+          "rootpath": "string",
+          "toCSS": "fn() -> string",
+          "eval": "fn(ctx: ?) -> URL"
+        }
+      },
+      "Alpha": {
+        "!type": "fn(val: ?)",
+        "prototype": {
+          "value": "?",
+          "toCSS": "fn() -> string",
+          "eval": "fn(env: Options) -> Alpha"
+        }
+      },
+      "Import": {
+        "!type": "fn(path: ?, imports: ?, features: ICSSable, once: bool, index: ?, rootpath: ?)",
+        "prototype": {
+          "once": "bool",
+          "index": "?",
+          "features": "ICSSable",
+          "rootpath": "?",
+          "path": "string",
+          "css": "bool",
+          "toCSS": "fn(env?: Options) -> string",
+          "eval": "fn(env: Options) -> IEvalable"
+        }
+      },
+      "Comment": {
+        "!type": "fn(value: string, silent: ?)",
+        "prototype": {
+          "value": "string",
+          "silent": "bool",
+          "toCSS": "fn(env?: Options) -> string",
+          "eval": "fn() -> Comment"
+        }
+      },
+      "Anonymous": {
+        "!type": "fn(value: string)",
+        "prototype": {
+          "value": "string",
+          "toCSS": "fn() -> string",
+          "eval": "fn() -> Anonymous",
+          "compare": "fn(x: ?) -> number"
+        }
+      },
+      "Value": {
+        "!type": "fn(value: [IEvalable])",
+        "prototype": {
+          "value": "[IEvalable]",
+          "is": "string",
+          "eval": "fn(env: Options) -> IEvalable",
+          "toCSS": "fn(env?: Options) -> string"
+        }
+      },
+      "JavaScript": {
+        "!type": "fn(expression: string, index: ?, escaped: bool)",
+        "prototype": {
+          "escaped": "bool",
+          "expression": "string",
+          "index": "?",
+          "eval": "fn(env: Options) -> IEvalable"
+        }
+      },
+      "Assignment": {
+        "!type": "fn(key: string, val: ?)",
+        "prototype": {
+          "key": "string",
+          "value": "?",
+          "toCSS": "fn() -> string",
+          "eval": "fn(env: Options) -> Assignment"
+        }
+      },
+      "Condition": {
+        "!type": "fn(op: string, l: ?, r: ?, i: ?, negate: bool)",
+        "prototype": {
+          "op": "string",
+          "lvalue": "?",
+          "rvalue": "?",
+          "index": "?",
+          "negate": "bool",
+          "eval": "fn(env: Options) -> bool"
+        }
+      },
+      "Paren": {
+        "!type": "fn(node: IInjectable)",
+        "prototype": {
+          "value": "IInjectable",
+          "toCSS": "fn(env?: Options) -> string",
+          "eval": "fn(env: Options) -> Paren"
+        }
+      },
+      "Media": {
+        "!type": "fn(value: ?, features: ?)",
+        "prototype": {
+          "selectors": "[Selector]",
+          "features": "Value",
+          "ruleset": "Ruleset",
+          "toCSS": "fn(ctx?: ?, env?: Options) -> string",
+          "eval": "fn(env: Options) -> IEvalable",
+          "variable": "fn(name: ?) -> Rule",
+          "rulesets": "fn() -> [Ruleset]",
+          "find": "fn(selector: Selector, self: Rule) -> [Rule]",
+          "emptySelectors": "fn() -> [Selector]",
+          "evalTop": "fn(env: Options) -> IEvalable",
+          "evalNested": "fn(env: Options) -> Ruleset",
+          "permute": "fn(arr: [?]) -> [?]",
+          "bubbleSelectors": "fn(selectors: [Selector])"
+        }
+      },
+      "Ratio": {
+        "!type": "fn(value: string)",
+        "prototype": {
+          "value": "string",
+          "toCSS": "fn(env?: Options) -> string",
+          "eval": "fn() -> Ratio"
+        }
+      },
+      "UnicodeDescriptor": {
+        "!type": "fn(value: string)",
+        "prototype": {
+          "value": "string",
+          "toCSS": "fn(env?: Options) -> string",
+          "eval": "fn() -> UnicodeDescriptor"
+        }
+      },
+      "Attribute": {
+        "!type": "fn(value: string)",
+        "prototype": {
+          "value": "string",
+          "toCSS": "fn(env?: Options) -> string",
+          "genCSS": "fn(env: Options, output: ?) -> string",
+          "eval": "fn() -> Attribute"
+        }
+      },
+      "debugInfo": "DebugInfoFunction",
+      "find": "fn(obj: [?], fun: Function) -> ?",
+      "jsify": "fn(obj: ?) -> string",
+      "operate": "fn(op: string, a: number, b: number) -> number",
+      "True": "Keyword",
+      "False": "Keyword"
+    },
+    "ParserNode": {
+      "prototype": {
+        "toCSS": "fn() -> string"
+      }
+    },
+    "Parser": {
+      "!type": "fn(env?: Options)",
+      "prototype": {
+        "imports": {
+          "paths": "[string]",
+          "queue": "[string]",
+          "files": "?",
+          "contents": "?",
+          "mime": "string",
+          "error": "?",
+          "push": "fn(path: string, callback: fn(e: ?, root: ?, imported: ?))"
+        },
+        "parse": "fn(str: string, callback: fn(error: LessError, root: ParserNode))",
+        "parsers": {}
+      }
+    },
+    "render": "fn(input: string, callback: fn(e: ?, css: string))",
+    "formatError": "fn(ctx: ?, options: [object Object]) -> string",
+    "writeError": "fn(ctx: ?, options: [object Object])",
+    "version": "[number]",
+    "!type": "less"
+  },
+  "!name": "less.d.ts"
+}

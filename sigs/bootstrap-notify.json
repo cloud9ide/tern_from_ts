@@ -1,0 +1,27 @@
+{
+  "NotifyOptions": {
+    "type": "string",
+    "closable": "bool",
+    "transition": "string",
+    "fadeOut": "NotifyFadeOutSettings",
+    "message": "MessageOptions",
+    "onClose": "fn()",
+    "onClosed": "fn()"
+  },
+  "NotifyFadeOutSettings": {
+    "enabled": "bool",
+    "delay": "number"
+  },
+  "MessageOptions": {
+    "html": "string",
+    "text": "string"
+  },
+  "Notification": {
+    "show": "fn()",
+    "hide": "fn()"
+  },
+  "JQuery": {
+    "notify": "fn(options: NotifyOptions) -> Notification"
+  },
+  "!name": "bootstrap-notify.d.ts"
+}

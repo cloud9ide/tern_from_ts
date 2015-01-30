@@ -1,0 +1,68 @@
+{
+  "OrbitOptions": {
+    "animation": "string",
+    "animationSpeed": "number",
+    "timer": "bool",
+    "resetTimerOnClick": "bool",
+    "advanceSpeed": "number",
+    "pauseOnHover": "bool",
+    "startClockOnMouseOut": "bool",
+    "startClockOnMouseOutAfter": "number",
+    "directionalNav": "number",
+    "captions": "number",
+    "captionAnimation": "string",
+    "captionAnimationSpeed": "number",
+    "bullets": "bool",
+    "bulletThumbs": "bool",
+    "bulletThumbLocation": "string",
+    "afterSlideChange": "fn()",
+    "fluid": "bool"
+  },
+  "RevealOptions": {
+    "animation": "string",
+    "animationSpeed": "number",
+    "closeOnBackgroundClick": "bool",
+    "dismissModalClass": "string",
+    "bgClass": "string",
+    "open": "fn()",
+    "opened": "fn()",
+    "close": "fn()",
+    "closed": "fn()",
+    "bg": "JQuery",
+    "css": {
+      "open": {
+        "opacity": "number",
+        "visibility": "string",
+        "display": "string"
+      },
+      "close": {
+        "opacity": "number",
+        "visibility": "string",
+        "display": "string"
+      }
+    }
+  },
+  "JoyrideOptions": {
+    "tipLocation": "string",
+    "nubPosition": "string",
+    "scrollSpeed": "number",
+    "timer": "number",
+    "startTimerOnClick": "bool",
+    "nextButton": "bool",
+    "tipAnimation": "string",
+    "pauseAfter": "[number]",
+    "tipAnimationFadeSpeed": "number",
+    "cookieMonster": "bool",
+    "cookieName": "string",
+    "cookieDomain": "bool",
+    "tipContainer": "string",
+    "postRideCallback": "fn()",
+    "postStepCallback": "fn()"
+  },
+  "JQuery": {
+    "orbit": "fn() -> JQuery",
+    "reveal": "fn() -> JQuery",
+    "joyride": "fn() -> JQuery"
+  },
+  "!name": "foundation.d.ts"
+}

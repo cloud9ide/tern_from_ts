@@ -1,0 +1,77 @@
+{
+  "Backgrid": {
+    "GridOptions": {
+      "columns": "[Column]",
+      "collection": "?",
+      "header": "Header",
+      "body": "Body",
+      "row": "Row",
+      "footer": "Footer"
+    },
+    "Header": {
+      "prototype": {}
+    },
+    "Footer": {
+      "prototype": {}
+    },
+    "Row": {
+      "prototype": {}
+    },
+    "Command": {
+      "prototype": {
+        "cancel": "fn()",
+        "moveDown": "fn()",
+        "moveLeft": "fn()",
+        "moveRight": "fn()",
+        "moveUp": "fn()",
+        "passThru": "fn()",
+        "save": "fn()"
+      }
+    },
+    "ColumnAttr": {
+      "name": "string",
+      "cell": "string",
+      "headerCell": "string",
+      "label": "string",
+      "sortable": "bool",
+      "editable": "bool",
+      "renderable": "bool",
+      "formater": "string"
+    },
+    "Column": {
+      "prototype": {
+        "initialize": "fn(options?: ?)"
+      }
+    },
+    "Body": {
+      "prototype": {
+        "tagName": "string",
+        "initialize": "fn(options?: ?)",
+        "insertRow": "fn(model: Backbone.Model, collection: ?, options: ?)",
+        "moveToNextCell": "fn(model: Backbone.Model, cell: Column, command: Command)",
+        "refresh": "fn() -> Body",
+        "remove": "fn() -> Body",
+        "removeRow": "fn(model: Backbone.Model, collection: ?, options: ?)",
+        "render": "fn() -> Body"
+      }
+    },
+    "Grid": {
+      "prototype": {
+        "body": "Backgrid.Body",
+        "className": "string",
+        "footer": "?",
+        "header": "?",
+        "tagName": "string",
+        "initialize": "fn(options: ?)",
+        "getSelectedModels": "fn() -> [Backbone.Model]",
+        "insertColumn": "fn(options: [?]) -> Grid",
+        "insertRow": "fn(model: Backbone.Model, collection: ?, options: ?)",
+        "remove": "fn() -> Grid",
+        "removeColumn": "fn(options: [?]) -> Grid",
+        "removeRow": "fn(model: Backbone.Model, collection: ?, options: ?)",
+        "render": "fn() -> Grid"
+      }
+    }
+  },
+  "!name": "backgrid.d.ts"
+}

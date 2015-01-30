@@ -1,0 +1,23 @@
+{
+  "Dagre": {
+    "DagreFactory": {
+      "graphlib": "GraphLib",
+      "layout": "fn(graph: Graph)"
+    },
+    "Graph": {
+      "edges": "fn() -> [string]",
+      "edge": "fn(id: string) -> ?",
+      "nodes": "fn() -> [string]",
+      "node": "fn(id: string) -> ?",
+      "setDefaultEdgeLabel": "fn(callback: fn())",
+      "setEdge": "fn(sourceId: string, targetId: string)",
+      "setGraph": "fn(options: [object Object])",
+      "setNode": "fn(id: string, node: [object Object])"
+    },
+    "GraphLib": {
+      "Graph": "Graph"
+    }
+  },
+  "dagre": "Dagre.DagreFactory",
+  "!name": "dagre.d.ts"
+}

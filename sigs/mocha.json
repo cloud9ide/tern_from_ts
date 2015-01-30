@@ -1,0 +1,44 @@
+{
+  "Mocha": {
+    "setup": "fn(options: MochaSetupOptions) -> Mocha",
+    "run": "fn(callback?: fn())",
+    "reporter": "fn(reporter: fn()) -> Mocha",
+    "growl": "fn() -> Mocha"
+  },
+  "MochaSetupOptions": {
+    "slow": "number",
+    "timeout": "number",
+    "ui": "string",
+    "globals": "[?]",
+    "reporter": "?",
+    "bail": "Boolean",
+    "ignoreLeaks": "Boolean",
+    "grep": "?"
+  },
+  "MochaDone": {},
+  "mocha": "Mocha",
+  "describe": {
+    "only": "fn(description: string, spec: fn())",
+    "skip": "fn(description: string, spec: fn())",
+    "timeout": "fn(ms: number)"
+  },
+  "context": {
+    "only": "fn(contextTitle: string, spec: fn())",
+    "skip": "fn(contextTitle: string, spec: fn())",
+    "timeout": "fn(ms: number)"
+  },
+  "it": {
+    "only": "fn(expectation: string, assertion?: fn())",
+    "skip": "fn(expectation: string, assertion?: fn())",
+    "timeout": "fn(ms: number)"
+  },
+  "before": "fn(action: fn())",
+  "setup": "fn(action: fn())",
+  "after": "fn(action: fn())",
+  "teardown": "fn(action: fn())",
+  "beforeEach": "fn(action: fn())",
+  "suiteSetup": "fn(action: fn())",
+  "afterEach": "fn(action: fn())",
+  "suiteTeardown": "fn(action: fn())",
+  "!name": "mocha.d.ts"
+}

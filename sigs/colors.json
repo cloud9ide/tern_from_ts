@@ -1,0 +1,33 @@
+{
+  "colors": {
+    "setTheme": "fn(theme: ?) -> ?",
+    "black": "fn(text: string) -> string",
+    "red": "fn(text: string) -> string",
+    "green": "fn(text: string) -> string",
+    "yellow": "fn(text: string) -> string",
+    "blue": "fn(text: string) -> string",
+    "magenta": "fn(text: string) -> string",
+    "cyan": "fn(text: string) -> string",
+    "white": "fn(text: string) -> string",
+    "gray": "fn(text: string) -> string",
+    "grey": "fn(text: string) -> string"
+  },
+  "String": {
+    "bold": "string",
+    "italic": "string",
+    "underline": "string",
+    "inverse": "string",
+    "yellow": "string",
+    "cyan": "string",
+    "white": "string",
+    "magenta": "string",
+    "green": "string",
+    "red": "string",
+    "grey": "string",
+    "blue": "string",
+    "rainbow": "string",
+    "zebra": "string",
+    "random": "string"
+  },
+  "!name": "colors.d.ts"
+}

@@ -1,0 +1,70 @@
+{
+  "FBInitParams": {
+    "appId": "string",
+    "authResponse": "string",
+    "cookie": "bool",
+    "frictionlessRequests": "bool",
+    "hideFlashCallback": "Function",
+    "logging": "bool",
+    "status": "bool",
+    "version": "string",
+    "xfbml": "bool"
+  },
+  "FBUIParams": {
+    "method": "string"
+  },
+  "FBLoginOptions": {
+    "auth_type": "string",
+    "scopes": "string",
+    "return_scopes": "bool",
+    "enable_profile_selector": "bool",
+    "profile_selector_ids": "string"
+  },
+  "FBSDKEvents": {
+    "subscribe": "fn(event: string, callback: fn(fbResponseObject: Object))",
+    "unsubscribe": "fn(event: string, callback: fn(fbResponseObject: Object))"
+  },
+  "FBSDKXFBML": {
+    "parse": "fn(ParseElement?: Element)"
+  },
+  "FBSDKCanvasPrefetcher": {
+    "addStaticResource": "fn(res: string)",
+    "setCollectionMode": "fn(option: string)"
+  },
+  "FBSDKCanvasSize": {
+    "height": "Number",
+    "width": "Number"
+  },
+  "FBSDKCanvasDoneLoading": {
+    "time_delta_ms": "Number"
+  },
+  "FBSDKCanvas": {
+    "Prefetcher": "FBSDKCanvasPrefetcher",
+    "hideFlashElement": "fn(element: Element)",
+    "showFlashElement": "fn(element: Element)",
+    "scrollTo": "fn(x: Number, y: Number)",
+    "setAutoGrow": "fn(stopTimer: bool)",
+    "setSize": "fn(canvasSizeOptions: FBSDKCanvasSize)",
+    "setUrlHandler": "fn(handler?: Function) -> string",
+    "setDoneLoading": "fn(handler?: Function) -> FBSDKCanvasDoneLoading",
+    "startTimer": "fn()",
+    "stopTimer": "fn(handler?: fn(fbResponseObject: Object))"
+  },
+  "FBSDK": {
+    "init": "fn(fbInitObject: FBInitParams)",
+    "api": "fn(path: string, method: string, callback: fn(fbResponseObject: Object)) -> Object",
+    "ui": "fn(params: FBUIParams, handler: fn(fbResponseObject: Object))",
+    "getLoginStatus": "fn(handler: Function, force?: Boolean)",
+    "login": "fn(handler: fn(fbResponseObject: Object), params?: FBLoginOptions)",
+    "logout": "fn(handler: fn(fbResponseObject: Object))",
+    "getAuthResponse": "fn() -> Object",
+    "Event": "FBSDKEvents",
+    "XFBML": "FBSDKXFBML",
+    "Canvas": "FBSDKCanvas"
+  },
+  "Window": {
+    "fbAsyncInit": "fn() -> ?"
+  },
+  "FB": "FB",
+  "!name": "fbsdk.d.ts"
+}

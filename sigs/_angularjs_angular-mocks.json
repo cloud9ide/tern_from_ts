@@ -1,0 +1,62 @@
+{
+  "module": "fn(modules: [?])",
+  "inject": "fn(fns: [Function])",
+  "ng": {
+    "IAngularStatic": {
+      "mock": "IMockStatic"
+    },
+    "IMockStatic": {
+      "dump": "fn(obj: ?) -> string",
+      "inject": "fn(fns: [Function]) -> ?",
+      "module": "fn(modules: [?]) -> ?",
+      "TzDate": "fn(offset: number, timestamp: number) -> Date"
+    },
+    "IExceptionHandlerProvider": {
+      "mode": "fn(mode: string)"
+    },
+    "ITimeoutService": {
+      "flush": "fn(delay?: number)",
+      "flushNext": "fn(expectedDelay?: number)",
+      "verifyNoPendingTasks": "fn()"
+    },
+    "IIntervalService": {
+      "flush": "fn(millis?: number) -> number"
+    },
+    "ILogService": {
+      "assertEmpty": "fn()",
+      "reset": "fn()"
+    },
+    "ILogCall": {
+      "logs": "[string]"
+    },
+    "IHttpBackendService": {
+      "flush": "fn(count?: number)",
+      "resetExpectations": "fn()",
+      "verifyNoOutstandingExpectation": "fn()",
+      "verifyNoOutstandingRequest": "fn()",
+      "expect": "fn(method: string, url: string, data?: string, headers?: Object) -> mock.IRequestHandler",
+      "expectDELETE": "fn(url: string, headers?: Object) -> mock.IRequestHandler",
+      "expectGET": "fn(url: string, headers?: Object) -> mock.IRequestHandler",
+      "expectHEAD": "fn(url: string, headers?: Object) -> mock.IRequestHandler",
+      "expectJSONP": "fn(url: string) -> mock.IRequestHandler",
+      "expectPATCH": "fn(url: string, data?: string, headers?: Object) -> mock.IRequestHandler",
+      "expectPOST": "fn(url: string, data?: string, headers?: Object) -> mock.IRequestHandler",
+      "expectPUT": "fn(url: string, data?: string, headers?: Object) -> mock.IRequestHandler",
+      "when": "fn(method: string, url: string, data?: string, headers?: Object) -> mock.IRequestHandler",
+      "whenDELETE": "fn(url: string, headers?: Object) -> mock.IRequestHandler",
+      "whenGET": "fn(url: string, headers?: Object) -> mock.IRequestHandler",
+      "whenHEAD": "fn(url: string, headers?: Object) -> mock.IRequestHandler",
+      "whenJSONP": "fn(url: string) -> mock.IRequestHandler",
+      "whenPATCH": "fn(url: string, data?: string, headers?: Object) -> mock.IRequestHandler",
+      "whenPOST": "fn(url: string, data?: string, headers?: Object) -> mock.IRequestHandler",
+      "whenPUT": "fn(url: string, data?: string, headers?: Object) -> mock.IRequestHandler"
+    },
+    "mock": {
+      "IRequestHandler": {
+        "respond": "fn(func: Function)",
+        "passThrough": "fn()"
+      }
+    }
+  },
+  "!name": "angular-mocks.d.ts"
+}

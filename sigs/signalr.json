@@ -1,0 +1,81 @@
+{
+  "HubMethod": {},
+  "SignalREvents": {
+    "onStart": "string",
+    "onStarting": "string",
+    "onReceived": "string",
+    "onError": "string",
+    "onConnectionSlow": "string",
+    "onReconnect": "string",
+    "onStateChanged": "string",
+    "onDisconnect": "string"
+  },
+  "SignalRStateChange": {
+    "oldState": "number",
+    "newState": "number"
+  },
+  "SignalR": {
+    "events": "SignalREvents",
+    "connectionState": "?",
+    "transports": "?",
+    "hub": "HubConnection",
+    "id": "string",
+    "logging": "bool",
+    "messageId": "string",
+    "url": "string",
+    "qs": "?",
+    "state": "number",
+    "hubConnection": "fn(url?: string) -> SignalR",
+    "log": "fn(msg: string, logging: bool)",
+    "isCrossDomain": "fn(url: string) -> bool",
+    "changeState": "fn(connection: SignalR, expectedState: number, newState: number) -> bool",
+    "isDisconnecting": "fn(connection: SignalR) -> bool",
+    "start": "fn() -> ?",
+    "send": "fn(data: string)",
+    "stop": "fn(async?: bool, notifyServer?: bool)",
+    "starting": "fn(handler: fn()) -> SignalR",
+    "received": "fn(handler: fn(data: ?)) -> SignalR",
+    "error": "fn(handler: fn(error: string)) -> SignalR",
+    "stateChanged": "fn(handler: fn(change: SignalRStateChange)) -> SignalR",
+    "disconnected": "fn(handler: fn()) -> SignalR",
+    "connectionSlow": "fn(handler: fn()) -> SignalR",
+    "sending": "fn(handler: fn()) -> SignalR",
+    "reconnecting": "fn(handler: fn()) -> SignalR",
+    "reconnected": "fn(handler: fn()) -> SignalR"
+  },
+  "HubProxy": {
+    "state": "?",
+    "connection": "HubConnection",
+    "hubName": "string",
+    "init": "fn(connection: HubConnection, hubName: string)",
+    "hasSubscriptions": "fn() -> bool",
+    "on": "fn(eventName: string, callback: fn(msg: [?])) -> HubProxy",
+    "off": "fn(eventName: string, callback: fn(msg: ?)) -> HubProxy",
+    "invoke": "fn(methodName: string, args: [?]) -> ?"
+  },
+  "HubConnectionSettings": {
+    "queryString": "string",
+    "logging": "bool",
+    "useDefaultPath": "bool"
+  },
+  "HubConnection": {
+    "proxies": "?",
+    "received": "fn(callback: fn(data: [object Object])) -> HubConnection",
+    "createHubProxy": "fn(hubName: string) -> HubProxy"
+  },
+  "SignalRfn": {
+    "init": "fn(url: ?, qs: ?, logging: ?) -> ?"
+  },
+  "ConnectionSettings": {
+    "transport": "?",
+    "callback": "?",
+    "waitForPageLoad": "bool",
+    "jsonp": "bool"
+  },
+  "JQueryStatic": {
+    "signalR": "SignalR",
+    "connection": "SignalR",
+    "hubConnection": "fn(url?: string, queryString?: ?, logging?: bool) -> HubConnection"
+  },
+  "!name": "signalr.d.ts"
+}

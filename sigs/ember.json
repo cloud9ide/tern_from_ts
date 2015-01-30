@@ -1,0 +1,2069 @@
+{
+  "Handlebars": "HandlebarsStatic",
+  "EmberStates": {
+    "Transition": {
+      "abort": "fn()",
+      "addInitialStates": "fn()",
+      "matchContextsToStates": "fn(contexts: [?])",
+      "normalize": "fn(manager: Ember.StateManager, contexts: [?])",
+      "removeUnchangedContexts": "fn(manager: Ember.StateManager)",
+      "retry": "fn()",
+      "sendEvents": "fn(eventName: string, sendRecursiveArguments: bool, isUnhandledPass: bool)",
+      "sendRecursively": "fn(event: string, currentState: Ember.State, isUnhandledPass: bool)",
+      "targetName": "string"
+    }
+  },
+  "EmberTesting": {
+    "Test": {
+      "Adapter": {
+        "prototype": {
+          "asyncEnd": "fn()",
+          "asyncStart": "fn()",
+          "exception": "fn(error: string)"
+        }
+      },
+      "QUnitAdapter": {
+        "prototype": {}
+      }
+    }
+  },
+  "Function": {
+    "observes": "fn(args: [string]) -> Function",
+    "observesBefore": "fn(args: [string]) -> Function",
+    "on": "fn(args: [string]) -> Function",
+    "property": "fn(args: [string]) -> Function"
+  },
+  "String": {
+    "camelize": "fn() -> string",
+    "capitalize": "fn() -> string",
+    "classify": "fn() -> string",
+    "dasherize": "fn() -> string",
+    "decamelize": "fn() -> string",
+    "fmt": "fn(args: [string]) -> string",
+    "htmlSafe": "fn() -> Handlebars.SafeString",
+    "loc": "fn(args: [string]) -> string",
+    "underscore": "fn() -> string",
+    "w": "fn() -> [string]"
+  },
+  "Array": {
+    "activate": "fn()",
+    "addArrayObserver": "fn(target: ?, opts?: EnumerableConfigurationOptions) -> [?]",
+    "addEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+    "any": "fn(callback: Function, target?: ?) -> bool",
+    "anyBy": "fn(key: string, value?: string) -> bool",
+    "arrayContentDidChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+    "arrayContentWillChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+    "someProperty": "fn(key: string, value?: ?) -> bool",
+    "clear": "fn() -> [?]",
+    "compact": "fn() -> [?]",
+    "contains": "fn(obj: ?) -> bool",
+    "enumerableContentDidChange": "fn(start: number, removing: number, adding: number) -> ?",
+    "enumerableContentWillChange": "fn(removing: number, adding: number) -> [?]",
+    "every": "fn(callback: Function, target?: ?) -> bool",
+    "everyBy": "fn(key: string, value?: string) -> bool",
+    "everyProperty": "fn(key: string, value?: ?) -> bool",
+    "filter": "fn(callback: Function, target: ?) -> [?]",
+    "filterBy": "fn(key: string, value?: string) -> [?]",
+    "find": "fn(callback: Function, target: ?) -> ?",
+    "findBy": "fn(key: string, value?: string) -> ?",
+    "forEach": "fn(callback: Function, target?: ?) -> ?",
+    "getEach": "fn(key: string) -> [?]",
+    "indexOf": "fn(object: ?, startAt: number) -> number",
+    "insertAt": "fn(idx: number, object: ?) -> [?]",
+    "invoke": "fn(methodName: string, args: [?]) -> [?]",
+    "lastIndexOf": "fn(object: ?, startAt: number) -> number",
+    "mapBy": "fn(key: string) -> [?]",
+    "nextObject": "fn(index: number, previousObject: ?, context: ?) -> ?",
+    "objectAt": "fn(idx: number) -> ?",
+    "objectsAt": "fn(args: [number]) -> [?]",
+    "popObject": "fn() -> ?",
+    "pushObject": "fn(obj: ?) -> ?",
+    "pushObjects": "fn(args: [?]) -> [?]",
+    "reduce": "fn(callback: ReduceCallback, initialValue: ?, reducerProperty: string) -> ?",
+    "reject": "ItemIndexEnumerableCallbackTarget",
+    "rejectBy": "fn(key: string, value?: string) -> [?]",
+    "removeArrayObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+    "removeAt": "fn(start: number, len: number) -> ?",
+    "removeEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+    "replace": "fn(idx: number, amt: number, objects: [?])",
+    "reverseObjects": "fn() -> [?]",
+    "setEach": "fn(key: string, value?: ?) -> ?",
+    "setObjects": "fn(objects: [?]) -> [?]",
+    "shiftObject": "fn() -> ?",
+    "slice": "fn(beginIndex?: number, endIndex?: number) -> [?]",
+    "some": "fn(callback: Function, target?: ?) -> bool",
+    "toArray": "fn() -> [?]",
+    "uniq": "fn() -> [?]",
+    "unshiftObject": "fn(object: ?) -> ?",
+    "unshiftObjects": "fn(objects: [?]) -> [?]",
+    "without": "fn(value: ?) -> [?]",
+    "'[]'": "[?]",
+    "'@each'": "Ember.EachProxy",
+    "Boolean": "bool",
+    "firstObject": "?",
+    "hasEnumerableObservers": "bool",
+    "lastObject": "?",
+    "addObject": "fn(object: ?) -> ?",
+    "addObjects": "fn(objects: Ember.Enumerable) -> [?]",
+    "removeObject": "fn(object: ?) -> ?",
+    "removeObjects": "fn(objects: Ember.Enumerable) -> [?]",
+    "addObserver": "ModifyObserver",
+    "beginPropertyChanges": "fn() -> [?]",
+    "cacheFor": "fn(keyName: string) -> ?",
+    "decrementProperty": "fn(keyName: string, decrement?: number) -> number",
+    "endPropertyChanges": "fn() -> [?]",
+    "get": "fn(keyName: string) -> ?",
+    "getProperties": "fn(args: [string]) -> ret",
+    "getWithDefault": "fn(keyName: string, defaultValue: ?) -> ?",
+    "hasObserverFor": "fn(key: string) -> bool",
+    "incrementProperty": "fn(keyName: string, increment?: number) -> number",
+    "notifyPropertyChange": "fn(keyName: string) -> [?]",
+    "propertyDidChange": "fn(keyName: string) -> [?]",
+    "propertyWillChange": "fn(keyName: string) -> [?]",
+    "removeObserver": "fn(key: string, target: ?, method: string) -> Ember.Observable",
+    "set": "fn(keyName: string, value: ?) -> [?]",
+    "setProperties": "fn(hash: [object Object]) -> [?]",
+    "toggleProperty": "fn(keyName: string) -> ?",
+    "copy": "fn(deep: bool) -> [?]",
+    "frozenCopy": "fn() -> [?]"
+  },
+  "ApplicationCreateArguments": {
+    "customEvents": {},
+    "rootElement": "string",
+    "LOG_TRANSITIONS": "bool",
+    "LOG_TRANSITIONS_INTERNAL": "bool"
+  },
+  "ApplicationInitializerArguments": {
+    "name": "string",
+    "initialize": "ApplicationInitializerFunction"
+  },
+  "ApplicationInitializerFunction": {},
+  "CoreObjectArguments": {
+    "init": "Function",
+    "willDestroy": "Function"
+  },
+  "EnumerableConfigurationOptions": {
+    "willChange": "bool",
+    "didChange": "bool"
+  },
+  "ItemIndexEnumerableCallbackTarget": {},
+  "ItemIndexEnumerableCallback": {},
+  "ReduceCallback": {},
+  "TransitionsHash": {
+    "contexts": "[?]",
+    "exitStates": "[Ember.State]",
+    "enterStates": "[Ember.State]",
+    "resolveState": "Ember.State"
+  },
+  "ActionsHash": {
+    "willTransition": "Function",
+    "error": "Function"
+  },
+  "DisconnectOutletOptions": {
+    "outlet": "string",
+    "parentView": "string"
+  },
+  "RenderOptions": {
+    "into": "string",
+    "outlet": "string",
+    "controller": "string"
+  },
+  "ModifyObserver": {},
+  "Ember": {
+    "$": "JQueryStatic",
+    "A": "fn(arr?: [?]) -> NativeArray",
+    "ActionHandlerMixin": {
+      "prototype": {
+        "send": "fn(name: string, args: [?])",
+        "actions": "ActionsHash"
+      }
+    },
+    "Application": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret2",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "initializer": "fn(arguments?: ApplicationInitializerArguments)",
+      "prototype": {
+        "advanceReadiness": "fn()",
+        "deferReadiness": "fn()",
+        "inject": "fn(factoryNameOrType: string, property: string, injectionName: string)",
+        "injectTestHelpers": "fn()",
+        "register": "fn(fullName: string, factory: Function, options?: [object Object])",
+        "removeTestHelpers": "fn()",
+        "reset": "fn()",
+        "setupForTesting": "fn()",
+        "customEvents": {},
+        "eventDispatcher": "EventDispatcher",
+        "resolver": "DefaultResolver",
+        "rootElement": "HTMLElement",
+        "ready": "Function",
+        "Router": "Router"
+      }
+    },
+    "Array": {
+      "prototype": {
+        "addArrayObserver": "fn(target: ?, opts?: EnumerableConfigurationOptions) -> [?]",
+        "addEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "any": "fn(callback: Function, target?: ?) -> bool",
+        "anyBy": "fn(key: string, value?: string) -> bool",
+        "arrayContentDidChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+        "arrayContentWillChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+        "someProperty": "fn(key: string, value?: string) -> bool",
+        "compact": "fn() -> [?]",
+        "contains": "fn(obj: ?) -> bool",
+        "enumerableContentDidChange": "fn(start: number, removing: number, adding: number) -> ?",
+        "enumerableContentWillChange": "fn(removing: number, adding: number) -> Enumerable",
+        "every": "fn(callback: Function, target?: ?) -> bool",
+        "everyBy": "fn(key: string, value?: string) -> bool",
+        "everyProperty": "fn(key: string, value?: string) -> bool",
+        "filter": "fn(callback: Function, target: ?) -> [?]",
+        "filterBy": "fn(key: string, value?: string) -> [?]",
+        "find": "fn(callback: Function, target: ?) -> ?",
+        "findBy": "fn(key: string, value?: string) -> ?",
+        "forEach": "fn(callback: Function, target?: ?) -> ?",
+        "getEach": "fn(key: string) -> [?]",
+        "indexOf": "fn(object: ?, startAt: number) -> number",
+        "invoke": "fn(methodName: string, args: [?]) -> [?]",
+        "lastIndexOf": "fn(object: ?, startAt: number) -> number",
+        "map": "ItemIndexEnumerableCallbackTarget",
+        "mapBy": "fn(key: string) -> [?]",
+        "nextObject": "fn(index: number, previousObject: ?, context: ?) -> ?",
+        "objectAt": "fn(idx: number) -> ?",
+        "objectsAt": "fn(args: [number]) -> [?]",
+        "reduce": "fn(callback: ReduceCallback, initialValue: ?, reducerProperty: string) -> ?",
+        "reject": "ItemIndexEnumerableCallbackTarget",
+        "rejectBy": "fn(key: string, value?: string) -> [?]",
+        "removeArrayObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+        "removeEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "setEach": "fn(key: string, value?: ?) -> ?",
+        "slice": "fn(beginIndex?: number, endIndex?: number) -> [?]",
+        "some": "fn(callback: Function, target?: ?) -> bool",
+        "toArray": "fn() -> [?]",
+        "uniq": "fn() -> Enumerable",
+        "without": "fn(value: ?) -> Enumerable",
+        "'@each'": "EachProxy",
+        "Boolean": "bool",
+        "'[]'": "[?]",
+        "firstObject": "?",
+        "hasEnumerableObservers": "bool",
+        "lastObject": "?",
+        "length": "number"
+      }
+    },
+    "ArrayController": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret3",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "lookupItemController": "fn(object: ?) -> string",
+        "arrangedContent": "?",
+        "itemController": "string",
+        "sortAscending": "bool",
+        "sortFunction": "Comparable",
+        "sortProperties": "[?]",
+        "replaceRoute": "fn(name: string, args: [?])",
+        "transitionToRoute": "fn(name: string, args: [?])",
+        "controllers": {},
+        "needs": "[string]",
+        "target": "?",
+        "model": "?",
+        "queryParams": "?",
+        "send": "fn(name: string, args: [?])",
+        "actions": {}
+      }
+    },
+    "ArrayPolyfills": {
+      "map": "Array.prototype.map",
+      "forEach": "Array.prototype.forEach",
+      "indexOf": "Array.prototype.indexOf"
+    },
+    "ArrayProxy": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret4",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "addArrayObserver": "fn(target: ?, opts?: EnumerableConfigurationOptions) -> [?]",
+        "addEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+        "any": "fn(callback: Function, target?: ?) -> bool",
+        "anyBy": "fn(key: string, value?: string) -> bool",
+        "arrayContentDidChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+        "arrayContentWillChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+        "someProperty": "fn(key: string, value?: string) -> bool",
+        "clear": "fn() -> [?]",
+        "compact": "fn() -> [?]",
+        "contains": "fn(obj: ?) -> bool",
+        "enumerableContentDidChange": "fn(start: number, removing: number, adding: number) -> ?",
+        "enumerableContentWillChange": "fn(removing: number, adding: number) -> [?]",
+        "every": "fn(callback: Function, target?: ?) -> bool",
+        "everyBy": "fn(key: string, value?: string) -> bool",
+        "everyProperty": "fn(key: string, value?: string) -> bool",
+        "filter": "fn(callback: Function, target: ?) -> [?]",
+        "filterBy": "fn(key: string, value?: string) -> [?]",
+        "find": "fn(callback: Function, target: ?) -> ?",
+        "findBy": "fn(key: string, value?: string) -> ?",
+        "forEach": "fn(callback: Function, target?: ?) -> ?",
+        "getEach": "fn(key: string) -> [?]",
+        "indexOf": "fn(object: ?, startAt: number) -> number",
+        "insertAt": "fn(idx: number, object: ?) -> [?]",
+        "invoke": "fn(methodName: string, args: [?]) -> [?]",
+        "lastIndexOf": "fn(object: ?, startAt: number) -> number",
+        "map": "ItemIndexEnumerableCallbackTarget",
+        "mapBy": "fn(key: string) -> [?]",
+        "nextObject": "fn(index: number, previousObject: ?, context: ?) -> ?",
+        "objectAt": "fn(idx: number) -> ?",
+        "objectAtContent": "fn(idx: number) -> ?",
+        "objectsAt": "fn(args: [number]) -> [?]",
+        "popObject": "fn() -> ?",
+        "pushObject": "fn(obj: ?) -> ?",
+        "pushObjects": "fn(args: [?]) -> [?]",
+        "reduce": "fn(callback: ReduceCallback, initialValue: ?, reducerProperty: string) -> ?",
+        "reject": "ItemIndexEnumerableCallbackTarget",
+        "rejectBy": "fn(key: string, value?: string) -> [?]",
+        "removeArrayObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+        "removeAt": "fn(start: number, len: number) -> ?",
+        "removeEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+        "replace": "fn(idx: number, amt: number, objects: [?]) -> ?",
+        "replaceContent": "fn(idx: number, amt: number, objects: [?])",
+        "reverseObjects": "fn() -> [?]",
+        "setEach": "fn(key: string, value?: ?) -> ?",
+        "setObjects": "fn(objects: [?]) -> [?]",
+        "shiftObject": "fn() -> ?",
+        "slice": "fn(beginIndex?: number, endIndex?: number) -> [?]",
+        "some": "fn(callback: Function, target?: ?) -> bool",
+        "toArray": "fn() -> [?]",
+        "uniq": "fn() -> [?]",
+        "unshiftObject": "fn(object: ?) -> ?",
+        "unshiftObjects": "fn(objects: [?]) -> [?]",
+        "without": "fn(value: ?) -> [?]",
+        "'[]'": "[?]",
+        "'@each'": "EachProxy",
+        "Boolean": "bool",
+        "firstObject": "?",
+        "hasEnumerableObservers": "bool",
+        "lastObject": "?",
+        "length": "number",
+        "addObject": "fn(object: ?) -> ?",
+        "addObjects": "fn(objects: Enumerable) -> [?]",
+        "removeObject": "fn(object: ?) -> ?",
+        "removeObjects": "fn(objects: Enumerable) -> [?]"
+      }
+    },
+    "BOOTED": "bool",
+    "Binding": {
+      "!type": "fn(toPath: string, fromPath: string)",
+      "oneWay": "fn(from: string, flag?: bool) -> Binding",
+      "prototype": {
+        "connect": "fn(obj: ?) -> Binding",
+        "copy": "fn() -> Binding",
+        "disconnect": "fn(obj: ?) -> Binding",
+        "from": "fn(path: string) -> Binding",
+        "to": "fn(path: string) -> Binding"
+      }
+    },
+    "Button": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret5",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "triggerAction": "fn(opts: [object Object]) -> bool"
+      }
+    },
+    "Checkbox": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret6",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {}
+    },
+    "CollectionView": {
+      "CONTAINER_MAP": {},
+      "prototype": {
+        "arrayDidChange": "fn(content: [?], start: number, removed: number, added: number)",
+        "arrayWillChange": "fn(content: [?], start: number, removed: number)",
+        "createChildView": "fn(viewClass: [object Object], attrs?: [object Object]) -> CollectionView",
+        "destroy": "fn() -> CollectionView",
+        "init": "fn()",
+        "content": "[?]",
+        "emptyView": "View",
+        "itemViewClass": "View"
+      }
+    },
+    "Comparable": {
+      "prototype": {
+        "compare": "fn(a: ?, b: ?) -> number"
+      }
+    },
+    "Component": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret7",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "sendAction": "fn(action: string, context: ?)",
+        "targetObject": "Controller"
+      }
+    },
+    "ComputedProperty": {
+      "prototype": {
+        "cacheable": "fn(aFlag?: bool) -> ComputedProperty",
+        "get": "fn(keyName: string) -> ?",
+        "meta": "fn(meta: [object Object]) -> ComputedProperty",
+        "property": "fn(args: [string]) -> ComputedProperty",
+        "readOnly": "fn() -> ComputedProperty",
+        "set": "fn(keyName: string, newValue: ?, oldValue: string) -> ?",
+        "volatile": "fn() -> ComputedProperty"
+      }
+    },
+    "Container": {
+      "!type": "fn(parent: Container)",
+      "prototype": {
+        "parent": "Container",
+        "children": "[?]",
+        "resolver": "Function",
+        "registry": {},
+        "cache": {},
+        "typeInjections": {},
+        "injections": {},
+        "child": "fn() -> Container",
+        "set": "fn(object: [object Object], key: string, value: ?)",
+        "register": "fn(fullName: string, factory: Function, options?: [object Object])",
+        "unregister": "fn(fullName: string)",
+        "resolve": "fn(fullName: string) -> Function",
+        "describe": "fn(fullName: string) -> string",
+        "normalize": "fn(fullName: string) -> string",
+        "makeToString": "fn(factory: ?, fullName: string) -> Function",
+        "lookup": "fn(fullName: string, options?: [object Object]) -> ?",
+        "lookupFactory": "fn(fullName: string) -> ?",
+        "has": "fn(fullName: string) -> bool",
+        "optionsForType": "fn(type: string, options: [object Object])",
+        "options": "fn(type: string, options: [object Object])",
+        "injection": "fn(factoryName: string, property: string, injectionName: string)",
+        "factoryInjection": "fn(factoryName: string, property: string, injectionName: string)",
+        "destroy": "fn()",
+        "reset": "fn()"
+      }
+    },
+    "ContainerView": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret8",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {}
+    },
+    "Controller": {
+      "prototype": {
+        "replaceRoute": "fn(name: string, args: [?])",
+        "transitionToRoute": "fn(name: string, args: [?])",
+        "controllers": {},
+        "model": "?",
+        "needs": "[string]",
+        "queryParams": "?",
+        "target": "?",
+        "send": "fn(name: string, args: [?])",
+        "actions": "ActionsHash"
+      }
+    },
+    "ControllerMixin": {
+      "prototype": {
+        "replaceRoute": "fn(name: string, args: [?])",
+        "transitionToRoute": "fn(name: string, args: [?])",
+        "controllers": {},
+        "model": "?",
+        "needs": "[string]",
+        "queryParams": "?",
+        "target": "?"
+      }
+    },
+    "Copyable": {
+      "prototype": {
+        "copy": "fn(deep: bool) -> Copyable",
+        "frozenCopy": "fn() -> Copyable"
+      }
+    },
+    "CoreObject": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret9",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "destroy": "fn() -> CoreObject",
+        "init": "fn()",
+        "willDestroy": "fn()",
+        "concatenatedProperties": "[?]",
+        "isDestroyed": "bool",
+        "isDestroying": "bool"
+      }
+    },
+    "CoreView": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret10",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "send": "fn(name: string, args: [?])",
+        "actions": "ActionsHash",
+        "parentView": "CoreView"
+      }
+    },
+    "DAG": {
+      "prototype": {
+        "add": "fn(name: string) -> ?",
+        "map": "fn(name: string, value: ?)",
+        "addEdge": "fn(fromName: string, toName: string)",
+        "topsort": "fn(fn: Function)",
+        "addEdges": "fn(name: string, value: ?, before: ?, after: ?)",
+        "names": "[?]",
+        "vertices": {}
+      }
+    },
+    "DEFAULT_GETTER_FUNCTION": "fn(name: string) -> Function",
+    "DefaultResolver": {
+      "prototype": {
+        "resolve": "fn(fullName: string) -> ret11",
+        "namespace": "Application"
+      }
+    },
+    "Deferred": {
+      "prototype": {
+        "reject": "fn(value: ?)",
+        "resolve": "fn(value: ?)",
+        "then": "fn(resolve: Function, reject: Function)"
+      }
+    },
+    "DeferredMixin": {
+      "prototype": {
+        "reject": "fn(value: ?)",
+        "resolve": "fn(value: ?)",
+        "then": "fn(resolve: Function, reject: Function)"
+      }
+    },
+    "Descriptor": {
+      "prototype": {}
+    },
+    "EMPTY_META": {},
+    "ENV": {},
+    "EXTEND_PROTOTYPES": "bool",
+    "EachProxy": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret12",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "unknownProperty": "fn(keyName: string, value: ?) -> [?]"
+      }
+    },
+    "Enumerable": {
+      "prototype": {
+        "addEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "any": "fn(callback: Function, target?: ?) -> bool",
+        "anyBy": "fn(key: string, value?: string) -> bool",
+        "someProperty": "fn(key: string, value?: string) -> bool",
+        "compact": "fn() -> [?]",
+        "contains": "fn(obj: ?) -> bool",
+        "enumerableContentDidChange": "fn(start: number, removing: number, adding: number) -> ?",
+        "enumerableContentWillChange": "fn(removing: number, adding: number) -> Enumerable",
+        "every": "fn(callback: Function, target?: ?) -> bool",
+        "everyBy": "fn(key: string, value?: string) -> bool",
+        "everyProperty": "fn(key: string, value?: string) -> bool",
+        "filter": "fn(callback: Function, target: ?) -> [?]",
+        "filterBy": "fn(key: string, value?: string) -> [?]",
+        "find": "fn(callback: Function, target: ?) -> ?",
+        "findBy": "fn(key: string, value?: string) -> ?",
+        "forEach": "fn(callback: Function, target?: ?) -> ?",
+        "getEach": "fn(key: string) -> [?]",
+        "invoke": "fn(methodName: string, args: [?]) -> [?]",
+        "map": "ItemIndexEnumerableCallbackTarget",
+        "mapBy": "fn(key: string) -> [?]",
+        "nextObject": "fn(index: number, previousObject: ?, context: ?) -> ?",
+        "reduce": "fn(callback: ReduceCallback, initialValue: ?, reducerProperty: string) -> ?",
+        "reject": "ItemIndexEnumerableCallbackTarget",
+        "rejectBy": "fn(key: string, value?: string) -> [?]",
+        "removeEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "setEach": "fn(key: string, value?: ?) -> ?",
+        "some": "fn(callback: Function, target?: ?) -> bool",
+        "toArray": "fn() -> [?]",
+        "uniq": "fn() -> Enumerable",
+        "without": "fn(value: ?) -> Enumerable",
+        "'[]'": "[?]",
+        "firstObject": "?",
+        "hasEnumerableObservers": "bool",
+        "lastObject": "?"
+      }
+    },
+    "EnumerableUtils": {},
+    "Error": "Error",
+    "EventDispatcher": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret13",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "events": {}
+      }
+    },
+    "Evented": {
+      "prototype": {
+        "has": "fn(name: string) -> bool",
+        "off": "fn(name: string, target: ?, method: Function) -> Evented",
+        "on": "fn(name: string, target: ?, method: Function) -> Evented",
+        "one": "fn(name: string, target: ?, method: Function) -> Evented",
+        "trigger": "fn(name: string, args: [string])"
+      }
+    },
+    "FROZEN_ERROR": "string",
+    "Freezable": {
+      "prototype": {
+        "freeze": "fn() -> Freezable",
+        "isFrozen": "bool"
+      }
+    },
+    "GUID_KEY": "string",
+    "Handlebars": {
+      "compile": "fn(string: string) -> Function",
+      "get": "fn(root: ?, path: string, options?: [object Object]) -> ?",
+      "helper": "fn(name: string, func: Function, dependentKeys: string)",
+      "helpers": {
+        "prototype": {
+          "action": "fn(actionName: string, context: ?, options?: [object Object])",
+          "bindAttr": "fn(options?: [object Object]) -> string",
+          "connectOutlet": "fn(outletName: string, view: [object Object])",
+          "control": "fn(path: string, modelPath: string, options?: [object Object]) -> string",
+          "debugger": "fn(property: string)",
+          "disconnectOutlet": "fn(outletName: string)",
+          "each": "fn(name: string, path: string, options?: [object Object])",
+          "if": "fn(context: Function, options?: [object Object]) -> string",
+          "init": "fn()",
+          "input": "fn(options?: [object Object])",
+          "linkTo": "fn(routeName: string, context: ?, options?: [object Object]) -> string",
+          "loc": "fn(str: string)",
+          "log": "fn(property: string)",
+          "outlet": "fn(property: string) -> string",
+          "partial": "fn(partialName: string)",
+          "render": "fn(name: string, context?: string, options?: [object Object]) -> string",
+          "textarea": "fn(options?: [object Object])",
+          "unbound": "fn(property: string) -> string",
+          "unless": "fn(context: Function, options?: [object Object]) -> string",
+          "view": "fn(path: string, options?: [object Object]) -> string",
+          "with": "fn(context: Function, options?: [object Object]) -> string",
+          "yield": "fn(options?: [object Object]) -> string"
+        }
+      },
+      "precompile": "fn(string: string)",
+      "registerBoundHelper": "fn(name: string, func: Function, dependentKeys?: string)",
+      "Compiler": {
+        "prototype": {}
+      },
+      "JavaScriptCompiler": {
+        "prototype": {}
+      },
+      "registerHelper": "fn(name: string, fn: Function, inverse?: bool)",
+      "registerPartial": "fn(name: string, str: ?)",
+      "K": "fn() -> ?",
+      "createFrame": "fn(objec: ?) -> ?",
+      "Exception": "fn(message: string)",
+      "SafeString": {
+        "!type": "fn(str: string)",
+        "prototype": {}
+      },
+      "parse": "fn(string: string) -> ?",
+      "print": "fn(ast: ?)",
+      "logger": "Ember.Logger",
+      "log": "fn(level: string, str: string)"
+    },
+    "HashLocation": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret14",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {}
+    },
+    "HistoryLocation": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret15",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "rootURL": "string"
+      }
+    },
+    "IS_BINDING": "RegExp",
+    "Instrumentation": {
+      "prototype": {
+        "getProperties": "fn(obj: ?, list: [?]) -> ret16",
+        "instrument": "fn(name: string, payload: ?, callback: Function, binding: ?)",
+        "reset": "fn()",
+        "subscribe": "fn(pattern: string, object: ?)",
+        "unsubscribe": "fn(subscriber: ?)"
+      }
+    },
+    "K": "Function",
+    "LOG_BINDINGS": "bool",
+    "LOG_STACKTRACE_ON_DEPRECATION": "bool",
+    "LOG_VERSION": "bool",
+    "LinkView": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret18",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "init": "fn()",
+        "active": "?",
+        "activeClass": "string",
+        "attributeBindings": "?",
+        "classNameBindings": "[string]",
+        "disabled": "?",
+        "disabledClass": "string",
+        "eventName": "string",
+        "href": "?",
+        "loading": "?",
+        "loadingClass": "string",
+        "loadingHref": "string",
+        "rel": "?",
+        "replace": "bool",
+        "title": "?",
+        "click": "Function"
+      }
+    },
+    "Location": {
+      "prototype": {
+        "create": "fn(options?: [object Object]) -> ?",
+        "registerImplementation": "fn(name: string, implementation: ?)"
+      }
+    },
+    "Logger": {
+      "assert": "fn(param: ?)",
+      "debug": "fn(args: [?])",
+      "error": "fn(args: [?])",
+      "info": "fn(args: [?])",
+      "log": "fn(args: [?])",
+      "warn": "fn(args: [?])"
+    },
+    "MANDATORY_SETTER_FUNCTION": "fn(value: string)",
+    "META_KEY": "string",
+    "Map": {
+      "create": "fn() -> Map",
+      "prototype": {
+        "copy": "fn() -> Map",
+        "forEach": "fn(callback: Function, self: ?)",
+        "get": "fn(key: ?) -> ?",
+        "has": "fn(key: ?) -> bool",
+        "remove": "fn(key: ?) -> bool",
+        "set": "fn(key: ?, value: ?)",
+        "length": "number"
+      }
+    },
+    "MapWithDefault": {
+      "create": "fn() -> MapWithDefault",
+      "prototype": {
+        "copy": "fn() -> MapWithDefault"
+      }
+    },
+    "Mixin": {
+      "create": "fn(arguments?: [object Object]) -> T",
+      "prototype": {
+        "apply": "fn(obj: ?) -> ?",
+        "detect": "fn(obj: ?) -> bool",
+        "reopen": "fn(arguments?: [object Object]) -> T"
+      }
+    },
+    "MutableArray": {
+      "prototype": {
+        "addArrayObserver": "fn(target: ?, opts?: EnumerableConfigurationOptions) -> [?]",
+        "addEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "any": "fn(callback: Function, target?: ?) -> bool",
+        "anyBy": "fn(key: string, value?: string) -> bool",
+        "arrayContentDidChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+        "arrayContentWillChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+        "someProperty": "fn(key: string, value?: string) -> bool",
+        "clear": "fn() -> [?]",
+        "compact": "fn() -> [?]",
+        "contains": "fn(obj: ?) -> bool",
+        "enumerableContentDidChange": "fn(start: number, removing: number, adding: number) -> ?",
+        "enumerableContentWillChange": "fn(removing: number, adding: number) -> Enumerable",
+        "every": "fn(callback: Function, target?: ?) -> bool",
+        "everyBy": "fn(key: string, value?: string) -> bool",
+        "everyProperty": "fn(key: string, value?: string) -> bool",
+        "filter": "fn(callback: Function, target: ?) -> [?]",
+        "filterBy": "fn(key: string, value?: string) -> [?]",
+        "find": "fn(callback: Function, target: ?) -> ?",
+        "findBy": "fn(key: string, value?: string) -> ?",
+        "forEach": "fn(callback: Function, target?: ?) -> ?",
+        "getEach": "fn(key: string) -> [?]",
+        "indexOf": "fn(object: ?, startAt: number) -> number",
+        "insertAt": "fn(idx: number, object: ?) -> [?]",
+        "invoke": "fn(methodName: string, args: [?]) -> [?]",
+        "lastIndexOf": "fn(object: ?, startAt: number) -> number",
+        "map": "ItemIndexEnumerableCallbackTarget",
+        "mapBy": "fn(key: string) -> [?]",
+        "nextObject": "fn(index: number, previousObject: ?, context: ?) -> ?",
+        "objectAt": "fn(idx: number) -> ?",
+        "objectsAt": "fn(args: [number]) -> [?]",
+        "popObject": "fn() -> ?",
+        "pushObject": "fn(obj: ?) -> ?",
+        "pushObjects": "fn(args: [?]) -> [?]",
+        "reduce": "fn(callback: ReduceCallback, initialValue: ?, reducerProperty: string) -> ?",
+        "reject": "ItemIndexEnumerableCallbackTarget",
+        "rejectBy": "fn(key: string, value?: string) -> [?]",
+        "removeArrayObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+        "removeAt": "fn(start: number, len: number) -> ?",
+        "removeEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "replace": "fn(idx: number, amt: number, objects: [?]) -> ?",
+        "reverseObjects": "fn() -> [?]",
+        "setEach": "fn(key: string, value?: ?) -> ?",
+        "setObjects": "fn(objects: [?]) -> [?]",
+        "shiftObject": "fn() -> ?",
+        "slice": "fn(beginIndex?: number, endIndex?: number) -> [?]",
+        "some": "fn(callback: Function, target?: ?) -> bool",
+        "toArray": "fn() -> [?]",
+        "uniq": "fn() -> Enumerable",
+        "unshiftObject": "fn(object: ?) -> ?",
+        "unshiftObjects": "fn(objects: [?]) -> [?]",
+        "without": "fn(value: ?) -> Enumerable",
+        "'[]'": "[?]",
+        "'@each'": "EachProxy",
+        "Boolean": "bool",
+        "firstObject": "?",
+        "hasEnumerableObservers": "bool",
+        "lastObject": "?",
+        "length": "number",
+        "addObject": "fn(object: ?) -> ?",
+        "addObjects": "fn(objects: Enumerable) -> MutableEnumberable",
+        "removeObject": "fn(object: ?) -> ?",
+        "removeObjects": "fn(objects: Enumerable) -> MutableEnumberable"
+      }
+    },
+    "MutableEnumberable": {
+      "prototype": {
+        "addEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "addObject": "fn(object: ?) -> ?",
+        "addObjects": "fn(objects: Enumerable) -> MutableEnumberable",
+        "any": "fn(callback: Function, target?: ?) -> bool",
+        "anyBy": "fn(key: string, value?: string) -> bool",
+        "someProperty": "fn(key: string, value?: string) -> bool",
+        "compact": "fn() -> [?]",
+        "contains": "fn(obj: ?) -> bool",
+        "enumerableContentDidChange": "fn(start: number, removing: number, adding: number) -> ?",
+        "enumerableContentWillChange": "fn(removing: number, adding: number) -> Enumerable",
+        "every": "fn(callback: Function, target?: ?) -> bool",
+        "everyBy": "fn(key: string, value?: string) -> bool",
+        "everyProperty": "fn(key: string, value?: string) -> bool",
+        "filter": "fn(callback: Function, target: ?) -> [?]",
+        "filterBy": "fn(key: string, value?: string) -> [?]",
+        "find": "fn(callback: Function, target: ?) -> ?",
+        "findBy": "fn(key: string, value?: string) -> ?",
+        "forEach": "fn(callback: Function, target?: ?) -> ?",
+        "getEach": "fn(key: string) -> [?]",
+        "invoke": "fn(methodName: string, args: [?]) -> [?]",
+        "map": "ItemIndexEnumerableCallbackTarget",
+        "mapBy": "fn(key: string) -> [?]",
+        "nextObject": "fn(index: number, previousObject: ?, context: ?) -> ?",
+        "reduce": "fn(callback: ReduceCallback, initialValue: ?, reducerProperty: string) -> ?",
+        "reject": "ItemIndexEnumerableCallbackTarget",
+        "rejectBy": "fn(key: string, value?: string) -> [?]",
+        "removeEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "removeObject": "fn(object: ?) -> ?",
+        "removeObjects": "fn(objects: Enumerable) -> MutableEnumberable",
+        "setEach": "fn(key: string, value?: ?) -> ?",
+        "some": "fn(callback: Function, target?: ?) -> bool",
+        "toArray": "fn() -> [?]",
+        "uniq": "fn() -> Enumerable",
+        "without": "fn(value: ?) -> Enumerable",
+        "'[]'": "[?]",
+        "firstObject": "?",
+        "hasEnumerableObservers": "bool",
+        "lastObject": "?"
+      }
+    },
+    "NAME_KEY": "string",
+    "Namespace": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret19",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {}
+    },
+    "NativeArray": {
+      "!type": "fn(arr: [?])",
+      "activate": "fn()",
+      "prototype": {
+        "addArrayObserver": "fn(target: ?, opts?: EnumerableConfigurationOptions) -> [?]",
+        "addEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+        "any": "fn(callback: Function, target?: ?) -> bool",
+        "anyBy": "fn(key: string, value?: string) -> bool",
+        "arrayContentDidChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+        "arrayContentWillChange": "fn(startIdx: number, removeAmt: number, addAmt: number) -> [?]",
+        "someProperty": "fn(key: string, value?: ?) -> bool",
+        "clear": "fn() -> [?]",
+        "compact": "fn() -> [?]",
+        "contains": "fn(obj: ?) -> bool",
+        "enumerableContentDidChange": "fn(start: number, removing: number, adding: number) -> ?",
+        "enumerableContentWillChange": "fn(removing: number, adding: number) -> [?]",
+        "every": "fn(callback: Function, target?: ?) -> bool",
+        "everyBy": "fn(key: string, value?: string) -> bool",
+        "everyProperty": "fn(key: string, value?: ?) -> bool",
+        "filter": "fn(callback: Function, target: ?) -> [?]",
+        "filterBy": "fn(key: string, value?: string) -> [?]",
+        "find": "fn(callback: Function, target: ?) -> ?",
+        "findBy": "fn(key: string, value?: string) -> ?",
+        "forEach": "fn(callback: Function, target?: ?) -> ?",
+        "getEach": "fn(key: string) -> [?]",
+        "indexOf": "fn(object: ?, startAt: number) -> number",
+        "insertAt": "fn(idx: number, object: ?) -> [?]",
+        "invoke": "fn(methodName: string, args: [?]) -> [?]",
+        "lastIndexOf": "fn(object: ?, startAt: number) -> number",
+        "map": "ItemIndexEnumerableCallbackTarget",
+        "mapBy": "fn(key: string) -> [?]",
+        "nextObject": "fn(index: number, previousObject: ?, context: ?) -> ?",
+        "objectAt": "fn(idx: number) -> ?",
+        "objectsAt": "fn(args: [number]) -> [?]",
+        "popObject": "fn() -> ?",
+        "pushObject": "fn(obj: ?) -> ?",
+        "pushObjects": "fn(args: [?]) -> [?]",
+        "reduce": "fn(callback: ReduceCallback, initialValue: ?, reducerProperty: string) -> ?",
+        "reject": "ItemIndexEnumerableCallbackTarget",
+        "rejectBy": "fn(key: string, value?: string) -> [?]",
+        "removeArrayObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+        "removeAt": "fn(start: number, len: number) -> ?",
+        "removeEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> [?]",
+        "replace": "fn(idx: number, amt: number, objects: [?]) -> ?",
+        "reverseObjects": "fn() -> [?]",
+        "setEach": "fn(key: string, value?: ?) -> ?",
+        "setObjects": "fn(objects: [?]) -> [?]",
+        "shiftObject": "fn() -> ?",
+        "slice": "fn(beginIndex?: number, endIndex?: number) -> [?]",
+        "some": "fn(callback: Function, target?: ?) -> bool",
+        "toArray": "fn() -> [?]",
+        "uniq": "fn() -> [?]",
+        "unshiftObject": "fn(object: ?) -> ?",
+        "unshiftObjects": "fn(objects: [?]) -> [?]",
+        "without": "fn(value: ?) -> [?]",
+        "'[]'": "[?]",
+        "'@each'": "EachProxy",
+        "Boolean": "bool",
+        "firstObject": "?",
+        "hasEnumerableObservers": "bool",
+        "lastObject": "?",
+        "length": "number",
+        "addObject": "fn(object: ?) -> ?",
+        "addObjects": "fn(objects: Enumerable) -> [?]",
+        "removeObject": "fn(object: ?) -> ?",
+        "removeObjects": "fn(objects: Enumerable) -> [?]",
+        "addObserver": "ModifyObserver",
+        "beginPropertyChanges": "fn() -> [?]",
+        "cacheFor": "fn(keyName: string) -> ?",
+        "decrementProperty": "fn(keyName: string, decrement?: number) -> number",
+        "endPropertyChanges": "fn() -> [?]",
+        "get": "fn(keyName: string) -> ?",
+        "getProperties": "fn(args: [string]) -> ret20",
+        "getWithDefault": "fn(keyName: string, defaultValue: ?) -> ?",
+        "hasObserverFor": "fn(key: string) -> bool",
+        "incrementProperty": "fn(keyName: string, increment?: number) -> number",
+        "notifyPropertyChange": "fn(keyName: string) -> [?]",
+        "propertyDidChange": "fn(keyName: string) -> [?]",
+        "propertyWillChange": "fn(keyName: string) -> [?]",
+        "removeObserver": "fn(key: string, target: ?, method: string) -> Observable",
+        "set": "fn(keyName: string, value: ?) -> [?]",
+        "setProperties": "fn(hash: [object Object]) -> [?]",
+        "toggleProperty": "fn(keyName: string) -> ?",
+        "copy": "fn(deep: bool) -> [?]",
+        "frozenCopy": "fn() -> [?]"
+      }
+    },
+    "NoneLocation": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret22",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {}
+    },
+    "ORDER_DEFINITION": "[string]",
+    "Object": {
+      "extend": "fn(arguments?: CoreObjectArguments) -> T",
+      "create": "fn(arguments?: [object Object]) -> T",
+      "createWithMixins": "fn(arguments?: [object Object]) -> T",
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret23",
+      "reopen": "fn(arguments?: [object Object]) -> T",
+      "reopenClass": "fn(arguments?: [object Object]) -> T",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "addObserver": "ModifyObserver",
+        "beginPropertyChanges": "fn() -> Observable",
+        "cacheFor": "fn(keyName: string) -> ?",
+        "decrementProperty": "fn(keyName: string, decrement?: number) -> number",
+        "endPropertyChanges": "fn() -> Observable",
+        "get": "fn(keyName: string) -> ?",
+        "getProperties": "fn(args: [string]) -> ret24",
+        "getWithDefault": "fn(keyName: string, defaultValue: ?) -> ?",
+        "hasObserverFor": "fn(key: string) -> bool",
+        "incrementProperty": "fn(keyName: string, increment?: number) -> number",
+        "notifyPropertyChange": "fn(keyName: string) -> Observable",
+        "propertyDidChange": "fn(keyName: string) -> Observable",
+        "propertyWillChange": "fn(keyName: string) -> Observable",
+        "removeObserver": "fn(key: string, target: ?, method: string) -> Observable",
+        "set": "fn(keyName: string, value: ?) -> Observable",
+        "setProperties": "fn(hash: [object Object]) -> Observable",
+        "toggleProperty": "fn(keyName: string) -> ?"
+      }
+    },
+    "ObjectController": {
+      "prototype": {
+        "replaceRoute": "fn(name: string, args: [?])",
+        "transitionToRoute": "fn(name: string, args: [?])",
+        "controllers": "Object",
+        "needs": "[string]",
+        "target": "?",
+        "model": "?",
+        "queryParams": "?",
+        "send": "fn(name: string, args: [?])",
+        "actions": {}
+      }
+    },
+    "ObjectProxy": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret26",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "content": "Object"
+      }
+    },
+    "Observable": {
+      "prototype": {
+        "addObserver": "ModifyObserver",
+        "beginPropertyChanges": "fn() -> Observable",
+        "cacheFor": "fn(keyName: string) -> ?",
+        "decrementProperty": "fn(keyName: string, decrement?: number) -> number",
+        "endPropertyChanges": "fn() -> Observable",
+        "get": "fn(keyName: string) -> ?",
+        "getProperties": "fn(args: [string]) -> ret27",
+        "getWithDefault": "fn(keyName: string, defaultValue: ?) -> ?",
+        "hasObserverFor": "fn(key: string) -> bool",
+        "incrementProperty": "fn(keyName: string, increment?: number) -> number",
+        "notifyPropertyChange": "fn(keyName: string) -> Observable",
+        "propertyDidChange": "fn(keyName: string) -> Observable",
+        "propertyWillChange": "fn(keyName: string) -> Observable",
+        "removeObserver": "fn(key: string, target: [object Object], method: string) -> Observable",
+        "set": "fn(keyName: string, value: ?) -> Observable",
+        "setProperties": "fn(hash: [object Object]) -> Observable",
+        "toggleProperty": "fn(keyName: string) -> ?"
+      }
+    },
+    "OrderedSet": {
+      "create": "fn() -> OrderedSet",
+      "prototype": {
+        "add": "fn(obj: ?)",
+        "clear": "fn()",
+        "copy": "fn() -> OrderedSet",
+        "forEach": "fn(fn: Function, self: ?)",
+        "has": "fn(obj: ?) -> bool",
+        "isEmpty": "fn() -> bool",
+        "remove": "fn(obj: ?)",
+        "toArray": "fn() -> [?]"
+      }
+    },
+    "RSVP": {
+      "Promise": {
+        "!type": "fn(resolver: Function, label?: string)",
+        "prototype": {
+          "then": "fn(done?: Function, fail?: Function) -> Promise"
+        }
+      }
+    },
+    "RenderBuffer": {
+      "prototype": {
+        "addClass": "fn(className: string) -> RenderBuffer",
+        "attr": "fn(name: string, value: ?) -> ?",
+        "element": "fn() -> HTMLElement",
+        "id": "fn(id: string) -> RenderBuffer",
+        "prop": "fn(name: string, value: string) -> ?",
+        "push": "fn(string: string) -> RenderBuffer",
+        "removeAttr": "fn(name: string) -> RenderBuffer",
+        "removeProp": "fn(name: string) -> RenderBuffer",
+        "string": "fn() -> string",
+        "style": "fn(name: string, value: string) -> RenderBuffer",
+        "classes": "[?]",
+        "elementAttributes": {},
+        "elementId": "string",
+        "elementProperties": {},
+        "elementStyle": {},
+        "elementTag": "string",
+        "parentBuffer": "RenderBuffer"
+      }
+    },
+    "Route": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret29",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "activate": "Function",
+        "afterModel": "fn(resolvedModel: ?, transition: EmberStates.Transition) -> RSVP.Promise",
+        "beforeModel": "fn(transition: EmberStates.Transition) -> RSVP.Promise",
+        "controllerFor": "fn(name: string) -> Controller",
+        "deactivate": "Function",
+        "disconnectOutlet": "fn(options?: DisconnectOutletOptions)",
+        "generateController": "fn(name: string, model: [object Object])",
+        "model": "fn(params: [object Object], transition: EmberStates.Transition) -> ?",
+        "modelFor": "fn(name: string) -> ret30",
+        "render": "fn(name: string, options?: RenderOptions)",
+        "renderTemplate": "fn(controller: Controller, model: [object Object])",
+        "replaceWith": "fn(name: string, object: [?])",
+        "send": "fn(name: string, args: [?])",
+        "serialize": "fn(model: [object Object], params: [string]) -> string",
+        "setupController": "fn(controller: Controller, model: [object Object])",
+        "transitionTo": "fn(name: string, object: [?])",
+        "actions": "ActionsHash"
+      }
+    },
+    "Router": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret31",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "map": "fn(callback: Function) -> Router"
+      }
+    },
+    "RouterDSL": {
+      "prototype": {
+        "resource": "fn(name: string, options?: [object Object], callback?: Function)",
+        "route": "fn(name: string, options?: [object Object])"
+      }
+    },
+    "SHIM_ES5": "bool",
+    "STRINGS": "bool",
+    "Select": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret32",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "content": "[?]",
+        "groupView": "View",
+        "multiple": "bool",
+        "optionGroupPath": "string",
+        "optionLabelPath": "string",
+        "optionValuePath": "string",
+        "optionView": "View",
+        "prompt": "string",
+        "selection": "?",
+        "value": "string"
+      }
+    },
+    "SelectOption": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret33",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {}
+    },
+    "Set": {
+      "prototype": {
+        "addEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Set",
+        "addObject": "fn(object: ?) -> ?",
+        "addObjects": "fn(objects: Enumerable) -> Set",
+        "any": "fn(callback: Function, target?: ?) -> bool",
+        "anyBy": "fn(key: string, value?: string) -> bool",
+        "someProperty": "fn(key: string, value?: string) -> bool",
+        "compact": "fn() -> [?]",
+        "contains": "fn(obj: ?) -> bool",
+        "enumerableContentDidChange": "fn(start: number, removing: number, adding: number) -> ?",
+        "enumerableContentWillChange": "fn(removing: number, adding: number) -> Set",
+        "every": "fn(callback: Function, target?: ?) -> bool",
+        "everyBy": "fn(key: string, value?: string) -> bool",
+        "everyProperty": "fn(key: string, value?: string) -> bool",
+        "filter": "fn(callback: Function, target: ?) -> [?]",
+        "filterBy": "fn(key: string, value?: string) -> [?]",
+        "find": "fn(callback: Function, target: ?) -> ?",
+        "findBy": "fn(key: string, value?: string) -> ?",
+        "forEach": "fn(callback: Function, target?: ?) -> ?",
+        "getEach": "fn(key: string) -> [?]",
+        "invoke": "fn(methodName: string, args: [?]) -> [?]",
+        "map": "ItemIndexEnumerableCallbackTarget",
+        "mapBy": "fn(key: string) -> [?]",
+        "nextObject": "fn(index: number, previousObject: ?, context: ?) -> ?",
+        "reduce": "fn(callback: ReduceCallback, initialValue: ?, reducerProperty: string) -> ?",
+        "reject": "ItemIndexEnumerableCallbackTarget",
+        "rejectBy": "fn(key: string, value?: string) -> [?]",
+        "removeEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Set",
+        "removeObject": "fn(object: ?) -> ?",
+        "removeObjects": "fn(objects: Enumerable) -> Set",
+        "setEach": "fn(key: string, value?: ?) -> ?",
+        "some": "fn(callback: Function, target?: ?) -> bool",
+        "toArray": "fn() -> [?]",
+        "uniq": "fn() -> Set",
+        "without": "fn(value: ?) -> Set",
+        "'[]'": "[?]",
+        "firstObject": "?",
+        "hasEnumerableObservers": "bool",
+        "lastObject": "?",
+        "copy": "fn(deep: bool) -> Set",
+        "frozenCopy": "fn() -> Set",
+        "freeze": "fn() -> Set",
+        "isFrozen": "bool",
+        "add": "fn(obj: ?) -> Set",
+        "addEach": "fn(args: [?]) -> Set",
+        "clear": "fn() -> Set",
+        "isEqual": "fn(obj: Set) -> bool",
+        "pop": "fn() -> ?",
+        "push": "fn(obj: ?) -> Set",
+        "remove": "fn(obj: ?) -> Set",
+        "removeEach": "fn(args: [?]) -> Set",
+        "shift": "fn() -> ?",
+        "unshift": "fn(obj: ?) -> Set",
+        "length": "number"
+      }
+    },
+    "SortableMixin": {
+      "prototype": {
+        "addEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "addObject": "fn(object: ?) -> ?",
+        "addObjects": "fn(objects: Enumerable) -> MutableEnumberable",
+        "any": "fn(callback: Function, target?: ?) -> bool",
+        "anyBy": "fn(key: string, value?: string) -> bool",
+        "someProperty": "fn(key: string, value?: string) -> bool",
+        "compact": "fn() -> [?]",
+        "contains": "fn(obj: ?) -> bool",
+        "enumerableContentDidChange": "fn(start: number, removing: number, adding: number) -> ?",
+        "enumerableContentWillChange": "fn(removing: number, adding: number) -> Enumerable",
+        "every": "fn(callback: Function, target?: ?) -> bool",
+        "everyBy": "fn(key: string, value?: string) -> bool",
+        "everyProperty": "fn(key: string, value?: string) -> bool",
+        "filter": "fn(callback: Function, target: ?) -> [?]",
+        "filterBy": "fn(key: string, value?: string) -> [?]",
+        "find": "fn(callback: Function, target: ?) -> ?",
+        "findBy": "fn(key: string, value?: string) -> ?",
+        "forEach": "fn(callback: Function, target?: ?) -> ?",
+        "getEach": "fn(key: string) -> [?]",
+        "invoke": "fn(methodName: string, args: [?]) -> [?]",
+        "map": "ItemIndexEnumerableCallbackTarget",
+        "mapBy": "fn(key: string) -> [?]",
+        "nextObject": "fn(index: number, previousObject: ?, context: ?) -> ?",
+        "reduce": "fn(callback: ReduceCallback, initialValue: ?, reducerProperty: string) -> ?",
+        "reject": "ItemIndexEnumerableCallbackTarget",
+        "rejectBy": "fn(key: string, value?: string) -> [?]",
+        "removeEnumerableObserver": "fn(target: ?, opts: EnumerableConfigurationOptions) -> Enumerable",
+        "removeObject": "fn(object: ?) -> ?",
+        "removeObjects": "fn(objects: Enumerable) -> MutableEnumberable",
+        "setEach": "fn(key: string, value?: ?) -> ?",
+        "some": "fn(callback: Function, target?: ?) -> bool",
+        "toArray": "fn() -> [?]",
+        "uniq": "fn() -> Enumerable",
+        "without": "fn(value: ?) -> Enumerable",
+        "'[]'": "[?]",
+        "arrangedContent": "?",
+        "firstObject": "?",
+        "hasEnumerableObservers": "bool",
+        "lastObject": "?",
+        "sortAscending": "bool",
+        "sortFunction": "Comparable",
+        "sortProperties": "[?]"
+      }
+    },
+    "State": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret34",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "transitionTo": "fn(target: string)",
+      "prototype": {
+        "has": "fn(name: string) -> bool",
+        "off": "fn(name: string, target: ?, method: Function) -> State",
+        "on": "fn(name: string, target: ?, method: Function) -> State",
+        "one": "fn(name: string, target: ?, method: Function) -> State",
+        "trigger": "fn(name: string, args: [string])",
+        "getPathsCache": "fn(stateManager: [object Object], path: string) -> ret35",
+        "init": "fn()",
+        "setPathsCache": "fn(stateManager: [object Object], path: string, transitions: ?)",
+        "hasContext": "bool",
+        "isLeaf": "bool",
+        "name": "string",
+        "parentState": "State",
+        "path": "string",
+        "enter": "Function",
+        "exit": "Function",
+        "setup": "Function"
+      }
+    },
+    "StateManager": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret36",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "contextFreeTransition": "fn(currentState: State, path: string) -> TransitionsHash",
+        "enterState": "fn(transition: TransitionsHash)",
+        "getState": "fn(name: string) -> State",
+        "getStateByPath": "fn(root: State, path: string) -> State",
+        "getStateMeta": "fn(state: State, key: string) -> ?",
+        "getStatesInPath": "fn(root: State, path: string) -> [State]",
+        "goToState": "fn(path: string, context: ?)",
+        "send": "fn(event: string)",
+        "setStateMeta": "fn(state: State, key: string, value: ?) -> ?",
+        "stateMetaFor": "fn(state: State) -> ret37",
+        "transitionTo": "fn(path: string, context: ?)",
+        "triggerSetupContext": "fn(transitions: TransitionsHash)",
+        "unhandledEvent": "fn(manager: StateManager, event: string) -> ?",
+        "currentPath": "string",
+        "currentState": "State",
+        "errorOnUnhandledEvents": "bool",
+        "transitionEvent": "string"
+      }
+    },
+    "String": {
+      "camelize": "fn(str: string) -> string",
+      "capitalize": "fn(str: string) -> string",
+      "classify": "fn(str: string) -> string",
+      "dasherize": "fn(str: string) -> string",
+      "decamelize": "fn(str: string) -> string",
+      "fmt": "fn(args: [string]) -> string",
+      "htmlSafe": "fn(str: string)",
+      "loc": "fn(args: [string]) -> string",
+      "underscore": "fn(str: string) -> string",
+      "w": "fn(str: string) -> [string]"
+    },
+    "TEMPLATES": {},
+    "TargetActionSupport": {
+      "prototype": {
+        "triggerAction": "fn(opts: [object Object]) -> bool"
+      }
+    },
+    "Test": {
+      "oninjectHelpers": "fn(callback: Function)",
+      "promise": "fn(resolver: Function) -> RSVP.Promise",
+      "registerHelper": "fn(name: string, helperMethod: Function)",
+      "unregisterHelper": "fn(name: string)",
+      "adapter": "Object",
+      "prototype": {
+        "click": "fn(selector: string) -> RSVP.Promise",
+        "fillin": "fn(selector: string, text: string) -> RSVP.Promise",
+        "find": "fn(selector: string) -> JQuery",
+        "findWithAssert": "fn(selector: string) -> JQuery",
+        "injectTestHelpers": "fn()",
+        "keyEvent": "fn(selector: string, type: string, keyCode: number) -> RSVP.Promise",
+        "removeTestHelpers": "fn()",
+        "setupForTesting": "fn()",
+        "visit": "fn(url: string) -> RSVP.Promise",
+        "wait": "fn(value: ?) -> RSVP.Promise",
+        "testHelpers": {}
+      }
+    },
+    "TextArea": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret38",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "cancel": "fn(event: Function)",
+        "focusIn": "fn(event: Function)",
+        "focusOut": "fn(event: Function)",
+        "insertNewLine": "fn(event: Function)",
+        "keyPress": "fn(event: Function)",
+        "action": "string",
+        "bubbles": "bool",
+        "onEvent": "string"
+      }
+    },
+    "TextField": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret39",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "cancel": "fn(event: Function)",
+        "focusIn": "fn(event: Function)",
+        "focusOut": "fn(event: Function)",
+        "insertNewLine": "fn(event: Function)",
+        "keyPress": "fn(event: Function)",
+        "action": "string",
+        "bubbles": "bool",
+        "onEvent": "string",
+        "pattern": "string",
+        "size": "string",
+        "type": "string",
+        "value": "string"
+      }
+    },
+    "TextSupport": {
+      "prototype": {
+        "cancel": "fn(event: Function)",
+        "focusIn": "fn(event: Function)",
+        "focusOut": "fn(event: Function)",
+        "insertNewLine": "fn(event: Function)",
+        "keyPress": "fn(event: Function)",
+        "action": "string",
+        "bubbles": "bool",
+        "onEvent": "string"
+      }
+    },
+    "VERSION": "string",
+    "View": {
+      "detect": "fn(obj: ?) -> bool",
+      "detectInstance": "fn(obj: ?) -> bool",
+      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "metaForProperty": "fn(key: string) -> ret40",
+      "isClass": "bool",
+      "isMethod": "bool",
+      "prototype": {
+        "$": "fn() -> JQuery",
+        "append": "fn() -> View",
+        "appendTo": "fn(A: string) -> View",
+        "createChildView": "fn(viewClass: [object Object], attrs?: [object Object]) -> View",
+        "createElement": "fn() -> View",
+        "destroy": "fn() -> View",
+        "destroyElement": "fn() -> View",
+        "findElementInParentElement": "fn(parentElement: HTMLElement) -> HTMLElement",
+        "remove": "fn() -> View",
+        "removeAllChildren": "fn() -> View",
+        "removeChild": "fn(view: View) -> View",
+        "removeFromParent": "fn() -> View",
+        "render": "fn(buffer: RenderBuffer)",
+        "replaceIn": "fn(A: string) -> View",
+        "rerender": "fn()",
+        "ariaRole": "string",
+        "attributeBindings": "?",
+        "classNameBindings": "[string]",
+        "classNames": "[string]",
+        "context": "?",
+        "controller": "?",
+        "element": "HTMLElement",
+        "isView": "bool",
+        "isVisible": "bool",
+        "layout": "Function",
+        "layoutName": "string",
+        "nearestChildOf": "View",
+        "nearestOfType": "View",
+        "nearestWithProperty": "View",
+        "tagName": "string",
+        "template": "Function",
+        "templateName": "string",
+        "templates": {},
+        "views": {},
+        "didInsertElement": "Function",
+        "parentViewDidChange": "Function",
+        "willClearRender": "Function",
+        "willDestroyElement": "Function",
+        "willInsertElement": "Function"
+      }
+    },
+    "ViewTargetActionSupport": {
+      "prototype": {
+        "target": "?",
+        "actionContext": "?"
+      }
+    },
+    "ViewUtils": {},
+    "addBeforeObserver": "fn(obj: ?, path: string, target: ?, method: Function) -> ?",
+    "addListener": "fn(obj: ?, eventName: string, target: ?, method: Function, once?: bool)",
+    "addObserver": "ModifyObserver",
+    "alias": "deprecateFunc",
+    "aliasMethod": "fn(methodName: string) -> Descriptor",
+    "anyUnprocessedMixins": "bool",
+    "assert": "fn(desc: string, test: bool)",
+    "beforeObserver": "fn(func: Function, propertyName: string) -> Function",
+    "beforeObserversFor": "fn(obj: ?, path: string) -> [string]",
+    "beginPropertyChanges": "fn()",
+    "bind": "fn(obj: ?, to: string, from: string) -> Binding",
+    "cacheFor": "fn(obj: ?, key: string) -> ?",
+    "canInvoke": "fn(obj: ?, methodName: string) -> bool",
+    "changeProperties": "fn(callback: Function, binding?: ?)",
+    "compare": "fn(v: ?, w: ?) -> number",
+    "computed": {
+      "alias": "fn(dependentKey: string) -> ComputedProperty",
+      "and": "fn(args: [string]) -> ComputedProperty",
+      "any": "fn(args: [string]) -> ComputedProperty",
+      "bool": "fn(dependentKey: string) -> ComputedProperty",
+      "defaultTo": "fn(defaultPath: string) -> ComputedProperty",
+      "empty": "fn(dependentKey: string) -> ComputedProperty",
+      "equal": "fn(dependentKey: string, value: ?) -> ComputedProperty",
+      "gt": "fn(dependentKey: string, value: number) -> ComputedProperty",
+      "gte": "fn(dependentKey: string, value: number) -> ComputedProperty",
+      "lt": "fn(dependentKey: string, value: number) -> ComputedProperty",
+      "lte": "fn(dependentKey: string, value: number) -> ComputedProperty",
+      "map": "fn(args: [string]) -> ComputedProperty",
+      "match": "fn(dependentKey: string, regexp: RegExp) -> ComputedProperty",
+      "none": "fn(dependentKey: string) -> ComputedProperty",
+      "not": "fn(dependentKey: string) -> ComputedProperty",
+      "notEmpty": "fn(dependentKey: string) -> ComputedProperty",
+      "oneWay": "fn(dependentKey: string) -> ComputedProperty",
+      "or": "fn(args: [string]) -> ComputedProperty"
+    },
+    "config": {},
+    "controllerFor": "fn(container: Container, controllerName: string, lookupOptions?: [object Object]) -> Controller",
+    "copy": "fn(obj: ?, deep: bool) -> ?",
+    "create": "fn(arguments?: [object Object]) -> CoreObject",
+    "debug": "fn(message: string)",
+    "defineProperty": "fn(obj: ?, keyName: string, desc: [object Object])",
+    "deprecate": "fn(message: string, test?: bool)",
+    "deprecateFunc": "fn(message: string, func: Function) -> Function",
+    "destroy": "fn(obj: ?)",
+    "empty": "deprecateFunc",
+    "endPropertyChanges": "fn()",
+    "exports": {},
+    "finishChains": "fn(obj: ?)",
+    "flushPendingChains": "fn()",
+    "generateController": "fn(container: Container, controllerName: string, context: ?) -> Controller",
+    "generateGuid": "fn(obj: ?, prefix?: string) -> string",
+    "get": "fn(obj: ?, keyName: string) -> ?",
+    "getMeta": "fn(obj: ?, property: string) -> ?",
+    "getPath": "deprecateFunc",
+    "getWithDefault": "fn(root: string, key: string, defaultValue: ?) -> ?",
+    "guidFor": "fn(obj: ?) -> string",
+    "handleErrors": "fn(func: Function, context: ?) -> ?",
+    "hasListeners": "fn(context: ?, name: string) -> bool",
+    "immediateObserver": "fn(func: Function, propertyNames: [?]) -> Function",
+    "imports": {},
+    "inspect": "fn(obj: ?) -> string",
+    "instrument": "fn(name: string, payload: ?, callback: Function, binding: ?)",
+    "isArray": "fn(obj: ?) -> bool",
+    "isEmpty": "fn(obj: ?) -> bool",
+    "isEqual": "fn(a: ?, b: ?) -> bool",
+    "isGlobalPath": "fn(path: string) -> bool",
+    "isNamespace": "bool",
+    "isNone": "fn(obj: ?) -> bool",
+    "isWatching": "fn(obj: ?, key: string) -> bool",
+    "keys": "fn(obj: ?) -> [?]",
+    "listenersDiff": "fn(obj: ?, eventName: string, otherActions: [?]) -> [?]",
+    "listenersFor": "fn(obj: ?, eventName: string) -> [?]",
+    "listenersUnion": "fn(obj: ?, eventName: string, otherActions: [?])",
+    "lookup": {},
+    "makeArray": "fn(obj: ?) -> [?]",
+    "merge": "fn(original: ?, updates: ?) -> ?",
+    "meta": "fn(obj: ?, writable?: bool) -> ret41",
+    "metaPath": "fn(obj: ?, path: string, writable?: bool) -> ?",
+    "mixin": "fn(obj: ?, args: [?]) -> ?",
+    "none": "deprecateFunc",
+    "normalizeTuple": "fn(target: ?, path: string) -> [?]",
+    "observer": "fn(func: Function, args: [string]) -> Function",
+    "observersFor": "fn(obj: ?, path: string) -> [?]",
+    "onLoad": "fn(name: string, callback: Function)",
+    "oneWay": "fn(obj: ?, to: string, from: string) -> Binding",
+    "onError": "Error",
+    "overrideChains": "fn(obj: ?, keyName: string, m: ?) -> bool",
+    "platform": {
+      "addBeforeObserver": "ModifyObserver",
+      "addObserver": "ModifyObserver",
+      "defineProperty": "fn(obj: ?, keyName: string, desc: [object Object])",
+      "removeBeforeObserver": "ModifyObserver",
+      "removeObserver": "ModifyObserver",
+      "hasPropertyAccessors": "bool"
+    },
+    "propertyDidChange": "fn(obj: ?, keyName: string)",
+    "propertyWillChange": "fn(obj: ?, keyName: string)",
+    "removeBeforeObserver": "fn(obj: ?, path: string, target: ?, method: Function) -> ?",
+    "removeChainWatcher": "fn(obj: ?, keyName: string, node: ?)",
+    "removeListener": "fn(obj: ?, eventName: string, target: ?, method: Function)",
+    "removeObserver": "fn(obj: ?, path: string, target: ?, method: Function) -> ?",
+    "required": "fn() -> Descriptor",
+    "rewatch": "fn(obj: ?)",
+    "run": {
+      "begin": "fn()",
+      "cancel": "fn(timer: ?)",
+      "debounce": "fn(target: ?, method: Function, args: [?])",
+      "end": "fn()",
+      "join": "fn(target: ?, method: Function, args: [?]) -> ?",
+      "later": "fn(target: ?, method: Function, args: [?]) -> string",
+      "next": "fn(target: ?, method: Function, args: [?]) -> number",
+      "once": "fn(target: ?, method: Function, args: [?]) -> number",
+      "schedule": "fn(queue: string, target: ?, method: Function, args: [?])",
+      "scheduleOnce": "fn(queue: string, target: ?, method: Function, args: [?])",
+      "sync": "fn()",
+      "throttle": "fn(target: ?, method: Function, args: [?])",
+      "queues": "[?]"
+    },
+    "runLoadHooks": "fn(name: string, object: ?)",
+    "sendEvent": "fn(obj: ?, eventName: string, params?: [?], actions?: [?]) -> bool",
+    "set": "fn(obj: ?, keyName: string, value: ?) -> ?",
+    "setMeta": "fn(obj: ?, property: string, value: ?)",
+    "setPath": "deprecateFunc",
+    "setProperties": "fn(self: ?, hash: [object Object]) -> ?",
+    "subscribe": "fn(pattern: string, object: ?)",
+    "tryCatchFinally": "fn(tryable: Function, catchable: Function, finalizer: Function, binding?: ?) -> ?",
+    "tryFinally": "fn(tryable: Function, finalizer: Function, binding?: ?) -> ?",
+    "tryInvoke": "fn(obj: ?, methodName: string, args?: [?]) -> ?",
+    "trySet": "fn(obj: ?, path: string, value: ?)",
+    "trySetPath": "deprecateFunc",
+    "typeOf": "fn(item: ?) -> string",
+    "unwatch": "fn(obj: ?, keyPath: string)",
+    "unwatchKey": "fn(obj: ?, keyName: string)",
+    "unwatchPath": "fn(obj: ?, keyPath: string)",
+    "uuid": "number",
+    "warn": "fn(message: string, test?: bool)",
+    "watch": "fn(obj: ?, keyPath: string)",
+    "watchKey": "fn(obj: ?, keyName: string)",
+    "watchPath": "fn(obj: ?, keyPath: string)",
+    "watchedEvents": "fn(obj: [object Object]) -> [?]",
+    "wrap": "fn(func: Function, superFunc: Function) -> Function"
+  },
+  "Em": {
+    "$": "Ember.$",
+    "A": "Ember.A",
+    "ActionHandlerMixin": {
+      "prototype": {}
+    },
+    "Application": {
+      "prototype": {}
+    },
+    "Array": {
+      "prototype": {}
+    },
+    "ArrayController": {
+      "prototype": {}
+    },
+    "ArrayPolyfills": "Ember.ArrayPolyfills",
+    "ArrayProxy": {
+      "prototype": {}
+    },
+    "BOOTED": "Ember.BOOTED",
+    "Binding": {
+      "prototype": {}
+    },
+    "Button": {
+      "prototype": {}
+    },
+    "Checkbox": {
+      "prototype": {}
+    },
+    "CollectionView": {
+      "prototype": {}
+    },
+    "Comparable": {
+      "prototype": {}
+    },
+    "Component": {
+      "prototype": {}
+    },
+    "ComputedProperty": {
+      "prototype": {}
+    },
+    "Container": {
+      "prototype": {}
+    },
+    "ContainerView": {
+      "prototype": {}
+    },
+    "Controller": {
+      "prototype": {}
+    },
+    "ControllerMixin": {
+      "prototype": {}
+    },
+    "Copyable": {
+      "prototype": {}
+    },
+    "CoreObject": {
+      "prototype": {}
+    },
+    "CoreView": {
+      "prototype": {}
+    },
+    "DAG": {
+      "prototype": {}
+    },
+    "DEFAULT_GETTER_FUNCTION": "Ember.DEFAULT_GETTER_FUNCTION",
+    "DefaultResolver": {
+      "prototype": {}
+    },
+    "Deffered": {
+      "prototype": {}
+    },
+    "DeferredMixin": {
+      "prototype": {}
+    },
+    "Descriptor": {
+      "prototype": {}
+    },
+    "EMPTY_META": "Ember.EMPTY_META",
+    "ENV": "Ember.ENV",
+    "EXTEND_PROTOTYPES": "Ember.EXTEND_PROTOTYPES",
+    "EachProxy": {
+      "prototype": {}
+    },
+    "Enumerable": {
+      "prototype": {}
+    },
+    "EnumerableUtils": "Ember.EnumerableUtils",
+    "Error": "Ember.Error",
+    "EventDispatcher": {
+      "prototype": {}
+    },
+    "Evented": {
+      "prototype": {}
+    },
+    "FROZEN_ERROR": "Ember.FROZEN_ERROR",
+    "Freezable": {
+      "prototype": {}
+    },
+    "GUID_KEY": "Ember.GUID_KEY",
+    "Handlebars": {
+      "compile": "Ember.Handlebars.compile",
+      "get": "Ember.Handlebars.get",
+      "helper": "Ember.Handlebars.helper",
+      "helpers": {
+        "prototype": {}
+      },
+      "precompile": "Ember.Handlebars.precompile",
+      "registerBoundHelper": "Ember.Handlebars.registerBoundHelper",
+      "Compiler": {
+        "prototype": {}
+      },
+      "JavaScriptCompiler": {
+        "prototype": {}
+      },
+      "registerHelper": "Ember.Handlebars.registerHelper",
+      "registerPartial": "Ember.Handlebars.registerPartial",
+      "K": "Ember.Handlebars.K",
+      "createFrame": "Ember.Handlebars.createFrame",
+      "Exception": "Ember.Handlebars.Exception",
+      "SafeString": {
+        "prototype": {}
+      },
+      "parse": "Ember.Handlebars.parse",
+      "print": "Ember.Handlebars.print",
+      "logger": "Ember.Handlebars.logger",
+      "log": "Ember.Handlebars.log"
+    },
+    "HashLocation": {
+      "prototype": {}
+    },
+    "HistoryLocation": {
+      "prototype": {}
+    },
+    "IS_BINDING": "Ember.IS_BINDING",
+    "Instrumentation": {
+      "prototype": {}
+    },
+    "K": "Ember.K",
+    "LOG_BINDINGS": "Ember.LOG_BINDINGS",
+    "LOG_STACKTRACE_ON_DEPRECATION": "Ember.LOG_STACKTRACE_ON_DEPRECATION",
+    "LOG_VERSION": "Ember.LOG_VERSION",
+    "LinkView": {
+      "prototype": {}
+    },
+    "Location": {
+      "prototype": {}
+    },
+    "Logger": "Ember.Logger",
+    "MANDATORY_SETTER_FUNCTION": "Ember.MANDATORY_SETTER_FUNCTION",
+    "META_KEY": "Ember.META_KEY",
+    "Map": {
+      "prototype": {}
+    },
+    "MapWithDefault": {
+      "prototype": {}
+    },
+    "Mixin": {
+      "prototype": {}
+    },
+    "MutableArray": {
+      "prototype": {}
+    },
+    "MutableEnumerable": {
+      "prototype": {}
+    },
+    "NAME_KEY": "Ember.NAME_KEY",
+    "Namespace": {
+      "prototype": {}
+    },
+    "NativeArray": {
+      "prototype": {}
+    },
+    "NoneLocation": {
+      "prototype": {}
+    },
+    "ORDER_DEFINITION": "Ember.ORDER_DEFINITION",
+    "Object": {
+      "prototype": {}
+    },
+    "ObjectController": {
+      "prototype": {}
+    },
+    "ObjectProxy": {
+      "prototype": {}
+    },
+    "Observable": {
+      "prototype": {}
+    },
+    "OrderedSet": {
+      "prototype": {}
+    },
+    "RSVP": {
+      "Promise": {
+        "prototype": {}
+      }
+    },
+    "RenderBuffer": {
+      "prototype": {}
+    },
+    "Route": {
+      "prototype": {}
+    },
+    "Router": {
+      "prototype": {}
+    },
+    "RouterDSL": {
+      "prototype": {}
+    },
+    "SHIM_ES5": "Ember.SHIM_ES5",
+    "STRINGS": "Ember.STRINGS",
+    "Select": {
+      "prototype": {}
+    },
+    "SelectOption": {
+      "prototype": {}
+    },
+    "Set": {
+      "prototype": {}
+    },
+    "SortableMixin": {
+      "prototype": {}
+    },
+    "State": {
+      "prototype": {}
+    },
+    "StateManager": {
+      "prototype": {}
+    },
+    "String": {
+      "camelize": "Ember.String.camelize",
+      "capitalize": "Ember.String.capitalize",
+      "classify": "Ember.String.classify",
+      "dasherize": "Ember.String.dasherize",
+      "decamelize": "Ember.String.decamelize",
+      "fmt": "Ember.String.fmt",
+      "htmlSafe": "Ember.String.htmlSafe",
+      "loc": "Ember.String.loc",
+      "underscore": "Ember.String.underscore",
+      "w": "Ember.String.w"
+    },
+    "TEMPLATES": "Ember.TEMPLATES",
+    "TargetActionSupport": {
+      "prototype": {}
+    },
+    "Test": {
+      "prototype": {}
+    },
+    "TextArea": {
+      "prototype": {}
+    },
+    "TextField": {
+      "prototype": {}
+    },
+    "TextSupport": {
+      "prototype": {}
+    },
+    "VERSION": "Ember.VERSION",
+    "View": {
+      "prototype": {}
+    },
+    "ViewTargetActionSupport": {
+      "prototype": {}
+    },
+    "ViewUtils": "Ember.ViewUtils",
+    "addBeforeObserver": "Ember.addBeforeObserver",
+    "addListener": "Ember.addListener",
+    "addObserver": "Ember.addObserver",
+    "alias": "Ember.alias",
+    "aliasMethod": "Ember.aliasMethod",
+    "anyUnprocessedMixins": "Ember.anyUnprocessedMixins",
+    "assert": "Ember.assert",
+    "beforeObserver": "Ember.beforeObserver",
+    "beforeObserversFor": "Ember.beforeObserversFor",
+    "beginPropertyChanges": "Ember.beginPropertyChanges",
+    "bind": "Ember.bind",
+    "cacheFor": "Ember.cacheFor",
+    "canInvoke": "Ember.canInvoke",
+    "changeProperties": "Ember.changeProperties",
+    "compare": "Ember.compare",
+    "computed": "Ember.computed",
+    "config": "Ember.config",
+    "controllerFor": "Ember.controllerFor",
+    "copy": "Ember.copy",
+    "create": "Ember.create",
+    "debug": "Ember.debug",
+    "defineProperty": "defineProperty",
+    "deprecate": "deprecate",
+    "deprecateFunc": "deprecateFunc",
+    "destroy": "Ember.destroy",
+    "empty": "deprecateFunc",
+    "endPropertyChanges": "Ember.endPropertyChanges",
+    "exports": "Ember.exports",
+    "finishChains": "Ember.finishChains",
+    "flushPendingChains": "Ember.flushPendingChains",
+    "generateController": "Ember.generateController",
+    "generateGuid": "Ember.generateGuid",
+    "get": "Ember.get",
+    "getMeta": "Ember.getMeta",
+    "getPath": "Ember.getPath",
+    "getWithDefault": "Ember.getWithDefault",
+    "guidFor": "Ember.guidFor",
+    "handleErrors": "Ember.handleErrors",
+    "hasListeners": "Ember.hasListeners",
+    "immediateObserver": "immediateObserver",
+    "imports": "Ember.imports",
+    "inspect": "Ember.inspect",
+    "instrument": "Ember.instrument",
+    "isArray": "Ember.isArray",
+    "isEmpty": "Ember.isEmpty",
+    "isEqual": "Ember.isEqual",
+    "isGlobalPath": "Ember.isGlobalPath",
+    "isNamespace": "Ember.isNamespace",
+    "isNone": "Ember.isNone",
+    "isWatching": "Ember.isWatching",
+    "keys": "Ember.keys",
+    "listenersDiff": "Ember.listenersDiff",
+    "listenersFor": "Ember.listenersFor",
+    "listenersUnion": "Ember.listenersUnion",
+    "lookup": "Ember.lookup",
+    "makeArray": "Ember.makeArray",
+    "merge": "Ember.merge",
+    "meta": "Ember.meta",
+    "metaPath": "Ember.metaPath",
+    "mixin": "Ember.mixin",
+    "none": "Ember.none",
+    "normalizeTuple": "Ember.normalizeTuple",
+    "observer": "Ember.observer",
+    "observersFor": "Ember.observersFor",
+    "onLoad": "Ember.onLoad",
+    "oneWay": "Ember.oneWay",
+    "onError": "Ember.onError",
+    "overrideChains": "Ember.overrideChains",
+    "platform": "Ember.platform",
+    "propertyDidChange": "Ember.propertyDidChange",
+    "propertyWillChange": "Ember.propertyWillChange",
+    "removeBeforeObserver": "Ember.removeBeforeObserver",
+    "removeChainWatcher": "Ember.removeChainWatcher",
+    "removeListener": "Ember.removeListener",
+    "removeObserver": "Ember.removeObserver",
+    "required": "Ember.required",
+    "rewatch": "Ember.rewatch",
+    "run": "Ember.run",
+    "runLoadHooks": "Ember.runLoadHooks",
+    "sendEvent": "Ember.sendEvent",
+    "set": "Ember.set",
+    "setMeta": "Ember.setMeta",
+    "setPath": "Ember.setPath",
+    "setProperties": "Ember.setProperties",
+    "subscribe": "Ember.subscribe",
+    "tryCatchFinally": "Ember.tryCatchFinally",
+    "tryFinally": "Ember.tryFinally",
+    "tryInvoke": "Ember.tryInvoke",
+    "trySet": "Ember.trySet",
+    "trySetPath": "Ember.trySetPath",
+    "typeOf": "Ember.typeOf",
+    "unwatch": "Ember.unwatch",
+    "unwatchKey": "Ember.unwatchKey",
+    "unwatchPath": "Ember.unwatchPath",
+    "uuid": "Ember.uuid",
+    "warn": "Ember.warn",
+    "watch": "Ember.watch",
+    "watchKey": "Ember.watchKey",
+    "watchPath": "Ember.watchPath",
+    "watchedEvents": "Ember.watchedEvents",
+    "wrap": "Ember.wrap"
+  },
+  "!name": "ember.d.ts",
+  "!define": {
+    "ret": {},
+    "ret1": {},
+    "ret2": {},
+    "ret3": {},
+    "ret4": {},
+    "ret5": {},
+    "ret6": {},
+    "ret7": {},
+    "ret8": {},
+    "ret9": {},
+    "ret10": {},
+    "ret11": {},
+    "ret12": {},
+    "ret13": {},
+    "ret14": {},
+    "ret15": {},
+    "ret16": {},
+    "ret17": {},
+    "ret18": {},
+    "ret19": {},
+    "ret20": {},
+    "ret21": {},
+    "ret22": {},
+    "ret23": {},
+    "ret24": {},
+    "ret25": {},
+    "ret26": {},
+    "ret27": {},
+    "ret28": {},
+    "ret29": {},
+    "ret30": {},
+    "ret31": {},
+    "ret32": {},
+    "ret33": {},
+    "ret34": {},
+    "ret35": {},
+    "ret36": {},
+    "ret37": {},
+    "ret38": {},
+    "ret39": {},
+    "ret40": {},
+    "ret41": {},
+    "ret42": {}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "JQueryFileInputOptions": {
+    "dropZone": "HTMLElement",
+    "pasteZone": "HTMLElement",
+    "fileInput": "HTMLElement",
+    "replaceFileInput": "bool",
+    "paramName": "?",
+    "singleFileUploads": "bool",
+    "limitMultiFileUploads": "number",
+    "limitMultiFileUploadSize": "number",
+    "limitMultiFileUploadSizeOverhead": "number",
+    "sequentialUploads": "bool",
+    "limitConcurrentUploads": "number",
+    "forceIframeTransport": "bool",
+    "redirect": "string",
+    "redirectParamName": "string",
+    "postMessage": "string",
+    "multipart": "bool",
+    "maxChunkSize": "number",
+    "uploadedBytes": "number",
+    "recalculateProgress": "bool",
+    "progressInterval": "number",
+    "bitrateInterval": "number",
+    "autoUpload": "bool",
+    "messages": "?",
+    "i18n": "?",
+    "formData": "?",
+    "add": "?",
+    "processData": "bool",
+    "contentType": "string",
+    "cache": "bool"
+  },
+  "JQueryFileUpload": {
+    "contentType": "string"
+  },
+  "JQuery": {
+    "fileupload": "fn(settings: JQueryFileInputOptions) -> JQueryFileUpload"
+  },
+  "!name": "jquery.fileupload.d.ts"
+}

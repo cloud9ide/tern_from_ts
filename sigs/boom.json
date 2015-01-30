@@ -1,0 +1,22 @@
+{
+  "Boom": {
+    "BoomError": {
+      "data": "?",
+      "reformat": "fn()",
+      "isBoom": "bool",
+      "isServer": "bool",
+      "message": "string",
+      "output": "Output"
+    },
+    "Output": {
+      "statusCode": "number",
+      "headers": "?",
+      "payload": "?"
+    },
+    "wrap": "fn(error: Error, statusCode?: number, message?: string) -> BoomError",
+    "create": "fn(statusCode: number, message?: string, data?: ?) -> BoomError",
+    "badRequest": "fn(message?: string, data?: ?) -> BoomError"
+  },
+  "boom": "Boom",
+  "!name": "boom.d.ts"
+}

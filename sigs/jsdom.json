@@ -1,0 +1,33 @@
+{
+  "jsdom": {
+    "env": "fn(urlOrHtml: string, scripts: string, config: Config, callback?: Callback)",
+    "jsdom": "fn(markup: string, config?: Config) -> Document",
+    "defaultDocumentFeatures": "FeatureOptions",
+    "Callback": {},
+    "FeatureOptions": {
+      "FetchExternalResources": "?",
+      "ProcessExternalResources": "?",
+      "SkipExternalResources": "?"
+    },
+    "EnvDocument": {
+      "referrer": "string",
+      "cookie": "string",
+      "cookieDomain": "string"
+    },
+    "Config": {
+      "html": "string",
+      "file": "string",
+      "url": "string",
+      "scripts": "[string]",
+      "src": "[string]",
+      "jar": "?",
+      "parsingMode": "string",
+      "document": "EnvDocument",
+      "features": "FeatureOptions",
+      "done": "Callback",
+      "loaded": "Callback",
+      "created": "fn(error: Error, window: Window)"
+    }
+  },
+  "!name": "jsdom.d.ts"
+}

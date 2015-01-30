@@ -1,0 +1,15 @@
+{
+  "'flux'": {
+    "Dispatcher": {
+      "!type": "fn()",
+      "prototype": {
+        "register": "fn(callback: fn(payload: TPayload)) -> string",
+        "unregister": "fn(id: string)",
+        "waitFor": "fn(IDs: [string])",
+        "dispatch": "fn(payload: TPayload)",
+        "isDispatching": "fn() -> bool"
+      }
+    }
+  },
+  "!name": "flux.d.ts"
+}

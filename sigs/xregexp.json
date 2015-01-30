@@ -1,0 +1,41 @@
+{
+  "'xregexp'": {
+    "TokenOpts": {
+      "scope": "string",
+      "trigger": "fn()",
+      "customFlags": "string"
+    },
+    "XRegExp": {
+      "addToken": "fn(regex: RegExp, handler: fn(matchArr: RegExpExecArray, scope: string), options?: TokenOpts)",
+      "build": "fn(pattern: string, subs: [string], flags?: string) -> RegExp",
+      "cache": "fn(pattern: string, flags?: string) -> RegExp",
+      "escape": "fn(str: string) -> string",
+      "exec": "fn(str: string, regex: RegExp, pos?: number, sticky?: bool) -> RegExpExecArray",
+      "forEach": "fn(str: string, regex: RegExp, callback: fn(matchArr: RegExpExecArray, index: number, input: string, regexp: RegExp), context?: Object) -> ?",
+      "globalize": "fn(regex: RegExp) -> RegExp",
+      "install": "fn(options: string)",
+      "isInstalled": "fn(feature: string) -> bool",
+      "isRegExp": "fn(value: ?) -> bool",
+      "matchChain": "fn(str: string, chain: [RegExp]) -> [string]",
+      "matchRecursive": "fn(str: string, left: string, right: string, flags?: string, options?: Object) -> [string]",
+      "replace": "fn(str: string, search: string, replacement: string, scope?: string) -> string",
+      "split": "fn(str: string, separator: string, limit?: number) -> [string]",
+      "test": "fn(str: string, regex: RegExp, pos?: number, sticky?: bool) -> bool",
+      "uninstall": "fn(options: Object)",
+      "union": "fn(patterns: [string], flags?: string) -> RegExp",
+      "version": "string",
+      "!type": "fn(pattern: string, flags?: string) -> RegExp"
+    }
+  },
+  "!name": "xregexp.d.ts",
+  "!define": {
+    "chain": {
+      "regex": "RegExp",
+      "backref": "string"
+    },
+    "chain1": {
+      "regex": "RegExp",
+      "backref": "number"
+    }
+  }
+}

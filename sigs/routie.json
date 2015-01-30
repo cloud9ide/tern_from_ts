@@ -1,0 +1,11 @@
+{
+  "Route": {
+    "addHandler": "fn(fn: Function)",
+    "removeHandler": "fn(fn: Function)",
+    "run": "fn(params: ?)",
+    "match": "fn(path: string, params: ?) -> bool",
+    "toURL": "fn(params: ?) -> string"
+  },
+  "routie": "fn(path: string)",
+  "!name": "routie.d.ts"
+}

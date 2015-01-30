@@ -1,0 +1,39 @@
+{
+  "amplifyRequestSettings": {
+    "resourceId": "string",
+    "data": "?",
+    "success": "fn(args: [?])",
+    "error": "fn(args: [?])"
+  },
+  "amplifyDecoder": {},
+  "amplifyDecoders": {
+    "jsSend": "amplifyDecoder"
+  },
+  "amplifyAjaxSettings": {
+    "cache": "?",
+    "decoder": "?"
+  },
+  "amplifyRequest": {
+    "define": "fn(resourceId: string, requestType: string, settings?: amplifyAjaxSettings)",
+    "decoders": "amplifyDecoders",
+    "cache": "?"
+  },
+  "amplifySubscribe": {},
+  "amplifyStorageTypeStore": {},
+  "amplifyStore": {
+    "localStorage": "amplifyStorageTypeStore",
+    "sessionStorage": "amplifyStorageTypeStore",
+    "globalStorage": "amplifyStorageTypeStore",
+    "userData": "amplifyStorageTypeStore",
+    "memory": "amplifyStorageTypeStore"
+  },
+  "amplifyStatic": {
+    "subscribe": "amplifySubscribe",
+    "unsubscribe": "fn(topic: string, callback: Function)",
+    "publish": "fn(topic: string, args: [?]) -> bool",
+    "store": "amplifyStore",
+    "request": "amplifyRequest"
+  },
+  "amplify": "amplifyStatic",
+  "!name": "amplifyjs.d.ts"
+}

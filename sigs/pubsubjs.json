@@ -1,0 +1,20 @@
+{
+  "PubSubJS": {
+    "Base": {
+      "version": "string",
+      "name": "string"
+    },
+    "Publish": {
+      "publish": "fn(message: ?, data: ?) -> bool",
+      "publishSync": "fn(message: ?, data: ?) -> bool"
+    },
+    "Subscribe": {
+      "subscribe": "fn(message: ?, func: Function) -> ?"
+    },
+    "Unsubscribe": {
+      "unsubscribe": "fn(tokenOrFunction: ?) -> ?"
+    }
+  },
+  "PubSub": "PubSubJS.Base",
+  "!name": "pubsub.d.ts"
+}

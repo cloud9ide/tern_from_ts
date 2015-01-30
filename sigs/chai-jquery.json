@@ -1,0 +1,26 @@
+{
+  "chai": {
+    "NameValueRegexMatcher": {
+      "match": "fn(value: RegExp) -> bool"
+    },
+    "NameValueMatcher": {},
+    "Have": {
+      "attr": "NameValueMatcher",
+      "css": "NameValueMatcher",
+      "data": "NameValueMatcher",
+      "class": "fn(className: string) -> bool",
+      "id": "fn(id: string) -> bool",
+      "html": "fn(html: string) -> bool",
+      "text": "fn(text: string) -> bool",
+      "value": "fn(text: string) -> bool"
+    },
+    "Be": {
+      "visible": "bool",
+      "hidden": "bool",
+      "selected": "bool",
+      "checked": "bool",
+      "disabled": "bool"
+    }
+  },
+  "!name": "chai-jquery.d.ts"
+}

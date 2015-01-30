@@ -1,0 +1,92 @@
+{
+  "Transport": {
+    "transports": {
+      "SMTP": "Transport",
+      "SES": "Transport",
+      "SENDMAIL": "Transport",
+      "STUB": "Transport"
+    },
+    "!type": "fn(type: string, options?: ?)",
+    "prototype": {
+      "options": "Object",
+      "transportType": "string",
+      "sendMailWithTransport": "fn(emailMessage: MailComposer, callback?: fn(err: Error)) -> ?",
+      "useDKIM": "fn(dkim: DKIMOptions)",
+      "close": "fn(callback?: fn(err: Error)) -> ?",
+      "sendMail": "fn(message: MailComposer, callback?: fn(err: Error)) -> ?",
+      "send_mail": "fn(message: MailComposer, callback?: fn(err: Error)) -> ?"
+    }
+  },
+  "NodeMailerAttachment": {
+    "fileName": "string",
+    "filePath": "string",
+    "contents": "?",
+    "contentType": "string",
+    "cid": "string"
+  },
+  "MailComposer": {
+    "from": "string",
+    "to": "string",
+    "subject": "string",
+    "headers": {},
+    "text": "string",
+    "html": "string",
+    "attachments": "[NodeMailerAttachment]",
+    "forceEmbeddedImages": "bool"
+  },
+  "DKIMOptions": {
+    "domainName": "string",
+    "keySelector": "string",
+    "privateKey": "?"
+  },
+  "XOAuthGenerator": {
+    "!type": "fn(options: XOAuthGeneratorOptions)",
+    "prototype": {
+      "generate": "fn(callback: fn()) -> string"
+    }
+  },
+  "XOAuthGeneratorOptions": {
+    "user": "string",
+    "consumerKey": "string",
+    "consumerSecret": "string",
+    "token": "string",
+    "tokenSecret": "string"
+  },
+  "XOAuth2Options": {
+    "user": "string",
+    "clientId": "string",
+    "clientSecret": "string",
+    "refreshToken": "string"
+  },
+  "NodemailerTransportOptions": {
+    "service": "string",
+    "auth": "NodemailerAuthInterface",
+    "debug": "bool",
+    "AWSAccessKeyID": "string",
+    "AWSSecretKey": "string",
+    "ServiceUrl": "string"
+  },
+  "NodemailerAuthInterface": {
+    "user": "string",
+    "pass": "string",
+    "XOAuthToken": "XOAuthGenerator",
+    "XOAuth2": "XOAuth2Options"
+  },
+  "NodemailerSMTPTransportOptions": {
+    "service": "string",
+    "host": "string",
+    "port": "number",
+    "secureConnection": "bool",
+    "name": "string",
+    "auth": "NodemailerAuthInterface",
+    "ignoreTLS": "bool",
+    "debug": "bool",
+    "maxConnections": "number"
+  },
+  "Nodemailer": {
+    "createTransport": "fn(type: string) -> Transport",
+    "createXOAuthGenerator": "fn(options: XOAuthGeneratorOptions) -> XOAuthGenerator"
+  },
+  "nodemailer": "nodemailer",
+  "!name": "nodemailer.d.ts"
+}

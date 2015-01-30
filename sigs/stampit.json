@@ -1,0 +1,40 @@
+{
+  "stampit": {
+    "0": "s",
+    "1": "t",
+    "2": "a",
+    "3": "m",
+    "4": "p",
+    "5": "i",
+    "6": "t",
+    "Stampit": {
+      "compose": "fn(stamps: [Stamp]) -> Stamp",
+      "mixIn": "fn(destination: ?, source: [?]) -> ?",
+      "extend": "fn(destination: ?, source: [?]) -> ?",
+      "isStamp": "fn(obj: ?) -> bool",
+      "convertConstructor": "fn(Constructor: ?) -> Stamp"
+    },
+    "Stamp": {
+      "create": "fn(state?: [object Object], encloseArgs: [?]) -> ?",
+      "fixed": "Fixed",
+      "methods": "fn(methods: [methods]) -> Stamp",
+      "state": "fn(states: [states]) -> Stamp",
+      "enclose": "fn(functions: [functions]) -> Stamp",
+      "compose": "fn(stamps: [Stamp]) -> Stamp"
+    },
+    "Fixed": {
+      "methods": {},
+      "state": {},
+      "enclose": "[]"
+    },
+    "!type": "stampit.Stampit"
+  },
+  "!name": "stampit.d.ts",
+  "!define": {
+    "methods": {},
+    "states": {},
+    "functions": {},
+    "methods1": {},
+    "": {}
+  }
+}

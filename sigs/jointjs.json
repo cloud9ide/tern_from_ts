@@ -1,0 +1,139 @@
+{
+  "joint": {
+    "dia": {
+      "IElementSize": {
+        "width": "number",
+        "height": "number"
+      },
+      "Graph": {
+        "prototype": {
+          "initialize": "fn()",
+          "fromJSON": "fn(json: ?)",
+          "clear": "fn()",
+          "addCell": "fn(cell: Cell)",
+          "addCells": "fn(cells: [Cell])",
+          "getConnectedLinks": "fn(cell: Cell, opt?: ?) -> [Link]",
+          "disconnectLinks": "fn(cell: Cell)",
+          "removeLinks": "fn(cell: Cell)"
+        }
+      },
+      "Cell": {
+        "prototype": {
+          "toJSON": "fn()",
+          "remove": "fn(options?: ?)",
+          "toFront": "fn()",
+          "toBack": "fn()",
+          "embed": "fn(cell: Cell)",
+          "unembed": "fn(cell: Cell)",
+          "getEmbeddedCells": "fn() -> [Cell]",
+          "clone": "fn(opt?: ?) -> Backbone.Model",
+          "attr": "fn(attrs: ?) -> Cell"
+        }
+      },
+      "Element": {
+        "prototype": {
+          "position": "fn(x: number, y: number) -> Element",
+          "translate": "fn(tx: number, ty?: number) -> Element",
+          "resize": "fn(width: number, height: number) -> Element",
+          "rotate": "fn(angle: number, absolute: ?) -> Element"
+        }
+      },
+      "IDefaults": {
+        "type": "string"
+      },
+      "Link": {
+        "prototype": {
+          "defaults": "fn() -> IDefaults",
+          "disconnect": "fn() -> Link",
+          "label": "fn(idx?: number, value?: ?) -> ?"
+        }
+      },
+      "IOptions": {
+        "width": "number",
+        "height": "number",
+        "gridSize": "number",
+        "perpendicularLinks": "bool",
+        "elementView": "ElementView",
+        "linkView": "LinkView"
+      },
+      "Paper": {
+        "prototype": {
+          "options": "IOptions",
+          "setDimensions": "fn(width: number, height: number)",
+          "scale": "fn(sx: number, sy?: number, ox?: number, oy?: number) -> Paper",
+          "rotate": "fn(deg: number, ox?: number, oy?: number) -> Paper",
+          "findView": "fn(el: ?) -> CellView",
+          "findViewByModel": "fn(modelOrId: ?) -> CellView",
+          "findViewsFromPoint": "fn(p: [object Object]) -> [CellView]",
+          "findViewsInArea": "fn(r: [object Object]) -> [CellView]",
+          "snapToGrid": "fn(p: ?) -> ret"
+        }
+      },
+      "ElementView": {
+        "prototype": {
+          "scale": "fn(sx: number, sy: number)"
+        }
+      },
+      "CellView": {
+        "prototype": {
+          "getBBox": "fn() -> ret1",
+          "highlight": "fn(el?: ?)",
+          "unhighlight": "fn(el?: ?)",
+          "findMagnet": "fn(el: ?)",
+          "getSelector": "fn(el: ?)"
+        }
+      },
+      "LinkView": {
+        "prototype": {
+          "getConnectionLength": "fn() -> number",
+          "getPointAtLength": "fn(length: number) -> ret2"
+        }
+      }
+    },
+    "ui": {},
+    "shapes": {
+      "basic": {
+        "Generic": {
+          "prototype": {}
+        },
+        "Rect": {
+          "prototype": {}
+        },
+        "Text": {
+          "prototype": {}
+        },
+        "Circle": {
+          "prototype": {}
+        },
+        "Image": {
+          "prototype": {}
+        }
+      }
+    },
+    "util": {
+      "uuid": "fn() -> string",
+      "guid": "fn(obj: ?) -> string",
+      "mixin": "fn(objects: [?]) -> ?",
+      "supplement": "fn(objects: [?]) -> ?",
+      "deepMixin": "fn(objects: [?]) -> ?",
+      "deepSupplement": "fn(objects: [?], defaultIndicator?: ?) -> ?"
+    }
+  },
+  "!name": "jointjs.d.ts",
+  "!define": {
+    "ret": {
+      "x": "number",
+      "y": "number"
+    },
+    "ret1": {
+      "x": "number",
+      "y": "number",
+      "width": "number",
+      "height": "number"
+    },
+    "ret2": {
+      "x": "number",
+      "y": "number"
+    }
+  }
+}
