@@ -1,0 +1,19 @@
+{
+  "name": "tern_from_ts",
+  "version": "0.0.1",
+  "description": "Tern signatures retrieved from typescript signatures",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloud9ide/tern_from_ts.git"
+  },
+  "author": "Lennart Kats <lennart@c9.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloud9ide/tern_from_ts/issues"
+  },
+  "homepage": "https://github.com/cloud9ide/tern_from_ts",
+  "dependencies": {
+    "tern": "git://github.com/lennartcl/tern.git#97464df789dbb4d81ca4579383a02b320c69563d"
+  }
+}
