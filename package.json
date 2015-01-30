@@ -1,7 +1,7 @@
 {
   "name": "tern_from_ts",
   "version": "0.0.1",
-  "description": "Tern signatures retrieved from typescript signatures",
+  "description": "Tern signatures extracted from typescript signatures",
   "main": "index.js",
   "repository": {
     "type": "git",
