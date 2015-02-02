@@ -21,7 +21,6 @@ fi
 
 ls ../sigs_ts | parallel '
     DIR=../sigs_ts/{1}
-
     find_main_file() {
         local DIR=$1
         local NAME=$2
@@ -54,3 +53,20 @@ ls ../sigs_ts | parallel '
         bash -e '$MY_DIR'/from_ts.sh $OTHER _$(basename $DIR)_$(basename $OTHER .d.ts).json
     done
 '
+
+{
+    echo '{"sigs":{'
+    for D in $(cd $MY_DIR/sigs; ls); do
+        if [[ "$D" =~ ^_ ]]; then
+            continue
+        fi
+        echo -n '"'${D%.json}'": {'
+        echo -n '  "main": "'$D'"',
+        echo -n '  "extra": {'
+        for E in $(cd $MY_DIR/sigs; ls _${D%.json}* 2>/dev/null); do
+            echo -n '        "'${E%.json}'": "'$E'",'
+        done
+        echo -n '}},'
+    done
+    echo '}}'
+} | sed 's/"extra": {}//g; s/, *}/}/g' > $MY_DIR/sigs/__list.json
