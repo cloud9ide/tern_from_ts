@@ -2,7 +2,7 @@
   "wrench": {
     "readdirSyncRecursive": "fn(baseDir: string) -> [string]",
     "rmdirSyncRecursive": "fn(path: string, failSilent?: bool)",
-    "copyDirSyncRecursive": "fn(sourceDir: string, newDirLocation: string, opts?: [object Object])",
+    "copyDirSyncRecursive": "fn(sourceDir: string, newDirLocation: string, opts?: ?)",
     "chmodSyncRecursive": "fn(sourceDir: string, filemode: number)",
     "chownSyncRecursive": "fn(sourceDir: string, uid: number, gid: number)",
     "mkdirSyncRecursivefunction": "fn(path: string, mode: number)",

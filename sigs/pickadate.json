@@ -8,7 +8,7 @@
       "on": "fn(methodName: string, callback: fn(context?: ?)) -> Pickadate.Api",
       "open": "fn(keepFocus?: bool) -> Pickadate.Api",
       "render": "fn(fromRoot?: bool) -> Pickadate.Api",
-      "set": "fn(field: string, value: ?, options?: [object Object]) -> Pickadate.Api",
+      "set": "fn(field: string, value: ?, options?: ?) -> Pickadate.Api",
       "start": "fn() -> Pickadate.Api",
       "stop": "fn() -> Pickadate.Api",
       "trigger": "fn(eventName: string) -> Pickadate.Api",
@@ -56,7 +56,7 @@
       "onRender": "fn()",
       "onOpen": "fn()",
       "onClose": "fn()",
-      "onSet": "fn(context: [object Object])",
+      "onSet": "fn(context: ?)",
       "onStop": "fn()",
       "klass": "DateKlassOptions"
     },
@@ -117,7 +117,7 @@
       "onRender": "fn()",
       "onOpen": "fn()",
       "onClose": "fn()",
-      "onSet": "fn(context: [object Object])",
+      "onSet": "fn(context: ?)",
       "onStop": "fn()",
       "klass": "TimeKlassOptions"
     },

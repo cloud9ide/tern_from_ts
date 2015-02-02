@@ -15,7 +15,7 @@
       "convertConstructor": "fn(Constructor: ?) -> Stamp"
     },
     "Stamp": {
-      "create": "fn(state?: [object Object], encloseArgs: [?]) -> ?",
+      "create": "fn(state?: ?, encloseArgs: [?]) -> ?",
       "fixed": "Fixed",
       "methods": "fn(methods: [methods]) -> Stamp",
       "state": "fn(states: [states]) -> Stamp",

@@ -22,7 +22,7 @@
     "rectChecker": "fn() -> Function",
     "resizable": "fn() -> Interactable",
     "restrict": "fn() -> Restrict",
-    "set": "fn(options: [object Object]) -> Interactable",
+    "set": "fn(options: ?) -> Interactable",
     "snap": "fn() -> ?",
     "squareResize": "fn() -> bool",
     "styleCursor": "fn() -> bool",

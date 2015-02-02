@@ -12,7 +12,7 @@
     "put": "fn(key: ?, value: ?, callback?: fn(error: ?))",
     "get": "fn(key: ?, callback?: fn(error: ?, value: ?))",
     "del": "fn(key: ?, callback?: fn(error: ?))",
-    "batch": "fn(array: [Batch], options?: [object Object], callback?: fn(error?: ?))",
+    "batch": "fn(array: [Batch], options?: ?, callback?: fn(error?: ?))",
     "isOpen": "fn() -> bool",
     "isClosed": "fn() -> bool",
     "createReadStream": "fn(options?: ?) -> ?",

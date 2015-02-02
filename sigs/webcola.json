@@ -4,8 +4,8 @@
       "avoidOverlaps": "fn(avodOverLaps: bool) -> Adaptor",
       "constraints": "fn(constraints: ?) -> Adaptor",
       "convergenceThreshold": "fn(convergenceThreshold: number) -> Adaptor",
-      "dragend": "fn(node: [object Object])",
-      "dragstart": "fn(node: [object Object])",
+      "dragend": "fn(node: ?)",
+      "dragstart": "fn(node: ?)",
       "flowLayout": "fn(axis: string, minSeparation: number) -> Adaptor",
       "handleDisconnected": "fn(handleDisconnected: bool) -> Adaptor",
       "links": "fn(links: ?) -> Adaptor",
@@ -17,7 +17,7 @@
       "stop": "fn()"
     },
     "Cola": {
-      "adaptor": "fn(options: [object Object]) -> Adaptor",
+      "adaptor": "fn(options: ?) -> Adaptor",
       "start": "fn()",
       "stop": "fn()"
     },

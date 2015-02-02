@@ -19,7 +19,7 @@
       },
       "Command": {
         "name": "string",
-        "options": "fn(specs: [object Object]) -> Command",
+        "options": "fn(specs: ?) -> Command",
         "option": "fn(name: string, spec: Option) -> Command",
         "callback": "fn(func: fn(options: ?)) -> Command",
         "help": "fn(help: string) -> Command",
@@ -27,7 +27,7 @@
       },
       "command": "fn(name: string) -> Parser.Command",
       "nocommand": "fn() -> Parser.Command",
-      "options": "fn(specs: [object Object]) -> Parser",
+      "options": "fn(specs: ?) -> Parser",
       "option": "fn(name: string, spec: Parser.Option) -> Parser",
       "usage": "fn(usage: string) -> Parser",
       "printer": "fn(print: fn(message: string, code?: number)) -> Parser",

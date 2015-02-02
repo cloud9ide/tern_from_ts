@@ -86,7 +86,7 @@
         "_idfCache": {},
         "on": "fn(eventName: string, handler: Function)",
         "off": "fn(eventName: string, handler: Function)",
-        "field": "fn(fieldName: string, options?: [object Object]) -> Index",
+        "field": "fn(fieldName: string, options?: ?) -> Index",
         "ref": "fn(refName: string) -> Index",
         "add": "fn(doc: ?, emitEvent?: bool)",
         "remove": "fn(doc: ?, emitEvent?: bool)",

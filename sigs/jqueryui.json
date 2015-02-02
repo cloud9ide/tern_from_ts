@@ -314,12 +314,12 @@
       "tolerance": "string"
     },
     "SelectableEvents": {
-      "selected": "fn(event: Event, ui: [object Object])",
-      "selecting": "fn(event: Event, ui: [object Object])",
+      "selected": "fn(event: Event, ui: ?)",
+      "selecting": "fn(event: Event, ui: ?)",
       "start": "fn(event: Event, ui: ?)",
       "stop": "fn(event: Event, ui: ?)",
-      "unselected": "fn(event: Event, ui: [object Object])",
-      "unselecting": "fn(event: Event, ui: [object Object])"
+      "unselected": "fn(event: Event, ui: ?)",
+      "unselecting": "fn(event: Event, ui: ?)"
     },
     "Selectable": {},
     "SliderOptions": {

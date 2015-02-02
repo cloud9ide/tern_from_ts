@@ -445,7 +445,7 @@
       "sendBackwards": "fn(object: IObject) -> ICanvas",
       "sendToBack": "fn(object: IObject) -> ICanvas",
       "setBackgroundImage": "fn(image: ?, callback: fn(), options?: ?) -> ICanvas",
-      "setDimensions": "fn(object: [object Object]) -> ICanvas",
+      "setDimensions": "fn(object: ?) -> ICanvas",
       "setHeight": "fn(height: number) -> ICanvas",
       "setOverlayImage": "fn(url: string, callback: fn(), options: ?) -> ICanvas",
       "setWidth": "fn(width: number) -> ICanvas",
@@ -636,7 +636,7 @@
     "util": {
       "addClass": "fn(element: HTMLElement, className: string)",
       "addListener": "fn(element: ?, eventName: string, handler: ?)",
-      "animate": "fn(options: [object Object])",
+      "animate": "fn(options: ?)",
       "createClass": "fn(parent: ?, properties: ?)",
       "degreesToRadians": "fn(degrees: number) -> number",
       "falseFunction": "fn() -> fn()",

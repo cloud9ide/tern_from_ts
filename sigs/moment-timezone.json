@@ -20,7 +20,7 @@
     "zone": "fn(timezone: string) -> MomentZone",
     "add": "fn(packedZoneString: string)",
     "link": "fn(packedLinkString: string)",
-    "load": "fn(data: [object Object])",
+    "load": "fn(data: ?)",
     "names": "fn() -> [string]"
   },
   "'moment-timezone'": "_tmp",

@@ -1,6 +1,6 @@
 {
   "'mapsjs'": {
-    "clusterPoints": "fn(options: [object Object]) -> [ret]",
+    "clusterPoints": "fn(options: ?) -> [ret]",
     "envelope": {
       "!type": "fn(minX: number, minY: number, maxX: number, maxY: number)",
       "prototype": {
@@ -214,7 +214,7 @@
         }
       },
       "layerOptions": {
-        "!type": "fn(id: string, options: [object Object])",
+        "!type": "fn(id: string, options: ?)",
         "prototype": {
           "getTileLayer": "fn() -> tile.layer",
           "getId": "fn() -> string",
@@ -234,7 +234,7 @@
         "factoryQuadFromKey": "fn(key: string) -> quad"
       },
       "renderer": {
-        "!type": "fn(options?: [object Object])",
+        "!type": "fn(options?: ?)",
         "prototype": {
           "setRenderPoint": "fn(func: fn(pt: point, context: CanvasRenderingContext2D))",
           "setRenderGeometry": "fn(func: fn(shape: geometry, context: CanvasRenderingContext2D))",
@@ -276,7 +276,7 @@
         }
       },
       "requestorBing": {
-        "!type": "fn(options?: [object Object])",
+        "!type": "fn(options?: ?)",
         "prototype": {
           "getEndpoint": "fn() -> string",
           "getScheme": "fn() -> string",
@@ -290,13 +290,13 @@
         }
       },
       "requestorMDNRest": {
-        "!type": "fn(endpoint: string, options?: [object Object])",
+        "!type": "fn(endpoint: string, options?: ?)",
         "prototype": {
           "getEndpoint": "fn() -> string"
         }
       },
       "descriptorMDNRestMap": {
-        "!type": "fn(mapId: string, options?: [object Object])",
+        "!type": "fn(mapId: string, options?: ?)",
         "prototype": {
           "setSuspendDescriptorChangeNotifications": "fn(flag: bool)",
           "getMapId": "fn() -> string",
@@ -331,7 +331,7 @@
         }
       },
       "descriptorMDNRestFeature": {
-        "!type": "fn(mapId: string, layerId: string, options?: [object Object])",
+        "!type": "fn(mapId: string, layerId: string, options?: ?)",
         "prototype": {
           "getMapId": "fn() -> string",
           "getLayerId": "fn() -> string",
@@ -349,11 +349,11 @@
         }
       },
       "requestorOpen": {
-        "!type": "fn(endpoint: string, subdomains: [string], options?: [object Object])",
+        "!type": "fn(endpoint: string, subdomains: [string], options?: ?)",
         "prototype": {}
       },
       "requestorLocal": {
-        "!type": "fn(options?: [object Object])",
+        "!type": "fn(options?: ?)",
         "prototype": {
           "getSource": "fn() -> [ret8]",
           "setSource": "fn(data: [data])",
@@ -361,7 +361,7 @@
         }
       },
       "descriptorLocal": {
-        "!type": "fn(options: [object Object])",
+        "!type": "fn(options: ?)",
         "prototype": {}
       }
     },
@@ -445,7 +445,7 @@
       "computeMapPointFromPixelLocation": "fn(x: number, y: number) -> point",
       "setSuspendMapExtentChangesByGestures": "fn(flag: bool)",
       "setDrawnContentZorderToTop": "fn(flag: bool)",
-      "addFixedContentElement": "fn(element: HTMLElement, mapUnitsX: number, mapUnitsY: number, addAction?: fn(ele: HTMLElement), dragOptions?: [object Object])",
+      "addFixedContentElement": "fn(element: HTMLElement, mapUnitsX: number, mapUnitsY: number, addAction?: fn(ele: HTMLElement), dragOptions?: ?)",
       "moveFixedContentElement": "fn(element: HTMLElement, mapUnitsX: number, mapUnitsY: number)",
       "removeFixedContentElement": "fn(element: HTMLElement)",
       "addPathGeometry": "fn(styledGeom: styledGeometry, key: string, addAction?: fn(svg: SVGElement), removeAction?: fn(svg: SVGElement)) -> SVGElement",

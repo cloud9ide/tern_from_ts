@@ -17,7 +17,7 @@
       "parseOptions": "fn(argv: [string]) -> ret",
       "opts": "fn() -> ?",
       "missingArgument": "fn(name: string)",
-      "optionMissingArgument": "fn(option: [object Object], flag?: string)",
+      "optionMissingArgument": "fn(option: ?, flag?: string)",
       "unknownOption": "fn(flag: string)",
       "version": "fn(str: string, flags?: string) -> ICommand",
       "description": "fn(str: string) -> ICommand",

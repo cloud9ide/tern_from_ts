@@ -37,7 +37,7 @@
       "isDraggable": "fn() -> bool",
       "isDragging": "fn() -> bool",
       "isListening": "fn() -> bool",
-      "move": "fn(change: [object Object])",
+      "move": "fn(change: ?)",
       "moveDown": "fn()",
       "moveTo": "fn(newContainer: IContainer)",
       "moveToBottom": "fn()",

@@ -1,0 +1,36 @@
+
+?:27326
+                throw TypeScript.Errors.argumentOutOfRange("languageVersion");
+                                        ^
+Error: Argument out of range: languageVersion
+    at Function.Errors.argumentOutOfRange (?:1168:20)
+    at Function.Unicode.isIdentifierPart (?:27326:41)
+    at Scanner.isIdentifierPart (?:6607:88)
+    at Scanner.slowScanIdentifierOrKeyword (?:6654:26)
+    at Scanner.scanSyntaxToken (?:6588:29)
+    at Scanner.scan (?:6174:37)
+    at NormalParserSource.fetchMoreItems (?:22025:57)
+    at SlidingWindow.addMoreItemsToWindow (?:7928:45)
+    at SlidingWindow.peekItemN (?:8001:27)
+    at NormalParserSource.peekToken (?:22030:43)
+    at ParserImpl.peekToken (?:22390:36)
+    at ParserImpl.modifierCount (?:23052:52)
+    at ParserImpl.isModuleElement (?:22791:42)
+    at ParserImpl.isExpectedListItem (?:25673:37)
+    at ParserImpl.tryParseExpectedListItem (?:25291:26)
+    at ParserImpl.parseSyntaxListWorker (?:25331:26)
+    at ParserImpl.parseSyntaxList (?:25239:35)
+    at ParserImpl.parseSourceUnit (?:22754:35)
+    at ParserImpl.parseSyntaxTree (?:22736:39)
+    at new parse (?:25871:84)
+    at parseFile (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:24:10)
+    at Object.exports.translate (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:211:14)
+    at finish (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/bin/from_ts:28:33)
+    at Object.<anonymous> (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/bin/from_ts:25:3)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)
+    at node.js:906:3

@@ -59,7 +59,7 @@
   },
   "durandal/viewLocator": {
     "useConvention": "fn(modulesPath?: string, viewsPath?: string, areasPath?: string)",
-    "locateViewForObject": "fn(obj: [object Object], elementsToSearch: [HTMLElement])",
+    "locateViewForObject": "fn(obj: ?, elementsToSearch: [HTMLElement])",
     "convertModuleIdToViewId": "fn(moduleId: string)",
     "determineFallbackViewId": "fn(obj: ?)",
     "translateViewIdToArea": "fn(viewId: string, area?: string)",

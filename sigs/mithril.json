@@ -6,7 +6,7 @@
     "trust": "fn(html: string) -> String",
     "render": "fn(rootElement: Element, children?: ?)",
     "redraw": "MithrilRedraw",
-    "route": "fn(rootElement: Element, defaultRoute: string, routes: [object Object])",
+    "route": "fn(rootElement: Element, defaultRoute: string, routes: ?)",
     "request": "fn(options: MithrilXHROptions) -> ?",
     "deferred": "fn() -> ?",
     "sync": "fn(promises: [?]) -> ?",

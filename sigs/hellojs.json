@@ -27,7 +27,7 @@
     "authResponse": "?"
   },
   "HelloJSStatic": {
-    "init": "fn(serviceAppIds: [object Object], options?: HelloJSLoginOptions)",
+    "init": "fn(serviceAppIds: ?, options?: HelloJSLoginOptions)",
     "login": "fn(network: string, options?: HelloJSLoginOptions, callback?: fn())",
     "logout": "fn(network: string, options?: HelloJSLogoutOptions, callback?: fn())",
     "getAuthResponse": "fn(network: string) -> ?",

@@ -90,7 +90,7 @@
         "readYAML": "fn(filepath: string) -> ?",
         "write": "fn(filepath: string, contents: string, options?: IFileEncodedOption)",
         "copy": "fn(srcpath: string, destpath: string)",
-        "delete": "fn(filepath: string, options?: [object Object]) -> bool",
+        "delete": "fn(filepath: string, options?: ?) -> bool",
         "mkdir": "fn(dirpath: string, mode?: string)",
         "recurse": "fn(rootdir: string, callback: fn(abspath: string, rootdir: string, subdir: string, filename: string))",
         "expand": "fn(patterns: [string]) -> [string]",

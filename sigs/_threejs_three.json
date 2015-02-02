@@ -239,7 +239,7 @@
         "addEventListener": "fn(type: string, listener: fn(event: ?))",
         "hasEventListener": "fn(type: string, listener: fn(event: ?))",
         "removeEventListener": "fn(type: string, listener: fn(event: ?))",
-        "dispatchEvent": "fn(event: [object Object])"
+        "dispatchEvent": "fn(event: ?)"
       }
     },
     "Clock": {
@@ -262,7 +262,7 @@
         "addEventListener": "fn(type: string, listener: fn(event: ?))",
         "hasEventListener": "fn(type: string, listener: fn(event: ?))",
         "removeEventListener": "fn(type: string, listener: fn(event: ?))",
-        "dispatchEvent": "fn(event: [object Object])"
+        "dispatchEvent": "fn(event: ?)"
       }
     },
     "Face3": {
@@ -346,7 +346,7 @@
         "addEventListener": "fn(type: string, listener: fn(event: ?))",
         "hasEventListener": "fn(type: string, listener: fn(event: ?))",
         "removeEventListener": "fn(type: string, listener: fn(event: ?))",
-        "dispatchEvent": "fn(event: [object Object])"
+        "dispatchEvent": "fn(event: ?)"
       }
     },
     "Object3D": {
@@ -413,7 +413,7 @@
         "addEventListener": "fn(type: string, listener: fn(event: ?))",
         "hasEventListener": "fn(type: string, listener: fn(event: ?))",
         "removeEventListener": "fn(type: string, listener: fn(event: ?))",
-        "dispatchEvent": "fn(event: [object Object])"
+        "dispatchEvent": "fn(event: ?)"
       }
     },
     "Intersection": {
@@ -439,7 +439,7 @@
         "precision": "number",
         "linePrecision": "number",
         "set": "fn(origin: Vector3, direction: Vector3)",
-        "setFromCamera": "fn(coords: [object Object], camera: Camera)",
+        "setFromCamera": "fn(coords: ?, camera: Camera)",
         "intersectObject": "fn(object: Object3D, recursive?: bool) -> [Intersection]",
         "intersectObjects": "fn(objects: [Object3D], recursive?: bool) -> [Intersection]"
       }
@@ -728,7 +728,7 @@
         "addEventListener": "fn(type: string, listener: fn(event: ?))",
         "hasEventListener": "fn(type: string, listener: fn(event: ?))",
         "removeEventListener": "fn(type: string, listener: fn(event: ?))",
-        "dispatchEvent": "fn(event: [object Object])"
+        "dispatchEvent": "fn(event: ?)"
       }
     },
     "LineBasicMaterialParameters": {
@@ -2038,7 +2038,7 @@
         "addEventListener": "fn(type: string, listener: fn(event: ?))",
         "hasEventListener": "fn(type: string, listener: fn(event: ?))",
         "removeEventListener": "fn(type: string, listener: fn(event: ?))",
-        "dispatchEvent": "fn(event: [object Object])"
+        "dispatchEvent": "fn(event: ?)"
       }
     },
     "WebGLRenderTargetCube": {
@@ -2277,7 +2277,7 @@
         "addEventListener": "fn(type: string, listener: fn(event: ?))",
         "hasEventListener": "fn(type: string, listener: fn(event: ?))",
         "removeEventListener": "fn(type: string, listener: fn(event: ?))",
-        "dispatchEvent": "fn(event: [object Object])"
+        "dispatchEvent": "fn(event: ?)"
       }
     },
     "VideoTexture": {
@@ -2302,7 +2302,7 @@
       "loadFace": "fn(data: TypefaceData) -> TypefaceData",
       "drawText": "fn(text: string) -> ret2",
       "extractGlyphPoints": "fn(c: string, face: Face3, scale: number, offset: number, path: Path) -> ret3",
-      "generateShapes": "fn(text: string, parameters?: [object Object]) -> [Shape]",
+      "generateShapes": "fn(text: string, parameters?: ?) -> [Shape]",
       "Triangulate": {
         "area": "fn(contour: [Vector2]) -> number"
       }

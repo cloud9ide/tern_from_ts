@@ -1,0 +1,15 @@
+
+/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:186
+    throw new Error("Unrecognized type: " + nt[node.kind()]);
+          ^
+Error: Unrecognized type: ConstructorType
+    at walk (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:186:11)
+    at walk_ (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:191:39)
+    at functionType (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:58:27)
+    at objType (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:105:44)
+    at objType (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:111:42)
+    at objType (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:108:59)
+    at Object.exports.translate (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:212:14)
+    at finish (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/bin/from_ts:28:33)
+    at Object.<anonymous> (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/bin/from_ts:25:3)
+    at Module._compile (module.js:456:26)

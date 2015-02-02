@@ -153,8 +153,8 @@
     "pjax": {
       "enable": "fn() -> ?",
       "disable": "fn() -> ?",
-      "click": "fn(url: string, attr: [object Object]) -> ?",
-      "submit": "fn(url: string, attr: [object Object], data: ?) -> ?",
+      "click": "fn(url: string, attr: ?) -> ?",
+      "submit": "fn(url: string, attr: ?, data: ?) -> ?",
       "follow": "fn(event: JQueryEventObject, ajax: JQueryXHR, timeStamp?: number) -> bool",
       "setCache": "fn() -> ?",
       "getCache": "fn() -> ?",

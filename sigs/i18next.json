@@ -63,7 +63,7 @@
     "loadNamespace": "fn(namespace: string, callback?: fn())",
     "loadNamespaces": "fn(namespaces: [string], callback?: fn())",
     "pluralExtensions": {
-      "addRule": "fn(language: string, obj: [object Object])",
+      "addRule": "fn(language: string, obj: ?)",
       "get": "fn(language: string, count: number) -> number",
       "rules": "?",
       "setCurrentLng": "fn(language: string)"

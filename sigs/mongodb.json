@@ -52,7 +52,7 @@
         "_findHandler": "fn(id: ?) -> ret",
         "__executeQueryCommand": "fn(self: ?, db_command: ?, options: ?, callback: ?)",
         "DEFAULT_URL": "string",
-        "connect": "fn(url: string, options: [object Object], callback: fn(err: Error, result: ?))",
+        "connect": "fn(url: string, options: ?, callback: fn(err: Error, result: ?))",
         "addListener": "fn(event: string, handler: fn(param: ?)) -> ?"
       }
     },
@@ -144,7 +144,7 @@
       "dropAllIndexes": "fn(callback: Function)",
       "reIndex": "fn(callback: Function)",
       "mapReduce": "fn(map: Function, reduce: Function, options: MapReduceOptions, callback: Function)",
-      "group": "fn(keys: Object, condition: Object, initial: Object, reduce: Function, finalize: Function, command: bool, options: [object Object], callback: Function)",
+      "group": "fn(keys: Object, condition: Object, initial: Object, reduce: Function, finalize: Function, command: bool, options: ?, callback: Function)",
       "options": "fn(callback: Function)",
       "isCapped": "fn(callback: Function)",
       "indexExists": "fn(indexes: string, callback: Function)",
@@ -152,7 +152,7 @@
       "geoHaystackSearch": "fn(x: number, y: number, callback: Function)",
       "indexes": "fn(callback: Function)",
       "aggregate": "fn(pipeline: [?], callback: fn(err: Error, results: ?))",
-      "stats": "fn(options: [object Object], callback: Function)",
+      "stats": "fn(options: ?, callback: Function)",
       "hint": "?"
     },
     "MapReduceOptions": {

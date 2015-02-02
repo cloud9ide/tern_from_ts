@@ -9,7 +9,7 @@ readonly TARGET=$2
 
 echo -n $TARGET
 
-if ! ERROR=$($MY_DIR/node_modules/tern/bin/from_ts "$SOURCE" 2>&1 >$TARGET.tmp); then
+if ! ERROR=$($MY_DIR/node_modules/tern/bin/from_ts "$SOURCE" 2>&1 | sed 's/\[object Object\]/?/g' >$TARGET.tmp); then
     rm $TARGET.tmp
     DETAILS=$(echo "$ERROR" | grep Error:)
     echo " - $DETAILS"

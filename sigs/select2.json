@@ -3,7 +3,7 @@
     "term": "string",
     "page": "number",
     "context": "?",
-    "callback": "fn(result: [object Object])"
+    "callback": "fn(result: ?)"
   },
   "AjaxFunction": {},
   "Select2AjaxOptions": {

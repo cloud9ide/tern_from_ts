@@ -5,8 +5,8 @@
     "limit": "bool",
     "offset_left": "number",
     "drag": "fn(event: Event, ui: GridsterUi)",
-    "start": "fn(event: Event, ui: [object Object])",
-    "stop": "fn(event: Event, ui: [object Object])"
+    "start": "fn(event: Event, ui: ?)",
+    "stop": "fn(event: Event, ui: ?)"
   },
   "GridsterUi": {
     "position": {

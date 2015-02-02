@@ -11,7 +11,7 @@
       "includeScore": "bool",
       "shouldSort": "bool",
       "searchFn": "?",
-      "sortFn": "fn(a: [object Object], b: [object Object])",
+      "sortFn": "fn(a: ?, b: ?)",
       "getFn": "fn(obj: ?, path: string)",
       "keys": "[string]"
     },

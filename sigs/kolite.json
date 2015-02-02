@@ -12,7 +12,7 @@
   },
   "KoLiteActivity": {
     "defaults": "KoLiteActivityOptions",
-    "getOpacity": "fn(options: [object Object], i: number) -> number"
+    "getOpacity": "fn(options: ?, i: number) -> number"
   },
   "KnockoutBindingHandlers": {
     "activity": "KnockoutBindingHandler",

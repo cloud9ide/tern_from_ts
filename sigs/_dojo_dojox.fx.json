@@ -7,7 +7,7 @@
           "animate": "bool",
           "set": "fn(property: string, value: bool)",
           "get": "fn(property: string) -> bool",
-          "watch": "fn(property: string, callback: [object Object]) -> ret",
+          "watch": "fn(property: string, callback: ?) -> ret",
           "attributeMap": "Object",
           "baseClass": "string",
           "class": "string",

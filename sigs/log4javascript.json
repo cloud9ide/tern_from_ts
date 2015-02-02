@@ -7,8 +7,8 @@
     "resetConfiguration": "fn()",
     "setEnabled": "fn(enabled: bool)",
     "isEnabled": "fn() -> bool",
-    "addEventListener": "fn(eventType: string, listener: [object Object])",
-    "removeEventListener": "fn(eventType: string, listener: [object Object])",
+    "addEventListener": "fn(eventType: string, listener: ?)",
+    "removeEventListener": "fn(eventType: string, listener: ?)",
     "dispatchEvent": "fn(eventType: string, eventArgs: ?)",
     "setEventTypes": "fn(eventTypes: [string])",
     "setShowStackTraces": "fn(show: bool)",
@@ -77,8 +77,8 @@
         "getBatchSize": "fn() -> number",
         "setTimerInterval": "fn(timerInterval: number)",
         "getTimerInterval": "fn() -> number",
-        "setRequestSuccessCallback": "fn(requestSuccessCallback: [object Object])",
-        "setFailCallback": "fn(failCallback: [object Object])",
+        "setRequestSuccessCallback": "fn(requestSuccessCallback: ?)",
+        "setFailCallback": "fn(failCallback: ?)",
         "setSessionId": "fn(sessionId: string)",
         "getSessionId": "fn() -> string",
         "addHeader": "fn(name: string, value: string)",
@@ -125,7 +125,7 @@
         "focusCommandLine": "fn()",
         "focusSearch": "fn()",
         "evalCommandAndAppend": "fn(expr: string)",
-        "addCommandLineFunction": "fn(functionName: string, commandLineFunction: [object Object])"
+        "addCommandLineFunction": "fn(functionName: string, commandLineFunction: ?)"
       }
     },
     "InPageAppender": {
@@ -161,7 +161,7 @@
         "focusCommandLine": "fn()",
         "focusSearch": "fn()",
         "evalCommandAndAppend": "fn(expr: string)",
-        "addCommandLineFunction": "fn(functionName: string, commandLineFunction: [object Object])"
+        "addCommandLineFunction": "fn(functionName: string, commandLineFunction: ?)"
       }
     },
     "BrowserConsoleAppender": {

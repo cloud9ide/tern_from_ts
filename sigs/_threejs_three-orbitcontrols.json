@@ -48,7 +48,7 @@
         "addEventListener": "fn(type: string, listener: fn(event: ?))",
         "hasEventListener": "fn(type: string, listener: fn(event: ?))",
         "removeEventListener": "fn(type: string, listener: fn(event: ?))",
-        "dispatchEvent": "fn(event: [object Object])"
+        "dispatchEvent": "fn(event: ?)"
       }
     }
   },

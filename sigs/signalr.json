@@ -60,7 +60,7 @@
   },
   "HubConnection": {
     "proxies": "?",
-    "received": "fn(callback: fn(data: [object Object])) -> HubConnection",
+    "received": "fn(callback: fn(data: ?)) -> HubConnection",
     "createHubProxy": "fn(hubName: string) -> HubProxy"
   },
   "SignalRfn": {

@@ -30,7 +30,7 @@
   },
   "KnockoutSubscribable": {
     "subscribe": "fn(callback: fn(newValue: T), target?: ?, event?: string) -> KnockoutSubscription",
-    "extend": "fn(requestedExtenders: [object Object]) -> ?",
+    "extend": "fn(requestedExtenders: ?) -> ?",
     "getSubscriptionsCount": "fn() -> number"
   },
   "KnockoutComputedStatic": {
@@ -41,13 +41,13 @@
     "dispose": "fn()",
     "isActive": "fn() -> bool",
     "getDependenciesCount": "fn() -> number",
-    "extend": "fn(requestedExtenders: [object Object]) -> ?"
+    "extend": "fn(requestedExtenders: ?) -> ?"
   },
   "KnockoutObservableArrayStatic": {
     "fn": "?"
   },
   "KnockoutObservableArray": {
-    "extend": "fn(requestedExtenders: [object Object]) -> ?"
+    "extend": "fn(requestedExtenders: ?) -> ?"
   },
   "KnockoutObservableStatic": {
     "fn": "?"
@@ -56,7 +56,7 @@
     "peek": "fn() -> T",
     "valueHasMutated": {},
     "valueWillMutate": {},
-    "extend": "fn(requestedExtenders: [object Object]) -> ?"
+    "extend": "fn(requestedExtenders: ?) -> ?"
   },
   "KnockoutComputedDefine": {
     "read": "fn() -> T",
@@ -127,7 +127,7 @@
     "insertAfter": "fn(container: KnockoutVirtualElement, nodeToInsert: Node, insertAfter: Node)",
     "nextSibling": "fn(node: KnockoutVirtualElement) -> Node",
     "prepend": "fn(node: KnockoutVirtualElement, toInsert: Node)",
-    "setDomNodeChildren": "fn(node: KnockoutVirtualElement, newChildren: [object Object])",
+    "setDomNodeChildren": "fn(node: KnockoutVirtualElement, newChildren: ?)",
     "childNodes": "fn(node: KnockoutVirtualElement) -> [Node]"
   },
   "KnockoutExtenders": {
@@ -335,7 +335,7 @@
   },
   "KnockoutComponentDefinition": {
     "template": "[Node]",
-    "createViewModel": "fn(params: ?, options: [object Object]) -> ?"
+    "createViewModel": "fn(params: ?, options: ?) -> ?"
   },
   "KnockoutComponentLoader": {
     "getConfig": "fn(componentName: string, callback: fn(result: KnockoutComponentConfig))",

@@ -53,7 +53,7 @@
     },
     "Pack": {
       "prototype": {
-        "require": "fn(name: string, options: [object Object], callback: Function)",
+        "require": "fn(name: string, options: ?, callback: Function)",
         "register": "fn(plugins: ?, options?: Object, callback?: Function, state?: Object)"
       }
     },
@@ -104,16 +104,16 @@
         "pack": "Pack",
         "plugins": {},
         "start": "fn(callback?: fn())",
-        "stop": "fn(options?: [object Object], callback?: fn())",
+        "stop": "fn(options?: ?, callback?: fn())",
         "route": "fn(options: RouteOptions)",
         "table": "fn(host?: string) -> ?",
         "log": "fn(tags: string, data?: string, timestamp?: number)",
         "connection": "fn(options?: ServerOptions)",
-        "state": "fn(name: string, options?: [object Object])",
+        "state": "fn(name: string, options?: ?)",
         "views": "fn(options: ServerView)",
-        "cache": "fn(name: string, options: [object Object])",
+        "cache": "fn(name: string, options: ?)",
         "auth": {
-          "scheme": "fn(name: string, scheme: [object Object])",
+          "scheme": "fn(name: string, scheme: ?)",
           "strategy": "?"
         },
         "ext": "fn(event: ?, method: string, options?: ?)",
@@ -181,7 +181,7 @@
         "passThrough": "bool"
       },
       "code": "fn(statusCode: number)",
-      "header": "fn(name: string, value: string, options?: [object Object])",
+      "header": "fn(name: string, value: string, options?: ?)",
       "type": "fn(mimeType: string)",
       "bytes": "fn(length: number)",
       "vary": "fn(header: string)",
@@ -200,7 +200,7 @@
       "rewritable": "fn(isRewritable: bool)"
     },
     "reply": {
-      "file": "fn(path: string, options: [object Object])",
+      "file": "fn(path: string, options: ?)",
       "view": "fn(template: string, context?: ?, options?: ?) -> Response",
       "close": "fn(options?: ?)",
       "proxy": "fn(options: ?)",

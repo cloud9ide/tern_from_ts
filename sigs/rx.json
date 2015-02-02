@@ -2,7 +2,7 @@
   "Rx": {
     "internals": {
       "isEqual": "fn(left: ?, right: ?) -> bool",
-      "addRef": "fn(xs: ?, r: [object Object]) -> ?",
+      "addRef": "fn(xs: ?, r: ?) -> ?",
       "PriorityQueue": {
         "!type": "fn(capacity: number)",
         "count": "number",
@@ -218,7 +218,7 @@
       "takeWhile": "fn(predicate: fn(value: T, index: number, source: ?), thisArg?: ?) -> ?",
       "where": "fn(predicate: fn(value: T, index: number, source: ?), thisArg?: ?) -> ?",
       "filter": "fn(predicate: fn(value: T, index: number, source: ?), thisArg?: ?) -> ?",
-      "toPromise": "fn(promiseCtor: [object Object]) -> TPromise",
+      "toPromise": "fn(promiseCtor: ?) -> TPromise",
       "exclusive": "fn() -> ?",
       "exclusiveMap": "fn(selector: fn(value: I, index: number, source: ?), thisArg?: ?) -> ?",
       "!type": "ObservableStatic"

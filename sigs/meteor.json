@@ -4,10 +4,10 @@
     "addType": "fn(name: string, factory: Function)",
     "toJSONValue": "fn(val: EJSON) -> JSON",
     "fromJSONValue": "fn(val: JSON) -> ?",
-    "stringify": "fn(val: EJSON, options?: [object Object]) -> string",
+    "stringify": "fn(val: EJSON, options?: ?) -> string",
     "parse": "fn(str: string) -> EJSON",
     "isBinary": "fn(x: Object) -> bool",
-    "equals": "fn(a: EJSON, b: EJSON, options?: [object Object]) -> bool",
+    "equals": "fn(a: EJSON, b: EJSON, options?: ?) -> bool",
     "clone": "fn(val: T) -> T",
     "CustomType": {
       "typeName": "fn() -> string",
@@ -26,8 +26,8 @@
     "rendered": "Function",
     "destroyed": "Function",
     "body": "Meteor.TemplateBase",
-    "helpers": "fn(helpers: [object Object])",
-    "events": "fn(eventMap: [object Object])",
+    "helpers": "fn(helpers: ?)",
+    "events": "fn(eventMap: ?)",
     "instance": "fn() -> Blaze.TemplateInstance",
     "currentData": "fn() -> ret4",
     "parentData": "fn(numLevels?: number) -> ret5",
@@ -67,7 +67,7 @@
       "created": "Function",
       "destroyed": "Function",
       "events": "fn(eventMap: Meteor.EventMap)",
-      "helpers": "fn(helpers: [object Object])"
+      "helpers": "fn(helpers: ?)"
     },
     "LoginWithExternalServiceOptions": {
       "requestPermissions": "[string]",
@@ -137,11 +137,11 @@
     "user": "fn() -> Meteor.User",
     "logout": "fn(callback?: Function)",
     "logoutOtherClients": "fn(callback?: Function)",
-    "loginWith": "fn(options?: [object Object], callback?: Function)",
+    "loginWith": "fn(options?: ?, callback?: Function)",
     "loginWithPassword": "fn(user: Object, string: ?, password: string, callback?: Function)",
     "subscribe": "fn(name: string, args: ?) -> SubscriptionHandle",
     "call": "fn(name: string, args: ?)",
-    "apply": "fn(name: string, args: [EJSON], options?: [object Object], asyncCallback?: Function)",
+    "apply": "fn(name: string, args: [EJSON], options?: ?, asyncCallback?: Function)",
     "status": "fn() -> Meteor.StatusEnum",
     "reconnect": "fn()",
     "disconnect": "fn()",
@@ -154,7 +154,7 @@
     "setInterval": "fn(func: Function, delay: number) -> number",
     "clearInterval": "fn(id: number)",
     "clearTimeout": "fn(id: number)",
-    "absoluteUrl": "fn(path?: string, options?: [object Object]) -> string"
+    "absoluteUrl": "fn(path?: string, options?: ?) -> string"
   },
   "Mongo": {
     "Selector": {},
@@ -171,14 +171,14 @@
     },
     "Collection": {
       "insert": "fn(doc: Object, callback?: Function) -> string",
-      "update": "fn(selector: Mongo.Selector, modifier: Mongo.Modifier, options?: [object Object], callback?: Function) -> number",
-      "find": "fn(selector?: Mongo.Selector, options?: [object Object]) -> ?",
-      "findOne": "fn(selector?: Mongo.Selector, options?: [object Object]) -> T",
+      "update": "fn(selector: Mongo.Selector, modifier: Mongo.Modifier, options?: ?, callback?: Function) -> number",
+      "find": "fn(selector?: Mongo.Selector, options?: ?) -> ?",
+      "findOne": "fn(selector?: Mongo.Selector, options?: ?) -> T",
       "remove": "fn(selector: Mongo.Selector, callback?: Function)",
-      "upsert": "fn(selector: Mongo.Selector, modifier: Mongo.Modifier, options?: [object Object], callback?: Function) -> ret3",
-      "allow": "fn(options: [object Object]) -> bool",
-      "deny": "fn(options: [object Object]) -> bool",
-      "!type": "fn(name: string, options?: [object Object])"
+      "upsert": "fn(selector: Mongo.Selector, modifier: Mongo.Modifier, options?: ?, callback?: Function) -> ret3",
+      "allow": "fn(options: ?) -> bool",
+      "deny": "fn(options: ?) -> bool",
+      "!type": "fn(name: string, options?: ?)"
     },
     "ObjectID": "fn(hexString: string)",
     "Cursor": {
@@ -208,7 +208,7 @@
       "data": "?",
       "headers": {}
     },
-    "call": "fn(method: string, url: string, options?: [object Object], asyncCallback?: Function) -> HTTP.HTTPResponse",
+    "call": "fn(method: string, url: string, options?: ?, asyncCallback?: Function) -> HTTP.HTTPResponse",
     "get": "fn(url: string, callOptions?: Object, asyncCallback?: Function) -> HTTP.HTTPResponse",
     "post": "fn(url: string, callOptions?: Object, asyncCallback?: Function) -> HTTP.HTTPResponse",
     "put": "fn(url: string, callOptions?: Object, asyncCallback?: Function) -> HTTP.HTTPResponse",
@@ -226,7 +226,7 @@
       "html": "string",
       "headers": {}
     },
-    "send": "fn(options: [object Object])"
+    "send": "fn(options: ?)"
   },
   "DDP": {
     "DDPStatic": {
@@ -285,10 +285,10 @@
   },
   "Accounts": {
     "ui": {
-      "config": "fn(options: [object Object])"
+      "config": "fn(options: ?)"
     },
     "emailTemplates": "Meteor.EmailTemplates",
-    "config": "fn(options: [object Object])",
+    "config": "fn(options: ?)",
     "validateLoginAttempt": "fn(func: Function) -> ret",
     "onLogin": "fn(func: Function) -> ret1",
     "onLoginFailure": "fn(func: Function) -> ret2",
@@ -297,9 +297,9 @@
     "onResetPasswordLink": "fn(callback: Function)",
     "onEmailVerificationLink": "fn(callback: Function)",
     "onEnrollmentLink": "fn(callback: Function)",
-    "createUser": "fn(options: [object Object], callback?: Function) -> string",
+    "createUser": "fn(options: ?, callback?: Function) -> string",
     "changePassword": "fn(oldPassword: string, newPassword: string, callback?: Function)",
-    "forgotPassword": "fn(options: [object Object], callback?: Function)",
+    "forgotPassword": "fn(options: ?, callback?: Function)",
     "resetPassword": "fn(token: string, newPassword: string, callback?: Function)",
     "verifyEmail": "fn(token: string, callback?: Function)",
     "setPassword": "fn(userId: string, newPassword: string)",
@@ -336,24 +336,24 @@
     "getBinary": "fn(assetPath: string, asyncCallback?: Function) -> EJSON"
   },
   "App": {
-    "info": "fn(options: [object Object])",
+    "info": "fn(options: ?)",
     "setPreference": "fn(name: string, value: string)",
     "configurePlugin": "fn(pluginName: string, config: Object)",
     "icons": "fn(icons: Object)",
     "launchScreens": "fn(launchScreens: Object)"
   },
   "Package": {
-    "describe": "fn(options: [object Object])",
+    "describe": "fn(options: ?)",
     "onUse": "fn(func: Function)",
     "onTest": "fn(func: Function)",
-    "registerBuildPlugin": "fn(options?: [object Object])"
+    "registerBuildPlugin": "fn(options?: ?)"
   },
   "Npm": {
-    "depends": "fn(dependencies: [object Object])",
+    "depends": "fn(dependencies: ?)",
     "require": "fn(name: string)"
   },
   "Cordova": {
-    "depends": "fn(dependencies: [object Object])"
+    "depends": "fn(dependencies: ?)"
   },
   "Session": {
     "set": "fn(key: string, value: EJSON, any: ?)",
@@ -389,15 +389,15 @@
     "fileOptions": "?",
     "declaredExports": "?",
     "read": "fn(n?: number)",
-    "addHtml": "fn(options: [object Object])",
-    "addStylesheet": "fn(options: [object Object], path: string, data: string, sourceMap: string)",
-    "addJavaScript": "fn(options: [object Object])",
-    "addAsset": "fn(options: [object Object], path: string, data: ?, string: ?)",
-    "error": "fn(options: [object Object], message: string, sourcePath?: string, line?: number, func?: string)",
+    "addHtml": "fn(options: ?)",
+    "addStylesheet": "fn(options: ?, path: string, data: string, sourceMap: string)",
+    "addJavaScript": "fn(options: ?)",
+    "addAsset": "fn(options: ?, path: string, data: ?, string: ?)",
+    "error": "fn(options: ?, message: string, sourcePath?: string, line?: number, func?: string)",
     "!type": "fn()"
   },
   "PackageAPI": {
-    "use": "fn(packageNames: string, string: ?, architecture?: string, options?: [object Object])",
+    "use": "fn(packageNames: string, string: ?, architecture?: string, options?: ?)",
     "imply": "fn(packageSpecs: string, string: ?)",
     "addFiles": "fn(filename: string, string: ?, architecture?: string)",
     "versionsFrom": "fn(meteorRelease: string, string: ?)",

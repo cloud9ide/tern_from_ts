@@ -69,7 +69,7 @@
         "rollOutSlice": "fn(index: ?)",
         "rollOverSlice": "fn(index: ?)",
         "showSlice": "fn(index: ?)",
-        "addListener": "fn(type: string, handler: fn(e: [object Object]))"
+        "addListener": "fn(type: string, handler: fn(e: ?))"
       }
     },
     "AmRadarChart": {
@@ -210,7 +210,7 @@
         "validateNow": "fn()",
         "zoom": "fn(startDate: ?, endDate: ?)",
         "zoomOut": "fn()",
-        "addListener": "fn(type: string, handler: fn(e: [object Object]))"
+        "addListener": "fn(type: string, handler: fn(e: ?))"
       }
     },
     "ValueAxesSettings": {
@@ -290,7 +290,7 @@
         "valueText": "string",
         "valueWidth": "number",
         "verticalGap": "number",
-        "addListener": "fn(type: string, handler: fn(e: [object Object]))",
+        "addListener": "fn(type: string, handler: fn(e: ?))",
         "removeListener": "fn(chart: AmChart, type: string, handler: ?)"
       }
     },
@@ -351,7 +351,7 @@
         "validateData": "fn()",
         "validateNow": "fn()",
         "write": "fn(container: HTMLElement)",
-        "addListener": "fn(type: string, handler: fn(e: [object Object]))",
+        "addListener": "fn(type: string, handler: fn(e: ?))",
         "removeListener": "fn(chart: AmChart, type: string, handler: ?)"
       }
     },
@@ -382,7 +382,7 @@
         "showGraph": "fn(graph: AmGraph)",
         "showGraphsBalloon": "fn(graph: AmGraph)",
         "unhighlightGraph": "fn(graph: AmGraph)",
-        "addListener": "fn(type: string, handler: fn(e: [object Object]))"
+        "addListener": "fn(type: string, handler: fn(e: ?))"
       }
     },
     "GraphDataItem": {
@@ -504,7 +504,7 @@
         "zooming": "bool",
         "hideCursor": "fn()",
         "showCursorAt": "fn(category: ?)",
-        "addListener": "fn(type: string, handler: fn(e: [object Object]))",
+        "addListener": "fn(type: string, handler: fn(e: ?))",
         "removeListener": "fn(chart: AmChart, type: string, handler: ?)"
       }
     },
@@ -545,7 +545,7 @@
         "selectFromStart": "bool",
         "toText": "string",
         "width": "number",
-        "addListener": "fn(type: ?, handler: fn(e: [object Object]))",
+        "addListener": "fn(type: ?, handler: fn(e: ?))",
         "removeListener": "fn(chart: AmChart, type: string, handler: ?)"
       }
     },

@@ -1,12 +1,12 @@
 {
   "SigmaJs": {
     "Animation": {
-      "camera": "fn(camera: Camera, target: [object Object], options: [object Object]) -> number"
+      "camera": "fn(camera: Camera, target: ?, options: ?) -> number"
     },
     "Camera": {
       "angle": "number",
       "cameraPosition": "fn(x: number, y: number) -> ret",
-      "goTo": "fn(settings: [object Object])",
+      "goTo": "fn(settings: ?)",
       "graphPosition": "fn(x: number, y: number) -> ret1",
       "ratio": "number",
       "readPrefix": "string",
@@ -88,7 +88,7 @@
       "refresh": "fn()",
       "renderers": "[Renderer]",
       "settings": "fn(key: string) -> ?",
-      "configForceAtlas2": "fn(configs: [object Object])",
+      "configForceAtlas2": "fn(configs: ?)",
       "isForceAtlas2Running": "fn() -> bool",
       "killForceAtlas2": "fn()",
       "startForceAtlas2": "fn()",

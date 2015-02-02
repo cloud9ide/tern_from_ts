@@ -1,7 +1,7 @@
 {
   "htmlparser2": {
     "Handler": {
-      "onopentag": "fn(name: string, attribs: [object Object])",
+      "onopentag": "fn(name: string, attribs: ?)",
       "onopentagname": "fn(name: string)",
       "onattribute": "fn(name: string, value: string)",
       "ontext": "fn(text: string)",

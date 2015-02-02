@@ -352,7 +352,7 @@
             "attachScope": "Object",
             "set": "fn(property: string, value: Object)",
             "get": "fn(property: string) -> Object",
-            "watch": "fn(property: string, callback: [object Object]) -> ret",
+            "watch": "fn(property: string, callback: ?) -> ret",
             "attributeMap": "Object",
             "baseClass": "string",
             "class": "string",

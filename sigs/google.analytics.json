@@ -33,13 +33,13 @@
     "ga": {
       "l": "number",
       "q": "[?]",
-      "create": "fn(trackingId: string, opt_configObject?: [object Object]) -> UniversalAnalytics.Tracker",
+      "create": "fn(trackingId: string, opt_configObject?: ?) -> UniversalAnalytics.Tracker",
       "getAll": "fn() -> [UniversalAnalytics.Tracker]",
       "getByName": "fn(name: string) -> UniversalAnalytics.Tracker"
     },
     "Tracker": {
       "get": "fn(fieldName: string) -> T",
-      "send": "fn(hitType: string, opt_fieldObject?: [object Object])",
+      "send": "fn(hitType: string, opt_fieldObject?: ?)",
       "set": "fn(fieldName: string, value: string)"
     }
   },

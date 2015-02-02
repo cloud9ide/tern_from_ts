@@ -21,7 +21,7 @@
     "Filter": {
       "gaussianBlur": "fn(values: string) -> Filter",
       "colorMatrix": "fn(name: string, value: number) -> Filter",
-      "componentTransfer": "fn(components: [object Object]) -> Filter",
+      "componentTransfer": "fn(components: ?) -> Filter",
       "offset": "fn(x: number, y: number) -> Filter",
       "blend": "fn() -> Filter",
       "in": "fn(source: FilterSource) -> Filter",
@@ -65,8 +65,8 @@
       "data": "fn(name: string) -> ?",
       "remember": "fn(name: string, value: ?) -> Element",
       "forget": "fn(keys: [string]) -> Element",
-      "fill": "fn(fill: [object Object]) -> Element",
-      "stroke": "fn(data: [object Object]) -> Element",
+      "fill": "fn(fill: ?) -> Element",
+      "stroke": "fn(data: ?) -> Element",
       "opacity": "fn(o: number) -> Element",
       "rotate": "fn(d: number, cx?: number, cy?: number) -> Element",
       "skew": "fn(x: number, y: number) -> Element",
@@ -97,7 +97,7 @@
     },
     "Text": {
       "content": "string",
-      "font": "fn(font: [object Object]) -> Element",
+      "font": "fn(font: ?) -> Element",
       "tspan": "fn(text: string) -> Element",
       "path": "fn(data: string) -> Element",
       "plot": "fn(data: string) -> Element",

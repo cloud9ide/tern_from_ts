@@ -27,7 +27,7 @@
           "attributeMap": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret",
+          "watch": "fn(property: string, callback: ?) -> ret",
           "baseClass": "string",
           "class": "string",
           "containerNode": "HTMLElement",

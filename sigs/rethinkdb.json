@@ -5,7 +5,7 @@
     "dbDrop": "fn(name: string) -> ?",
     "dbList": "fn() -> ?",
     "db": "fn(name: string) -> Db",
-    "table": "fn(name: string, options?: [object Object]) -> Table",
+    "table": "fn(name: string, options?: ?) -> Table",
     "asc": "fn(property: string) -> Sort",
     "desc": "fn(property: string) -> Sort",
     "count": "Aggregator",

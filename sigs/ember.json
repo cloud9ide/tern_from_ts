@@ -122,7 +122,7 @@
     "propertyWillChange": "fn(keyName: string) -> [?]",
     "removeObserver": "fn(key: string, target: ?, method: string) -> Ember.Observable",
     "set": "fn(keyName: string, value: ?) -> [?]",
-    "setProperties": "fn(hash: [object Object]) -> [?]",
+    "setProperties": "fn(hash: ?) -> [?]",
     "toggleProperty": "fn(keyName: string) -> ?",
     "copy": "fn(deep: bool) -> [?]",
     "frozenCopy": "fn() -> [?]"
@@ -181,7 +181,7 @@
     "Application": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret2",
       "isClass": "bool",
       "isMethod": "bool",
@@ -191,7 +191,7 @@
         "deferReadiness": "fn()",
         "inject": "fn(factoryNameOrType: string, property: string, injectionName: string)",
         "injectTestHelpers": "fn()",
-        "register": "fn(fullName: string, factory: Function, options?: [object Object])",
+        "register": "fn(fullName: string, factory: Function, options?: ?)",
         "removeTestHelpers": "fn()",
         "reset": "fn()",
         "setupForTesting": "fn()",
@@ -256,7 +256,7 @@
     "ArrayController": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret3",
       "isClass": "bool",
       "isMethod": "bool",
@@ -286,7 +286,7 @@
     "ArrayProxy": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret4",
       "isClass": "bool",
       "isMethod": "bool",
@@ -372,18 +372,18 @@
     "Button": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret5",
       "isClass": "bool",
       "isMethod": "bool",
       "prototype": {
-        "triggerAction": "fn(opts: [object Object]) -> bool"
+        "triggerAction": "fn(opts: ?) -> bool"
       }
     },
     "Checkbox": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret6",
       "isClass": "bool",
       "isMethod": "bool",
@@ -394,7 +394,7 @@
       "prototype": {
         "arrayDidChange": "fn(content: [?], start: number, removed: number, added: number)",
         "arrayWillChange": "fn(content: [?], start: number, removed: number)",
-        "createChildView": "fn(viewClass: [object Object], attrs?: [object Object]) -> CollectionView",
+        "createChildView": "fn(viewClass: ?, attrs?: ?) -> CollectionView",
         "destroy": "fn() -> CollectionView",
         "init": "fn()",
         "content": "[?]",
@@ -410,7 +410,7 @@
     "Component": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret7",
       "isClass": "bool",
       "isMethod": "bool",
@@ -423,7 +423,7 @@
       "prototype": {
         "cacheable": "fn(aFlag?: bool) -> ComputedProperty",
         "get": "fn(keyName: string) -> ?",
-        "meta": "fn(meta: [object Object]) -> ComputedProperty",
+        "meta": "fn(meta: ?) -> ComputedProperty",
         "property": "fn(args: [string]) -> ComputedProperty",
         "readOnly": "fn() -> ComputedProperty",
         "set": "fn(keyName: string, newValue: ?, oldValue: string) -> ?",
@@ -441,18 +441,18 @@
         "typeInjections": {},
         "injections": {},
         "child": "fn() -> Container",
-        "set": "fn(object: [object Object], key: string, value: ?)",
-        "register": "fn(fullName: string, factory: Function, options?: [object Object])",
+        "set": "fn(object: ?, key: string, value: ?)",
+        "register": "fn(fullName: string, factory: Function, options?: ?)",
         "unregister": "fn(fullName: string)",
         "resolve": "fn(fullName: string) -> Function",
         "describe": "fn(fullName: string) -> string",
         "normalize": "fn(fullName: string) -> string",
         "makeToString": "fn(factory: ?, fullName: string) -> Function",
-        "lookup": "fn(fullName: string, options?: [object Object]) -> ?",
+        "lookup": "fn(fullName: string, options?: ?) -> ?",
         "lookupFactory": "fn(fullName: string) -> ?",
         "has": "fn(fullName: string) -> bool",
-        "optionsForType": "fn(type: string, options: [object Object])",
-        "options": "fn(type: string, options: [object Object])",
+        "optionsForType": "fn(type: string, options: ?)",
+        "options": "fn(type: string, options: ?)",
         "injection": "fn(factoryName: string, property: string, injectionName: string)",
         "factoryInjection": "fn(factoryName: string, property: string, injectionName: string)",
         "destroy": "fn()",
@@ -462,7 +462,7 @@
     "ContainerView": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret8",
       "isClass": "bool",
       "isMethod": "bool",
@@ -501,7 +501,7 @@
     "CoreObject": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret9",
       "isClass": "bool",
       "isMethod": "bool",
@@ -517,7 +517,7 @@
     "CoreView": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret10",
       "isClass": "bool",
       "isMethod": "bool",
@@ -568,7 +568,7 @@
     "EachProxy": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret12",
       "isClass": "bool",
       "isMethod": "bool",
@@ -619,7 +619,7 @@
     "EventDispatcher": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret13",
       "isClass": "bool",
       "isMethod": "bool",
@@ -646,32 +646,32 @@
     "GUID_KEY": "string",
     "Handlebars": {
       "compile": "fn(string: string) -> Function",
-      "get": "fn(root: ?, path: string, options?: [object Object]) -> ?",
+      "get": "fn(root: ?, path: string, options?: ?) -> ?",
       "helper": "fn(name: string, func: Function, dependentKeys: string)",
       "helpers": {
         "prototype": {
-          "action": "fn(actionName: string, context: ?, options?: [object Object])",
-          "bindAttr": "fn(options?: [object Object]) -> string",
-          "connectOutlet": "fn(outletName: string, view: [object Object])",
-          "control": "fn(path: string, modelPath: string, options?: [object Object]) -> string",
+          "action": "fn(actionName: string, context: ?, options?: ?)",
+          "bindAttr": "fn(options?: ?) -> string",
+          "connectOutlet": "fn(outletName: string, view: ?)",
+          "control": "fn(path: string, modelPath: string, options?: ?) -> string",
           "debugger": "fn(property: string)",
           "disconnectOutlet": "fn(outletName: string)",
-          "each": "fn(name: string, path: string, options?: [object Object])",
-          "if": "fn(context: Function, options?: [object Object]) -> string",
+          "each": "fn(name: string, path: string, options?: ?)",
+          "if": "fn(context: Function, options?: ?) -> string",
           "init": "fn()",
-          "input": "fn(options?: [object Object])",
-          "linkTo": "fn(routeName: string, context: ?, options?: [object Object]) -> string",
+          "input": "fn(options?: ?)",
+          "linkTo": "fn(routeName: string, context: ?, options?: ?) -> string",
           "loc": "fn(str: string)",
           "log": "fn(property: string)",
           "outlet": "fn(property: string) -> string",
           "partial": "fn(partialName: string)",
-          "render": "fn(name: string, context?: string, options?: [object Object]) -> string",
-          "textarea": "fn(options?: [object Object])",
+          "render": "fn(name: string, context?: string, options?: ?) -> string",
+          "textarea": "fn(options?: ?)",
           "unbound": "fn(property: string) -> string",
-          "unless": "fn(context: Function, options?: [object Object]) -> string",
-          "view": "fn(path: string, options?: [object Object]) -> string",
-          "with": "fn(context: Function, options?: [object Object]) -> string",
-          "yield": "fn(options?: [object Object]) -> string"
+          "unless": "fn(context: Function, options?: ?) -> string",
+          "view": "fn(path: string, options?: ?) -> string",
+          "with": "fn(context: Function, options?: ?) -> string",
+          "yield": "fn(options?: ?) -> string"
         }
       },
       "precompile": "fn(string: string)",
@@ -699,7 +699,7 @@
     "HashLocation": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret14",
       "isClass": "bool",
       "isMethod": "bool",
@@ -708,7 +708,7 @@
     "HistoryLocation": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret15",
       "isClass": "bool",
       "isMethod": "bool",
@@ -733,7 +733,7 @@
     "LinkView": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret18",
       "isClass": "bool",
       "isMethod": "bool",
@@ -758,7 +758,7 @@
     },
     "Location": {
       "prototype": {
-        "create": "fn(options?: [object Object]) -> ?",
+        "create": "fn(options?: ?) -> ?",
         "registerImplementation": "fn(name: string, implementation: ?)"
       }
     },
@@ -791,11 +791,11 @@
       }
     },
     "Mixin": {
-      "create": "fn(arguments?: [object Object]) -> T",
+      "create": "fn(arguments?: ?) -> T",
       "prototype": {
         "apply": "fn(obj: ?) -> ?",
         "detect": "fn(obj: ?) -> bool",
-        "reopen": "fn(arguments?: [object Object]) -> T"
+        "reopen": "fn(arguments?: ?) -> T"
       }
     },
     "MutableArray": {
@@ -910,7 +910,7 @@
     "Namespace": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret19",
       "isClass": "bool",
       "isMethod": "bool",
@@ -997,7 +997,7 @@
         "propertyWillChange": "fn(keyName: string) -> [?]",
         "removeObserver": "fn(key: string, target: ?, method: string) -> Observable",
         "set": "fn(keyName: string, value: ?) -> [?]",
-        "setProperties": "fn(hash: [object Object]) -> [?]",
+        "setProperties": "fn(hash: ?) -> [?]",
         "toggleProperty": "fn(keyName: string) -> ?",
         "copy": "fn(deep: bool) -> [?]",
         "frozenCopy": "fn() -> [?]"
@@ -1006,7 +1006,7 @@
     "NoneLocation": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret22",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1015,14 +1015,14 @@
     "ORDER_DEFINITION": "[string]",
     "Object": {
       "extend": "fn(arguments?: CoreObjectArguments) -> T",
-      "create": "fn(arguments?: [object Object]) -> T",
-      "createWithMixins": "fn(arguments?: [object Object]) -> T",
+      "create": "fn(arguments?: ?) -> T",
+      "createWithMixins": "fn(arguments?: ?) -> T",
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret23",
-      "reopen": "fn(arguments?: [object Object]) -> T",
-      "reopenClass": "fn(arguments?: [object Object]) -> T",
+      "reopen": "fn(arguments?: ?) -> T",
+      "reopenClass": "fn(arguments?: ?) -> T",
       "isClass": "bool",
       "isMethod": "bool",
       "prototype": {
@@ -1041,7 +1041,7 @@
         "propertyWillChange": "fn(keyName: string) -> Observable",
         "removeObserver": "fn(key: string, target: ?, method: string) -> Observable",
         "set": "fn(keyName: string, value: ?) -> Observable",
-        "setProperties": "fn(hash: [object Object]) -> Observable",
+        "setProperties": "fn(hash: ?) -> Observable",
         "toggleProperty": "fn(keyName: string) -> ?"
       }
     },
@@ -1061,7 +1061,7 @@
     "ObjectProxy": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret26",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1084,9 +1084,9 @@
         "notifyPropertyChange": "fn(keyName: string) -> Observable",
         "propertyDidChange": "fn(keyName: string) -> Observable",
         "propertyWillChange": "fn(keyName: string) -> Observable",
-        "removeObserver": "fn(key: string, target: [object Object], method: string) -> Observable",
+        "removeObserver": "fn(key: string, target: ?, method: string) -> Observable",
         "set": "fn(keyName: string, value: ?) -> Observable",
-        "setProperties": "fn(hash: [object Object]) -> Observable",
+        "setProperties": "fn(hash: ?) -> Observable",
         "toggleProperty": "fn(keyName: string) -> ?"
       }
     },
@@ -1135,7 +1135,7 @@
     "Route": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret29",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1146,15 +1146,15 @@
         "controllerFor": "fn(name: string) -> Controller",
         "deactivate": "Function",
         "disconnectOutlet": "fn(options?: DisconnectOutletOptions)",
-        "generateController": "fn(name: string, model: [object Object])",
-        "model": "fn(params: [object Object], transition: EmberStates.Transition) -> ?",
+        "generateController": "fn(name: string, model: ?)",
+        "model": "fn(params: ?, transition: EmberStates.Transition) -> ?",
         "modelFor": "fn(name: string) -> ret30",
         "render": "fn(name: string, options?: RenderOptions)",
-        "renderTemplate": "fn(controller: Controller, model: [object Object])",
+        "renderTemplate": "fn(controller: Controller, model: ?)",
         "replaceWith": "fn(name: string, object: [?])",
         "send": "fn(name: string, args: [?])",
-        "serialize": "fn(model: [object Object], params: [string]) -> string",
-        "setupController": "fn(controller: Controller, model: [object Object])",
+        "serialize": "fn(model: ?, params: [string]) -> string",
+        "setupController": "fn(controller: Controller, model: ?)",
         "transitionTo": "fn(name: string, object: [?])",
         "actions": "ActionsHash"
       }
@@ -1162,7 +1162,7 @@
     "Router": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret31",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1172,8 +1172,8 @@
     },
     "RouterDSL": {
       "prototype": {
-        "resource": "fn(name: string, options?: [object Object], callback?: Function)",
-        "route": "fn(name: string, options?: [object Object])"
+        "resource": "fn(name: string, options?: ?, callback?: Function)",
+        "route": "fn(name: string, options?: ?)"
       }
     },
     "SHIM_ES5": "bool",
@@ -1181,7 +1181,7 @@
     "Select": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret32",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1201,7 +1201,7 @@
     "SelectOption": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret33",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1313,7 +1313,7 @@
     "State": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret34",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1324,9 +1324,9 @@
         "on": "fn(name: string, target: ?, method: Function) -> State",
         "one": "fn(name: string, target: ?, method: Function) -> State",
         "trigger": "fn(name: string, args: [string])",
-        "getPathsCache": "fn(stateManager: [object Object], path: string) -> ret35",
+        "getPathsCache": "fn(stateManager: ?, path: string) -> ret35",
         "init": "fn()",
-        "setPathsCache": "fn(stateManager: [object Object], path: string, transitions: ?)",
+        "setPathsCache": "fn(stateManager: ?, path: string, transitions: ?)",
         "hasContext": "bool",
         "isLeaf": "bool",
         "name": "string",
@@ -1340,7 +1340,7 @@
     "StateManager": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret36",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1379,7 +1379,7 @@
     "TEMPLATES": {},
     "TargetActionSupport": {
       "prototype": {
-        "triggerAction": "fn(opts: [object Object]) -> bool"
+        "triggerAction": "fn(opts: ?) -> bool"
       }
     },
     "Test": {
@@ -1405,7 +1405,7 @@
     "TextArea": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret38",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1423,7 +1423,7 @@
     "TextField": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret39",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1458,7 +1458,7 @@
     "View": {
       "detect": "fn(obj: ?) -> bool",
       "detectInstance": "fn(obj: ?) -> bool",
-      "eachComputedProperty": "fn(callback: Function, binding: [object Object])",
+      "eachComputedProperty": "fn(callback: Function, binding: ?)",
       "metaForProperty": "fn(key: string) -> ret40",
       "isClass": "bool",
       "isMethod": "bool",
@@ -1466,7 +1466,7 @@
         "$": "fn() -> JQuery",
         "append": "fn() -> View",
         "appendTo": "fn(A: string) -> View",
-        "createChildView": "fn(viewClass: [object Object], attrs?: [object Object]) -> View",
+        "createChildView": "fn(viewClass: ?, attrs?: ?) -> View",
         "createElement": "fn() -> View",
         "destroy": "fn() -> View",
         "destroyElement": "fn() -> View",
@@ -1547,11 +1547,11 @@
       "or": "fn(args: [string]) -> ComputedProperty"
     },
     "config": {},
-    "controllerFor": "fn(container: Container, controllerName: string, lookupOptions?: [object Object]) -> Controller",
+    "controllerFor": "fn(container: Container, controllerName: string, lookupOptions?: ?) -> Controller",
     "copy": "fn(obj: ?, deep: bool) -> ?",
-    "create": "fn(arguments?: [object Object]) -> CoreObject",
+    "create": "fn(arguments?: ?) -> CoreObject",
     "debug": "fn(message: string)",
-    "defineProperty": "fn(obj: ?, keyName: string, desc: [object Object])",
+    "defineProperty": "fn(obj: ?, keyName: string, desc: ?)",
     "deprecate": "fn(message: string, test?: bool)",
     "deprecateFunc": "fn(message: string, func: Function) -> Function",
     "destroy": "fn(obj: ?)",
@@ -1601,7 +1601,7 @@
     "platform": {
       "addBeforeObserver": "ModifyObserver",
       "addObserver": "ModifyObserver",
-      "defineProperty": "fn(obj: ?, keyName: string, desc: [object Object])",
+      "defineProperty": "fn(obj: ?, keyName: string, desc: ?)",
       "removeBeforeObserver": "ModifyObserver",
       "removeObserver": "ModifyObserver",
       "hasPropertyAccessors": "bool"
@@ -1634,7 +1634,7 @@
     "set": "fn(obj: ?, keyName: string, value: ?) -> ?",
     "setMeta": "fn(obj: ?, property: string, value: ?)",
     "setPath": "deprecateFunc",
-    "setProperties": "fn(self: ?, hash: [object Object]) -> ?",
+    "setProperties": "fn(self: ?, hash: ?) -> ?",
     "subscribe": "fn(pattern: string, object: ?)",
     "tryCatchFinally": "fn(tryable: Function, catchable: Function, finalizer: Function, binding?: ?) -> ?",
     "tryFinally": "fn(tryable: Function, finalizer: Function, binding?: ?) -> ?",
@@ -1650,7 +1650,7 @@
     "watch": "fn(obj: ?, keyPath: string)",
     "watchKey": "fn(obj: ?, keyName: string)",
     "watchPath": "fn(obj: ?, keyPath: string)",
-    "watchedEvents": "fn(obj: [object Object]) -> [?]",
+    "watchedEvents": "fn(obj: ?) -> [?]",
     "wrap": "fn(func: Function, superFunc: Function) -> Function"
   },
   "Em": {

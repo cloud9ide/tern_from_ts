@@ -229,7 +229,7 @@
     "statusCode": "number",
     "setEncoding": "fn(encoding: string)",
     "write": "fn(data: string)",
-    "writeHead": "fn(statusCode: number, headers?: [object Object])",
+    "writeHead": "fn(statusCode: number, headers?: ?)",
     "close": "fn()",
     "closeGracefully": "fn()"
   },

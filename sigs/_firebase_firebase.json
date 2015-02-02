@@ -63,9 +63,9 @@
     "setPriority": "fn(priority: string, onComplete?: fn(error: ?))",
     "transaction": "fn(updateFunction: fn(currentData: ?), onComplete?: fn(error: ?, committed: bool, snapshot: FirebaseDataSnapshot), applyLocally?: bool)",
     "createUser": "fn(credentials: FirebaseCredentials, onComplete: fn(error: ?))",
-    "changePassword": "fn(credentials: [object Object], onComplete: fn(error: ?))",
+    "changePassword": "fn(credentials: ?, onComplete: fn(error: ?))",
     "removeUser": "fn(credentials: FirebaseCredentials, onComplete: fn(error: ?))",
-    "resetPassword": "fn(credentials: [object Object], onComplete: fn(error: ?))",
+    "resetPassword": "fn(credentials: ?, onComplete: fn(error: ?))",
     "onDisconnect": "fn() -> FirebaseOnDisconnect",
     "!type": "FirebaseStatic"
   },

@@ -39,7 +39,7 @@
         "setNumHttpThreads": "fn(n: number) -> ServiceBuilder",
         "setUrlBasePath": "fn(path: string) -> ServiceBuilder",
         "setStdio": "fn(config: string) -> ServiceBuilder",
-        "withEnvironment": "fn(env: [object Object]) -> ServiceBuilder",
+        "withEnvironment": "fn(env: ?) -> ServiceBuilder",
         "build": "fn() -> ?"
       }
     },

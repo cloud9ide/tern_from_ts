@@ -64,8 +64,8 @@
           "rotate": "fn(deg: number, ox?: number, oy?: number) -> Paper",
           "findView": "fn(el: ?) -> CellView",
           "findViewByModel": "fn(modelOrId: ?) -> CellView",
-          "findViewsFromPoint": "fn(p: [object Object]) -> [CellView]",
-          "findViewsInArea": "fn(r: [object Object]) -> [CellView]",
+          "findViewsFromPoint": "fn(p: ?) -> [CellView]",
+          "findViewsInArea": "fn(r: ?) -> [CellView]",
           "snapToGrid": "fn(p: ?) -> ret"
         }
       },

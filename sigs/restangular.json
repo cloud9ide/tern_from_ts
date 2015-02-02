@@ -46,7 +46,7 @@
       "setFullRequestInterceptor": "fn(fullRequestInterceptor: fn(element: ?, operation: string, what: string, url: string, headers: ?, params: ?, httpConfig: IRequestConfig))",
       "addFullRequestInterceptor": "fn(requestInterceptor: fn(element: ?, operation: string, what: string, url: string, headers: ?, params: ?, httpConfig: IRequestConfig))",
       "setErrorInterceptor": "fn(errorInterceptor: fn(response: IResponse, deferred: ?))",
-      "setRestangularFields": "fn(fields: [object Object])",
+      "setRestangularFields": "fn(fields: ?)",
       "setMethodOverriders": "fn(overriders: [string])",
       "setJsonp": "fn(jsonp: bool)",
       "setDefaultRequestParams": "fn(params: ?)",

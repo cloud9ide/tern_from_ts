@@ -472,8 +472,8 @@
       }
     },
     "render": "fn(input: string, callback: fn(e: ?, css: string))",
-    "formatError": "fn(ctx: ?, options: [object Object]) -> string",
-    "writeError": "fn(ctx: ?, options: [object Object])",
+    "formatError": "fn(ctx: ?, options: ?) -> string",
+    "writeError": "fn(ctx: ?, options: ?)",
     "version": "[number]",
     "!type": "less"
   },

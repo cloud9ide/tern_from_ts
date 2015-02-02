@@ -11,8 +11,8 @@
       "node": "fn(id: string) -> ?",
       "setDefaultEdgeLabel": "fn(callback: fn())",
       "setEdge": "fn(sourceId: string, targetId: string)",
-      "setGraph": "fn(options: [object Object])",
-      "setNode": "fn(id: string, node: [object Object])"
+      "setGraph": "fn(options: ?)",
+      "setNode": "fn(id: string, node: ?)"
     },
     "GraphLib": {
       "Graph": "Graph"

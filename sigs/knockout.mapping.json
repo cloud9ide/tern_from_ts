@@ -27,7 +27,7 @@
     "defaultOptions": "fn() -> KnockoutMappingOptions",
     "resetDefaultOptions": "fn()",
     "getType": "fn(x: ?) -> ?",
-    "visitModel": "fn(rootObject: ?, callback: Function, options?: [object Object]) -> ?"
+    "visitModel": "fn(rootObject: ?, callback: Function, options?: ?) -> ?"
   },
   "KnockoutObservableArrayFunctions": {
     "mappedCreate": "fn(item: T) -> T",

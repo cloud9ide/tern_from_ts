@@ -45,8 +45,8 @@
       "if": "fn(condition: fn(), thenSource: ?, elseSource?: ?) -> ?",
       "ifThen": "fn(condition: fn(), thenSource: ?, elseSource?: ?) -> ?",
       "doWhile": "fn(source: ?, condition: ?) -> ?",
-      "case": "fn(selector: fn(), sources: [object Object], defaultSource?: ?) -> ?",
-      "switchCase": "fn(selector: fn(), sources: [object Object], defaultSource?: ?) -> ?",
+      "case": "fn(selector: fn(), sources: ?, defaultSource?: ?) -> ?",
+      "switchCase": "fn(selector: fn(), sources: ?, defaultSource?: ?) -> ?",
       "for": "fn(source: ?, resultSelector: ?) -> ?",
       "forIn": "fn(source: ?, resultSelector: ?) -> ?"
     }

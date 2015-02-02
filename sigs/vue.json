@@ -1,0 +1,15 @@
+
+/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:97
+      var mod = flat(field.moduleReference(), cx);
+                           ^
+TypeError: Property 'moduleReference' of object ? is not a function
+    at objType (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:97:28)
+    at Object.exports.translate (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/lib/typescript.js:212:14)
+    at finish (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/bin/from_ts:28:33)
+    at Object.<anonymous> (/Users/lk/projects/cloud9/tern_from_ts/node_modules/tern/bin/from_ts:25:3)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+    at startup (node.js:119:16)

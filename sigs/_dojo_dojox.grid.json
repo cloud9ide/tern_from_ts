@@ -229,7 +229,7 @@
           "attachScope": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret",
+          "watch": "fn(property: string, callback: ?) -> ret",
           "attributeMap": "Object",
           "autoHeight": "bool",
           "autoRender": "bool",
@@ -468,7 +468,7 @@
           "attachScope": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret54",
+          "watch": "fn(property: string, callback: ?) -> ret54",
           "attributeMap": "Object",
           "baseClass": "string",
           "class": "string",
@@ -586,7 +586,7 @@
           "attachScope": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret81",
+          "watch": "fn(property: string, callback: ?) -> ret81",
           "attributeMap": "Object",
           "baseClass": "string",
           "class": "string",
@@ -710,7 +710,7 @@
           "attachScope": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret112",
+          "watch": "fn(property: string, callback: ?) -> ret112",
           "attributeMap": "Object",
           "baseClass": "string",
           "class": "string",
@@ -868,7 +868,7 @@
           "attachScope": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret141",
+          "watch": "fn(property: string, callback: ?) -> ret141",
           "attributeMap": "Object",
           "baseClass": "string",
           "class": "string",
@@ -995,7 +995,7 @@
           "store": "Object",
           "destroy": "fn()",
           "fetchItemByIdentity": "fn(keywordArgs: Object)",
-          "getChildren": "fn(parentItem: dojo.data.api.Item, onComplete: [object Object], onError: Function, queryObj?: Object)",
+          "getChildren": "fn(parentItem: dojo.data.api.Item, onComplete: ?, onError: Function, queryObj?: Object)",
           "getIdentity": "fn(item: ?) -> ?",
           "getLabel": "fn(item: ?) -> ?",
           "getRoot": "fn(onItem: ?, onError: ?)",
@@ -1091,7 +1091,7 @@
           "attachScope": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret168",
+          "watch": "fn(property: string, callback: ?) -> ret168",
           "attributeMap": "Object",
           "autoHeight": "bool",
           "autoRender": "bool",
@@ -1319,7 +1319,7 @@
           "attachScope": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret230",
+          "watch": "fn(property: string, callback: ?) -> ret230",
           "attributeMap": "Object",
           "autoHeight": "bool",
           "autoRender": "bool",
@@ -1552,7 +1552,7 @@
           "aggregator": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret294",
+          "watch": "fn(property: string, callback: ?) -> ret294",
           "attachScope": "Object",
           "attributeMap": "Object",
           "autoHeight": "bool",
@@ -1788,7 +1788,7 @@
           "aggregator": "Object",
           "set": "fn(property: string, value: Object)",
           "get": "fn(property: string) -> Object",
-          "watch": "fn(property: string, callback: [object Object]) -> ret362",
+          "watch": "fn(property: string, callback: ?) -> ret362",
           "attachScope": "Object",
           "attributeMap": "Object",
           "autoHeight": "bool",
@@ -2784,7 +2784,7 @@
               "active": "bool",
               "set": "fn(property: string, value: bool)",
               "get": "fn(property: string) -> bool",
-              "watch": "fn(property: string, callback: [object Object]) -> ret432",
+              "watch": "fn(property: string, callback: ?) -> ret432",
               "attachScope": "Object",
               "attributeMap": "Object",
               "autofocus": "bool",
@@ -3146,7 +3146,7 @@
               "destroy": "fn()",
               "disconnect": "fn(handle: ?)",
               "init": "fn()",
-              "searchRow": "fn(searchArgs: Object, onSearched: [object Object])",
+              "searchRow": "fn(searchArgs: Object, onSearched: ?)",
               "subscribe": "fn(topic: ?, method: ?) -> ?",
               "unsubscribe": "fn(handle: ?)",
               "onPostInit": "fn()",
@@ -3291,7 +3291,7 @@
                 "attachScope": "Object",
                 "set": "fn(property: string, value: Object)",
                 "get": "fn(property: string) -> Object",
-                "watch": "fn(property: string, callback: [object Object]) -> ret479",
+                "watch": "fn(property: string, callback: ?) -> ret479",
                 "attributeMap": "Object",
                 "baseClass": "string",
                 "class": "string",
@@ -3364,7 +3364,7 @@
                 "attachScope": "Object",
                 "set": "fn(property: string, value: Object)",
                 "get": "fn(property: string) -> Object",
-                "watch": "fn(property: string, callback: [object Object]) -> ret502",
+                "watch": "fn(property: string, callback: ?) -> ret502",
                 "attributeMap": "Object",
                 "baseClass": "string",
                 "class": "string",
@@ -3440,7 +3440,7 @@
               "_DataExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> String"
@@ -3449,7 +3449,7 @@
               "_BiOpExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3457,7 +3457,7 @@
               "_OperatorExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3465,7 +3465,7 @@
               "_ConditionExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> ?"
                 }
@@ -3473,7 +3473,7 @@
               "_UniOpExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3483,7 +3483,7 @@
               "BooleanExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> String"
@@ -3492,7 +3492,7 @@
               "DateExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> ?"
@@ -3501,7 +3501,7 @@
               "NumberExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> String"
@@ -3510,7 +3510,7 @@
               "StringExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> String"
@@ -3519,7 +3519,7 @@
               "TimeExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> ?"
@@ -3528,7 +3528,7 @@
               "_ConditionExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> ?"
                 }
@@ -3536,7 +3536,7 @@
               "_BiOpExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3544,7 +3544,7 @@
               "_OperatorExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3552,7 +3552,7 @@
               "_UniOpExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3560,7 +3560,7 @@
               "_DataExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> String"
@@ -3571,7 +3571,7 @@
               "BooleanExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> String"
@@ -3580,7 +3580,7 @@
               "Contains": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3588,7 +3588,7 @@
               "DateExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> ?"
@@ -3597,7 +3597,7 @@
               "EndsWith": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3605,7 +3605,7 @@
               "EqualTo": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3613,7 +3613,7 @@
               "IsEmpty": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3621,7 +3621,7 @@
               "LargerThan": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3629,7 +3629,7 @@
               "LargerThanOrEqualTo": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3637,7 +3637,7 @@
               "LessThan": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3645,7 +3645,7 @@
               "LessThanOrEqualTo": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3653,7 +3653,7 @@
               "LogicALL": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3661,7 +3661,7 @@
               "LogicAND": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3669,7 +3669,7 @@
               "LogicANY": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3677,7 +3677,7 @@
               "LogicNOT": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3685,7 +3685,7 @@
               "LogicOR": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3693,7 +3693,7 @@
               "LogicXOR": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3701,7 +3701,7 @@
               "Matches": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3709,7 +3709,7 @@
               "NumberExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> String"
@@ -3718,7 +3718,7 @@
               "StartsWith": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3726,7 +3726,7 @@
               "StringExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> String"
@@ -3735,7 +3735,7 @@
               "TimeExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> ?"
@@ -3744,7 +3744,7 @@
               "_BiOpExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3752,7 +3752,7 @@
               "_DataExpr": {
                 "!type": "fn(dataValue?: ?, isColumn?: bool, convertArgs?: Object)",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> Object",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> Object",
                   "getName": "fn() -> ?",
                   "getValue": "fn() -> ?",
                   "toObject": "fn() -> String"
@@ -3761,7 +3761,7 @@
               "_OperatorExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }
@@ -3769,7 +3769,7 @@
               "_ConditionExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> ?"
                 }
@@ -3777,7 +3777,7 @@
               "_UniOpExpr": {
                 "!type": "fn()",
                 "prototype": {
-                  "applyRow": "fn(datarow: Object, getter: [object Object]) -> ?",
+                  "applyRow": "fn(datarow: Object, getter: ?) -> ?",
                   "getName": "fn() -> ?",
                   "toObject": "fn() -> Object"
                 }

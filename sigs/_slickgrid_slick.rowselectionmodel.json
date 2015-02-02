@@ -1,7 +1,7 @@
 {
   "Slick": {
     "RowSelectionModel": {
-      "!type": "fn(options?: [object Object])",
+      "!type": "fn(options?: ?)",
       "prototype": {
         "getSelectedRows": "fn() -> [number]",
         "setSelectedRows": "fn(rows: [number])",

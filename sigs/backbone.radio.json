@@ -28,7 +28,7 @@
         "prototype": {
           "command": "fn(commandName: string, args: [?])",
           "comply": "fn(commandName: string, callback: fn(args: [?]), context?: ?) -> Commands",
-          "complyOnce": "fn(commands: [object Object], context?: ?) -> Commands",
+          "complyOnce": "fn(commands: ?, context?: ?) -> Commands",
           "stopComplying": "fn(commandName?: string, callback?: fn(args: [?]), context?: ?) -> Commands"
         }
       },

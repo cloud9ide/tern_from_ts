@@ -81,11 +81,11 @@
     },
     "Util": {
       "EventSource": {
-        "!type": "fn(options: [object Object])",
+        "!type": "fn(options: ?)",
         "prototype": {
           "addListener": "fn(listener: fn(event: ?)) -> EventSource",
           "removeListener": "fn(listener: fn(event: ?)) -> EventSource",
-          "dispatch": "fn(event: [object Object]) -> bool"
+          "dispatch": "fn(event: ?) -> bool"
         }
       },
       "Oauth": {
@@ -97,14 +97,14 @@
       },
       "Xhr": {
         "!type": "fn(method: string, baseUrl: string)",
-        "urlEncode": "fn(obj: [object Object]) -> string",
-        "urlEncodeValue": "fn(obj: [object Object]) -> string",
-        "urlDecode": "fn(string: [object Object]) -> QueryParams",
+        "urlEncode": "fn(obj: ?) -> string",
+        "urlEncodeValue": "fn(obj: ?) -> string",
+        "urlDecode": "fn(string: ?) -> QueryParams",
         "prototype": {
           "xhr": "XMLHttpRequest",
           "onError": "fn(error: ApiError, callBack: fn(error: ApiError))",
           "setParams": "fn(params: QueryParams) -> Xhr",
-          "setCallback": "fn(callback: fn(err: ApiError, responseType: string, metadataHeader: [object Object], headers: [object Object])) -> Xhr",
+          "setCallback": "fn(callback: fn(err: ApiError, responseType: string, metadataHeader: ?, headers: ?)) -> Xhr",
           "signWithOauth": "fn(oauth: Oauth, cacheFriendly: bool) -> Xhr",
           "addOauthParams": "fn(oauth: Oauth) -> Xhr",
           "addOauthHeader": "fn(oauth: Oauth) -> Xhr",
@@ -114,7 +114,7 @@
           "reportResponseHeaders": "fn() -> Xhr",
           "setFileField": "fn(fieldName: string, fileName: string, fileData: string, contentType?: string)",
           "prepare": "fn() -> Xhr",
-          "send": "fn(callback: fn(err: ApiError, responseType: string, metadataHeader: [object Object])) -> Xhr",
+          "send": "fn(callback: fn(err: ApiError, responseType: string, metadataHeader: ?)) -> Xhr",
           "onReadyStateChange": "fn()",
           "onXdrLoad": "fn()",
           "onXdrError": "fn()"
@@ -125,7 +125,7 @@
       "AppInfo": {
         "ICON_SMALL": "number",
         "ICON_LARGE": "number",
-        "parse": "fn(appInfo: [object Object], appKey?: string) -> AppInfo",
+        "parse": "fn(appInfo: ?, appKey?: string) -> AppInfo",
         "prototype": {
           "name": "string",
           "key": "string",
@@ -137,14 +137,14 @@
         }
       },
       "PollResult": {
-        "parse": "fn(response: [object Object]) -> PollResult",
+        "parse": "fn(response: ?) -> PollResult",
         "prototype": {
           "hasChanges": "bool",
           "retryAfter": "number"
         }
       },
       "PulledChanges": {
-        "parse": "fn(deltaInfo: [object Object]) -> PulledChanges",
+        "parse": "fn(deltaInfo: ?) -> PulledChanges",
         "prototype": {
           "blankSlate": "bool",
           "cursorTag": "string",
@@ -154,7 +154,7 @@
         }
       },
       "PulledChange": {
-        "parse": "fn(entry: [object Object]) -> PulledChange",
+        "parse": "fn(entry: ?) -> PulledChange",
         "prototype": {
           "path": "string",
           "wasRemoved": "bool",
@@ -211,7 +211,7 @@
         }
       },
       "Stat": {
-        "parse": "fn(metadata: [object Object]) -> Stat",
+        "parse": "fn(metadata: ?) -> Stat",
         "prototype": {
           "path": "string",
           "name": "string",
@@ -242,7 +242,7 @@
         "localStorage": "fn() -> Storage",
         "currentLocation": "fn() -> string",
         "cleanupLocation": "fn()",
-        "!type": "fn(options: [object Object])",
+        "!type": "fn(options: ?)",
         "prototype": {
           "authType": "fn() -> string",
           "onAuthStepChange": "fn(client: Client, callback: fn())",
@@ -250,7 +250,7 @@
         }
       },
       "Redirect": {
-        "!type": "fn(options?: [object Object])",
+        "!type": "fn(options?: ?)",
         "prototype": {
           "url": "fn() -> string",
           "doAuthorize": "fn(authUrl: string, stateParam: string, client: Client)",
@@ -266,23 +266,23 @@
         }
       },
       "ChromeApp": {
-        "!type": "fn(options?: [object Object])",
+        "!type": "fn(options?: ?)",
         "prototype": {}
       },
       "ChromeExtension": {
         "oauthReceiver": "fn()",
-        "!type": "fn(options?: [object Object])",
+        "!type": "fn(options?: ?)",
         "prototype": {}
       },
       "Cordova": {
         "oauthReceiver": "fn()",
-        "!type": "fn(options?: [object Object])",
+        "!type": "fn(options?: ?)",
         "prototype": {
           "url": "fn() -> string"
         }
       },
       "NodeServer": {
-        "!type": "fn(options?: [object Object])",
+        "!type": "fn(options?: ?)",
         "prototype": {
           "authType": "fn() -> string",
           "url": "fn() -> string",
@@ -303,7 +303,7 @@
       }
     },
     "AccountInfo": {
-      "parse": "fn(acountInfo: [object Object]) -> AccountInfo",
+      "parse": "fn(acountInfo: ?) -> AccountInfo",
       "prototype": {
         "name": "string",
         "email": "string",
@@ -399,7 +399,7 @@
         "copyRef": "fn(path: string, callback: fn(err: ApiError, copyReference: File.CopyReference)) -> XMLHttpRequest",
         "pullChanges": "fn(callback: fn(err: ApiError, changes: Http.PulledChanges)) -> XMLHttpRequest",
         "delta": "fn(cursor: string, callback: fn(err: ApiError, changes: Http.PulledChanges))",
-        "pollForChanges": "fn(cursor: string, options: [object Object], callback: fn(err: ApiError, changes: Http.PollResult))",
+        "pollForChanges": "fn(cursor: string, options: ?, callback: fn(err: ApiError, changes: Http.PollResult))",
         "mkdir": "fn(path: string, callback: FileStatCallback) -> XMLHttpRequest",
         "remove": "fn(path: string, callback: FileStatCallback) -> XMLHttpRequest",
         "unlink": "fn(path: string, callback: FileStatCallback)",
