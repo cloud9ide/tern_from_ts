@@ -54,6 +54,8 @@ ls ../sigs_ts | parallel '
     done
 '
 
+rm -f sigs/yosay.json
+
 {
     echo '{"sigs":{'
     for D in $(cd $MY_DIR/sigs; ls); do
