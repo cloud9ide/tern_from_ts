@@ -63,10 +63,15 @@ rm -f sigs/yosay.json
             continue
         fi
         echo -n '"'${D%.json}'": {'
-        echo -n '  "main": "'$D'"',
-        echo -n '  "extra": {'
+        echo -n '"main": "'$D'",'
+        PROJECT=$(grep -s 'Project: http' $MY_DIR/sigs_ts/${D%.json}/${D%.json}.d.ts | head -1 | grep -o 'http:.*' | tr -d '\r' || :)
+        if [ "$PROJECT" ]; then
+            echo "PROJECT: $PROJECT" >&2
+            echo -n '"url": "'$PROJECT'",'
+        fi
+        echo -n '"extra": {'
         for E in $(cd $MY_DIR/sigs; ls _${D%.json}* 2>/dev/null); do
-            echo -n '        "'${E%.json}'": "'$E'",'
+            echo -n '"'${E%.json}'": "'$E'",'
         done
         echo -n '}},'
     done
