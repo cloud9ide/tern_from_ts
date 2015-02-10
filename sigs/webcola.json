@@ -21,9 +21,23 @@
       "start": "fn()",
       "stop": "fn()"
     },
+    "Constraint": {
+      "axis": "string",
+      "gap": "number",
+      "left": "number",
+      "right": "number"
+    },
     "FlowLayout": {
       "axis": "string",
       "minSeparation": "number"
+    },
+    "Node": {
+      "height": "number",
+      "id": "string",
+      "size": "number",
+      "width": "number",
+      "x": "number",
+      "y": "number"
     },
     "Options": {
       "avoidOverlaps": "bool",

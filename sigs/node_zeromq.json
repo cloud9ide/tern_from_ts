@@ -39,8 +39,10 @@
     "Socket": {
       "setsocketopt": "fn(opt: number, val: ?) -> Socket",
       "getsocketopt": "fn(opt: number) -> ?",
-      "bind": "fn(addr: string, callback: fn(error: string)) -> Socket",
+      "bind": "fn(addr: string, callback?: fn(error: string)) -> Socket",
       "bindSync": "fn(addr: string) -> Socket",
+      "unbind": "fn(addr: string, callback?: fn(error: string)) -> Socket",
+      "unbindSync": "fn(addr: string) -> Socket",
       "connect": "fn(addr: string) -> Socket",
       "disconnect": "fn(addr: string) -> Socket",
       "subscribe": "fn(filter: string) -> Socket",

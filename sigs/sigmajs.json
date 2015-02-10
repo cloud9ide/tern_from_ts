@@ -176,7 +176,7 @@
       "doubleTapTimeout": "number",
       "dragTimeout": "number",
       "autoResize": "bool",
-      "autoRescale": "bool",
+      "autoRescale": "?",
       "enableCamera": "bool",
       "enableHovering": "bool",
       "enableEdgeHovering": "bool",

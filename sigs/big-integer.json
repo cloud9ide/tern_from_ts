@@ -26,6 +26,10 @@
     "compareAbs": "fn(number: number) -> BigInteger",
     "equals": "fn(number: number) -> bool",
     "notEquals": "fn(number: number) -> bool",
+    "and": "fn(number: number) -> BigInteger",
+    "not": "fn() -> BigInteger",
+    "or": "fn(number: number) -> BigInteger",
+    "xor": "fn(number: number) -> BigInteger",
     "toJSNumber": "fn() -> number"
   },
   "BigIntegerStatic": {

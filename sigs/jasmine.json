@@ -11,6 +11,7 @@
   "beforeAll": "fn(action: fn())",
   "afterAll": "fn(action: fn())",
   "expect": "fn(spy: Function) -> jasmine.Matchers",
+  "fail": "fn(e?: ?)",
   "spyOn": "fn(object: ?, method: string) -> jasmine.Spy",
   "runs": "fn(asyncMethod: Function)",
   "waitsFor": "fn(latchMethod: fn(), failureMessage?: string, timeout?: number)",
@@ -262,11 +263,11 @@
       "callCount": "number"
     },
     "SpyAnd": {
-      "callThrough": "fn()",
+      "callThrough": "fn() -> Spy",
       "returnValue": "fn(val: ?)",
-      "callFake": "fn(fn: Function)",
+      "callFake": "fn(fn: Function) -> Spy",
       "throwError": "fn(msg: string)",
-      "stub": "fn()"
+      "stub": "fn() -> Spy"
     },
     "Calls": {
       "any": "fn() -> bool",

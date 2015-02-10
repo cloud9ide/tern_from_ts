@@ -148,6 +148,7 @@
       "unix": "fn(timestamp: number) -> Moment",
       "invalid": "fn(parsingFlags?: Object) -> Moment",
       "isMoment": "fn() -> bool",
+      "isDuration": "fn() -> bool",
       "lang": "fn(language?: string) -> string",
       "locale": "fn(language?: string) -> string",
       "localeData": "fn(language?: string) -> MomentLanguage",

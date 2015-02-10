@@ -26,7 +26,14 @@
     "path": "fn(key: ?) -> [?]",
     "loadFiles": "fn(files: ?, callback?: ICallbackFunction)",
     "loadFilesSync": "fn(files: ?, callback?: ICallbackFunction)",
-    "formats": "number",
+    "formats": {
+      "json": "IFormat",
+      "ini": "IFormat"
+    },
+    "IFormat": {
+      "stringify": "fn(obj: ?, replacer: ?, spacing?: ?)",
+      "parse": "fn(str: string)"
+    },
     "IOptions": {
       "type": "string"
     },
@@ -34,6 +41,7 @@
       "file": "string",
       "dir": "string",
       "search": "bool",
+      "format": "IFormat",
       "json_spacing": "number"
     },
     "ICallbackFunction": {},

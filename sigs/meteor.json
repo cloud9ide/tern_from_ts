@@ -17,22 +17,7 @@
       "!type": "fn()"
     }
   },
-  "Template": {
-    "!type": "fn()",
-    "onCreated": "?",
-    "onRendered": "?",
-    "onDestroyed": "?",
-    "created": "Function",
-    "rendered": "Function",
-    "destroyed": "Function",
-    "body": "Meteor.TemplateBase",
-    "helpers": "fn(helpers: ?)",
-    "events": "fn(eventMap: ?)",
-    "instance": "fn() -> Blaze.TemplateInstance",
-    "currentData": "fn() -> ret4",
-    "parentData": "fn(numLevels?: number) -> ret5",
-    "registerHelper": "fn(name: string, helperFunction: Function)"
-  },
+  "TemplateStatic": {},
   "Match": {
     "Any": "?",
     "String": "?",
@@ -61,8 +46,7 @@
     },
     "EventHandlerFunction": {},
     "EventMap": {},
-    "TemplateBase": {},
-    "Template": {
+    "TemplatePage": {
       "rendered": "Function",
       "created": "Function",
       "destroyed": "Function",
@@ -118,7 +102,9 @@
       "enrollAccount": "Meteor.EmailFields",
       "verifyEmail": "Meteor.EmailFields"
     },
-    "Error": "fn(error: string, reason?: string, details?: string)",
+    "Error": {
+      "!type": "fn(error: string, reason?: string, details?: string)"
+    },
     "Connection": {
       "id": "string",
       "close": "Function",
@@ -180,7 +166,9 @@
       "deny": "fn(options: ?) -> bool",
       "!type": "fn(name: string, options?: ?)"
     },
-    "ObjectID": "fn(hexString: string)",
+    "ObjectID": {
+      "!type": "fn(hexString: string)"
+    },
     "Cursor": {
       "forEach": "fn(callback: Function, thisArg?: ?)",
       "map": "fn(callback: Function, thisArg?: ?)",
@@ -256,8 +244,12 @@
     "choice": "fn(array: [?]) -> string"
   },
   "Blaze": {
-    "View": "fn(name?: string, renderFunction?: Function)",
-    "Template": "fn(viewName?: string, renderFunction?: Function)",
+    "View": {
+      "!type": "fn(name?: string, renderFunction?: Function)"
+    },
+    "Template": {
+      "!type": "fn(viewName?: string, renderFunction?: Function)"
+    },
     "currentView": "Blaze.View",
     "With": "fn(data: Object, Function: ?, contentFunc: Function) -> Blaze.View",
     "If": "fn(conditionFunc: Function, contentFunc: Function, elseFunc?: Function) -> Blaze.View",
@@ -272,10 +264,10 @@
     "getData": "fn(elementOrView?: HTMLElement, Blaze: ?, View: ?) -> Object",
     "getView": "fn(element?: HTMLElement) -> Blaze.View",
     "TemplateInstance": {
-      "data": "fn() -> Object",
-      "view": "fn() -> Object",
-      "firstNode": "fn() -> Object",
-      "lastNode": "fn() -> Object",
+      "data": "Object",
+      "view": "Object",
+      "firstNode": "Object",
+      "lastNode": "Object",
       "$": "fn(selector: string) -> [Node]",
       "findAll": "fn(selector: string) -> [HTMLElement]",
       "find": "fn(selector?: string) -> HTMLElement",
@@ -311,9 +303,9 @@
     "active": "bool",
     "currentComputation": "Tracker.Computation",
     "Computation": {
-      "stopped": "fn() -> bool",
-      "invalidated": "fn() -> bool",
-      "firstRun": "fn() -> bool",
+      "stopped": "bool",
+      "invalidated": "bool",
+      "firstRun": "bool",
       "onInvalidate": "fn(callback: Function)",
       "invalidate": "fn()",
       "stop": "fn()",
@@ -374,9 +366,25 @@
     "!type": "fn()"
   },
   "ReactiveVar": {
-    "get": "fn() -> ?",
-    "set": "fn(newValue: ?)",
-    "!type": "fn(initialValue: ?, equalsFunc?: fn(oldVal: ?, newVal: ?))"
+    "get": "fn() -> T",
+    "set": "fn(newValue: T)",
+    "!type": "fn(initialValue: T, equalsFunc?: Function)"
+  },
+  "Template": {
+    "onCreated": "Function",
+    "onRendered": "Function",
+    "onDestroyed": "Function",
+    "created": "Function",
+    "rendered": "Function",
+    "destroyed": "Function",
+    "body": "TemplateStatic",
+    "helpers": "fn(helpers: ?)",
+    "events": "fn(eventMap: ?)",
+    "instance": "fn() -> Blaze.TemplateInstance",
+    "currentData": "fn() -> ret4",
+    "parentData": "fn(numLevels?: number) -> ret5",
+    "registerHelper": "fn(name: string, helperFunction: Function)",
+    "!type": "TemplateStatic"
   },
   "CompileStep": {
     "inputSize": "?",
@@ -401,6 +409,7 @@
     "imply": "fn(packageSpecs: string, string: ?)",
     "addFiles": "fn(filename: string, string: ?, architecture?: string)",
     "versionsFrom": "fn(meteorRelease: string, string: ?)",
+    "export": "fn(exportedObject: string, architecture?: string)",
     "!type": "fn()"
   },
   "!name": "meteor.d.ts",

@@ -4,14 +4,13 @@
     "sampleRate": "number",
     "currentTime": "number",
     "listener": "AudioListener",
-    "activeSourceCount": "number",
     "createBuffer": "fn(numberOfChannels: number, length: number, sampleRate: number) -> AudioBuffer",
     "decodeAudioData": "fn(audioData: ArrayBuffer, successCallback: fn(decodedData: AudioBuffer), errorCallback?: Function)",
     "createBufferSource": "fn() -> AudioBufferSourceNode",
     "createMediaElementSource": "fn(mediaElement: HTMLMediaElement) -> MediaElementAudioSourceNode",
     "createMediaStreamSource": "fn(mediaStream: MediaStream) -> MediaStreamAudioSourceNode",
     "createMediaStreamDestination": "fn() -> MediaStreamAudioDestinationNode",
-    "createScriptProcessor": "fn(bufferSize: number, numberOfInputChannels?: number, numberOfOutputChannels?: number) -> ScriptProcessorNode",
+    "createScriptProcessor": "fn(bufferSize?: number, numberOfInputChannels?: number, numberOfOutputChannels?: number) -> ScriptProcessorNode",
     "createAnalyser": "fn() -> AnalyserNode",
     "createGain": "fn() -> GainNode",
     "createDelay": "fn(maxDelayTime?: number) -> DelayNode",
@@ -26,18 +25,25 @@
     "createPeriodicWave": "fn(real: Float32Array, imag: Float32Array) -> PeriodicWave"
   },
   "webkitAudioContext": {},
-  "OfflineRenderSuccessCallback": {},
   "OfflineAudioContext": {
     "startRendering": "fn()",
-    "oncomplete": "OfflineRenderSuccessCallback"
+    "oncomplete": "EventHandler"
   },
   "webkitOfflineAudioContext": {},
+  "OfflineAudioCompletionEvent": {
+    "renderedBuffer": "AudioBuffer"
+  },
+  "ChannelCountMode": "number",
+  "ChannelInterpretation": "number",
   "AudioNode": {
     "connect": "fn(destination: AudioNode, output?: number, input?: number)",
     "disconnect": "fn(output?: number)",
     "context": "AudioContext",
     "numberOfInputs": "number",
-    "numberOfOutputs": "number"
+    "numberOfOutputs": "number",
+    "channelCount": "number",
+    "channelCountMode": "ChannelCountMode",
+    "channelInterpretation": "ChannelInterpretation"
   },
   "AudioSourceNode": {},
   "AudioDestinationNode": {
@@ -50,10 +56,10 @@
     "maxValue": "number",
     "defaultValue": "number",
     "setValueAtTime": "fn(value: number, startTime: number)",
-    "linearRampToValueAtTime": "fn(value: number, time: number)",
+    "linearRampToValueAtTime": "fn(value: number, endTime: number)",
     "exponentialRampToValueAtTime": "fn(value: number, endTime: number)",
     "setTargetValueAtTime": "fn(target: number, startTime: number, timeConstant: number)",
-    "setValueCurveAtTime": "fn(values: Float32Array, time: number, duration: number)",
+    "setValueCurveAtTime": "fn(values: Float32Array, startTime: number, duration: number)",
     "cancelScheduledValues": "fn(startTime: number)"
   },
   "GainNode": {
@@ -70,23 +76,21 @@
     "getChannelData": "fn(channel: number) -> Float32Array"
   },
   "AudioBufferSourceNode": {
-    "playbackState": "number",
     "buffer": "AudioBuffer",
     "playbackRate": "AudioParam",
     "loop": "bool",
     "loopStart": "number",
     "loopEnd": "number",
-    "onended": "EventListener",
+    "onended": "EventHandler",
     "start": "fn(when?: number, offset?: number, duration?: number)",
     "stop": "fn(when?: number)"
   },
   "MediaElementAudioSourceNode": {},
   "ScriptProcessorNode": {
-    "onaudioprocess": "EventListener",
+    "onaudioprocess": "EventHandler",
     "bufferSize": "number"
   },
   "AudioProcessingEvent": {
-    "node": "ScriptProcessorNode",
     "playbackTime": "number",
     "inputBuffer": "AudioBuffer",
     "outputBuffer": "AudioBuffer"
@@ -145,18 +149,20 @@
     "gain": "AudioParam",
     "getFrequencyResponse": "fn(frequencyHz: Float32Array, magResponse: Float32Array, phaseResponse: Float32Array)"
   },
+  "OverSampleType": "number",
   "WaveShaperNode": {
-    "curve": "Float32Array"
+    "curve": "Float32Array",
+    "oversample": "OverSampleType"
   },
   "OscillatorType": "number",
   "OscillatorNode": {
     "type": "OscillatorType",
-    "playbackState": "number",
     "frequency": "AudioParam",
     "detune": "AudioParam",
     "start": "fn(when: number)",
     "stop": "fn(when: number)",
-    "setPeriodicWave": "fn(periodicWave: PeriodicWave)"
+    "setPeriodicWave": "fn(periodicWave: PeriodicWave)",
+    "onended": "EventHandler"
   },
   "PeriodicWave": {},
   "MediaStreamAudioSourceNode": {},

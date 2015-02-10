@@ -29,7 +29,7 @@
   "KnockoutStatic": {
     "DirtyFlag": "DirtyFlag",
     "command": "fn(options: KoLiteCommandOptions) -> KoliteCommand",
-    "asyncCommand": "fn(optons: KoLiteCommandOptions) -> KoliteAsyncCommand"
+    "asyncCommand": "fn(options: KoLiteCommandOptions) -> KoliteAsyncCommand"
   },
   "KoliteCommand": {
     "canExecute": "?",
@@ -39,7 +39,7 @@
     "isExecuting": "?"
   },
   "KoLiteCommandOptions": {
-    "execute": "?",
+    "execute": "fn(args: [?]) -> ?",
     "canExecute": "fn(isExecuting: bool)"
   },
   "KnockoutUtils": {

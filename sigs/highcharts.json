@@ -909,7 +909,8 @@
     "setTitle": "fn(title: HighchartsAxisTitle)"
   },
   "HighchartsChartObject": {
-    "addSeries": "fn(options: HighchartsSeriesOptions) -> HighchartsSeriesOptions",
+    "addSeries": "fn(options: HighchartsSeriesOptions, redraw?: bool, animation?: bool) -> HighchartsSeriesOptions",
+    "addAxis": "fn(options: HighchartsAxisOptions, isX?: bool, redraw?: bool, animation?: bool) -> HighchartsAxisObject",
     "container": "HTMLElement",
     "destroy": "fn()",
     "exportChart": "fn()",
