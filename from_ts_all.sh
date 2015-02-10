@@ -6,6 +6,7 @@ cd $MY_DIR
 [ -e sigs_ts ] || git clone https://github.com/borisyankov/DefinitelyTyped.git sigs_ts
 cd sigs_ts
 git pull
+[ -e sigs/revision.txt ] && git checkout $(cat sigs/revision.txt)
 REVISION=$(git rev-parse HEAD)
 
 cd $MY_DIR
