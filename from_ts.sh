@@ -23,6 +23,10 @@ else
         rm $TARGET.tmp
         exit
     fi
+    if [ $(cat $TARGET.tmp | wc -l) -lt 7 ]; then
+        echo "Output file really short, no definitions found?"
+        exit
+    fi
 
     mv $TARGET.tmp $TARGET
     echo
