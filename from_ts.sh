@@ -13,6 +13,17 @@ reportError() {
     echo " - error: $(cat | grep Error:)"
 }
 
+filterBadTypes() {
+    node -pe '
+        var json = JSON.parse(require("fs").readFileSync("'$TARGET.tmp'"));
+        for (var p in json) {
+            if (json[p]["!type"] && !/^(fn\(|\[)/.test(json[p]["!type"]))
+                delete json[p]["!type"];
+        }
+        JSON.stringify(json, null, 2);
+    '
+}
+
 if ! ERROR=$($MY_DIR/node_modules/tern/bin/from_ts "$SOURCE" 2>&1 | sed 's/\[object Object\]/?/g' >$TARGET.tmp); then
     rm -f $TARGET.tmp $TARGET
     echo "$ERROR" | reportError
@@ -23,12 +34,13 @@ else
         rm -f $TARGET.tmp $TARGET
         exit
     fi
+    
     if [ $(cat $TARGET.tmp | wc -l) -lt 7 ]; then
         echo "Output file really short, no definitions found?"
         exit
     fi
 
-    mv $TARGET.tmp $TARGET
+    filterBadTypes > $TARGET
     echo
 fi
 
