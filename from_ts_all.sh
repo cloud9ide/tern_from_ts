@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+npm install
+
 MY_DIR=$(cd $(dirname $BASH_SOURCE); pwd)
 
 cd $MY_DIR
