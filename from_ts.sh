@@ -16,11 +16,17 @@ reportError() {
 filterBadTypes() {
     node -pe '
         var json = JSON.parse(require("fs").readFileSync("'$TARGET.tmp'"));
-        for (var p in json) {
-            if (json[p]["!type"] && !/^(fn\(|\[)/.test(json[p]["!type"]))
-                delete json[p]["!type"];
+        function removeBadTypes(entry) {
+            if (typeof entry === "string")
+                return entry;
+            for (var p in entry) {
+                entry[p] = removeBadTypes(entry[p]);
+                if (entry[p]["!type"] && !/^(fn\(|\[)/.test(entry[p]["!type"]))
+                    delete entry[p]["!type"];
+            }
+            return entry;
         }
-        JSON.stringify(json, null, 2);
+        JSON.stringify(removeBadTypes(json), null, 2);
     '
 }
 
