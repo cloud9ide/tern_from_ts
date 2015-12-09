@@ -79,4 +79,5 @@ rm -f sigs/yosay.json
         echo -n '}},'
     done
     echo '}}'
-} | sed 's/"extra": {}//g; s/, *}/}/g' > $MY_DIR/sigs/__list.json
+} | sed 's/"extra": {}//g; s/, *}/}/g' > $MY_DIR/sigs/__list.tmp
+mv $MY_DIR/sigs/__list.tmp $MY_DIR/sigs/__list.json
