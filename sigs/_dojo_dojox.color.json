@@ -34,8 +34,7 @@
           "monochromatic": "fn(args: Object) -> ?",
           "shades": "fn(args: Object) -> ?",
           "splitComplementary": "fn(args: Object) -> ?",
-          "triadic": "fn(args: Object) -> ?",
-          "!type": "Object"
+          "triadic": "fn(args: Object) -> ?"
         },
         "clone": {},
         "generate": {},

@@ -40,8 +40,7 @@
       "success": "bool",
       "id": "string",
       "ref": "HTMLElement"
-    },
-    "!type": "swfobject.SwfObject"
+    }
   },
   "!name": "swfobject.d.ts"
 }

@@ -1,93 +1,72 @@
 {
-  "Object": {
+  "ObjectConstructor": {
     "getType": "fn(instance: ?) -> Type",
     "getTypeName": "fn(instance: ?) -> string"
   },
-  "Array": {
-    "isArray": "fn(arg: ?) -> bool",
-    "prototype": "?",
-    "add": "fn(array: [?], element: ?)",
-    "addRange": "fn(array: ?, items: ?)",
-    "clear": "fn()",
-    "clone": "fn() -> [?]",
-    "contains": "fn(element: ?) -> bool",
-    "dequeue": "fn() -> ?",
-    "enqueue": "fn(element: ?)",
-    "forEach": "fn(array: [?], method: Function, instance: [?])",
-    "indexOf": "fn(array: [?], item: ?, startIndex?: number) -> number",
-    "insert": "fn(array: [?], index: number, item: ?) -> ?",
-    "parse": "fn(value: string) -> [?]",
-    "remove": "fn(array: [?], item: ?) -> bool",
-    "removeAt": "fn(array: [?], index: number)"
+  "ArrayConstructor": {
+    "add": "fn(array: [T], element: T)",
+    "addRange": "fn(array: [T], items: [T])",
+    "clear": "fn(array: [T])",
+    "clone": "fn(array: [T]) -> [T]",
+    "contains": "fn(array: [T], element: T) -> bool",
+    "dequeue": "fn(array: [T]) -> T",
+    "enqueue": "fn(array: [T], element: T)",
+    "forEach": "fn(array: [T], method: fn(element: T, index: number, array: [T]), instance: ?)",
+    "indexOf": "fn(array: [T], item: T, startIndex?: number) -> number",
+    "insert": "fn(array: [T], index: number, item: T)",
+    "parse": "fn(value: string) -> [T]",
+    "remove": "fn(array: [T], item: T) -> bool",
+    "removeAt": "fn(array: [T], index: number)"
   },
   "Number": {
     "format": "fn(format: string) -> string",
-    "localeFormat": "fn(format: string) -> string",
+    "localeFormat": "fn(format: string) -> string"
+  },
+  "NumberConstructor": {
     "parseInvariant": "fn(format: string) -> number",
     "parseLocale": "fn(format: string) -> number"
   },
   "Date": {
-    "format": "fn(value: string) -> string",
-    "localeFormat": "fn(value: string) -> string",
-    "parseLocale": "fn(value: string) -> string",
-    "parseInvariant": "fn(value: string) -> string"
+    "format": "fn(format: string) -> string",
+    "localeFormat": "fn(format: string) -> string"
   },
-  "MicrosoftAjaxBaseTypeExtensions": {
-    "Function": {
-      "prototype": "Function",
-      "createCallback": "fn(method: Function, context: [?]) -> Function",
-      "createDelegate": "fn(instance: ?, method: Function) -> Function",
-      "emptyMethod": "fn() -> Function",
-      "validateParameters": "fn(parameters: ?, expectedParameters: [Object], validateParameterCount?: bool) -> ?"
-    },
-    "Error": {
-      "name": "string",
-      "message": "string",
-      "prototype": "Error",
-      "parameterCount": "fn(message?: string) -> Error",
-      "notImplemented": "fn(message?: string) -> Error",
-      "argument": "fn(paramName?: ?, message?: string) -> Error",
-      "argumentNull": "fn(paramName?: ?, message?: string) -> Error",
-      "argumentOutOfRange": "fn(paramName?: string, actualValue?: ?, message?: string) -> Error",
-      "argumentType": "fn(paramName?: string, actualType?: ?, expectedType?: ?, message?: string) -> Error",
-      "argumentUndefined": "fn(paramName?: string, message?: string) -> Error",
-      "create": "fn(message?: string, errorInfo?: Object) -> Error",
-      "format": "fn(message?: string) -> Error",
-      "invalidOperation": "fn(message?: string) -> Error",
-      "popStackFrame": "fn()"
-    },
-    "String": {
-      "prototype": "String",
-      "fromCharCode": "fn(codes: [number]) -> string",
-      "charAt": "fn(pos: number) -> string",
-      "charCodeAt": "fn(index: number) -> number",
-      "concat": "fn(strings: [string]) -> string",
-      "indexOf": "fn(searchString: string, position?: number) -> number",
-      "lastIndexOf": "fn(searchString: string, position?: number) -> number",
-      "localeCompare": "fn(that: string) -> number",
-      "match": "fn(regexp: string) -> [string]",
-      "replace": "fn(searchValue: string, replaceValue: string) -> string",
-      "search": "fn(regexp: string) -> number",
-      "slice": "fn(start?: number, end?: number) -> string",
-      "split": "fn(separator: string, limit?: number) -> [string]",
-      "substring": "fn(start: number, end?: number) -> string",
-      "toLowerCase": "fn() -> string",
-      "toLocaleLowerCase": "fn() -> string",
-      "toUpperCase": "fn() -> string",
-      "toLocaleUpperCase": "fn() -> string",
-      "length": "number",
-      "substr": "fn(from: number, length?: number) -> string",
-      "endsWith": "fn(suffix: string) -> bool",
-      "format": "fn(format: string, args: [?]) -> string",
-      "localeFormat": "fn(format: string, args: [?]) -> string",
-      "trim": "fn() -> string",
-      "trimEnd": "fn() -> string",
-      "trimStart": "fn() -> string"
-    },
-    "Boolean": {
-      "prototype": "Boolean",
-      "parse": "fn(value: string) -> Boolean"
-    }
+  "DateConstructor": {
+    "parseLocale": "fn(value: string, formats?: [string]) -> Date",
+    "parseInvariant": "fn(value: string, formats?: [string]) -> string"
+  },
+  "FunctionConstructor": {
+    "createCallback": "fn(method: Function, context: [?]) -> Function",
+    "createDelegate": "fn(instance: ?, method: Function) -> Function",
+    "emptyMethod": "fn() -> Function",
+    "validateParameters": "fn(parameters: ?, expectedParameters: [Object], validateParameterCount?: bool) -> ?"
+  },
+  "ErrorConstructor": {
+    "parameterCount": "fn(message?: string) -> Error",
+    "notImplemented": "fn(message?: string) -> Error",
+    "argument": "fn(paramName?: ?, message?: string) -> Error",
+    "argumentNull": "fn(paramName?: ?, message?: string) -> Error",
+    "argumentOutOfRange": "fn(paramName?: string, actualValue?: ?, message?: string) -> Error",
+    "argumentType": "fn(paramName?: string, actualType?: ?, expectedType?: ?, message?: string) -> Error",
+    "argumentUndefined": "fn(paramName?: string, message?: string) -> Error",
+    "create": "fn(message?: string, errorInfo?: Object) -> Error",
+    "format": "fn(message?: string) -> Error",
+    "invalidOperation": "fn(message?: string) -> Error"
+  },
+  "Error": {
+    "popStackFrame": "fn()"
+  },
+  "String": {
+    "endsWith": "fn(suffix: string) -> bool",
+    "trim": "fn() -> string",
+    "trimEnd": "fn() -> string",
+    "trimStart": "fn() -> string"
+  },
+  "StringConstructor": {
+    "format": "fn(format: string, args: [?]) -> string",
+    "localeFormat": "fn(format: string, args: [?]) -> string"
+  },
+  "BooleanConstructor": {
+    "parse": "fn(value: string) -> Boolean"
   },
   "Type": {
     "createCallback": "fn(method: Function, context: Object) -> Function",
@@ -119,19 +98,19 @@
   },
   "$create": "fn(type: Type, properties?: ?, events?: ?, references?: ?, element?: HTMLElement) -> Sys.Component",
   "$find": "fn(id: string, parent?: Sys.Component) -> Sys.Component",
-  "$addHandler": "fn(element: Sys.UI.DomElement, eventName: string, handler: Function, autoRemove?: bool)",
-  "$addHandlers": "fn(element: Sys.UI.DomElement, events: ?, handlerOwner?: ?, autoRemove?: bool)",
-  "$clearHandlers": "fn(element: Sys.UI.DomElement)",
-  "$get": "fn(id: string) -> ?",
-  "$removeHandler": "fn(element: ?, eventName: string, handler: Function)",
+  "$addHandler": "fn(element: HTMLElement, eventName: string, handler: fn(e: Sys.UI.DomEvent), autoRemove?: bool)",
+  "$addHandlers": "fn(element: HTMLElement, events: ?, handlerOwner?: ?, autoRemove?: bool)",
+  "$clearHandlers": "fn(element: HTMLElement)",
+  "$get": "fn(id: string, element?: HTMLElement) -> HTMLElement",
+  "$removeHandler": "fn(element: HTMLElement, eventName: string, handler: fn(e: Sys.UI.DomEvent))",
   "Sys": {
     "Application": {
-      "add_init": "fn(handler: Function)",
-      "remove_init": "fn(handler: Function)",
-      "add_load": "fn(handler: Function)",
-      "remove_load": "fn(handler: Function)",
-      "add_navigate": "fn(handler: Function)",
-      "remove_navigate": "fn(handler: Function)",
+      "add_init": "fn(handler: fn(sender: Application, eventArgs: EventArgs))",
+      "remove_init": "fn(handler: fn(sender: Application, eventArgs: EventArgs))",
+      "add_load": "fn(handler: fn(sender: Application, eventArgs: ApplicationLoadEventArgs))",
+      "remove_load": "fn(handler: fn(sender: Application, eventArgs: ApplicationLoadEventArgs))",
+      "add_navigate": "fn(handler: fn(sender: Application, eventArgs: HistoryEventArgs))",
+      "remove_navigate": "fn(handler: fn(sender: Application, eventArgs: HistoryEventArgs))",
       "add_unload": "fn(handler: Function)",
       "remove_unload": "fn(handler: Function)",
       "addComponent": "fn(component: ?)",
@@ -155,8 +134,7 @@
       "get_enableHistory": "fn() -> bool",
       "set_enableHistory": "fn(value: bool)",
       "get_isCreatingComponents": "fn() -> bool",
-      "get_isDisposing": "fn() -> bool",
-      "!type": "Application"
+      "get_isDisposing": "fn() -> bool"
     },
     "Browser": {
       "agent": "?",
@@ -349,38 +327,22 @@
         "propertyName": "fn() -> string"
       }
     },
-    "ArgumentException": {
-      "prototype": {}
-    },
-    "ArgumentNullException": {
-      "prototype": {}
-    },
-    "ArgumentOutOfRangeException": {
-      "prototype": {}
-    },
-    "ArgumentTypeException": {
-      "prototype": {}
-    },
-    "ArgumentUndefinedException": {
-      "prototype": {}
-    },
-    "FormatException": {
-      "prototype": {}
-    },
-    "InvalidOperationException": {
-      "prototype": {}
-    },
-    "NotImplementedException": {
-      "prototype": {}
-    },
-    "ParameterCountException": {
-      "prototype": {}
-    },
-    "ScriptLoadFailedException": {
-      "prototype": {}
-    },
     "Net": {
-      "NetWorkRequestEventArgs": {
+      "WebServiceProxy": {
+        "invoke": "fn(servicePath: string, methodName: string, useGet?: bool, params?: ?, onSuccess?: fn(result: string, eventArgs: EventArgs), onFailure?: fn(error: WebServiceError), userContext?: ?, timeout?: number, enableJsonp?: bool, jsonpCallbackParameter?: string) -> WebRequest",
+        "prototype": {}
+      },
+      "WebServiceError": {
+        "prototype": {
+          "get_errorObject": "fn() -> ?",
+          "get_exceptionType": "fn() -> ?",
+          "get_message": "fn() -> string",
+          "get_stackTrace": "fn() -> string",
+          "get_statusCode": "fn() -> number",
+          "get_timedOut": "fn() -> bool"
+        }
+      },
+      "NetworkRequestEventArgs": {
         "!type": "fn(value: WebRequest)",
         "prototype": {
           "get_webRequest": "fn() -> WebRequest"
@@ -389,6 +351,19 @@
       "WebRequest": {
         "!type": "fn()",
         "prototype": {
+          "get_url": "fn() -> string",
+          "set_url": "fn(value: string)",
+          "get_httpVerb": "fn() -> string",
+          "set_httpVerb": "fn(value: string)",
+          "get_timeout": "fn() -> number",
+          "set_timeout": "fn(value: number)",
+          "get_body": "fn() -> string",
+          "set_body": "fn(value: string)",
+          "get_headers": "fn() -> ret",
+          "get_userContext": "fn() -> ?",
+          "set_userContext": "fn(value: ?)",
+          "get_executor": "fn() -> WebRequestExecutor",
+          "set_executor": "fn(value: WebRequestExecutor)",
           "add_completed": "fn(handler: fn(reference: ?, eventArgs: Sys.EventArgs))",
           "remove_completed": "fn(handler: fn(reference: ?, eventArgs: Sys.EventArgs))",
           "getResolvedUrl": "fn() -> string",
@@ -402,7 +377,7 @@
           "abort": "fn()",
           "executeRequest": "fn()",
           "getAllResponseHeaders": "fn() -> string",
-          "getResponseHeader": "fn() -> string",
+          "getResponseHeader": "fn(key: string) -> string",
           "object": "fn() -> ?",
           "get_aborted": "fn() -> bool",
           "get_responseAvailable": "fn() -> bool",
@@ -418,11 +393,11 @@
       "IWebRequestManager": {
         "!type": "fn()",
         "prototype": {
-          "add_completedRequest": "fn(handler: fn(sender: ?, eventArgs: ?))",
-          "add_invokingRequest": "fn(handler: fn(sender: ?, networkRequestEventArgs: ?))",
+          "add_completedRequest": "fn(handler: fn(sender: WebRequestExecutor, eventArgs: EventArgs))",
+          "add_invokingRequest": "fn(handler: fn(sender: WebRequestExecutor, networkRequestEventArgs: NetworkRequestEventArgs))",
           "executeRequest": "fn(WebRequest: Sys.Net.WebRequest)",
-          "remove_completedRequest": "fn(handler: Function)",
-          "remove_invokingRequest": "fn(handler: Function)",
+          "remove_completedRequest": "fn(handler: fn(sender: WebRequestExecutor, eventArgs: EventArgs))",
+          "remove_invokingRequest": "fn(handler: fn(sender: WebRequestExecutor, networkRequestEventArgs: NetworkRequestEventArgs))",
           "get_defaultExecutorType": "fn() -> Sys.Net.WebRequestExecutor",
           "set_defaultExecutorType": "fn(value: Sys.Net.WebRequestExecutor)",
           "get_defaultTimeout": "fn() -> number",
@@ -488,12 +463,12 @@
     },
     "UI": {
       "Behavior": {
-        "getBehaviorByName": "fn(element: Sys.UI.DomElement, name: string) -> Behavior",
-        "getBehaviorsByType": "fn(element: Sys.UI.DomElement, type: Sys.UI.Behavior) -> [Behavior]",
+        "getBehaviorByName": "fn(element: HTMLElement, name: string) -> Behavior",
+        "getBehaviorsByType": "fn(element: HTMLElement, type: Sys.UI.Behavior) -> [Behavior]",
         "getBehaviors": "fn(element: DomElement) -> [Behavior]",
         "prototype": {
           "dispose": "fn()",
-          "get_element": "fn() -> Sys.UI.DomElement",
+          "get_element": "fn() -> HTMLElement",
           "get_id": "fn() -> string",
           "set_id": "fn(value: string)",
           "set_name": "fn(value: string)",
@@ -510,7 +485,7 @@
         }
       },
       "Control": {
-        "!type": "fn(element: Sys.UI.DomElement)",
+        "!type": "fn(element: HTMLElement)",
         "prototype": {
           "addCssClass": "fn(className: string)",
           "dispose": "fn()",
@@ -519,35 +494,34 @@
           "raiseBubbleEvent": "fn(source: ?, args: ?)",
           "removeCssClass": "fn(className: string)",
           "toggleCssClass": "fn(className: string)",
-          "get_element": "fn() -> Sys.UI.DomElement",
+          "get_element": "fn() -> HTMLElement",
           "get_id": "fn() -> string",
           "set_id": "fn(value: string)"
         }
       },
       "DomElement": {
-        "addCssClass": "fn(element: Sys.UI.DomElement, className: string)",
-        "containsCssClass": "fn(element: Sys.UI.DomElement, className: string) -> bool",
-        "getBounds": "fn(element: Sys.UI.DomElement) -> Object",
-        "getElementById": "fn(id: string) -> Sys.UI.DomElement",
-        "getLocation": "fn(element: Sys.UI.DomElement) -> Sys.UI.Point",
-        "getVisibilityMode": "fn(element: Sys.UI.DomElement) -> Sys.UI.VisibilityMode",
+        "addCssClass": "fn(element: HTMLElement, className: string)",
+        "containsCssClass": "fn(element: HTMLElement, className: string) -> bool",
+        "getBounds": "fn(element: HTMLElement) -> ret1",
+        "getElementById": "fn(id: string) -> HTMLElement",
+        "getLocation": "fn(element: HTMLElement) -> Sys.UI.Point",
+        "getVisibilityMode": "fn(element: HTMLElement) -> Sys.UI.VisibilityMode",
         "getVisible": "fn(element: ?) -> bool",
         "isDomElement": "fn(obj: ?) -> bool",
-        "raiseBubbleEvent": "fn(source: Sys.UI.DomElement, args: EventArgs)",
-        "removeCssClass": "fn(element: Sys.UI.DomElement, className: string)",
-        "resolveElement": "fn(elementOrElementId: Sys.UI.DomElement, containerElement?: Sys.UI.DomElement) -> Sys.UI.DomElement",
-        "setLocation": "fn(element: Sys.UI.DomElement, x: number, y: number)",
-        "setVisibilityMode": "fn(element: Sys.UI.DomElement, value: Sys.UI.VisibilityMode)",
-        "setVisible": "fn(element: Sys.UI.DomElement, value: bool)",
-        "toggleCssClass": "fn(element: Sys.UI.DomElement, className: string)",
-        "!type": "Sys.UI.DomElement"
+        "raiseBubbleEvent": "fn(source: HTMLElement, args: EventArgs)",
+        "removeCssClass": "fn(element: HTMLElement, className: string)",
+        "resolveElement": "fn(elementOrElementId: string, HTMLElement: ?, containerElement?: HTMLElement) -> HTMLElement",
+        "setLocation": "fn(element: HTMLElement, x: number, y: number)",
+        "setVisibilityMode": "fn(element: HTMLElement, value: Sys.UI.VisibilityMode)",
+        "setVisible": "fn(element: HTMLElement, value: bool)",
+        "toggleCssClass": "fn(element: HTMLElement, className: string)"
       },
       "DomEvent": {
-        "!type": "fn(domElement: DomElement)",
-        "addHandler": "fn(element: ?, eventName: string, handler: Function, autoRemove?: bool)",
-        "addHandlers": "fn(element: ?, events: ?, handlerOwner?: ?, autoRemove?: bool)",
-        "clearHandlers": "fn(element: ?)",
-        "removeHandler": "fn(element: ?, eventName: string, handler: Function)",
+        "!type": "fn(domElement: HTMLElement)",
+        "addHandler": "fn(element: HTMLElement, eventName: string, handler: fn(e: DomEvent), autoRemove?: bool)",
+        "addHandlers": "fn(element: HTMLElement, events: ?, handlerOwner?: ?, autoRemove?: bool)",
+        "clearHandlers": "fn(element: HTMLElement)",
+        "removeHandler": "fn(element: HTMLElement, eventName: string, handler: fn(e: DomEvent))",
         "prototype": {
           "preventDefault": "fn()",
           "stopPropagation": "fn()",
@@ -652,5 +626,14 @@
       }
     }
   },
-  "!name": "microsoft.ajax.d.ts"
+  "!name": "microsoft.ajax.d.ts",
+  "!define": {
+    "ret": {},
+    "ret1": {
+      "x": "number",
+      "y": "number",
+      "width": "number",
+      "height": "number"
+    }
+  }
 }

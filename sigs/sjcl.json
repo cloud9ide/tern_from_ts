@@ -322,8 +322,7 @@
       "Two": {},
       "Bind1": {},
       "BigNumberTrinaryOperator": {}
-    },
-    "!type": "sjcl"
+    }
   },
   "!name": "sjcl.d.ts",
   "!define": {

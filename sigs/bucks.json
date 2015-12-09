@@ -20,8 +20,7 @@
       "end": "fn(callback?: Task, errback?: fn(err: Error))"
     },
     "TaskWithNext": {},
-    "Task": {},
-    "!type": "Bucks.BucksStatic"
+    "Task": {}
   },
   "!name": "bucks.d.ts"
 }

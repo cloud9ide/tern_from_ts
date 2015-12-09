@@ -8,8 +8,7 @@
       "bind": "fn()",
       "unbind": "fn()",
       "setLocation": "fn(new_location: string) -> string",
-      "_startPolling": "fn(every: number)",
-      "!type": "DataLocationProxy"
+      "_startPolling": "fn(every: number)"
     },
     "DefaultLocationProxy": "fn(app: ?, run_interval_every: ?)",
     "EJS": "fn(app: ?, method_alias: ?)",
@@ -26,8 +25,7 @@
       "select": "fn(keypath: string, options: ?, attributes: [?]) -> string",
       "submit": "fn(attributes: [?]) -> string",
       "text": "fn(keypath: string, attributes: [?]) -> string",
-      "textarea": "fn(keypath: string, attributes: [?]) -> string",
-      "!type": "FormBuilder"
+      "textarea": "fn(keypath: string, attributes: [?]) -> string"
     },
     "Form": {
       "formFor": "fn(name: string, object: ?, content_callback: Function) -> FormBuilder",
@@ -77,8 +75,7 @@
       "LocalStorage": "fn(name: ?, element: ?)",
       "Memory": "fn(name: ?, element: ?)",
       "SessionStorage": "fn(name: ?, element: ?)",
-      "Template": "fn(app: ?, method_alias: ?)",
-      "!type": "Store"
+      "Template": "fn(app: ?, method_alias: ?)"
     },
     "Title": "fn()",
     "Template": "fn(app: ?, method_alias: ?)",
@@ -197,6 +194,7 @@
     },
     "!type": "fn() -> Sammy.Application"
   },
+  "sammy": "Sammy",
   "JQueryStatic": {
     "sammy": "Sammy.SammyFunc",
     "log": "Function"

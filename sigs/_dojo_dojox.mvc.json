@@ -1884,8 +1884,7 @@
           "targetProp": "string",
           "direction": "fn(bindDirection: number)",
           "equals": "fn(equals: Function)",
-          "transform": "fn(converter: Object)",
-          "!type": "Object"
+          "transform": "fn(converter: Object)"
         },
         "to": "number"
       },

@@ -22,8 +22,7 @@
     "ILabels": {
       "ok": "string",
       "cancel": "string"
-    },
-    "!type": "alertify.IAlertifyStatic"
+    }
   },
   "!name": "alertify.d.ts"
 }

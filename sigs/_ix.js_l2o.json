@@ -5,8 +5,7 @@
     },
     "Enumerator": {
       "moveNext": "fn() -> bool",
-      "getCurrent": "fn() -> T",
-      "!type": "EnumeratorStatic"
+      "getCurrent": "fn() -> T"
     },
     "EnumeratorStatic": {
       "create": "fn(moveNext: fn(), getCurrent: fn(), dispose?: fn()) -> ?"
@@ -64,8 +63,7 @@
       "toLookup": "fn(keySelector: fn(item: T), elementSelector: fn(item: T), comparer?: ?) -> ?",
       "where": "fn(selector: ?, thisArg?: ?) -> ?",
       "filter": "fn(selector: ?, thisArg?: ?) -> ?",
-      "zip": "fn(right: ?, selector: fn(left: T, right: TRight)) -> ?",
-      "!type": "EnumerableStatic"
+      "zip": "fn(right: ?, selector: fn(left: T, right: TRight)) -> ?"
     },
     "Grouping": {
       "key": "TKey"

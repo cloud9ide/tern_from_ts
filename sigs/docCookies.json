@@ -4,8 +4,7 @@
     "getItem": "fn(sKey: string) -> string",
     "removeItem": "fn(sKey: string, sPath?: string) -> bool",
     "hasItem": "fn(sKey: string) -> bool",
-    "keys": "fn() -> [string]",
-    "!type": "docCookies"
+    "keys": "fn() -> [string]"
   },
   "!name": "docCookies.d.ts"
 }

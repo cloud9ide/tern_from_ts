@@ -18,8 +18,7 @@
         "TraversalMethods": {
           "Inorder": "number",
           "Postorder": "number",
-          "Preorder": "number",
-          "!type": "Object"
+          "Preorder": "number"
         }
       },
       "Dictionary": {},

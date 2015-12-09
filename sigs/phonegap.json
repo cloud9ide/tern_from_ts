@@ -106,7 +106,6 @@
     "CELL_3G": "number",
     "CELL_4G": "number",
     "NONE": "number",
-    "!type": "Connection",
     "type": "number"
   },
   "CompassOptions": {
@@ -279,8 +278,7 @@
   },
   "LocalFileSystem": {
     "PERSISTENT": "number",
-    "TEMPORARY": "number",
-    "!type": "LocalFileSystem"
+    "TEMPORARY": "number"
   },
   "Metadata": {
     "modificationTime": "Date"
@@ -432,8 +430,7 @@
     "backgroundColorByName": "fn(colorname: string)",
     "backgroundColorByHexString": "fn(hexString: string)",
     "hide": "fn()",
-    "show": "fn()",
-    "!type": "StatusBar"
+    "show": "fn()"
   },
   "Keyboard": {
     "automaticScrollToTopOnHiding": "bool",
@@ -444,8 +441,7 @@
     "onhiding": "Function",
     "disableScrollingInShrinkView": "fn(disable: bool)",
     "hideFormAccessoryBar": "fn(hide: bool)",
-    "shrinkView": "fn(shrink: bool)",
-    "!type": "Keyboard"
+    "shrinkView": "fn(shrink: bool)"
   },
   "Navigator": {
     "accelerometer": "Accelerometer",

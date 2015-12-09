@@ -7,8 +7,7 @@
     "mix": "fn(color1: tinycolorInstance, color2: tinycolorInstance, amount?: number) -> tinycolorInstance",
     "random": "fn() -> tinycolorInstance",
     "hexNames": {},
-    "names": {},
-    "!type": "tinycolor"
+    "names": {}
   },
   "tinycolorInstance": {
     "isValid": "fn() -> bool",
@@ -79,5 +78,6 @@
       "a": "number"
     }
   },
+  "'tinycolor2'": "tinycolor",
   "!name": "tinycolor.d.ts"
 }

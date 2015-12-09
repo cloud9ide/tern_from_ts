@@ -1,12 +1,7 @@
 {
-  "AutosizeOptions": {
-    "className": "string",
-    "append": "string",
-    "callback": "Function"
+  "autosize": {
+    "AutosizeStatic": {}
   },
-  "Autosize": {},
-  "JQuery": {
-    "autosize": "Autosize"
-  },
+  "'autosize'": "autosize",
   "!name": "jquery.autosize.d.ts"
 }

@@ -4,6 +4,7 @@
     "expires": "number"
   },
   "FirebaseDataSnapshot": {
+    "exists": "fn() -> bool",
     "val": "fn() -> ?",
     "child": "fn(childPath: string) -> FirebaseDataSnapshot",
     "forEach": "fn(childAction: fn(childSnapshot: FirebaseDataSnapshot)) -> bool",
@@ -29,6 +30,7 @@
     "once": "fn(eventType: string, successCallback: fn(dataSnapshot: FirebaseDataSnapshot), context?: Object)",
     "orderByChild": "fn(key: string) -> FirebaseQuery",
     "orderByKey": "fn() -> FirebaseQuery",
+    "orderByValue": "fn() -> FirebaseQuery",
     "orderByPriority": "fn() -> FirebaseQuery",
     "limit": "fn(limit: number) -> FirebaseQuery",
     "startAt": "fn(value: string, key?: string) -> FirebaseQuery",
@@ -62,12 +64,12 @@
     "setWithPriority": "fn(value: ?, priority: string, onComplete?: fn(error: ?))",
     "setPriority": "fn(priority: string, onComplete?: fn(error: ?))",
     "transaction": "fn(updateFunction: fn(currentData: ?), onComplete?: fn(error: ?, committed: bool, snapshot: FirebaseDataSnapshot), applyLocally?: bool)",
-    "createUser": "fn(credentials: FirebaseCredentials, onComplete: fn(error: ?))",
-    "changePassword": "fn(credentials: ?, onComplete: fn(error: ?))",
+    "createUser": "fn(credentials: FirebaseCredentials, onComplete: fn(error: ?, userData: ?))",
+    "changeEmail": "fn(credentials: FirebaseChangeEmailCredentials, onComplete: fn(error: ?))",
+    "changePassword": "fn(credentials: FirebaseChangePasswordCredentials, onComplete: fn(error: ?))",
     "removeUser": "fn(credentials: FirebaseCredentials, onComplete: fn(error: ?))",
-    "resetPassword": "fn(credentials: ?, onComplete: fn(error: ?))",
-    "onDisconnect": "fn() -> FirebaseOnDisconnect",
-    "!type": "FirebaseStatic"
+    "resetPassword": "fn(credentials: FirebaseResetPasswordCredentials, onComplete: fn(error: ?))",
+    "onDisconnect": "fn() -> FirebaseOnDisconnect"
   },
   "FirebaseStatic": {
     "goOffline": "fn()",
@@ -76,16 +78,49 @@
       "TIMESTAMP": "?"
     }
   },
+  "'firebase'": "Firebase",
   "FirebaseAuthData": {
     "uid": "string",
     "provider": "string",
     "token": "string",
     "expires": "number",
-    "auth": "Object"
+    "auth": "Object",
+    "google": "FirebaseAuthDataGoogle"
+  },
+  "FirebaseAuthDataGoogle": {
+    "accessToken": "string",
+    "cachedUserProfile": "FirebaseAuthDataGoogleCachedUserProfile",
+    "displayName": "string",
+    "email": "string",
+    "id": "string",
+    "profileImageURL": "string"
+  },
+  "FirebaseAuthDataGoogleCachedUserProfile": {
+    "family name": "string",
+    "gender": "string",
+    "given name": "string",
+    "id": "string",
+    "link": "string",
+    "locale": "string",
+    "name": "string",
+    "picture": "string"
   },
   "FirebaseCredentials": {
     "email": "string",
     "password": "string"
+  },
+  "FirebaseChangePasswordCredentials": {
+    "email": "string",
+    "oldPassword": "string",
+    "newPassword": "string"
+  },
+  "FirebaseChangeEmailCredentials": {
+    "oldEmail": "string",
+    "newEmail": "string",
+    "password": "string"
+  },
+  "FirebaseResetPasswordCredentials": {
+    "email": "string"
   },
   "!name": "firebase.d.ts"
 }

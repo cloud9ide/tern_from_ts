@@ -8,7 +8,8 @@
       "updateFiles": "bool",
       "indent": "string",
       "extension": "string",
-      "objectNotation": "bool"
+      "objectNotation": "bool",
+      "prefix": "string"
     },
     "TranslateOptions": {
       "phrase": "string",
@@ -31,8 +32,7 @@
     "getLocale": "fn() -> string",
     "getCatalog": "fn() -> GlobalCatalog",
     "overrideLocaleFromQuery": "fn(request?: Express.Request)",
-    "version": "string",
-    "!type": "i18n"
+    "version": "string"
   },
   "i18nAPI": {
     "locale": "string",

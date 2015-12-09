@@ -131,8 +131,7 @@
     "adapter": "string"
   },
   "PouchDB": {
-    "destroy": "fn(name: string, callback: fn(err: PouchError))",
-    "!type": "PouchDB"
+    "destroy": "fn(name: string, callback: fn(err: PouchError))"
   },
   "'pouchdb'": "PouchDB",
   "emit": "fn(key: ?, value: ?)",

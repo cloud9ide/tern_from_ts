@@ -7,8 +7,7 @@
       "decompressFromUTF16": "fn(compressed: string) -> string",
       "compressToBase64": "fn(uncompressed: string) -> string",
       "decompressFromBase64": "fn(compressed: string) -> string"
-    },
-    "!type": "LZString.LZStringStatic"
+    }
   },
   "!name": "lz-string.d.ts"
 }

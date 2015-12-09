@@ -156,8 +156,7 @@
         "calculate": "Object",
         "Modes": {
           "Edit": "number",
-          "View": "number",
-          "!type": "Object"
+          "View": "number"
         },
         "apply": {},
         "beginEdit": {},
@@ -183,13 +182,11 @@
         "anchors": "Object",
         "control": {
           "x": "number",
-          "y": "number",
-          "!type": "Object"
+          "y": "number"
         },
         "end": {
           "x": "number",
-          "y": "number",
-          "!type": "Object"
+          "y": "number"
         },
         "endArrow": "Object",
         "endArrowGroup": "Object",
@@ -198,8 +195,7 @@
         "pathShape": "Object",
         "start": {
           "x": "number",
-          "y": "number",
-          "!type": "Object"
+          "y": "number"
         },
         "startArrow": "Object",
         "startArrowGroup": "Object",
@@ -208,14 +204,12 @@
         "textOffset": "number",
         "textPosition": {
           "x": "number",
-          "y": "number",
-          "!type": "Object"
+          "y": "number"
         },
         "textYOffset": "number",
         "transform": {
           "dx": "number",
-          "dy": "number",
-          "!type": "Object"
+          "dy": "number"
         },
         "apply": {},
         "destroy": {},

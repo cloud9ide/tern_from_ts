@@ -159,8 +159,7 @@
       "addOriginAccessWhitelistEntry": "fn(sourceOrigin: string, destinationProtocol: string, destinationHost: string, allowDestinationSubdomains: bool)",
       "removeOriginAccessWhitelistEntry": "fn(sourceOrigin: string, destinationProtocol: string, destinationHost: string, allowDestinationSubdomains: bool)",
       "registerGlobalHotKey": "fn(shortcut: Shortcut)",
-      "unregisterGlobalHotKey": "fn(shortcut: Shortcut)",
-      "!type": "App"
+      "unregisterGlobalHotKey": "fn(shortcut: Shortcut)"
     },
     "Clipboard": {
       "get": "fn() -> Clipboard",
@@ -191,8 +190,7 @@
     "Shell": {
       "openExternal": "fn(uri: string)",
       "openItem": "fn(file_path: string)",
-      "showItemInFolder": "fn(file_path: string)",
-      "!type": "Shell"
+      "showItemInFolder": "fn(file_path: string)"
     }
   },
   "!name": "node-webkit.d.ts"

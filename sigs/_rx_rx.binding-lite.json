@@ -1,17 +1,14 @@
 {
   "Rx": {
     "BehaviorSubject": {
-      "!type": "BehaviorSubjectStatic"
+      "getValue": "fn() -> T"
     },
     "BehaviorSubjectStatic": {},
-    "ReplaySubject": {
-      "!type": "ReplaySubjectStatic"
-    },
+    "ReplaySubject": {},
     "ReplaySubjectStatic": {},
     "ConnectableObservable": {
       "connect": "fn() -> IDisposable",
-      "refCount": "fn() -> ?",
-      "!type": "ConnectableObservableStatic"
+      "refCount": "fn() -> ?"
     },
     "ConnectableObservableStatic": {},
     "Observable": {

@@ -4,8 +4,7 @@
   },
   "Messenger": {
     "post": "fn(options: MessageOptions) -> Message",
-    "hideAll": "fn()",
-    "!type": "IMessenger"
+    "hideAll": "fn()"
   },
   "Message": {
     "show": "fn()",

@@ -2,14 +2,14 @@
   "describe": "fn(description: string, specDefinitions: fn())",
   "fdescribe": "fn(description: string, specDefinitions: fn())",
   "xdescribe": "fn(description: string, specDefinitions: fn())",
-  "it": "fn(expectation: string, assertion?: fn())",
-  "fit": "fn(expectation: string, assertion?: fn())",
-  "xit": "fn(expectation: string, assertion?: fn())",
-  "pending": "fn()",
-  "beforeEach": "fn(action: fn())",
-  "afterEach": "fn(action: fn())",
-  "beforeAll": "fn(action: fn())",
-  "afterAll": "fn(action: fn())",
+  "it": "fn(expectation: string, assertion?: fn(), timeout?: number)",
+  "fit": "fn(expectation: string, assertion?: fn(), timeout?: number)",
+  "xit": "fn(expectation: string, assertion?: fn(), timeout?: number)",
+  "pending": "fn(reason?: string)",
+  "beforeEach": "fn(action: fn(), timeout?: number)",
+  "afterEach": "fn(action: fn(), timeout?: number)",
+  "beforeAll": "fn(action: fn(), timeout?: number)",
+  "afterAll": "fn(action: fn(), timeout?: number)",
   "expect": "fn(spy: Function) -> jasmine.Matchers",
   "fail": "fn(e?: ?)",
   "spyOn": "fn(object: ?, method: string) -> jasmine.Spy",
@@ -19,14 +19,25 @@
   "jasmine": {
     "clock": "fn()",
     "any": "fn(aclass: ?) -> Any",
+    "anything": "fn() -> Any",
+    "arrayContaining": "fn(sample: [?]) -> ArrayContaining",
     "objectContaining": "fn(sample: ?) -> ObjectContaining",
     "createSpy": "fn(name: string, originalFn?: Function) -> Spy",
     "createSpyObj": "fn(baseName: string, methodNames: [?]) -> ?",
     "pp": "fn(value: ?) -> string",
     "getEnv": "fn() -> Env",
-    "addMatchers": "fn(matchers: ?) -> Any",
+    "addCustomEqualityTester": "fn(equalityTester: CustomEqualityTester)",
+    "addMatchers": "fn(matchers: CustomMatcherFactories)",
+    "stringMatching": "fn(str: string) -> Any",
     "Any": {
       "jasmineMatches": "fn(other: ?) -> bool",
+      "jasmineToString": "fn() -> string"
+    },
+    "ArrayLike": {
+      "length": "number"
+    },
+    "ArrayContaining": {
+      "asymmetricMatch": "fn(other: ?) -> bool",
       "jasmineToString": "fn() -> string"
     },
     "ObjectContaining": {
@@ -41,7 +52,23 @@
     "Clock": {
       "install": "fn()",
       "uninstall": "fn()",
-      "tick": "fn(ms: number)"
+      "tick": "fn(ms: number)",
+      "mockDate": "fn(date?: Date)"
+    },
+    "CustomEqualityTester": {},
+    "CustomMatcher": {
+      "compare": "fn(actual: T, expected: T) -> CustomMatcherResult"
+    },
+    "CustomMatcherFactory": {},
+    "CustomMatcherFactories": {},
+    "CustomMatcherResult": {
+      "pass": "bool",
+      "message": "string"
+    },
+    "MatchersUtil": {
+      "equals": "fn(a: ?, b: ?, customTesters?: ?) -> bool",
+      "contains": "fn(haystack: ?, string: ?, needle: ?, customTesters?: ?) -> bool",
+      "buildFailureMessage": "fn(matcherName: string, isNot: bool, actual: ?, expected: ?) -> string"
     },
     "Env": {
       "setTimeout": "?",
@@ -69,7 +96,8 @@
       "compareObjects_": "fn(a: ?, b: ?, mismatchKeys: [string], mismatchValues: [string]) -> bool",
       "equals_": "fn(a: ?, b: ?, mismatchKeys: [string], mismatchValues: [string]) -> bool",
       "contains_": "fn(haystack: ?, needle: ?) -> bool",
-      "addEqualityTester": "fn(equalityTester: fn(a: ?, b: ?, env: Env, mismatchKeys: [string], mismatchValues: [string]))",
+      "addCustomEqualityTester": "fn(equalityTester: CustomEqualityTester)",
+      "addMatchers": "fn(matchers: CustomMatcherFactories)",
       "specFilter": "fn(spec: Spec) -> bool"
     },
     "FakeTimer": {
@@ -78,12 +106,8 @@
       "runFunctionsWithinRange": "fn(oldMillis: number, nowMillis: number)",
       "scheduleFunction": "fn(timeoutKey: ?, funcToCall: fn(), millis: number, recurring: bool)"
     },
-    "HtmlReporter": {
-      "!type": "HtmlReporter"
-    },
-    "HtmlSpecFilter": {
-      "!type": "HtmlSpecFilter"
-    },
+    "HtmlReporter": {},
+    "HtmlSpecFilter": {},
     "Result": {
       "type": "string"
     },
@@ -148,25 +172,25 @@
       "spec": "Env",
       "isNot": "bool",
       "message": "fn() -> ?",
-      "toBe": "fn(expected: ?) -> bool",
-      "toEqual": "fn(expected: ?) -> bool",
-      "toMatch": "fn(expected: ?) -> bool",
-      "toBeDefined": "fn() -> bool",
-      "toBeUndefined": "fn() -> bool",
-      "toBeNull": "fn() -> bool",
+      "toBe": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
+      "toEqual": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
+      "toMatch": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
+      "toBeDefined": "fn(expectationFailOutput?: ?) -> bool",
+      "toBeUndefined": "fn(expectationFailOutput?: ?) -> bool",
+      "toBeNull": "fn(expectationFailOutput?: ?) -> bool",
       "toBeNaN": "fn() -> bool",
-      "toBeTruthy": "fn() -> bool",
-      "toBeFalsy": "fn() -> bool",
+      "toBeTruthy": "fn(expectationFailOutput?: ?) -> bool",
+      "toBeFalsy": "fn(expectationFailOutput?: ?) -> bool",
       "toHaveBeenCalled": "fn() -> bool",
       "toHaveBeenCalledWith": "fn(params: [?]) -> bool",
-      "toContain": "fn(expected: ?) -> bool",
-      "toBeLessThan": "fn(expected: ?) -> bool",
-      "toBeGreaterThan": "fn(expected: ?) -> bool",
-      "toBeCloseTo": "fn(expected: ?, precision: ?) -> bool",
+      "toContain": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
+      "toBeLessThan": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
+      "toBeGreaterThan": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
+      "toBeCloseTo": "fn(expected: ?, precision: ?, expectationFailOutput?: ?) -> bool",
       "toContainHtml": "fn(expected: string) -> bool",
       "toContainText": "fn(expected: string) -> bool",
       "toThrow": "fn(expected?: ?) -> bool",
-      "toThrowError": "fn(expected?: ?) -> bool",
+      "toThrowError": "fn(expected?: ?, message?: string) -> bool",
       "not": "Matchers",
       "Any": "Any"
     },
@@ -219,7 +243,7 @@
       "waitsFor": "fn(latchFunction: SpecFunction, timeoutMessage?: string, timeout?: number) -> Spec",
       "fail": "fn(e?: ?)",
       "getMatchersClass_": "fn() -> Matchers",
-      "addMatchers": "fn(matchersPrototype: ?)",
+      "addMatchers": "fn(matchersPrototype: CustomMatcherFactories)",
       "finishCallback": "fn()",
       "finish": "fn(onComplete?: fn())",
       "after": "fn(doAfter: SpecFunction)",
@@ -259,8 +283,7 @@
         "args": "[?]"
       },
       "argsForCall": "[?]",
-      "wasCalled": "bool",
-      "callCount": "number"
+      "wasCalled": "bool"
     },
     "SpyAnd": {
       "callThrough": "fn() -> Spy",
@@ -274,10 +297,14 @@
       "count": "fn() -> number",
       "argsFor": "fn(index: number) -> [?]",
       "allArgs": "fn() -> [?]",
-      "all": "fn() -> ?",
-      "mostRecent": "fn() -> ?",
-      "first": "fn() -> ?",
+      "all": "fn() -> [CallInfo]",
+      "mostRecent": "fn() -> CallInfo",
+      "first": "fn() -> CallInfo",
       "reset": "fn()"
+    },
+    "CallInfo": {
+      "object": "?",
+      "args": "[?]"
     },
     "Util": {
       "inherit": "fn(childClass: Function, parentClass: Function) -> ?",

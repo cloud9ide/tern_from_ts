@@ -41,8 +41,7 @@
     "can": "StateMachineCan",
     "cannot": "StateMachineCan",
     "error": "StateMachineErrorCallback",
-    "transition": "StateMachineTransition",
-    "!type": "StateMachineStatic"
+    "transition": "StateMachineTransition"
   },
   "state-machine": "StateMachineStatic",
   "!name": "state-machine.d.ts"

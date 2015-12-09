@@ -7,17 +7,11 @@
         "deferred": "Object",
         "direction": "number",
         "duration": "number",
-        "endState": {
-          "!type": "Object"
-        },
+        "endState": {},
         "in_": "bool",
         "node": "Object",
-        "playing": {
-          "!type": "Object"
-        },
-        "startState": {
-          "!type": "Object"
-        },
+        "playing": {},
+        "startState": {},
         "beforeClear": {},
         "beforeStart": {},
         "chainedPlay": {},

@@ -26,8 +26,8 @@
         "cfg": "C",
         "init": "fn(cfg?: C)",
         "create": "fn(cfg?: C) -> ?",
-        "update": "fn(messageUpdate: WordArray) -> Hasher",
-        "finalize": "fn(messageUpdate?: WordArray) -> WordArray",
+        "update": "fn(messageUpdate: string) -> Hasher",
+        "finalize": "fn(messageUpdate?: string) -> WordArray",
         "blockSize": "number",
         "_createHelper": "fn(hasher: Hasher) -> ?",
         "_createHmacHelper": "fn(hasher: Hasher) -> IHasherHmacHelper",
@@ -43,8 +43,8 @@
         "createDecryptor": "fn(key: WordArray, cfg?: C) -> ?",
         "create": "fn(xformMode?: number, key?: WordArray, cfg?: C) -> ?",
         "init": "fn(xformMode?: number, key?: WordArray, cfg?: C)",
-        "process": "fn(dataUpdate: WordArray) -> WordArray",
-        "finalize": "fn(dataUpdate?: WordArray) -> WordArray",
+        "process": "fn(dataUpdate: string) -> WordArray",
+        "finalize": "fn(dataUpdate?: string) -> WordArray",
         "keySize": "number",
         "ivSize": "number",
         "_createHelper": "fn(cipher: Cipher) -> ?",
@@ -67,6 +67,7 @@
       },
       "BlockCipher": {},
       "IBlockCipherCfg": {
+        "iv": "WordArray",
         "mode": "mode.IBlockCipherModeImpl",
         "padding": "pad.IPaddingImpl"
       },
@@ -92,7 +93,10 @@
       },
       "SerializableCipher": {},
       "ISerializableCipherCfg": {
-        "format": "format.IFormatter"
+        "format": "format.IFormatter",
+        "iv": "WordArray",
+        "mode": "mode.IBlockCipherModeImpl",
+        "padding": "pad.IPaddingImpl"
       },
       "IPasswordBasedCipher": {
         "cfg": "C",
@@ -101,11 +105,13 @@
       },
       "PasswordBasedCipher": {},
       "IPasswordBasedCipherCfg": {
-        "kdf": "kdf.IKdfImpl"
+        "kdf": "kdf.IKdfImpl",
+        "mode": "mode.IBlockCipherModeImpl",
+        "padding": "pad.IPaddingImpl"
       },
       "ICipherHelper": {
-        "encrypt": "fn(message: WordArray, key: WordArray, cfg?: C) -> CipherParams",
-        "decrypt": "fn(ciphertext: CipherParamsData, key: WordArray, cfg?: C) -> WordArray"
+        "encrypt": "fn(message: string, password: string, cfg?: C) -> CipherParams",
+        "decrypt": "fn(ciphertext: string, password: string, cfg?: C) -> WordArray"
       },
       "CipherHelper": {},
       "LibStatic": {
@@ -139,7 +145,7 @@
         "OpenSSL": "IKdfImpl"
       },
       "IKdfImpl": {
-        "execute": "fn(password: string, keySize: number, ivSize: number, salt?: lib.WordArray) -> lib.CipherParams"
+        "execute": "fn(password: string, keySize: number, ivSize: number, salt?: string) -> lib.CipherParams"
       }
     },
     "format": {
@@ -176,8 +182,8 @@
       "IBlockCipherImpl": {
         "encryptBlock": "fn(M: [number], offset: number)",
         "decryptBlock": "fn(M: [number], offset: number)",
-        "createEncryptor": "fn(key: lib.WordArray, cfg?: lib.IBlockCipherCfg) -> IBlockCipherImpl",
-        "createDecryptor": "fn(key: lib.WordArray, cfg?: lib.IBlockCipherCfg) -> IBlockCipherImpl",
+        "createEncryptor": "fn(key: lib.WordArray, cfg?: lib.CipherParamsData) -> IBlockCipherImpl",
+        "createDecryptor": "fn(key: lib.WordArray, cfg?: lib.CipherParamsData) -> IBlockCipherImpl",
         "create": "fn(xformMode?: number, key?: lib.WordArray, cfg?: lib.IBlockCipherCfg) -> IBlockCipherImpl"
       },
       "AES": {},
@@ -198,16 +204,16 @@
         "outputLength": "number"
       },
       "HMAC": {
-        "init": "fn(hasher?: lib.Hasher, key?: lib.WordArray)",
-        "create": "fn(hasher?: lib.Hasher, key?: lib.WordArray) -> HMAC",
-        "update": "fn(messageUpdate: lib.WordArray) -> HMAC",
-        "finalize": "fn(messageUpdate?: lib.WordArray) -> lib.WordArray"
+        "init": "fn(hasher?: lib.Hasher, key?: string)",
+        "create": "fn(hasher?: lib.Hasher, key?: string) -> HMAC",
+        "update": "fn(messageUpdate: string) -> HMAC",
+        "finalize": "fn(messageUpdate?: string) -> lib.WordArray"
       },
       "EvpKDF": {
         "cfg": "IEvpKDFCfg",
         "init": "fn(cfg?: IEvpKDFCfg)",
         "create": "fn(cfg?: IEvpKDFCfg) -> EvpKDF",
-        "compute": "fn(password: lib.WordArray, salt: lib.WordArray) -> lib.WordArray"
+        "compute": "fn(password: string, salt: string) -> lib.WordArray"
       },
       "IEvpKDFCfg": {
         "keySize": "number",
@@ -318,8 +324,7 @@
       "HmacSHA3": "CryptoJS.lib.IHasherHmacHelper",
       "EvpKDF": "CryptoJS.algo.IEvpKDFHelper",
       "PBKDF2": "CryptoJS.algo.IEvpKDFHelper"
-    },
-    "!type": "CryptoJS.CryptoJSStatic"
+    }
   },
   "!name": "cryptojs.d.ts"
 }
