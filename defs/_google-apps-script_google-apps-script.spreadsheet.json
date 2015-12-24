@@ -620,5 +620,5 @@
     }
   },
   "SpreadsheetApp": "GoogleAppsScript.Spreadsheet.SpreadsheetApp",
-  "!name": "google-apps-script.spreadsheet.d.ts"
+  "!name": "google-apps-script.spreadsheet"
 }

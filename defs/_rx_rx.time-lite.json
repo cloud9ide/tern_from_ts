@@ -23,5 +23,5 @@
       "timer": "fn(dueTime: number, period: number, scheduler?: IScheduler) -> ?"
     }
   },
-  "!name": "rx.time-lite.d.ts"
+  "!name": "rx.time-lite"
 }

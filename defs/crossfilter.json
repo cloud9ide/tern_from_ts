@@ -73,5 +73,5 @@
     }
   },
   "crossfilter": "CrossFilter.CrossFilterStatic",
-  "!name": "crossfilter.d.ts"
+  "!name": "crossfilter"
 }

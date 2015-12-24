@@ -12,5 +12,5 @@
     },
     "createLogger": "fn(options?: ReduxLoggerOptions) -> Redux.Middleware"
   },
-  "!name": "redux-logger.d.ts"
+  "!name": "redux-logger"
 }

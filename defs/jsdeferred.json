@@ -55,5 +55,5 @@
   "loop": "fn(n: number, fun: FunctionWithNumber) -> Deferred",
   "repeat": "fn(n: number, fun: FunctionWithNumber) -> Deferred",
   "next": "fn(fun: Function) -> Deferred",
-  "!name": "jsdeferred.d.ts"
+  "!name": "jsdeferred"
 }

@@ -25,5 +25,5 @@
     "closed": "fn()"
   },
   "StripeCheckout": "StripeCheckoutStatic",
-  "!name": "stripe-checkout.d.ts"
+  "!name": "stripe-checkout"
 }

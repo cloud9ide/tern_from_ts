@@ -19,5 +19,5 @@
   "JQuery": {
     "bootstrapPaginator": "fn() -> JQuery"
   },
-  "!name": "bootstrap.paginator.d.ts"
+  "!name": "bootstrap.paginator"
 }

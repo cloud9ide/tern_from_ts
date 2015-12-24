@@ -413,5 +413,5 @@
       "height": "number"
     }
   },
-  "!name": "kineticjs.d.ts"
+  "!name": "kineticjs"
 }

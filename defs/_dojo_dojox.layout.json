@@ -1155,7 +1155,7 @@
   "dojox/layout/ScrollPane": "exp",
   "dojox/layout/dnd/Avatar": "exp",
   "dojox/layout/dnd/PlottedDnd": "exp",
-  "!name": "dojox.layout.d.ts",
+  "!name": "dojox.layout",
   "!define": {
     "ret": {
       "unwatch": "fn()"

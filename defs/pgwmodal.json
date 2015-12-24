@@ -26,5 +26,5 @@
   "JQueryStatic": {
     "pgwModal": "PgwModalMethod"
   },
-  "!name": "pgwmodal.d.ts"
+  "!name": "pgwmodal"
 }

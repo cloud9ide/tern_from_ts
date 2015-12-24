@@ -27,5 +27,5 @@
     }
   },
   "rx.aggregates": "Rx",
-  "!name": "rx.aggregates.d.ts"
+  "!name": "rx.aggregates"
 }

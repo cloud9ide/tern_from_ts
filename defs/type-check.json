@@ -13,5 +13,5 @@
   },
   "typecheck": "TypeCheck.TC",
   "type-check": "typecheck",
-  "!name": "type-check.d.ts"
+  "!name": "type-check"
 }

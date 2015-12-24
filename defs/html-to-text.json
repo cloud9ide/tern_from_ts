@@ -14,5 +14,5 @@
   },
   "html-to-text": "htmlToText",
   "htmlToText": "HtmlToTextStatic",
-  "!name": "html-to-text.d.ts"
+  "!name": "html-to-text"
 }

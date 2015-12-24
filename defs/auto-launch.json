@@ -13,5 +13,5 @@
     }
   },
   "auto-launch": "al",
-  "!name": "auto-launch.d.ts"
+  "!name": "auto-launch"
 }

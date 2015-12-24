@@ -16,7 +16,7 @@
     "parse": "fn(str: string, options?: CookieParseOptions) -> ret"
   },
   "cookie": "cookie",
-  "!name": "cookie.d.ts",
+  "!name": "cookie",
   "!define": {
     "ret": {}
   }

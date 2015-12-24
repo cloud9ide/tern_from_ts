@@ -77,5 +77,5 @@
   "JQuery": {
     "bxSlider": "fn(options?: bxSliderOptions) -> bxSlider"
   },
-  "!name": "dw-bxslider-4.d.ts"
+  "!name": "dw-bxslider-4"
 }

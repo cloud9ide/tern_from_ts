@@ -5,5 +5,5 @@
   "JQuery": {
     "url": "fn() -> purl.Url"
   },
-  "!name": "purl-jquery.d.ts"
+  "!name": "purl-jquery"
 }

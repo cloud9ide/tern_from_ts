@@ -7,5 +7,5 @@
     }
   },
   "LanguageApp": "GoogleAppsScript.Language.LanguageApp",
-  "!name": "google-apps-script.language.d.ts"
+  "!name": "google-apps-script.language"
 }

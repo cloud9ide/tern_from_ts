@@ -48,5 +48,5 @@
   "KnockoutExtenders": {
     "paged": "fn(target: ?, options: KnockoutPagedOptions) -> ?"
   },
-  "!name": "knockout-paging.d.ts"
+  "!name": "knockout-paging"
 }

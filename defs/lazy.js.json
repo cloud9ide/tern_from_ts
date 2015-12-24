@@ -144,5 +144,5 @@
   },
   "Lazy": "LazyJS.LazyStatic",
   "'lazy.js'": "Lazy",
-  "!name": "lazy.js.d.ts"
+  "!name": "lazy.js"
 }

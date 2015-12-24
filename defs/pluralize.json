@@ -8,5 +8,5 @@
     "addUncountableRule": "fn(word: string, RegExp: ?)"
   },
   "pluralize": "pluralize",
-  "!name": "pluralize.d.ts"
+  "!name": "pluralize"
 }

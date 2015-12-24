@@ -19,5 +19,5 @@
   "JQueryStatic": {
     "JsonRpcClient": "JsonRpcClientFactory"
   },
-  "!name": "jquery-jsonrpcclient.d.ts"
+  "!name": "jquery-jsonrpcclient"
 }

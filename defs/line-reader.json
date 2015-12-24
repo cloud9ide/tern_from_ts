@@ -12,5 +12,5 @@
     "close": "fn(cb: fn(err: Error))"
   },
   "line-reader": "lr",
-  "!name": "line-reader.d.ts"
+  "!name": "line-reader"
 }

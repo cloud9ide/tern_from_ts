@@ -22,5 +22,5 @@
       "maxPatternLength": "number"
     }
   },
-  "!name": "fuse.d.ts"
+  "!name": "fuse"
 }

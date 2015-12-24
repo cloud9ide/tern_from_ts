@@ -82,5 +82,5 @@
       }
     }
   },
-  "!name": "backbone-relational.d.ts"
+  "!name": "backbone-relational"
 }

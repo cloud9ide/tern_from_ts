@@ -12,5 +12,5 @@
       "use": "[string]"
     }
   },
-  "!name": "yui.d.ts"
+  "!name": "yui"
 }

@@ -7,5 +7,5 @@
     "finally": "ShouldAssertion",
     "eventually": "ShouldAssertion"
   },
-  "!name": "should-promised.d.ts"
+  "!name": "should-promised"
 }

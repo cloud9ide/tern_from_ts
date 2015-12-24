@@ -30,5 +30,5 @@
     }
   },
   "qwest": "qwest",
-  "!name": "qwest.d.ts"
+  "!name": "qwest"
 }

@@ -9,5 +9,5 @@
   "JQuery": {
     "trunk8": "fn(method: string, value?: string) -> ?"
   },
-  "!name": "trunk8.d.ts"
+  "!name": "trunk8"
 }

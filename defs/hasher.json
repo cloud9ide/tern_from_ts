@@ -22,5 +22,5 @@
   },
   "hasher": "HasherJs.HasherStatic",
   "'hasher'": "hasher",
-  "!name": "hasher.d.ts"
+  "!name": "hasher"
 }

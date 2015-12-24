@@ -85,5 +85,5 @@
   },
   "httpStatus": "HttpStatus",
   "'http-status'": "httpStatus",
-  "!name": "http-status.d.ts"
+  "!name": "http-status"
 }

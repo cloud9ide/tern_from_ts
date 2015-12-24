@@ -62,5 +62,5 @@
   "jasmine": {
     "Ajax": "MockAjax"
   },
-  "!name": "jasmine-ajax.d.ts"
+  "!name": "jasmine-ajax"
 }

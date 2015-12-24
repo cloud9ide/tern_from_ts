@@ -18,5 +18,5 @@
   },
   "EachStatic": {},
   "each": "EachStatic",
-  "!name": "each.d.ts"
+  "!name": "each"
 }

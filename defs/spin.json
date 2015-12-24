@@ -31,5 +31,5 @@
       "opacity": "fn(el: HTMLElement, i: number, val: number, o: SpinnerOptions)"
     }
   },
-  "!name": "spin.d.ts"
+  "!name": "spin"
 }

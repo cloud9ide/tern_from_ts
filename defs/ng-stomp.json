@@ -12,5 +12,5 @@
     "send": "fn(destination: string, body: ?, headers: Headers)"
   },
   "Headers": {},
-  "!name": "ng-stomp.d.ts"
+  "!name": "ng-stomp"
 }

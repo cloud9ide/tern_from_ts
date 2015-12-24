@@ -12,5 +12,5 @@
     "videoEnabled": "fn(video: HTMLVideoElement) -> bool"
   },
   "bigscreen": "BigScreenStatic",
-  "!name": "bigscreen.d.ts"
+  "!name": "bigscreen"
 }

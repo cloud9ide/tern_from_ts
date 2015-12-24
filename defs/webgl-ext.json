@@ -127,5 +127,5 @@
     "loseContext": "fn()",
     "restoreContext": "fn()"
   },
-  "!name": "webgl-ext.d.ts"
+  "!name": "webgl-ext"
 }

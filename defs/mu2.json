@@ -9,5 +9,5 @@
     "clearCache": "fn(templateName?: string)",
     "IParsed": {}
   },
-  "!name": "mu2.d.ts"
+  "!name": "mu2"
 }

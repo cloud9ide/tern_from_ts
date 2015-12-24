@@ -44,8 +44,9 @@
     "showSignup": "fn()",
     "showReset": "fn()",
     "hide": "fn(callback: fn())",
-    "logout": "fn(callback: fn())"
+    "logout": "fn(callback: fn())",
+    "getClient": "fn() -> Auth0Static"
   },
   "Auth0Lock": "Auth0LockStatic",
-  "!name": "auth0.lock.d.ts"
+  "!name": "auth0.lock"
 }

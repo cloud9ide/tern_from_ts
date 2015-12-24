@@ -67,5 +67,5 @@
   "JQuery": {
     "flexslider": "fn(options?: FlexSliderOptions)"
   },
-  "!name": "flexSlider.d.ts"
+  "!name": "flexSlider"
 }

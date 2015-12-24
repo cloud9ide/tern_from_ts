@@ -28,5 +28,5 @@
       "toThrowStartsWith": "fn(text: string) -> bool"
     }
   },
-  "!name": "jasmine-matchers.d.ts"
+  "!name": "jasmine-matchers"
 }

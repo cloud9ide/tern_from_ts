@@ -49,5 +49,5 @@
     "version": "string"
   },
   "'fluxxor'": "Fluxxor",
-  "!name": "fluxxor.d.ts"
+  "!name": "fluxxor"
 }

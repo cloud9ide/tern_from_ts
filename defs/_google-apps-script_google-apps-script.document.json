@@ -789,5 +789,5 @@
     }
   },
   "DocumentApp": "GoogleAppsScript.Document.DocumentApp",
-  "!name": "google-apps-script.document.d.ts"
+  "!name": "google-apps-script.document"
 }

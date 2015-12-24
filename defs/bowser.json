@@ -39,5 +39,5 @@
       "_detect": "fn(ua: string) -> IBowser"
     }
   },
-  "!name": "bowser.d.ts"
+  "!name": "bowser"
 }

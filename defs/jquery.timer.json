@@ -12,5 +12,5 @@
   "JQuery": {
     "timer": "JQueryTimer"
   },
-  "!name": "jquery.timer.d.ts"
+  "!name": "jquery.timer"
 }

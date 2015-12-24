@@ -28,5 +28,5 @@
     }
   },
   "LinearOptimizationService": "GoogleAppsScript.Optimization.LinearOptimizationService",
-  "!name": "google-apps-script.optimization.d.ts"
+  "!name": "google-apps-script.optimization"
 }

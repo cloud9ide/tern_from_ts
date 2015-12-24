@@ -16,5 +16,5 @@
     "indexBy": "fn(indexer: fn(value: T)) -> ?",
     "uniqueIndexBy": "fn(indexer: fn(value: T)) -> ?"
   },
-  "!name": "knockout-transformations.d.ts"
+  "!name": "knockout-transformations"
 }

@@ -614,7 +614,7 @@
     },
     "PluginOptions": {}
   },
-  "!name": "SlickGrid.d.ts",
+  "!name": "SlickGrid",
   "!define": {
     "cols": {
       "columnId": "string",

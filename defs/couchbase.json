@@ -290,5 +290,5 @@
       }
     }
   },
-  "!name": "couchbase.d.ts"
+  "!name": "couchbase"
 }

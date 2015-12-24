@@ -171,5 +171,5 @@
       "onError": "fn(err: string)"
     }
   },
-  "!name": "jsoneditoronline.d.ts"
+  "!name": "jsoneditoronline"
 }

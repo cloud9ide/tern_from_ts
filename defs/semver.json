@@ -60,5 +60,5 @@
     }
   },
   "semver": "SemVerModule",
-  "!name": "semver.d.ts"
+  "!name": "semver"
 }

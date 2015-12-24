@@ -264,6 +264,7 @@
         "quadraticCurveTo": "fn(cpx: number, cpy: number, x: number, y: number) -> Graphics",
         "rect": "fn(x: number, y: number, w: number, h: number) -> Graphics",
         "setStrokeStyle": "fn(thickness: number, caps?: string, number: ?, joints?: string, number: ?, miterLimit?: number, ignoreScale?: bool) -> Graphics",
+        "setStrokeDash": "fn(segments?: [number], offset?: number) -> Graphics",
         "store": "fn() -> Graphics",
         "unstore": "fn() -> Graphics",
         "a": "fn(x: number, y: number, radius: number, startAngle: number, endAngle: number, anticlockwise: bool) -> Graphics",
@@ -292,7 +293,8 @@
         "mt": "fn(x: number, y: number) -> Graphics",
         "qt": "fn(cpx: number, cpy: number, x: number, y: number) -> Graphics",
         "r": "fn(x: number, y: number, w: number, h: number) -> Graphics",
-        "ss": "fn(thickness: number, caps?: string, number: ?, joints?: string, number: ?, miterLimit?: number, ignoreScale?: bool) -> Graphics"
+        "ss": "fn(thickness: number, caps?: string, number: ?, joints?: string, number: ?, miterLimit?: number, ignoreScale?: bool) -> Graphics",
+        "sd": "fn(segments?: [number], offset?: number) -> Graphics"
       },
       "Arc": {
         "!type": "fn(x: number, y: number, radius: number, startAngle: number, endAngle: number, anticlockwise: number)",
@@ -755,7 +757,7 @@
       "prototype": {}
     }
   },
-  "!name": "easeljs.d.ts",
+  "!name": "easeljs",
   "!define": {
     "ret": {
       "x": "number",

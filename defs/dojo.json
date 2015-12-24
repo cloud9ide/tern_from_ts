@@ -10786,7 +10786,7 @@
   "dijit/tree/TreeStoreModel": "exp",
   "dijit/ConfirmDialog": "exp",
   "dijit/_ConfirmDialogMixin": "exp",
-  "!name": "dijit.d.ts",
+  "!name": "dijit",
   "!define": {
     "ret": {
       "unwatch": "fn()"

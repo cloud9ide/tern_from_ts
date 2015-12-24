@@ -107,5 +107,5 @@
     "type": "string",
     "animated": "bool"
   },
-  "!name": "knockstrap.d.ts"
+  "!name": "knockstrap"
 }

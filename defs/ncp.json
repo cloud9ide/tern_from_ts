@@ -9,5 +9,5 @@
       "errs": "NodeJS.WritableStream"
     }
   },
-  "!name": "ncp.d.ts"
+  "!name": "ncp"
 }

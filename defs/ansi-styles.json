@@ -30,5 +30,5 @@
     "bgCyan": "EscapeCodePair",
     "bgWhite": "EscapeCodePair"
   },
-  "!name": "ansi-styles.d.ts"
+  "!name": "ansi-styles"
 }

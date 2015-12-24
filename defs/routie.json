@@ -19,5 +19,5 @@
       "silent": "bool"
     }
   },
-  "!name": "routie.d.ts"
+  "!name": "routie"
 }

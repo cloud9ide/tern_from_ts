@@ -80,5 +80,5 @@
       "length": "number"
     }
   },
-  "!name": "jest.d.ts"
+  "!name": "jest"
 }

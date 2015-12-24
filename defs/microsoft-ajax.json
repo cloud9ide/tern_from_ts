@@ -626,7 +626,7 @@
       }
     }
   },
-  "!name": "microsoft.ajax.d.ts",
+  "!name": "microsoft.ajax",
   "!define": {
     "ret": {},
     "ret1": {

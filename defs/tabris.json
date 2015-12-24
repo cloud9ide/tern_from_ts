@@ -286,5 +286,5 @@
     },
     "ui": "UI"
   },
-  "!name": "tabris.d.ts"
+  "!name": "tabris"
 }

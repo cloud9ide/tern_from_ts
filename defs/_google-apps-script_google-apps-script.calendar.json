@@ -217,5 +217,5 @@
     }
   },
   "CalendarApp": "GoogleAppsScript.Calendar.CalendarApp",
-  "!name": "google-apps-script.calendar.d.ts"
+  "!name": "google-apps-script.calendar"
 }

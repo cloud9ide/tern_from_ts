@@ -524,5 +524,5 @@
   "dojox/dtl/tag/loop": "exp",
   "dojox/dtl/tag/misc": "exp",
   "dojox/dtl/utils/date": "exp",
-  "!name": "dojox.dtl.d.ts"
+  "!name": "dojox.dtl"
 }

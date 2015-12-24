@@ -68,5 +68,5 @@
     "masks": "DateFormatMasks",
     "i18n": "DateFormatI18n"
   },
-  "!name": "date.format.d.ts"
+  "!name": "date.format"
 }

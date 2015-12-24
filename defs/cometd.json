@@ -26,5 +26,5 @@
   "JQueryStatic": {
     "cometd": "CometD"
   },
-  "!name": "cometd.d.ts"
+  "!name": "cometd"
 }

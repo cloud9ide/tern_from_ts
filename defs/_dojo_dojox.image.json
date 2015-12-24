@@ -289,7 +289,7 @@
   "dojox/image/Badge": "exp",
   "dojox/image/Magnifier": "exp",
   "dojox/image/MagnifierLite": "exp",
-  "!name": "dojox.image.d.ts",
+  "!name": "dojox.image",
   "!define": {
     "ret": {
       "unwatch": "fn()"

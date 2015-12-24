@@ -324,7 +324,7 @@
       "BigNumberTrinaryOperator": {}
     }
   },
-  "!name": "sjcl.d.ts",
+  "!name": "sjcl",
   "!define": {
     "ret": {
       "key": "BitArray",

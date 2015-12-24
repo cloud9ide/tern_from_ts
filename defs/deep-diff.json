@@ -25,5 +25,5 @@
   },
   "DeepDiff": "deepDiff.IDeepDiff",
   "deep-diff": "diff",
-  "!name": "deep-diff.d.ts"
+  "!name": "deep-diff"
 }

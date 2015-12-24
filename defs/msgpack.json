@@ -26,5 +26,5 @@
     "ok": "bool"
   },
   "msgpack": "MsgPackStatic",
-  "!name": "msgpack.d.ts"
+  "!name": "msgpack"
 }

@@ -42,5 +42,5 @@
   "JQuery": {
     "mask": "fn(mask: string, options?: JQueryMaskedInputOptions) -> JQuery"
   },
-  "!name": "maskedinput.d.ts"
+  "!name": "maskedinput"
 }

@@ -42,5 +42,5 @@
     "destroy": "fn(location: string, callback?: Function)",
     "repair": "fn(location: string, callback?: Function)"
   },
-  "!name": "levelup.d.ts"
+  "!name": "levelup"
 }

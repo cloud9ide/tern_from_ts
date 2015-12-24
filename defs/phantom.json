@@ -46,7 +46,7 @@
       "margin": "?"
     }
   },
-  "!name": "phantom.d.ts",
+  "!name": "phantom",
   "!define": {
     "callback.cookies": {
       "name": "string",

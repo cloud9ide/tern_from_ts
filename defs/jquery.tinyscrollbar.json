@@ -14,5 +14,5 @@
     "tinyscrollbar": "fn(options?: JQueryTinyScrollbar.JQueryTinyScrollbarOptions) -> JQuery",
     "tinyscrollbar_update": "fn(options?: ?) -> JQuery"
   },
-  "!name": "jquery.tinyscrollbar.d.ts"
+  "!name": "jquery.tinyscrollbar"
 }

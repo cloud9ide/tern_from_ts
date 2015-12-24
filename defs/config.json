@@ -13,5 +13,5 @@
     "has": "fn(setting: string) -> bool",
     "util": "IUtil"
   },
-  "!name": "config.d.ts"
+  "!name": "config"
 }

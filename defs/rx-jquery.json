@@ -50,5 +50,5 @@
     "toggleAsObservable": "fn(duration: number) -> ?"
   },
   "rx.jquery": "Rx",
-  "!name": "rx.jquery.d.ts"
+  "!name": "rx.jquery"
 }

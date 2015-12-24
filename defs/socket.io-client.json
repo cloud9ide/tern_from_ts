@@ -91,5 +91,5 @@
       "rejectUnauthorized": "bool"
     }
   },
-  "!name": "socket.io-client.d.ts"
+  "!name": "socket.io-client"
 }

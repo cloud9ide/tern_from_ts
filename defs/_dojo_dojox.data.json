@@ -1075,5 +1075,5 @@
   "dojox/data/WikipediaStore": "exp",
   "dojox/data/XmlStore": "exp",
   "dojox/data/util/JsonQuery": "exp",
-  "!name": "dojox.data.d.ts"
+  "!name": "dojox.data"
 }

@@ -250,5 +250,5 @@
   "webpage": {
     "create": "fn() -> WebPage"
   },
-  "!name": "phantomjs.d.ts"
+  "!name": "phantomjs"
 }

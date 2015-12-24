@@ -4,5 +4,5 @@
     "handler": "H",
     "params": {}
   },
-  "!name": "route-recognizer.d.ts"
+  "!name": "route-recognizer"
 }

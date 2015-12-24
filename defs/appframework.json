@@ -159,7 +159,7 @@
   },
   "af": "fn(fn: fn($: appFrameworkStatic))",
   "$": "appFrameworkStatic",
-  "!name": "appframework.d.ts",
+  "!name": "appframework",
   "!define": {
     "ret": {},
     "ret1": {

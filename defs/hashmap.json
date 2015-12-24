@@ -12,5 +12,5 @@
       "forEach": "fn(callback: fn(value: ValueType, key: KeyType))"
     }
   },
-  "!name": "hashmap-1.1.d.ts"
+  "!name": "hashmap-1.1"
 }

@@ -113,5 +113,5 @@
   "HTMLElement": {
     "selectize": "?"
   },
-  "!name": "selectize.d.ts"
+  "!name": "selectize"
 }

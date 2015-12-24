@@ -76,5 +76,5 @@
   "JQuery": {
     "featherlight": "Featherlight.JQueryExtension"
   },
-  "!name": "featherlight.d.ts"
+  "!name": "featherlight"
 }

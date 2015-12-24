@@ -22,5 +22,5 @@
       "clone": "fn() -> Range"
     }
   },
-  "!name": "moment-range.d.ts"
+  "!name": "moment-range"
 }

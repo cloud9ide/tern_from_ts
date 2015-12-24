@@ -134,7 +134,7 @@
   },
   "TabbarView": {
     "setActiveTab": "fn(index: number, options?: tabbarOptions) -> bool",
-    "getActiveTab": "fn() -> number",
+    "getActiveTabIndex": "fn() -> number",
     "loadPage": "fn(url: string)",
     "on": "fn(eventName: string, listener: fn(eventObject: ?))",
     "once": "fn(eventName: string, listener: fn(eventObject: ?))",
@@ -215,5 +215,5 @@
     "isIOS7above": "fn() -> bool"
   },
   "ons": "onsStatic",
-  "!name": "onsenui.d.ts"
+  "!name": "onsenui"
 }

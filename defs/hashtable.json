@@ -25,5 +25,5 @@
   "IHashtableStatic": {},
   "Hashtable": "IHashtableStatic",
   "hashtable": "Hashtable",
-  "!name": "hashtable.d.ts"
+  "!name": "hashtable"
 }

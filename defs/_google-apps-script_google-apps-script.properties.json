@@ -38,5 +38,5 @@
   "PropertiesService": "GoogleAppsScript.Properties.PropertiesService",
   "ScriptProperties": "GoogleAppsScript.Properties.ScriptProperties",
   "UserProperties": "GoogleAppsScript.Properties.UserProperties",
-  "!name": "google-apps-script.properties.d.ts"
+  "!name": "google-apps-script.properties"
 }

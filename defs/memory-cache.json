@@ -11,5 +11,5 @@
     "misses": "fn() -> number",
     "keys": "fn() -> ?"
   },
-  "!name": "memory-cache.d.ts"
+  "!name": "memory-cache"
 }

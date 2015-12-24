@@ -40,7 +40,9 @@
       "locale": "string",
       "showTodayButton": "bool",
       "viewMode": "string",
-      "inline": "bool"
+      "inline": "bool",
+      "toolbarPlacement": "string",
+      "showClear": "bool"
     },
     "Datetimepicker": {
       "date": "fn(date: moment.Moment, Date: ?, string: ?)",
@@ -58,5 +60,5 @@
     "on": "fn(events: string, selector: string, data: ?, handler?: fn(eventobject: BootstrapV3DatetimePicker.DatetimepickerChangeEventObject)) -> JQuery",
     "data": "fn(key: string) -> BootstrapV3DatetimePicker.Datetimepicker"
   },
-  "!name": "bootstrap.v3.datetimepicker.d.ts"
+  "!name": "bootstrap.v3.datetimepicker"
 }

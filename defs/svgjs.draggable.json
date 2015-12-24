@@ -16,5 +16,5 @@
       "dragend": "fn(delta: draggable.DragDelta, event: MouseEvent)"
     }
   },
-  "!name": "svgjs.draggable.d.ts"
+  "!name": "svgjs.draggable"
 }

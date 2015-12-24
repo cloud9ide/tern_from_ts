@@ -126,5 +126,5 @@
       "nsps": {}
     }
   },
-  "!name": "socket.io.d.ts"
+  "!name": "socket.io"
 }

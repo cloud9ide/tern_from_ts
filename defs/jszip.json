@@ -62,5 +62,5 @@
     "uncompress": "fn(input: string) -> Uint8Array"
   },
   "jszip": "JSZip",
-  "!name": "jszip.d.ts"
+  "!name": "jszip"
 }

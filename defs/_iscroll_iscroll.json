@@ -55,5 +55,5 @@
       "isReady": "fn() -> bool"
     }
   },
-  "!name": "iscroll.d.ts"
+  "!name": "iscroll"
 }

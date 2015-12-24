@@ -70,5 +70,5 @@
       "port": "MIDIPort"
     }
   },
-  "!name": "webmidi.d.ts"
+  "!name": "webmidi"
 }

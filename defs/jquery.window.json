@@ -128,5 +128,5 @@
   "JQueryStatic": {
     "window": "JQueryWindow.Static"
   },
-  "!name": "jquery.window.d.ts"
+  "!name": "jquery.window"
 }

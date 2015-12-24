@@ -215,5 +215,5 @@
       }
     }
   },
-  "!name": "physijs.d.ts"
+  "!name": "physijs"
 }

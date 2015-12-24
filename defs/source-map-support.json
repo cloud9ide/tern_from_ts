@@ -22,5 +22,5 @@
     "retrieveSourceMap": "fn(source: string) -> UrlAndMap",
     "install": "fn(options?: Options)"
   },
-  "!name": "source-map-support.d.ts"
+  "!name": "source-map-support"
 }

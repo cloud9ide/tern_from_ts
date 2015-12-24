@@ -171,5 +171,5 @@
       "loadFromJson": "fn(filterSettings: ?)"
     }
   },
-  "!name": "joData.d.ts"
+  "!name": "joData"
 }

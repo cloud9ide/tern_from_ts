@@ -33,5 +33,5 @@
       "newProxy": "fn(interfaceName: string, functions: ProxyFunctions) -> ?"
     }
   },
-  "!name": "java.d.ts"
+  "!name": "java"
 }

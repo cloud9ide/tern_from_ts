@@ -8,5 +8,5 @@
     },
     "prototype": "SharedWorker.SharedWorker"
   },
-  "!name": "SharedWorker.d.ts"
+  "!name": "SharedWorker"
 }

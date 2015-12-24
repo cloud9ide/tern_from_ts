@@ -16,5 +16,5 @@
     }
   },
   "paralleljs": "Parallel",
-  "!name": "parallel.d.ts"
+  "!name": "parallel"
 }

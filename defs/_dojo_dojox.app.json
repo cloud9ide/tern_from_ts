@@ -386,7 +386,7 @@
   "dojox/app/utils/hash": "exp",
   "dojox/app/widgets/_ScrollableMixin": "exp",
   "dojox/app/widgets/Container": "exp",
-  "!name": "dojox.app.d.ts",
+  "!name": "dojox.app",
   "!define": {
     "ret": {
       "unwatch": "fn()"

@@ -5,5 +5,5 @@
     "decode": "fn(base64: string) -> Buffer",
     "validate": "fn(base64: string) -> bool"
   },
-  "!name": "urlsafe-base64.d.ts"
+  "!name": "urlsafe-base64"
 }

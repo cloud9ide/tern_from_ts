@@ -70,5 +70,5 @@
       }
     }
   },
-  "!name": "timezone-js.d.ts"
+  "!name": "timezone-js"
 }

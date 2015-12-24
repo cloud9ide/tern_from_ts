@@ -5,5 +5,5 @@
     "showMap": "fn(latitude: number, longitude: number)"
   },
   "geo_position_js": "GeolocationStatic",
-  "!name": "google.geolocation.d.ts"
+  "!name": "google.geolocation"
 }

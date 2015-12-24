@@ -184,5 +184,5 @@
   "JQuery": {
     "handsontable": "fn() -> JQuery"
   },
-  "!name": "jquery-handsontable.d.ts"
+  "!name": "jquery-handsontable"
 }

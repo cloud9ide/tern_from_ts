@@ -209,5 +209,5 @@
   "dojox/mdnd/dropMode/DefaultDropMode": "exp",
   "dojox/mdnd/dropMode/OverDropMode": "exp",
   "dojox/mdnd/dropMode/VerticalDropMode": "exp",
-  "!name": "dojox.mdnd.d.ts"
+  "!name": "dojox.mdnd"
 }

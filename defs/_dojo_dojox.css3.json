@@ -41,5 +41,5 @@
   "dojox/css3/transition.playing": "exp",
   "dojox/css3/transition.startState": "exp",
   "dojox/css3/fx": "exp",
-  "!name": "dojox.css3.d.ts"
+  "!name": "dojox.css3"
 }

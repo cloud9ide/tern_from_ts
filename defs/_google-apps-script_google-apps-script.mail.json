@@ -8,5 +8,5 @@
     }
   },
   "MailApp": "GoogleAppsScript.Mail.MailApp",
-  "!name": "google-apps-script.mail.d.ts"
+  "!name": "google-apps-script.mail"
 }

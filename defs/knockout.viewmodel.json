@@ -8,5 +8,5 @@
   "KnockoutStatic": {
     "viewmodel": "KnockoutViewModelStatic"
   },
-  "!name": "knockout.viewmodel.d.ts"
+  "!name": "knockout.viewmodel"
 }

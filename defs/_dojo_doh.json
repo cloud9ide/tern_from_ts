@@ -249,5 +249,5 @@
   "doh/runner.robot": "exp",
   "doh/plugins/android-webdriver-robot": "exp",
   "doh/plugins/remoteRobot": "exp",
-  "!name": "doh.d.ts"
+  "!name": "doh"
 }

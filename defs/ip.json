@@ -28,5 +28,5 @@
     "subnet": "fn(ip: string, subnet: string) -> SubnetInfo",
     "cidrSubnet": "fn(cidr: string) -> SubnetInfo"
   },
-  "!name": "ip.d.ts"
+  "!name": "ip"
 }

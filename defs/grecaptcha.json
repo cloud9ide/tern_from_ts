@@ -17,5 +17,5 @@
       "expired-callback": "fn()"
     }
   },
-  "!name": "grecaptcha.d.ts"
+  "!name": "grecaptcha"
 }

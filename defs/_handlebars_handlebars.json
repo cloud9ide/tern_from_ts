@@ -178,5 +178,5 @@
     "log": "fn(level: number, obj: string)"
   },
   "handlebars": "Handlebars",
-  "!name": "handlebars.d.ts"
+  "!name": "handlebars"
 }

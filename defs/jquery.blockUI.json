@@ -39,5 +39,5 @@
     "block": "fn(option?: JQBlockUIOptions) -> JQuery",
     "unblock": "fn(option?: JQBlockUIOptions) -> JQuery"
   },
-  "!name": "jquery.blockUI.d.ts"
+  "!name": "jquery.blockUI"
 }

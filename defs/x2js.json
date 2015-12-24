@@ -22,5 +22,5 @@
     "datetimeAccessFormPaths": "[?]"
   },
   "X2JS": "IX2JS",
-  "!name": "xml2json.d.ts"
+  "!name": "xml2json"
 }

@@ -116,6 +116,22 @@
       "titleIs": "fn(title: string) -> ?",
       "titleMatches": "fn(regex: RegExp) -> ?"
     },
+    "ExpectedConditions": {
+      "not": "fn(expectedCondition: ?) -> ?",
+      "and": "fn(fns: [?]) -> ?",
+      "or": "fn(fns: [?]) -> ?",
+      "alertIsPresent": "fn() -> ?",
+      "elementToBeClickable": "fn(element: ElementFinder) -> ?",
+      "textToBePresentInElement": "fn(element: ElementFinder, text: string) -> ?",
+      "textToBePresentInElementValue": "fn(element: ElementFinder, text: string) -> ?",
+      "titleContains": "fn(title: string) -> ?",
+      "titleIs": "fn(title: string) -> ?",
+      "presenceOf": "fn(element: ElementFinder) -> ?",
+      "stalenessOf": "fn(element: ElementFinder) -> ?",
+      "visibilityOf": "fn(element: ElementFinder) -> ?",
+      "invisibilityOf": "fn(element: ElementFinder) -> ?",
+      "elementToBeSelected": "fn(element: ElementFinder) -> ?"
+    },
     "Element": {
       "all": "fn(locator: webdriver.Locator) -> ElementArrayFinder"
     },
@@ -230,5 +246,5 @@
   "$": "cssSelectorHelper",
   "$$": "cssArraySelectorHelper",
   "'protractor'": "protractor",
-  "!name": "angular-protractor.d.ts"
+  "!name": "angular-protractor"
 }

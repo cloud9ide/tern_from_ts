@@ -58,5 +58,5 @@
     "promote": "fn(subclass: fn(), prefix: string) -> fn()",
     "proxy": "fn(method: fn(eventObj: Object), scope: Object, arg: [?]) -> fn(eventObj: Object)"
   },
-  "!name": "createjs-lib.d.ts"
+  "!name": "createjs-lib"
 }

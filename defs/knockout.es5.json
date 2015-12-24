@@ -15,5 +15,5 @@
     "destroy": "fn(item: T)",
     "destroyAll": "fn(items: [T])"
   },
-  "!name": "knockout.es5.d.ts"
+  "!name": "knockout.es5"
 }

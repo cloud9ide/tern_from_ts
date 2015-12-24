@@ -9,5 +9,5 @@
   },
   "dojox/socket": "exp",
   "dojox/socket/Reconnect": "exp",
-  "!name": "dojox.socket.d.ts"
+  "!name": "dojox.socket"
 }

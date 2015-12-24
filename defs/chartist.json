@@ -156,5 +156,5 @@
       "end": "string"
     }
   },
-  "!name": "chartist.d.ts"
+  "!name": "chartist"
 }

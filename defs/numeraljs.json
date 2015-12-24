@@ -33,5 +33,5 @@
     "difference": "fn(value: ?) -> number"
   },
   "numeral": "Numeral",
-  "!name": "numeraljs.d.ts"
+  "!name": "numeraljs"
 }

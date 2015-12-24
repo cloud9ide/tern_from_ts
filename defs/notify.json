@@ -35,5 +35,5 @@
   "JQuery": {
     "notify": "fn(text: string, className?: string)"
   },
-  "!name": "notify.d.ts"
+  "!name": "notify"
 }

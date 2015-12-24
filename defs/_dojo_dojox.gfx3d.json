@@ -577,5 +577,5 @@
   "dojox/gfx3d/lighting.finish": "exp",
   "dojox/gfx3d/vector": "exp",
   "dojox/gfx3d/matrix": "exp",
-  "!name": "dojox.gfx3d.d.ts"
+  "!name": "dojox.gfx3d"
 }

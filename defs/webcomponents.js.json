@@ -33,5 +33,5 @@
     "HTMLImports": "webcomponents.HTMLImportsPolyfill",
     "WebComponents": "webcomponents.Polyfill"
   },
-  "!name": "webcomponents.js.d.ts"
+  "!name": "webcomponents.js"
 }

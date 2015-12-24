@@ -28,5 +28,5 @@
       "clearWatch": "fn(watchID: ?)"
     }
   },
-  "!name": "geolocation.d.ts"
+  "!name": "geolocation"
 }

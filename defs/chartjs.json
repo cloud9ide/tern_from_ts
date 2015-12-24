@@ -177,5 +177,5 @@
       "global": "ChartSettings"
     }
   },
-  "!name": "chart.d.ts"
+  "!name": "chart"
 }

@@ -14,5 +14,5 @@
     "jnotifyInizialize": "fn(options?: JNotifyInitOptions)",
     "jnotifyAddMessage": "fn(options?: JNotifyOptions)"
   },
-  "!name": "jquery.jnotify.d.ts"
+  "!name": "jquery.jnotify"
 }

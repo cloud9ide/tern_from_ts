@@ -5,5 +5,5 @@
       "cleanup": "fn() -> ?"
     }
   },
-  "!name": "camera.d.ts"
+  "!name": "camera"
 }

@@ -979,7 +979,7 @@
     "watchedEvents": "Ember.watchedEvents",
     "wrap": "Ember.wrap"
   },
-  "!name": "ember.d.ts",
+  "!name": "ember",
   "!define": {
     "ret": {},
     "ret1": {},

@@ -122,5 +122,5 @@
   "getContext": "fn() -> IContext",
   "__": "I__Object",
   "ErrorCodes": "IErrorCodes",
-  "!name": "documentdb-server.d.ts"
+  "!name": "documentdb-server"
 }

@@ -14,5 +14,5 @@
       "versionStr": "fn(value: string) -> string"
     }
   },
-  "!name": "mobile-detect.d.ts"
+  "!name": "mobile-detect"
 }

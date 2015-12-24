@@ -20,5 +20,5 @@
     "log": "fn(what?: ?)",
     "clientSideLogging": "fn(options: ClientSideLoggingObject)"
   },
-  "!name": "jquery.clientSideLogging.d.ts"
+  "!name": "jquery.clientSideLogging"
 }

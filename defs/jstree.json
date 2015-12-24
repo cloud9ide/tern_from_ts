@@ -242,5 +242,5 @@
     "node": "[?]",
     "inst": "?"
   },
-  "!name": "jstree.d.ts"
+  "!name": "jstree"
 }

@@ -79,5 +79,5 @@
   },
   "Raygun": "raygun.RaygunStatic",
   "'Raygun'": "Raygun",
-  "!name": "raygun4js.d.ts"
+  "!name": "raygun4js"
 }

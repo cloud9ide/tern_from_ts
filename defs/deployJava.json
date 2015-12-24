@@ -47,5 +47,5 @@
     }
   },
   "deployJava": "DeployJava.DeployJavaStatic",
-  "!name": "deployJava.d.ts"
+  "!name": "deployJava"
 }

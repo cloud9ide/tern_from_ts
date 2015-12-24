@@ -42,5 +42,5 @@
   "dojox/uuid/Uuid": "exp",
   "dojox/uuid/_base.variant": "exp",
   "dojox/uuid/_base.version": "exp",
-  "!name": "dojox.uuid.d.ts"
+  "!name": "dojox.uuid"
 }

@@ -58,5 +58,5 @@
       "upload": "fn(src: string, opts?: S3UploaderOptions, cb?: fn(err: string, images: [image], meta: Meta))"
     }
   },
-  "!name": "s3-uploader.d.ts"
+  "!name": "s3-uploader"
 }

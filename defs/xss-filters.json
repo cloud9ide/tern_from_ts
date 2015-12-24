@@ -33,5 +33,5 @@
   },
   "xssFilters": "XSSFilters",
   "'xss-filters'": "xssFilters",
-  "!name": "xss-filters.d.ts"
+  "!name": "xss-filters"
 }

@@ -4,5 +4,5 @@
     "boolean": "?",
     "toggleFullScreen": "fn() -> JQuery"
   },
-  "!name": "jquery-fullscreen.d.ts"
+  "!name": "jquery-fullscreen"
 }

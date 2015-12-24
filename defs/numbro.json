@@ -33,5 +33,5 @@
     "difference": "fn(value: ?) -> number"
   },
   "numbro": "Numbro",
-  "!name": "numbro.d.ts"
+  "!name": "numbro"
 }

@@ -44,5 +44,5 @@
     "jqGrid": "JQueryJqGridStatic",
     "setGridParam": "fn(obj: ?)"
   },
-  "!name": "jqgrid.d.ts"
+  "!name": "jqgrid"
 }

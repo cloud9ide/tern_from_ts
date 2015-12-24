@@ -2974,7 +2974,7 @@
   "dojox/form/uploader/plugins/Flash": "exp",
   "dojox/form/uploader/plugins/HTML5": "exp",
   "dojox/form/uploader/plugins/IFrame": "exp",
-  "!name": "dojox.form.d.ts",
+  "!name": "dojox.form",
   "!define": {
     "ret": {
       "unwatch": "fn()"

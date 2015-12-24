@@ -84,5 +84,5 @@
     }
   },
   "Maps": "GoogleAppsScript.Maps.Maps",
-  "!name": "google-apps-script.maps.d.ts"
+  "!name": "google-apps-script.maps"
 }

@@ -20,5 +20,5 @@
   "JQuery": {
     "chosen": "fn() -> JQuery"
   },
-  "!name": "chosen.jquery.d.ts"
+  "!name": "chosen.jquery"
 }

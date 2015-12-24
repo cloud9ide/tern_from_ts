@@ -6,5 +6,5 @@
   "sprintf-js": "sprintf_js",
   "sprintf": "sprintf_js.sprintf",
   "vsprintf": "sprintf_js.vsprintf",
-  "!name": "sprintf-js.d.ts"
+  "!name": "sprintf-js"
 }

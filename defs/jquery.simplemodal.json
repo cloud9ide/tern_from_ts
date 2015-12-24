@@ -48,5 +48,5 @@
     "modal": "SimpleModal.JQueryExtension"
   },
   "'simplemodal'": "SimpleModal",
-  "!name": "jquery.simplemodal.d.ts"
+  "!name": "jquery.simplemodal"
 }

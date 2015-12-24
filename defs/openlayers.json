@@ -1290,7 +1290,7 @@
     "TransformFunction": {}
   },
   "openlayers": "ol",
-  "!name": "openlayers.d.ts",
+  "!name": "openlayers",
   "!define": {
     "ret": {}
   }

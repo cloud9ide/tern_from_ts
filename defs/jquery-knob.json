@@ -31,5 +31,5 @@
   "JQuery": {
     "knob": "fn(options?: JQueryKnob.JQueryKnobOptions) -> JQuery"
   },
-  "!name": "jquery-knob.d.ts"
+  "!name": "jquery-knob"
 }

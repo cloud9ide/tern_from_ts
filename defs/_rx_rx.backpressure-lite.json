@@ -13,5 +13,5 @@
       "resume": "fn()"
     }
   },
-  "!name": "rx.backpressure-lite.d.ts"
+  "!name": "rx.backpressure-lite"
 }

@@ -17,5 +17,5 @@
     "version": "string"
   },
   "platform": "PlatformStatic",
-  "!name": "platform.d.ts"
+  "!name": "platform"
 }

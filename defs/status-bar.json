@@ -19,5 +19,5 @@
       "unsubscribeAllFromBuffer": "fn() -> [?]"
     }
   },
-  "!name": "status-bar.d.ts"
+  "!name": "status-bar"
 }

@@ -67,7 +67,7 @@
       }
     }
   },
-  "!name": "three-projector.d.ts",
+  "!name": "three-projector",
   "!define": {
     "ret": {
       "objects": "[Object3D]",

@@ -2107,7 +2107,7 @@
   "dojox/dgauges/components/grey/SemiCircularLinearGauge": "exp",
   "dojox/dgauges/components/grey/HorizontalLinearGauge": "exp",
   "dojox/dgauges/components/grey/VerticalLinearGauge": "exp",
-  "!name": "dojox.dgauges.d.ts",
+  "!name": "dojox.dgauges",
   "!define": {
     "ret": {
       "unwatch": "fn()"

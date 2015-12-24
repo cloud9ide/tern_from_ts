@@ -159,5 +159,5 @@
     "Sort": {},
     "Time": {}
   },
-  "!name": "rethinkdb.d.ts"
+  "!name": "rethinkdb"
 }

@@ -149,7 +149,7 @@
       "getFirstSlide": "fn() -> SwiperSlide"
     }
   },
-  "!name": "swiper.d.ts",
+  "!name": "swiper",
   "!define": {
     "ret": {
       "top": "number",

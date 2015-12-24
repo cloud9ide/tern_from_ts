@@ -47,5 +47,5 @@
       "removeUser": "fn(email: string, password: string, callback?: fn(err: IFirebaseSimpleLoginError, success: bool))"
     }
   },
-  "!name": "firebase-simplelogin.d.ts"
+  "!name": "firebase-simplelogin"
 }

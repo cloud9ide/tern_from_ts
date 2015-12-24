@@ -5,5 +5,5 @@
     }
   },
   "chai-subset": "chaiSubset",
-  "!name": "chai-subset.d.ts"
+  "!name": "chai-subset"
 }

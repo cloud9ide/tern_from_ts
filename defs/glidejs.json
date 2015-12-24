@@ -41,5 +41,5 @@
       "arrows": "fn(target: string)"
     }
   },
-  "!name": "glidejs.d.ts"
+  "!name": "glidejs"
 }

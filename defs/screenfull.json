@@ -17,5 +17,5 @@
     "toggle": "fn(elem?: Element)",
     "exit": "fn()"
   },
-  "!name": "screenfull.d.ts"
+  "!name": "screenfull"
 }

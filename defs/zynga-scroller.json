@@ -18,7 +18,7 @@
       "doTouchEnd": "fn(timeStamp: number)"
     }
   },
-  "!name": "zynga-scroller.d.ts",
+  "!name": "zynga-scroller",
   "!define": {
     "ret": {
       "left": "number",

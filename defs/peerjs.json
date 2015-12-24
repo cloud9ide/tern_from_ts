@@ -70,5 +70,5 @@
   "Peer": {
     "prototype": "RTCIceServer"
   },
-  "!name": "peerjs.d.ts"
+  "!name": "peerjs"
 }

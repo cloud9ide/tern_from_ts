@@ -2121,7 +2121,7 @@
   "dojox/gauges/GlossyHorizontalGauge": "exp",
   "dojox/gauges/GlossySemiCircularGauge": "exp",
   "dojox/gauges/TextIndicator": "exp",
-  "!name": "dojox.gauges.d.ts",
+  "!name": "dojox.gauges",
   "!define": {
     "ret": {
       "unwatch": "fn()"

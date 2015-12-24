@@ -20,5 +20,5 @@
     "verifyNoOutstandingHttpRequests": "fn()",
     "wrapWithDone": "fn(callback: Function, done: Function) -> Function"
   },
-  "!name": "bardjs.d.ts"
+  "!name": "bardjs"
 }

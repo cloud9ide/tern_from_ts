@@ -40,5 +40,5 @@
       "doTouchEnd": "fn(timeStamp: number)"
     }
   },
-  "!name": "scroller.d.ts"
+  "!name": "scroller"
 }

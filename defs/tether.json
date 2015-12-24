@@ -36,5 +36,5 @@
     }
   },
   "Tether": "tether.TetherStatic",
-  "!name": "tether.d.ts"
+  "!name": "tether"
 }

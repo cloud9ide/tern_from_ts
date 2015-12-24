@@ -64,5 +64,5 @@
       "writeType": "fn(t: Object, v: Object, struct: Object)"
     }
   },
-  "!name": "DataStream.js.d.ts"
+  "!name": "DataStream.js"
 }

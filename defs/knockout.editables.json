@@ -15,5 +15,5 @@
   "KnockoutStatic": {
     "editable": "KnockoutEditableStatic"
   },
-  "!name": "ko.editables.d.ts"
+  "!name": "ko.editables"
 }

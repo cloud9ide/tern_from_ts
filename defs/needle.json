@@ -53,5 +53,5 @@
     }
   },
   "needle": "needle",
-  "!name": "needle.d.ts"
+  "!name": "needle"
 }

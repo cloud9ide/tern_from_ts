@@ -27,5 +27,5 @@
     "setLocale": "fn(name: string)"
   },
   "$ngBootbox": "BootboxService",
-  "!name": "ngbootbox.d.ts"
+  "!name": "ngbootbox"
 }

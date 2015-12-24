@@ -27,5 +27,5 @@
   "JQueryStatic": {
     "payment": "JQueryPayment.Payment"
   },
-  "!name": "jquery.payment.d.ts"
+  "!name": "jquery.payment"
 }

@@ -31,5 +31,5 @@
       "show": "fn(options?: DatePickerOptions) -> ?"
     }
   },
-  "!name": "datepicker.d.ts"
+  "!name": "datepicker"
 }

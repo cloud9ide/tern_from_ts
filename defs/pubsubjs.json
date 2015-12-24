@@ -20,5 +20,5 @@
   },
   "PubSub": "PubSubJS.Base",
   "pubsub-js": "PubSub",
-  "!name": "pubsub.d.ts"
+  "!name": "pubsub"
 }

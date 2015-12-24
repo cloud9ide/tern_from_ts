@@ -7,5 +7,5 @@
   },
   "dojox/help/_base": "exp",
   "dojox/help/console": "exp",
-  "!name": "dojox.help.d.ts"
+  "!name": "dojox.help"
 }

@@ -92,5 +92,5 @@
       "toDate": "fn() -> Date"
     }
   },
-  "!name": "xdate.d.ts"
+  "!name": "xdate"
 }

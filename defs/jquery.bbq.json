@@ -33,5 +33,5 @@
     "fragment": "fn(attr?: ?, params?: ?, merge_mode?: number) -> JQuery",
     "hashchange": "fn(eventData?: ?, handler?: fn(eventObject: JQueryBbq.EventObject)) -> JQuery"
   },
-  "!name": "jquery.bbq.d.ts"
+  "!name": "jquery.bbq"
 }

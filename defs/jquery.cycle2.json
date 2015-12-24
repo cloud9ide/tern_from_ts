@@ -97,5 +97,5 @@
       "before": "fn(opts: Options, curr: Element, next: Element, fwd: bool)"
     }
   },
-  "!name": "jquery.cycle2.d.ts"
+  "!name": "jquery.cycle2"
 }

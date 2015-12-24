@@ -122,7 +122,7 @@
     "builder": "fn(option: TokenizerBuilderOption) -> ?",
     "dictionaryBuilder": "fn() -> DictionaryBuilder"
   },
-  "!name": "kuromoji.d.ts",
+  "!name": "kuromoji",
   "!define": {
     "ret": {},
     "ret1": {

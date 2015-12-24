@@ -34,5 +34,5 @@
     "enable": "fn(enable?: bool)",
     "selected": "fn(select?: bool)"
   },
-  "!name": "jquery.form.d.ts"
+  "!name": "jquery.form"
 }

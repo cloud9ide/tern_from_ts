@@ -38,5 +38,5 @@
       "beforeShow": "fn(color: tinycolorInstance)"
     }
   },
-  "!name": "spectrum.d.ts"
+  "!name": "spectrum"
 }

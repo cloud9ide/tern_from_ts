@@ -26,5 +26,5 @@
   "AudioNode": {
     "disconnect": "fn(destination: AudioNode)"
   },
-  "!name": "waa.d.ts"
+  "!name": "waa"
 }

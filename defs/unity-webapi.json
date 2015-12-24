@@ -74,5 +74,5 @@
   "BrowserPublic": {
     "getUnityObject": "fn(version: number) -> Unity"
   },
-  "!name": "unity-webapi.d.ts"
+  "!name": "unity-webapi"
 }

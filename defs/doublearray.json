@@ -43,7 +43,7 @@
     "builder": "fn(initial_size?: number) -> DoubleArrayBuilder",
     "load": "fn(base_buffer: Int8Array, check_buffer: Int8Array) -> DoubleArray"
   },
-  "!name": "doublearray.d.ts",
+  "!name": "doublearray",
   "!define": {
     "ret": {
       "all": "number",

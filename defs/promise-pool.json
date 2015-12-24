@@ -47,5 +47,5 @@
       }
     }
   },
-  "!name": "promise-pool.d.ts"
+  "!name": "promise-pool"
 }

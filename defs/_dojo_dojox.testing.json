@@ -14,5 +14,5 @@
     }
   },
   "dojox/testing/DocTest": "exp",
-  "!name": "dojox.testing.d.ts"
+  "!name": "dojox.testing"
 }

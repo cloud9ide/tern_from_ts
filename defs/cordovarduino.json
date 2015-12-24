@@ -16,5 +16,5 @@
     }
   },
   "serial": "Cordovardunio.Serial",
-  "!name": "cordovarduino.d.ts"
+  "!name": "cordovarduino"
 }

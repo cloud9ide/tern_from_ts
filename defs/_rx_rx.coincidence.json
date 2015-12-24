@@ -8,5 +8,5 @@
     }
   },
   "rx.coincidence": "Rx",
-  "!name": "rx.coincidence.d.ts"
+  "!name": "rx.coincidence"
 }

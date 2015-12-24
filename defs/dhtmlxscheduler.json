@@ -318,5 +318,5 @@
     "updateView": "fn(date: Date, view: string)"
   },
   "scheduler": "SchedulerStatic",
-  "!name": "dhtmlxscheduler.d.ts"
+  "!name": "dhtmlxscheduler"
 }

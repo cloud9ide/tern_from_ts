@@ -33,5 +33,5 @@
       "stop": "fn()"
     }
   },
-  "!name": "iscroll-lite.d.ts"
+  "!name": "iscroll-lite"
 }

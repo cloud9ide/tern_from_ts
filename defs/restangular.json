@@ -100,5 +100,5 @@
       "getRestangularUrl": "fn() -> string"
     }
   },
-  "!name": "restangular.d.ts"
+  "!name": "restangular"
 }

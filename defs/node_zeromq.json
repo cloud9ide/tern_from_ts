@@ -76,5 +76,5 @@
     "socket": "fn(type: string, options?: ?) -> Socket",
     "createSocket": "fn(type: string, options?: ?) -> Socket"
   },
-  "!name": "zmq.d.ts"
+  "!name": "zmq"
 }

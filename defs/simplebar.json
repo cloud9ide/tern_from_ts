@@ -9,5 +9,5 @@
   "JQueryStatic": {
     "simplebar": {}
   },
-  "!name": "simplebar.d.ts"
+  "!name": "simplebar"
 }

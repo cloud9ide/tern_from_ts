@@ -18,5 +18,5 @@
   },
   "Mousetrap": "MousetrapStatic",
   "mousetrap": "Mousetrap",
-  "!name": "mousetrap.d.ts"
+  "!name": "mousetrap"
 }

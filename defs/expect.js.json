@@ -62,5 +62,5 @@
     }
   },
   "expect.js": "expect",
-  "!name": "expect.js.d.ts"
+  "!name": "expect.js"
 }

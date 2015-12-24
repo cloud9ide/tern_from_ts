@@ -63,5 +63,5 @@
   },
   "JWPlayerStatic": {},
   "jwplayer": "JWPlayerStatic",
-  "!name": "jwplayer.d.ts"
+  "!name": "jwplayer"
 }

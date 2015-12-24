@@ -40,5 +40,5 @@
     "configuration": "IConfiguration"
   },
   "postal": "IPostal",
-  "!name": "postal-0.8.9.d.ts"
+  "!name": "postal-0.8.9"
 }

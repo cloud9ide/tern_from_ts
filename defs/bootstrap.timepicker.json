@@ -15,5 +15,5 @@
   "JQuery": {
     "timepicker": "fn() -> JQuery"
   },
-  "!name": "bootstrap.timepicker.d.ts"
+  "!name": "bootstrap.timepicker"
 }

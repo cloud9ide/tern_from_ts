@@ -3,5 +3,5 @@
     "hashPassword": "fn(password: string) -> string",
     "validatePassword": "fn(password: string, hashedPass: string) -> bool"
   },
-  "!name": "aspnet-identity-pw.d.ts"
+  "!name": "aspnet-identity-pw"
 }

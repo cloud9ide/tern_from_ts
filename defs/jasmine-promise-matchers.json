@@ -8,5 +8,5 @@
       "toBeResolvedWith": "fn(value: ?) -> bool"
     }
   },
-  "!name": "jasmine-promise-matchers.d.ts"
+  "!name": "jasmine-promise-matchers"
 }

@@ -116,5 +116,5 @@
   "equiv": "fn(a: ?, b: ?) -> ?",
   "raises": "?",
   "QUnit": "QUnitStatic",
-  "!name": "qunit.d.ts"
+  "!name": "qunit"
 }

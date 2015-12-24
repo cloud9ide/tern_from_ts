@@ -28,5 +28,5 @@
     }
   },
   "'heap'": "Heap",
-  "!name": "heap.d.ts"
+  "!name": "heap"
 }

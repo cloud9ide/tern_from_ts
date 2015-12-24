@@ -126,7 +126,7 @@
   "Math": {
     "imul": "fn(a: number, b: number) -> number"
   },
-  "!name": "emscripten.d.ts",
+  "!name": "emscripten",
   "!define": {
     "1": {},
     "2": {},

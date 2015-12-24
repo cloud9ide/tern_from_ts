@@ -101,5 +101,5 @@
     "dataTable": "fn(cssSel: string) -> IDatachart",
     "rowChart": "fn(cssSel: string) -> IRowchart"
   },
-  "!name": "dc-1.6.0.d.ts"
+  "!name": "dc-1.6.0"
 }

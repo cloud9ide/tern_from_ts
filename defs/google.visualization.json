@@ -290,7 +290,8 @@
       },
       "TransitionAnimation": {
         "duration": "number",
-        "easing": "string"
+        "easing": "string",
+        "startup": "bool"
       },
       "ChartAxis": {
         "baseline": "number",
@@ -888,7 +889,7 @@
       }
     }
   },
-  "!name": "google.visualization.d.ts",
+  "!name": "google.visualization",
   "!define": {
     "ret": {
       "min": "?",

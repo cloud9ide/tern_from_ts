@@ -5,5 +5,5 @@
       "getVersionCode": "fn() -> ?"
     }
   },
-  "!name": "app-version.d.ts"
+  "!name": "app-version"
 }

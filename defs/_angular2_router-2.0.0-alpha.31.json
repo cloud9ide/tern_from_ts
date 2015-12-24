@@ -170,5 +170,5 @@
     "RouteConfig": "?"
   },
   "angular2/router": "ng",
-  "!name": "router-2.0.0-alpha.31.d.ts"
+  "!name": "router-2.0.0-alpha.31"
 }

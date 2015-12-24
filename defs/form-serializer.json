@@ -15,5 +15,5 @@
     "serializeObject": "fn() -> Object",
     "serializeJSON": "fn() -> string"
   },
-  "!name": "form-serializer.d.ts"
+  "!name": "form-serializer"
 }

@@ -116,5 +116,5 @@
     }
   },
   "sendgrid": "ctor",
-  "!name": "sendgrid.d.ts"
+  "!name": "sendgrid"
 }

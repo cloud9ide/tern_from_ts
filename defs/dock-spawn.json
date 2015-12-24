@@ -106,5 +106,5 @@
       }
     }
   },
-  "!name": "dock-spawn.d.ts"
+  "!name": "dock-spawn"
 }

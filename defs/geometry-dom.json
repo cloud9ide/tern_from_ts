@@ -157,5 +157,5 @@
   "DOMMatrix": {
     "prototype": "GeometryDom.DOMMatrix"
   },
-  "!name": "geometry-dom.d.ts"
+  "!name": "geometry-dom"
 }

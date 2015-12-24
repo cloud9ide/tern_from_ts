@@ -249,5 +249,5 @@
       "warn": "fn(msg: string)"
     }
   },
-  "!name": "jquery.fancytree.d.ts"
+  "!name": "jquery.fancytree"
 }

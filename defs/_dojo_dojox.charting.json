@@ -2231,7 +2231,7 @@
   "dojox/charting/widget/Chart": "exp",
   "dojox/charting/widget/Legend": "exp",
   "dojox/charting/widget/SelectableLegend": "exp",
-  "!name": "dojox.charting.d.ts",
+  "!name": "dojox.charting",
   "!define": {
     "ret": {
       "unwatch": "fn()"

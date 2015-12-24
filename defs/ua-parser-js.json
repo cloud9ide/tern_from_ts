@@ -40,5 +40,5 @@
       "getResult": "fn() -> UAParser.IResult"
     }
   },
-  "!name": "ua-parser-js.d.ts"
+  "!name": "ua-parser-js"
 }

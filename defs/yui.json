@@ -80,5 +80,5 @@
       "throwsError": "fn(expectedError: string, method: Object, message?: string)"
     }
   },
-  "!name": "yui-test.d.ts"
+  "!name": "yui-test"
 }

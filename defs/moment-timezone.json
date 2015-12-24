@@ -25,5 +25,5 @@
     "setDefault": "fn(timezone: string)"
   },
   "'moment-timezone'": "_tmp",
-  "!name": "moment-timezone.d.ts"
+  "!name": "moment-timezone"
 }

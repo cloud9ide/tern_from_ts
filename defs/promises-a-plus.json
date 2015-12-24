@@ -6,5 +6,5 @@
       "then": "fn(onFulfill?: fn(value: T), R: ?, onReject?: fn(error: ?), R: ?) -> ?"
     }
   },
-  "!name": "promises-a-plus.d.ts"
+  "!name": "promises-a-plus"
 }

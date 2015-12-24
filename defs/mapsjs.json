@@ -470,7 +470,7 @@
     "rimMap": "fn() -> JQuery",
     "getMapsjs": "fn() -> ?"
   },
-  "!name": "mapsjs.d.ts",
+  "!name": "mapsjs",
   "!define": {
     "options": {},
     "ret": {},

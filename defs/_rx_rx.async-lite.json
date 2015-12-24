@@ -11,5 +11,5 @@
       "fromEventPattern": "fn(addHandler: fn(handler: Function), removeHandler: fn(handler: Function), selector?: fn(arguments: [?])) -> ?"
     }
   },
-  "!name": "rx.async-lite.d.ts"
+  "!name": "rx.async-lite"
 }

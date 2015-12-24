@@ -27,5 +27,5 @@
   "JQueryStatic": {
     "notifyBar": "fn(options?: JQueryNotifyBar.NotifyBarOptions)"
   },
-  "!name": "jquery.notifyBar.d.ts"
+  "!name": "jquery.notifyBar"
 }

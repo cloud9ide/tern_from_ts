@@ -280,5 +280,5 @@
     "prototype": {}
   },
   "applicationinsights": "ApplicationInsights",
-  "!name": "applicationinsights.d.ts"
+  "!name": "applicationinsights"
 }

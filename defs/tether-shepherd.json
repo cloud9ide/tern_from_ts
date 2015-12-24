@@ -64,5 +64,5 @@
     }
   },
   "Shepherd": "TetherShepherd.ShepherdStatic",
-  "!name": "tether-shepherd.d.ts"
+  "!name": "tether-shepherd"
 }

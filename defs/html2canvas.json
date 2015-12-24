@@ -16,5 +16,5 @@
   },
   "Html2CanvasStatic": {},
   "html2canvas": "Html2CanvasStatic",
-  "!name": "html2canvas.d.ts"
+  "!name": "html2canvas"
 }

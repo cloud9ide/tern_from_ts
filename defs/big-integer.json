@@ -39,7 +39,7 @@
   },
   "bigInt": "BigIntegerStatic",
   "big-integer": "bigInt",
-  "!name": "big-integer.d.ts",
+  "!name": "big-integer",
   "!define": {
     "ret": {
       "quotient": "BigInteger",

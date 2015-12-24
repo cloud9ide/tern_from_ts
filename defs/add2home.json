@@ -4,5 +4,5 @@
     "close": "fn()",
     "reset": "fn()"
   },
-  "!name": "add2home.d.ts"
+  "!name": "add2home"
 }

@@ -28,5 +28,5 @@
     }
   },
   "page": "page",
-  "!name": "page.d.ts"
+  "!name": "page"
 }

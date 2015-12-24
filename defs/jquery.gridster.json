@@ -81,5 +81,5 @@
     "disable": "fn() -> Gridster",
     "options": "GridsterOptions"
   },
-  "!name": "gridster.d.ts"
+  "!name": "gridster"
 }

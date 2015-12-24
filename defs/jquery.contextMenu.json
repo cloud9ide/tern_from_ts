@@ -29,5 +29,5 @@
   "JQuery": {
     "contextMenu": "fn(options?: ?) -> JQuery"
   },
-  "!name": "jquery.contextMenu.d.ts"
+  "!name": "jquery.contextMenu"
 }

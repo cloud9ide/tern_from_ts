@@ -60,5 +60,5 @@
       "destroy": "fn()"
     }
   },
-  "!name": "pikaday.d.ts"
+  "!name": "pikaday"
 }

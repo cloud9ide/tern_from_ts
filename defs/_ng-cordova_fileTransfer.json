@@ -17,5 +17,5 @@
       "timeout": "number"
     }
   },
-  "!name": "fileTransfer.d.ts"
+  "!name": "fileTransfer"
 }

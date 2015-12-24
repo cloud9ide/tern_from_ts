@@ -116,5 +116,5 @@
       "height": "number"
     }
   },
-  "!name": "cal-heatmap.d.ts"
+  "!name": "cal-heatmap"
 }

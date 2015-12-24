@@ -22,5 +22,5 @@
       "slide": "fn(index: number, duration: number)"
     }
   },
-  "!name": "swipe.d.ts"
+  "!name": "swipe"
 }

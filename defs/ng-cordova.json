@@ -13,5 +13,5 @@
       "winphoneEnableCancelButton": "bool"
     }
   },
-  "!name": "actionSheet.d.ts"
+  "!name": "actionSheet"
 }

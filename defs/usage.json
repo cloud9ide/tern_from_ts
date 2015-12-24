@@ -14,5 +14,5 @@
     "lookup": "fn(pid: number, callback: fn(err: Error, result: ResultObject))",
     "clearHistory": "fn(pid?: number)"
   },
-  "!name": "usage.d.ts"
+  "!name": "usage"
 }

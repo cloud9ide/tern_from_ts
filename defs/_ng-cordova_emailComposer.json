@@ -16,5 +16,5 @@
       "addAlias": "fn(app: string, schema: string)"
     }
   },
-  "!name": "emailComposer.d.ts"
+  "!name": "emailComposer"
 }

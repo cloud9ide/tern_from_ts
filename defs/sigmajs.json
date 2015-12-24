@@ -223,7 +223,7 @@
   "sigma": "SigmaJs.SigmaFactory",
   "CustomShapes": "SigmaJs.CustomShapes",
   "ShapeLibrary": "SigmaJs.CustomShapes",
-  "!name": "sigmajs.d.ts",
+  "!name": "sigmajs",
   "!define": {
     "ret": {
       "x": "number",

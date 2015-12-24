@@ -19,5 +19,5 @@
     "requireJSFile": "fn(filePath: string, opts?: Object, next?: ?) -> Object",
     "requireFile": "fn(filePath: string, opts?: Object, next?: ?) -> Object"
   },
-  "!name": "cson.d.ts"
+  "!name": "cson"
 }

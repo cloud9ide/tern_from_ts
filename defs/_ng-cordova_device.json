@@ -22,5 +22,5 @@
       "getManufacturer": "fn() -> string"
     }
   },
-  "!name": "device.d.ts"
+  "!name": "device"
 }

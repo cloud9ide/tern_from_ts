@@ -9,5 +9,5 @@
   "String": {
     "md5": "fn(value: string) -> string"
   },
-  "!name": "md5.d.ts"
+  "!name": "md5"
 }

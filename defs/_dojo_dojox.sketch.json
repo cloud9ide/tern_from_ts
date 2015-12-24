@@ -307,7 +307,7 @@
   "dojox/sketch/LeadAnnotation": "exp",
   "dojox/sketch/SingleArrowAnnotation": "exp",
   "dojox/sketch/UnderlineAnnotation": "exp",
-  "!name": "dojox.sketch.d.ts",
+  "!name": "dojox.sketch",
   "!define": {
     "ret": {
       "unwatch": "fn()"

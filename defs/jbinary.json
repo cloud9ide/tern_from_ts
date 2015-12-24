@@ -17,5 +17,5 @@
       "as": "fn(typeSet: Object, modifyOriginal?: bool) -> jBinary"
     }
   },
-  "!name": "jbinary.d.ts"
+  "!name": "jbinary"
 }

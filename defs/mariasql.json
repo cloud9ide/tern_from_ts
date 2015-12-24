@@ -56,5 +56,5 @@
       "prototype": "MariaClient"
     }
   },
-  "!name": "mariasql.d.ts"
+  "!name": "mariasql"
 }

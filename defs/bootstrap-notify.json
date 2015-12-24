@@ -46,5 +46,5 @@
     "close": "fn()",
     "update": "fn(command: string, update: ?)"
   },
-  "!name": "bootstrap-notify.d.ts"
+  "!name": "bootstrap-notify"
 }

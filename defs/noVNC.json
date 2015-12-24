@@ -124,5 +124,5 @@
     "ungrab": "fn()"
   },
   "Util": "NvUtilStatic",
-  "!name": "noVNC.d.ts"
+  "!name": "noVNC"
 }

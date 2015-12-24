@@ -563,7 +563,7 @@
   "dojox/av/widget/PlayButton": "exp",
   "dojox/av/widget/Status": "exp",
   "dojox/av/widget/VolumeButton": "exp",
-  "!name": "dojox.av.d.ts",
+  "!name": "dojox.av",
   "!define": {
     "ret": {
       "unwatch": "fn()"

@@ -9,5 +9,5 @@
       "unparse": "fn(buffer: [number], offset?: number) -> string"
     }
   },
-  "!name": "node-uuid.d.ts"
+  "!name": "node-uuid"
 }

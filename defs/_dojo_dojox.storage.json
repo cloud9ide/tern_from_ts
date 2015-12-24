@@ -3,5 +3,5 @@
     "storage": {}
   },
   "dojox/storage": "exp",
-  "!name": "dojox.storage.d.ts"
+  "!name": "dojox.storage"
 }

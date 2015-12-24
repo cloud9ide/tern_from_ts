@@ -29,6 +29,7 @@
     },
     "BigJS_Constructors": {}
   },
+  "big.js": "bigjs",
   "Big": "BigJsLibrary.BigJS",
-  "!name": "big.js.d.ts"
+  "!name": "big.js"
 }

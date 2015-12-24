@@ -53,5 +53,5 @@
   "JQueryStatic": {
     "prettyPhoto": "scaron_prettyPhoto.moduleJQueryStatic"
   },
-  "!name": "jquery.prettyphoto.d.ts"
+  "!name": "jquery.prettyphoto"
 }

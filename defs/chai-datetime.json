@@ -27,5 +27,5 @@
     "should": "Chai.Assertion"
   },
   "chai-datetime": "chaiDateTime",
-  "!name": "chai-datetime.d.ts"
+  "!name": "chai-datetime"
 }

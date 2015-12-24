@@ -26,5 +26,5 @@
   },
   "fastclick": "fastclick",
   "FastClick": "FastClickStatic",
-  "!name": "fastclick.d.ts"
+  "!name": "fastclick"
 }

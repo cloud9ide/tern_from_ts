@@ -54,5 +54,5 @@
       }
     }
   },
-  "!name": "geojson.d.ts"
+  "!name": "geojson"
 }

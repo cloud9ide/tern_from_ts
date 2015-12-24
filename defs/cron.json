@@ -8,5 +8,5 @@
     "CronTimeStatic": {},
     "CronTime": {}
   },
-  "!name": "cron.d.ts"
+  "!name": "cron"
 }

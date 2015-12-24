@@ -102,5 +102,5 @@
     "endpoints": "[Endpoint]"
   },
   "Endpoint": {},
-  "!name": "jquery.jsPlumb.d.ts"
+  "!name": "jquery.jsPlumb"
 }

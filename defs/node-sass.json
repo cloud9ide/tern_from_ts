@@ -44,5 +44,5 @@
     "render": "fn(options: Options, callback: fn(err: SassError, result: Result))",
     "renderSync": "fn(options: Options) -> Result"
   },
-  "!name": "node-sass.d.ts"
+  "!name": "node-sass"
 }

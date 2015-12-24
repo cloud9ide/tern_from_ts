@@ -568,5 +568,5 @@
     }
   },
   "ace": "AceAjax.Ace",
-  "!name": "ace.d.ts"
+  "!name": "ace"
 }

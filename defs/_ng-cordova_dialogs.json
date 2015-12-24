@@ -11,5 +11,5 @@
       "beep": "fn(repetitions: number)"
     }
   },
-  "!name": "dialogs.d.ts"
+  "!name": "dialogs"
 }

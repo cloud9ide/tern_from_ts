@@ -61,5 +61,5 @@
     "squareMod_": "fn(x: BigInt, n: BigInt)",
     "subShift_": "fn(x: BigInt, y: BigInt, ys: number)"
   },
-  "!name": "bigint.d.ts"
+  "!name": "bigint"
 }

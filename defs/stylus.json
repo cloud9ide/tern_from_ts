@@ -184,9 +184,11 @@
         "once": "fn(event: string, listener: Function) -> Renderer",
         "removeListener": "fn(event: string, listener: Function) -> Renderer",
         "removeAllListeners": "fn(event?: string) -> Renderer",
-        "setMaxListeners": "fn(n: number)",
+        "setMaxListeners": "fn(n: number) -> Renderer",
+        "getMaxListeners": "fn() -> number",
         "listeners": "fn(event: string) -> [Function]",
-        "emit": "fn(event: string, args: [?]) -> bool"
+        "emit": "fn(event: string, args: [?]) -> bool",
+        "listenerCount": "fn(type: string) -> number"
       }
     },
     "Nodes": {
@@ -593,7 +595,7 @@
     }
   },
   "stylus": "stylus",
-  "!name": "stylus.d.ts",
+  "!name": "stylus",
   "!define": {
     "ret": {
       "lineno": "number",

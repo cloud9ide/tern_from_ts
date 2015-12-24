@@ -30,5 +30,5 @@
     "username_style": "string"
   },
   "Auth0Widget": "Auth0WidgetStatic",
-  "!name": "auth0.widget.d.ts"
+  "!name": "auth0.widget"
 }

@@ -71,5 +71,5 @@
     }
   },
   "'moviedb'": "apiKeyAcceptor",
-  "!name": "moviedb.d.ts"
+  "!name": "moviedb"
 }

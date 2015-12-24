@@ -36,5 +36,5 @@
   "JQuery": {
     "tooltipster": "fn()"
   },
-  "!name": "jquery.tooltipster.d.ts"
+  "!name": "jquery.tooltipster"
 }

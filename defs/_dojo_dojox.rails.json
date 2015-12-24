@@ -5,5 +5,5 @@
     }
   },
   "dojox/rails": "exp",
-  "!name": "dojox.rails.d.ts"
+  "!name": "dojox.rails"
 }

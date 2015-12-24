@@ -15,5 +15,5 @@
     },
     "!type": "fn(originalAssert: ?, formatter: ?, options?: empower.Options) -> ?"
   },
-  "!name": "empower.d.ts"
+  "!name": "empower"
 }

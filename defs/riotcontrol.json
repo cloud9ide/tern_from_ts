@@ -14,5 +14,5 @@
     "trigger": "fn(name: string, args: [?])"
   },
   "riotcontrol": "RiotControl",
-  "!name": "riotcontrol.d.ts"
+  "!name": "riotcontrol"
 }

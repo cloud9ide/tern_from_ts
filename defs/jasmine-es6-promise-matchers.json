@@ -11,5 +11,5 @@
       "toBeResolvedWith": "fn(value: ?, done?: fn()) -> bool"
     }
   },
-  "!name": "jasmine-es6-promise-matchers.d.ts"
+  "!name": "jasmine-es6-promise-matchers"
 }

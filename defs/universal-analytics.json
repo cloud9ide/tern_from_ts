@@ -13,5 +13,5 @@
     }
   },
   "'universal-analytics'": "UniversalAnalytics",
-  "!name": "universal-analytics.d.ts"
+  "!name": "universal-analytics"
 }

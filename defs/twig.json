@@ -25,5 +25,5 @@
     "__express": "fn(path: string, options: CompileOptions, fn: fn(err: Error, result: ?))",
     "cache": "fn(value: bool)"
   },
-  "!name": "twig.d.ts"
+  "!name": "twig"
 }

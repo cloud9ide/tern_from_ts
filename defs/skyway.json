@@ -69,5 +69,5 @@
   "Peer": {
     "prototype": "RTCIceServer"
   },
-  "!name": "skyway.d.ts"
+  "!name": "skyway"
 }

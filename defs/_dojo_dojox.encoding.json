@@ -140,5 +140,5 @@
   "dojox/encoding/digests/_base": "exp",
   "dojox/encoding/digests/_base.outputTypes": "exp",
   "dojox/encoding/digests/_sha-64": "exp",
-  "!name": "dojox.encoding.d.ts"
+  "!name": "dojox.encoding"
 }

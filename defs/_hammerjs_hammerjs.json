@@ -180,5 +180,5 @@
     "x": "number",
     "y": "number"
   },
-  "!name": "hammerjs.d.ts"
+  "!name": "hammerjs"
 }

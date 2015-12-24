@@ -11,5 +11,5 @@
       "type": "string"
     }
   },
-  "!name": "hypertext-application-language.d.ts"
+  "!name": "hypertext-application-language"
 }

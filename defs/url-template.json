@@ -8,5 +8,5 @@
     }
   },
   "url-template": "urlTemplate",
-  "!name": "url-template.d.ts"
+  "!name": "url-template"
 }

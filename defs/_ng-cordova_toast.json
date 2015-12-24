@@ -10,5 +10,5 @@
       "show": "fn(message: string, duration: string, position: string) -> ?"
     }
   },
-  "!name": "toast.d.ts"
+  "!name": "toast"
 }

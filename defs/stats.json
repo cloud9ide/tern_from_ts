@@ -9,5 +9,5 @@
       "update": "fn()"
     }
   },
-  "!name": "stats.d.ts"
+  "!name": "stats"
 }

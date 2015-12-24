@@ -66,5 +66,5 @@
       "resolveFn": "fn(modelValue: string)"
     }
   },
-  "!name": "angular-agility.d.ts"
+  "!name": "angular-agility"
 }

@@ -6,5 +6,5 @@
     "worker": "fn(integer: number)",
     "seed": "fn(float: number)"
   },
-  "!name": "shortid.d.ts"
+  "!name": "shortid"
 }

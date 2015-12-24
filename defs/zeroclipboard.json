@@ -44,5 +44,5 @@
     "useNoCache": "bool"
   },
   "zeroclipboard": "ZeroClipboard",
-  "!name": "zeroclipboard-1.x.x.d.ts"
+  "!name": "zeroclipboard-1.x.x"
 }

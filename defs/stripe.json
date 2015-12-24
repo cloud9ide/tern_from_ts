@@ -696,5 +696,5 @@
       "param": "string"
     }
   },
-  "!name": "stripe-node.d.ts"
+  "!name": "stripe-node"
 }

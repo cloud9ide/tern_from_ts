@@ -327,5 +327,5 @@
     "$$": "fn(fn: Function)",
     "$$$": "fn(fn: Function)"
   },
-  "!name": "space-pen.d.ts"
+  "!name": "space-pen"
 }

@@ -19,5 +19,5 @@
     "HistoricalScheduler": {}
   },
   "rx.virtualtime": "Rx",
-  "!name": "rx.virtualtime.d.ts"
+  "!name": "rx.virtualtime"
 }

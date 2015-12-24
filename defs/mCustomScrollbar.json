@@ -49,5 +49,5 @@
   "JQuery": {
     "mCustomScrollbar": "fn(method: string) -> JQuery"
   },
-  "!name": "mCustomScrollbar.d.ts"
+  "!name": "mCustomScrollbar"
 }

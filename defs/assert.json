@@ -25,5 +25,5 @@
     "!type": "fn(value: ?, message?: string)"
   },
   "power-assert": "assert",
-  "!name": "assert.d.ts"
+  "!name": "assert"
 }

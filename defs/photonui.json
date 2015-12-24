@@ -432,7 +432,7 @@
     }
   },
   "_": "fn(string: string, replacements?: ?) -> string",
-  "!name": "photonui.d.ts",
+  "!name": "photonui",
   "!define": {
     "ret": {
       "x": "number",

@@ -70,5 +70,5 @@
   "save": "fn(filePath: string, data: string)",
   "$": "fn(selector: string) -> ElementCollection",
   "$$": "fn(selector: string) -> ItemCollection",
-  "!name": "xJSFL.d.ts"
+  "!name": "xJSFL"
 }

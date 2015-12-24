@@ -73,5 +73,5 @@
     }
   },
   "'source-map'": "SourceMap",
-  "!name": "source-map.d.ts"
+  "!name": "source-map"
 }

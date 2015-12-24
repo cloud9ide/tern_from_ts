@@ -35,5 +35,5 @@
     }
   },
   "'better-curry'": "bc",
-  "!name": "better-curry.d.ts"
+  "!name": "better-curry"
 }

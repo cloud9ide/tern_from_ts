@@ -234,7 +234,7 @@
     "vml": "bool"
   },
   "Raphael": "RaphaelStatic",
-  "!name": "raphael.d.ts",
+  "!name": "raphael",
   "!define": {
     "ret": {
       "anim": "RaphaelAnimation",

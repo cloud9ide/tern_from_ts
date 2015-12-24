@@ -415,5 +415,5 @@
       }
     }
   },
-  "!name": "ng-grid.d.ts"
+  "!name": "ng-grid"
 }

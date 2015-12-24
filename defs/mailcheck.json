@@ -47,5 +47,5 @@
     "mailcheck": "fn(opts: MailcheckModule.IOptions)"
   },
   "'mailcheck'": "Mailcheck",
-  "!name": "mailcheck.d.ts"
+  "!name": "mailcheck"
 }

@@ -22,5 +22,5 @@
     }
   },
   "Favico": "favicojs.FavicoJsStatic",
-  "!name": "favico.js.d.ts"
+  "!name": "favico.js"
 }

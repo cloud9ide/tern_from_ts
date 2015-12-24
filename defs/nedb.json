@@ -39,5 +39,5 @@
       "stopAutocompaction": "fn()"
     }
   },
-  "!name": "nedb.d.ts"
+  "!name": "nedb"
 }

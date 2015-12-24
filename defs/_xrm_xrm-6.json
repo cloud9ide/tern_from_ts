@@ -278,7 +278,7 @@
     }
   },
   "GetGlobalContext": "fn() -> Xrm.Context",
-  "!name": "xrm-6.d.ts",
+  "!name": "xrm-6",
   "!define": {
     "ret": {}
   }

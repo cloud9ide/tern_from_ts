@@ -62,5 +62,5 @@
   },
   "DEBUG": "Flight.DebugStatic",
   "flight": "Flight.FlightStatic",
-  "!name": "flight.d.ts"
+  "!name": "flight"
 }

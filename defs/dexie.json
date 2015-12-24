@@ -168,5 +168,5 @@
     }
   },
   "'dexie'": "Dexie",
-  "!name": "dexie.d.ts"
+  "!name": "dexie"
 }

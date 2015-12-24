@@ -189,7 +189,7 @@
   "dojox/fx/ext-dojo/complex": "exp",
   "dojox/fx/ext-dojo/NodeList": "exp",
   "dojox/fx/ext-dojo/NodeList-style": "exp",
-  "!name": "dojox.fx.d.ts",
+  "!name": "dojox.fx",
   "!define": {
     "ret": {
       "unwatch": "fn()"

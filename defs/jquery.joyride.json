@@ -42,5 +42,5 @@
   "JQuery": {
     "joyride": "Joyride"
   },
-  "!name": "jquery.joyride.d.ts"
+  "!name": "jquery.joyride"
 }

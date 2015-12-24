@@ -17,5 +17,5 @@
   "dojox/analytics": "exp",
   "dojox/analytics/Urchin": "exp",
   "dojox/analytics/plugins/consoleMessages": "exp",
-  "!name": "dojox.analytics.d.ts"
+  "!name": "dojox.analytics"
 }

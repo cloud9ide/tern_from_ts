@@ -35,5 +35,5 @@
       }
     }
   },
-  "!name": "htmlparser2.d.ts"
+  "!name": "htmlparser2"
 }

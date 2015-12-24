@@ -25,5 +25,5 @@
     }
   },
   "rx.time": "Rx",
-  "!name": "rx.time.d.ts"
+  "!name": "rx.time"
 }

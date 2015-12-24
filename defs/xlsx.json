@@ -60,5 +60,5 @@
       "sheet_to_formulae": "fn(worksheet: IWorkSheet) -> ?"
     }
   },
-  "!name": "xlsx.d.ts"
+  "!name": "xlsx"
 }

@@ -5,5 +5,5 @@
     }
   },
   "dojox/flash": "exp",
-  "!name": "dojox.flash.d.ts"
+  "!name": "dojox.flash"
 }

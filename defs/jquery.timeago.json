@@ -36,5 +36,5 @@
   "JQuery": {
     "timeago": "Timeago"
   },
-  "!name": "jquery.timeago.d.ts"
+  "!name": "jquery.timeago"
 }

@@ -23,5 +23,5 @@
     "beforeTouch": "fn()",
     "beforeResize": "fn()"
   },
-  "!name": "lory.js.d.ts"
+  "!name": "lory.js"
 }

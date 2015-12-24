@@ -15,5 +15,5 @@
     "subscribe": "fn(handler: fn(value: V))",
     "unsubscribe": "fn(handler: fn(value: V))"
   },
-  "!name": "elm.d.ts"
+  "!name": "elm"
 }

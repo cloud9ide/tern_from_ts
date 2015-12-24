@@ -20,5 +20,5 @@
     "tinycarousel_start": "fn()",
     "tinycarousel_stop": "fn()"
   },
-  "!name": "jquery.tinycarousel.d.ts"
+  "!name": "jquery.tinycarousel"
 }

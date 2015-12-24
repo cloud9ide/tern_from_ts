@@ -33,5 +33,5 @@
     }
   },
   "'pako'": "Pako",
-  "!name": "pako.d.ts"
+  "!name": "pako"
 }

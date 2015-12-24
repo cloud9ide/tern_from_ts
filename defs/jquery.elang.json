@@ -239,5 +239,5 @@
   "IFnJQuery": {
     "fnPlugin": "fn(context: JQuery, options: ?, command: string, pluginName: string, pluginDataAttribute: string) -> JQuery"
   },
-  "!name": "jquery.elang.d.ts"
+  "!name": "jquery.elang"
 }

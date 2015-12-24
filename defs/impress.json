@@ -7,5 +7,5 @@
     "next": "fn() -> ?"
   },
   "impress": "fn() -> Impress",
-  "!name": "impress.d.ts"
+  "!name": "impress"
 }

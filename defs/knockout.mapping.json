@@ -41,5 +41,5 @@
   },
   "knockout.mapping": "mapping",
   "mapping": "KnockoutMapping",
-  "!name": "knockout.mapping.d.ts"
+  "!name": "knockout.mapping"
 }

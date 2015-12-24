@@ -253,5 +253,5 @@
   "dojox/gantt/GanttTaskControl": "exp",
   "dojox/gantt/TabMenu": "exp",
   "dojox/gantt/GanttTaskItem": "exp",
-  "!name": "dojox.gantt.d.ts"
+  "!name": "dojox.gantt"
 }

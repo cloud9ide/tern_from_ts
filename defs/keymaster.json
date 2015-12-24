@@ -33,5 +33,5 @@
   },
   "key": "Keymaster",
   "keymaster": "key",
-  "!name": "keymaster.d.ts"
+  "!name": "keymaster"
 }

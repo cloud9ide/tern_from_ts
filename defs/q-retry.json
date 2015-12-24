@@ -12,5 +12,5 @@
     }
   },
   "q-retry": "Q",
-  "!name": "q-retry.d.ts"
+  "!name": "q-retry"
 }

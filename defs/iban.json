@@ -8,5 +8,5 @@
     "toBBAN": "fn(iban: string, separator: [string]) -> string"
   },
   "IBAN": "IBANStatic",
-  "!name": "iban.d.ts"
+  "!name": "iban"
 }

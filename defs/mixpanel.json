@@ -27,7 +27,7 @@
     }
   },
   "mixpanel": "Mixpanel",
-  "!name": "mixpanel.d.ts",
+  "!name": "mixpanel",
   "!define": {
     "ret": {}
   }

@@ -18,5 +18,5 @@
       "toKoObservable": "fn(initialValue?: T) -> ?"
     }
   },
-  "!name": "knockout.rx.d.ts"
+  "!name": "knockout.rx"
 }

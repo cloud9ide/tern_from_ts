@@ -18,5 +18,5 @@
     }
   },
   "'jssha'": "jsSHA",
-  "!name": "jssha.d.ts"
+  "!name": "jssha"
 }

@@ -117,5 +117,5 @@
   "dojox/html/styles.metrics": "exp",
   "dojox/html/styles.entities": "exp",
   "dojox/html/_base._ContentSetter": "exp",
-  "!name": "dojox.html.d.ts"
+  "!name": "dojox.html"
 }

@@ -7,7 +7,7 @@ MY_DIR=$(cd $(dirname $BASH_SOURCE); pwd)
 readonly SOURCE=$1
 readonly TARGET=$2
 
-echo -n $TARGET
+echo -n $SOURCE
 
 reportError() {
     echo " - error: $(cat | grep Error:)"
@@ -26,6 +26,7 @@ filterBadTypes() {
             }
             return entry;
         }
+        json["!name"] = json["!name"].replace(/.d.ts$/, "");
         JSON.stringify(removeBadTypes(json), null, 2);
     '
 }
@@ -43,10 +44,12 @@ else
     
     if [ $(cat $TARGET.tmp | wc -l) -lt 7 ]; then
         echo "Output file really short, no definitions found?"
+        rm -f $TARGET.tmp
         exit
     fi
 
     filterBadTypes > $TARGET
+    rm $TARGET.tmp
     echo
 fi
 

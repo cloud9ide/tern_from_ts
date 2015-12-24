@@ -64,5 +64,5 @@
   },
   "Podcast": "PodcastStatic",
   "podcast": "Podcast",
-  "!name": "podcast.d.ts"
+  "!name": "podcast"
 }

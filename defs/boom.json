@@ -41,5 +41,5 @@
     "badImplementation": "fn(message?: string, data?: ?) -> BoomError"
   },
   "boom": "Boom",
-  "!name": "boom.d.ts"
+  "!name": "boom"
 }

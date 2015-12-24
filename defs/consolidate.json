@@ -19,5 +19,5 @@
     "mustache": "fn(path: String, options: ?, fn: ?)",
     "dot": "fn(path: String, options: ?, fn: ?)"
   },
-  "!name": "consolidate.d.ts"
+  "!name": "consolidate"
 }

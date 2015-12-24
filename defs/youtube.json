@@ -106,5 +106,5 @@
     },
     "PlayerState": "number"
   },
-  "!name": "youtube.d.ts"
+  "!name": "youtube"
 }

@@ -135,5 +135,5 @@
   "JQuery": {
     "royalSlider": "fn(options?: RoyalSlider.RoyalSliderOptions) -> JQuery"
   },
-  "!name": "royalslider.d.ts"
+  "!name": "royalslider"
 }

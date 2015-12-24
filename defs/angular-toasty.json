@@ -44,5 +44,5 @@
       "$get": "fn() -> IGlobalConfig"
     }
   },
-  "!name": "angular-toasty.d.ts"
+  "!name": "angular-toasty"
 }

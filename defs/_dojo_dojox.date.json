@@ -242,5 +242,5 @@
   "dojox/date/php": "exp",
   "dojox/date/posix": "exp",
   "dojox/date/relative": "exp",
-  "!name": "dojox.date.d.ts"
+  "!name": "dojox.date"
 }

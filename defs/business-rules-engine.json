@@ -139,5 +139,5 @@
     }
   },
   "node-validators": "Validators",
-  "!name": "BasicValidators.d.ts"
+  "!name": "BasicValidators"
 }

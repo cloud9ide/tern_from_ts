@@ -29,5 +29,5 @@
     "remove": "fn(listener: Function, context?: ?) -> Function",
     "removeAll": "fn()"
   },
-  "!name": "js-signals.d.ts"
+  "!name": "js-signals"
 }

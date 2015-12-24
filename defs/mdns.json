@@ -209,5 +209,5 @@
     "kDNSServiceProtocol_TCP": "number"
   },
   "mdns": "MDNS",
-  "!name": "mdns.d.ts"
+  "!name": "mdns"
 }

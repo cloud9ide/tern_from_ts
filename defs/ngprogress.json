@@ -11,5 +11,5 @@
       "complete": "fn()"
     }
   },
-  "!name": "ngprogress.d.ts"
+  "!name": "ngprogress"
 }

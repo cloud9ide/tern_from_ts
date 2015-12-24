@@ -44,5 +44,5 @@
   "Window": {
     "keypress": "Keypress.Keypress"
   },
-  "!name": "keypress.d.ts"
+  "!name": "keypress"
 }

@@ -52,5 +52,5 @@
     "address_country": "string"
   },
   "Stripe": "StripeStatic",
-  "!name": "stripe.d.ts"
+  "!name": "stripe"
 }

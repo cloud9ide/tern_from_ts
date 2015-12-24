@@ -14,5 +14,5 @@
     "push": "fn(path: string, value: T) -> ?"
   },
   "'firebase-client'": "FirebaseClient",
-  "!name": "firebase-client.d.ts"
+  "!name": "firebase-client"
 }

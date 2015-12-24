@@ -54,5 +54,5 @@
   "JQuery": {
     "editable": "fn(options?: ?) -> XEditable"
   },
-  "!name": "x-editable.d.ts"
+  "!name": "x-editable"
 }

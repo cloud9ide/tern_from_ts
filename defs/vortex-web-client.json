@@ -90,5 +90,5 @@
     "VERSION": "string"
   },
   "dds": "DDS",
-  "!name": "vortex-web-client.d.ts"
+  "!name": "vortex-web-client"
 }

@@ -17,5 +17,5 @@
     },
     "ICommandFactory": {}
   },
-  "!name": "ng-command.d.ts"
+  "!name": "ng-command"
 }

@@ -168,5 +168,5 @@
     }
   },
   "kb": "Knockback.Static",
-  "!name": "knockback.d.ts"
+  "!name": "knockback"
 }

@@ -87,5 +87,5 @@
   },
   "dojox/NodeList/delegate": "exp",
   "dojox/NodeList/delegate._nodeDataCache": "exp",
-  "!name": "dojox.NodeList.d.ts"
+  "!name": "dojox.NodeList"
 }

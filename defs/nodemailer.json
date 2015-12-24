@@ -51,5 +51,5 @@
       "close": "fn()"
     }
   },
-  "!name": "nodemailer-types.d.ts"
+  "!name": "nodemailer-types"
 }

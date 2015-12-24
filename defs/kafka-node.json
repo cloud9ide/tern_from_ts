@@ -107,5 +107,5 @@
       "partition": "number"
     }
   },
-  "!name": "kafka-node.d.ts"
+  "!name": "kafka-node"
 }

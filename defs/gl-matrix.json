@@ -232,5 +232,5 @@
     "rotationTo": "fn(out: GLM.IArray, a: GLM.IArray, b: GLM.IArray) -> GLM.IArray",
     "calculateW": "fn(out: GLM.IArray, a: GLM.IArray) -> GLM.IArray"
   },
-  "!name": "gl-matrix.d.ts"
+  "!name": "gl-matrix"
 }

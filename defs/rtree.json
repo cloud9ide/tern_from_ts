@@ -14,5 +14,5 @@
   },
   "RTreeFactory": {},
   "RTree": "RTreeFactory",
-  "!name": "rtree.d.ts"
+  "!name": "rtree"
 }

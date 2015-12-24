@@ -90,5 +90,5 @@
   },
   "Auth0": "Auth0Static",
   "auth0": "Auth0",
-  "!name": "auth0.d.ts"
+  "!name": "auth0"
 }

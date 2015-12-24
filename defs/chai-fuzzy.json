@@ -18,5 +18,5 @@
     }
   },
   "chai-fuzzy": "chaiFuzzy",
-  "!name": "chai-fuzzy.d.ts"
+  "!name": "chai-fuzzy"
 }

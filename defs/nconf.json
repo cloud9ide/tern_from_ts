@@ -34,10 +34,9 @@
       "stringify": "fn(obj: ?, replacer: ?, spacing?: ?)",
       "parse": "fn(str: string)"
     },
-    "IOptions": {
-      "type": "string"
-    },
+    "IOptions": {},
     "IFileOptions": {
+      "type": "string",
       "file": "string",
       "dir": "string",
       "search": "bool",
@@ -80,5 +79,5 @@
       "reset": "fn(callback?: ICallbackFunction) -> bool"
     }
   },
-  "!name": "nconf.d.ts"
+  "!name": "nconf"
 }

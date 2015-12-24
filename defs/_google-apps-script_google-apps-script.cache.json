@@ -17,5 +17,5 @@
     }
   },
   "CacheService": "GoogleAppsScript.Cache.CacheService",
-  "!name": "google-apps-script.cache.d.ts"
+  "!name": "google-apps-script.cache"
 }

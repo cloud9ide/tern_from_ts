@@ -16,5 +16,5 @@
     },
     "createClient": "fn(options: LogglyOptions) -> Loggly"
   },
-  "!name": "loggly.d.ts"
+  "!name": "loggly"
 }

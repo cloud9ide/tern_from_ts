@@ -98,5 +98,5 @@
     "children": "[?]"
   },
   "'tsmonad'": "TsMonad",
-  "!name": "tsmonad.d.ts"
+  "!name": "tsmonad"
 }

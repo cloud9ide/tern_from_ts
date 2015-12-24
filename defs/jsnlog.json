@@ -60,5 +60,5 @@
   },
   "__jsnlog_configure": "fn(jsnlog: JSNLog.JSNLogStatic)",
   "JL": "JSNLog.JSNLogStatic",
-  "!name": "jsnlog.d.ts"
+  "!name": "jsnlog"
 }

@@ -12,5 +12,5 @@
   "JQueryStatic": {
     "fullscreen": "JQueryFullscreen"
   },
-  "!name": "jquery.fullscreen.d.ts"
+  "!name": "jquery.fullscreen"
 }

@@ -11,5 +11,5 @@
       "listen": "fn() -> Egg"
     }
   },
-  "!name": "egg.js.d.ts"
+  "!name": "egg.js"
 }

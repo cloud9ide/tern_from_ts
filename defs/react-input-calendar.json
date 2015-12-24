@@ -20,5 +20,5 @@
   },
   "ReactInputCalendar": "reactInputCalendar.ReactInputCalendar",
   "react-input-calendar": "ReactInputCalendar",
-  "!name": "react-input-calendar.d.ts"
+  "!name": "react-input-calendar"
 }

@@ -77,7 +77,9 @@
       "toHaveProp": "fn(propertyName: string, expectedPropertyValue?: ?) -> bool",
       "toHaveId": "fn(id: string) -> bool",
       "toHaveHtml": "fn(html: string) -> bool",
+      "toContainHtml": "fn(html: string) -> bool",
       "toHaveText": "fn(text: string) -> bool",
+      "toContainText": "fn(text: string) -> bool",
       "toHaveValue": "fn(value: string) -> bool",
       "toHaveData": "fn(key: string, expectedValue: string) -> bool",
       "toBe": "fn(selector: JQuery) -> bool",
@@ -120,5 +122,5 @@
     },
     "JQuery": "JasmineJQuery"
   },
-  "!name": "jasmine-jquery.d.ts"
+  "!name": "jasmine-jquery"
 }

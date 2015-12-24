@@ -84,5 +84,5 @@
     },
     "restful": "fn(endpoint: string) -> Api"
   },
-  "!name": "restful.js.d.ts"
+  "!name": "restful.js"
 }

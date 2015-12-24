@@ -355,5 +355,5 @@
     }
   },
   "FormApp": "GoogleAppsScript.Forms.FormApp",
-  "!name": "google-apps-script.forms.d.ts"
+  "!name": "google-apps-script.forms"
 }

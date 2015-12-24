@@ -16,5 +16,5 @@
   "JQueryStatic": {
     "scrollTo": {}
   },
-  "!name": "jquery.scrollTo.d.ts"
+  "!name": "jquery.scrollTo"
 }

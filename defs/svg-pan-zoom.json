@@ -56,5 +56,5 @@
     }
   },
   "svgPanZoom": "SvgPanZoom.ISvgPanZoom",
-  "!name": "svg-pan-zoom.d.ts"
+  "!name": "svg-pan-zoom"
 }

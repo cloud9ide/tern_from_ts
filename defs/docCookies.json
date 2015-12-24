@@ -6,5 +6,5 @@
     "hasItem": "fn(sKey: string) -> bool",
     "keys": "fn() -> [string]"
   },
-  "!name": "docCookies.d.ts"
+  "!name": "docCookies"
 }

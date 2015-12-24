@@ -34,5 +34,5 @@
   },
   "crossroads": "CrossroadsJs.CrossRoadsStatic",
   "'crossroads'": "crossroads",
-  "!name": "crossroads.d.ts"
+  "!name": "crossroads"
 }

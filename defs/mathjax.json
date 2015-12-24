@@ -483,5 +483,5 @@
       "needsUpdate": "fn() -> bool"
     }
   },
-  "!name": "mathjax.d.ts"
+  "!name": "mathjax"
 }

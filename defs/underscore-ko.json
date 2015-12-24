@@ -73,5 +73,5 @@
     "range": "fn(stop: number) -> [?]",
     "chain": "fn(object: ?) -> ?"
   },
-  "!name": "underscore-ko.d.ts"
+  "!name": "underscore-ko"
 }

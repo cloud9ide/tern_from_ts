@@ -7,5 +7,5 @@
   "JQuery": {
     "rowGrid": "fn(options?: JQueryRowGridJSOptions) -> JQuery"
   },
-  "!name": "jquery.rowGrid.d.ts"
+  "!name": "jquery.rowGrid"
 }

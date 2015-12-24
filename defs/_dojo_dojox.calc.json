@@ -1006,7 +1006,7 @@
   "dojox/calc/toFrac.Grapher": "exp",
   "dojox/calc/GraphPro": "exp",
   "dojox/calc/Standard": "exp",
-  "!name": "dojox.calc.d.ts",
+  "!name": "dojox.calc",
   "!define": {
     "ret": {
       "unwatch": "fn()"

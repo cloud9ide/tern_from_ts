@@ -126,5 +126,5 @@
       }
     }
   },
-  "!name": "google.picker.d.ts"
+  "!name": "google.picker"
 }

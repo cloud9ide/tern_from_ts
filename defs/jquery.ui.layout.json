@@ -27,5 +27,5 @@
   "JQuery": {
     "layout": "fn(options?: JQueryLayoutOptions) -> JQueryLayout"
   },
-  "!name": "jquery.ui.layout.d.ts"
+  "!name": "jquery.ui.layout"
 }

@@ -6,5 +6,5 @@
   },
   "dojox/jsonPath": "exp",
   "dojox/jsonPath/query": "exp",
-  "!name": "dojox.jsonPath.d.ts"
+  "!name": "dojox.jsonPath"
 }

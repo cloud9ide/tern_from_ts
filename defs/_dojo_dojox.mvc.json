@@ -2000,7 +2000,7 @@
   "dojox/mvc/Bind.StoreRefController": "exp",
   "dojox/mvc/Bind.WidgetList": "exp",
   "dojox/mvc/Bind.Templated": "exp",
-  "!name": "dojox.mvc.d.ts",
+  "!name": "dojox.mvc",
   "!define": {
     "ret": {
       "unwatch": "fn()"

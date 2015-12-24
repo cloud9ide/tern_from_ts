@@ -2863,7 +2863,7 @@
   "dojox/widget/rotator/Wipe": "exp",
   "dojox/widget/rotator/Controller": "exp",
   "dojox/widget/rotator/ThumbnailController": "exp",
-  "!name": "dojox.widget.d.ts",
+  "!name": "dojox.widget",
   "!define": {
     "ret": {
       "unwatch": "fn()"

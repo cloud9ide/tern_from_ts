@@ -12,5 +12,5 @@
     "get": "fn(belowFn?: fn()) -> [StackFrame]",
     "parse": "fn(err: Error) -> [StackFrame]"
   },
-  "!name": "stack-trace.d.ts"
+  "!name": "stack-trace"
 }

@@ -18,5 +18,5 @@
     }
   },
   "hashmap": "HashMap",
-  "!name": "hashmap.d.ts"
+  "!name": "hashmap"
 }

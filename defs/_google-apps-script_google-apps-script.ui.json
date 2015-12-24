@@ -1778,5 +1778,5 @@
     }
   },
   "UiApp": "GoogleAppsScript.UI.UiApp",
-  "!name": "google-apps-script.ui.d.ts"
+  "!name": "google-apps-script.ui"
 }

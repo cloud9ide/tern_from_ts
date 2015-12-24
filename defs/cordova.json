@@ -25,5 +25,5 @@
   },
   "cordova": "Cordova",
   "'cordova'": "cordova",
-  "!name": "cordova.d.ts"
+  "!name": "cordova"
 }

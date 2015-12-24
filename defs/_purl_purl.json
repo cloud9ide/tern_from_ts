@@ -41,5 +41,5 @@
     },
     "!type": "fn() -> purl.Url"
   },
-  "!name": "purl.d.ts"
+  "!name": "purl"
 }

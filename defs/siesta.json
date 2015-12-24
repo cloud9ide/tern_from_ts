@@ -543,5 +543,5 @@
   "StartTest": "fn(testScript: fn(t: Siesta.ITest))",
   "startTest": "StartTest",
   "describe": "StartTest",
-  "!name": "siesta.d.ts"
+  "!name": "siesta"
 }

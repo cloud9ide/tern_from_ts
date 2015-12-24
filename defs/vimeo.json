@@ -16,5 +16,5 @@
     "getDomainFromUrl": "fn(url: string) -> string"
   },
   "$f": "VimeoPlayerAPI",
-  "!name": "froogaloop.d.ts"
+  "!name": "froogaloop"
 }

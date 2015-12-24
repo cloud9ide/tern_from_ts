@@ -36,5 +36,5 @@
       "closeByID": "fn(id: number) -> bool"
     }
   },
-  "!name": "vex-js.d.ts"
+  "!name": "vex-js"
 }

@@ -260,12 +260,22 @@
         "register_media": "fn(media: string, media_class: string)",
         "add_custom_rule": "fn(rule: string, media: string)",
         "image_loaded": "fn(images: JQuery, callback: fn(args: [?]))",
-        "random_str": "fn(length?: number) -> string"
+        "random_str": "fn(length?: number) -> string",
+        "is_small_only": "fn() -> bool",
+        "is_small_up": "fn() -> bool",
+        "is_medium_only": "fn() -> bool",
+        "is_medium_up": "fn() -> bool",
+        "is_large_only": "fn() -> bool",
+        "is_large_up": "fn() -> bool",
+        "is_xlarge_only": "fn() -> bool",
+        "is_xlarge_up": "fn() -> bool",
+        "is_xxlarge_only": "fn() -> bool",
+        "is_xxlarge_up": "fn() -> bool"
       }
     }
   },
   "JQuery": {
     "foundation": "fn() -> JQuery"
   },
-  "!name": "foundation.d.ts"
+  "!name": "foundation"
 }

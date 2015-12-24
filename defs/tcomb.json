@@ -154,5 +154,5 @@
   },
   "t": "TComb.tcomb",
   "tcomb": "t",
-  "!name": "tcomb.d.ts"
+  "!name": "tcomb"
 }

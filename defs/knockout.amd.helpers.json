@@ -18,5 +18,5 @@
   },
   "knockout-amd-helpers": "ko",
   "ko": "KnockoutStatic",
-  "!name": "knockout-amd-helpers.d.ts"
+  "!name": "knockout-amd-helpers"
 }

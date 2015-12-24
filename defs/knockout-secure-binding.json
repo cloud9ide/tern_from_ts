@@ -10,5 +10,5 @@
     "secureBindingsProvider": {}
   },
   "knockout-secure-binding": "klass",
-  "!name": "knockout-secure-binding.d.ts"
+  "!name": "knockout-secure-binding"
 }

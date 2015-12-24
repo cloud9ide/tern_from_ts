@@ -24,5 +24,5 @@
       "on": "fn(type: string, fn: fn())"
     }
   },
-  "!name": "iscroll-5-lite.d.ts"
+  "!name": "iscroll-5-lite"
 }

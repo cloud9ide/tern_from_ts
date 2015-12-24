@@ -10,5 +10,5 @@
       "duScrollLeftAnimated": "fn(left: number) -> ?"
     }
   },
-  "!name": "angular-scroll.d.ts"
+  "!name": "angular-scroll"
 }

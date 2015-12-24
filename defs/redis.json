@@ -297,5 +297,5 @@
       "quit": "fn(args: [?], callback?: ?) -> Multi"
     }
   },
-  "!name": "redis.d.ts"
+  "!name": "redis"
 }

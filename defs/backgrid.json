@@ -125,5 +125,5 @@
     }
   },
   "backgrid": "Backgrid",
-  "!name": "backgrid.d.ts"
+  "!name": "backgrid"
 }

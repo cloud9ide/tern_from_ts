@@ -4,5 +4,5 @@
     "parseSync": "fn(file: string) -> T",
     "parseString": "fn(data: string) -> T"
   },
-  "!name": "iniparser.d.ts"
+  "!name": "iniparser"
 }

@@ -26,5 +26,5 @@
   },
   "TextDecoder": {},
   "TextEncoder": {},
-  "!name": "text-encoding.d.ts"
+  "!name": "text-encoding"
 }

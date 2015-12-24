@@ -143,5 +143,5 @@
     }
   },
   "GmailApp": "GoogleAppsScript.Gmail.GmailApp",
-  "!name": "google-apps-script.gmail.d.ts"
+  "!name": "google-apps-script.gmail"
 }

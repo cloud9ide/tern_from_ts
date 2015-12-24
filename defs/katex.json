@@ -16,5 +16,5 @@
     "render": "fn(tex: string, element: HTMLElement, options?: KatexOptions)",
     "renderToString": "fn(tex: string, options?: KatexOptions) -> string"
   },
-  "!name": "katex.d.ts"
+  "!name": "katex"
 }

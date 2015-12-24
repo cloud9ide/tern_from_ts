@@ -367,5 +367,5 @@
     "SimpleCallback": {}
   },
   "npm": "npm",
-  "!name": "npm.d.ts"
+  "!name": "npm"
 }

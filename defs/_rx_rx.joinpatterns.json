@@ -45,5 +45,5 @@
     }
   },
   "rx.joinpatterns": "Rx",
-  "!name": "rx.joinpatterns.d.ts"
+  "!name": "rx.joinpatterns"
 }

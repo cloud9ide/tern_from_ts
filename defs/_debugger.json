@@ -101,5 +101,5 @@
     }
   },
   "_debugger": "NodeJS",
-  "!name": "_debugger.d.ts"
+  "!name": "_debugger"
 }

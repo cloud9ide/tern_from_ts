@@ -134,7 +134,7 @@
   "dojox/treemap/Keyboard": "exp",
   "dojox/treemap/ScaledLabel": "exp",
   "dojox/treemap/TreeMap": "exp",
-  "!name": "dojox.treemap.d.ts",
+  "!name": "dojox.treemap",
   "!define": {
     "ret": {
       "unwatch": "fn()"

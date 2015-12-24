@@ -14,5 +14,5 @@
   },
   "dojox/json/query": "exp",
   "dojox/json/ref": "exp",
-  "!name": "dojox.json.d.ts"
+  "!name": "dojox.json"
 }

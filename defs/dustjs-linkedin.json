@@ -35,5 +35,5 @@
     "helpers": {},
     "filters": {}
   },
-  "!name": "dustjs-linkedin.d.ts"
+  "!name": "dustjs-linkedin"
 }

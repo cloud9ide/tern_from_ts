@@ -268,5 +268,5 @@
     "version": "string"
   },
   "'grunt'": "grunt",
-  "!name": "gruntjs.d.ts"
+  "!name": "gruntjs"
 }

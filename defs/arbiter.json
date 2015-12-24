@@ -22,5 +22,5 @@
     }
   },
   "Arbiter": "ArbiterDef.ArbiterStatic",
-  "!name": "Arbiter.d.ts"
+  "!name": "Arbiter"
 }

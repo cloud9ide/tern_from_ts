@@ -14,5 +14,5 @@
     "cookie": "JQueryCookieStatic",
     "removeCookie": "fn(name: string) -> bool"
   },
-  "!name": "jquery.cookie.d.ts"
+  "!name": "jquery.cookie"
 }

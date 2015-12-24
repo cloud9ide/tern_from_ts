@@ -54,7 +54,7 @@
       }
     }
   },
-  "!name": "poly2tri.d.ts",
+  "!name": "poly2tri",
   "!define": {
     "ret": {
       "min": "IPointLike",

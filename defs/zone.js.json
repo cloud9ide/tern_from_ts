@@ -11,5 +11,5 @@
       "isRootZone": "fn() -> bool"
     }
   },
-  "!name": "zone.js.d.ts"
+  "!name": "zone.js"
 }

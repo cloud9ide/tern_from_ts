@@ -17,5 +17,5 @@
       "prop": "fn(n: ?) -> string"
     }
   },
-  "!name": "typescript.bgiframe.d.ts"
+  "!name": "typescript.bgiframe"
 }

@@ -28,12 +28,14 @@
         "once": "fn(event: string, listener: Function) -> NodeJS.EventEmitter",
         "removeListener": "fn(event: string, listener: Function) -> NodeJS.EventEmitter",
         "removeAllListeners": "fn(event?: string) -> NodeJS.EventEmitter",
-        "setMaxListeners": "fn(n: number)",
+        "setMaxListeners": "fn(n: number) -> NodeJS.EventEmitter",
+        "getMaxListeners": "fn() -> number",
         "listeners": "fn(event: string) -> [Function]",
-        "emit": "fn(event: string, args: [?]) -> bool"
+        "emit": "fn(event: string, args: [?]) -> bool",
+        "listenerCount": "fn(type: string) -> number"
       }
     }
   },
   "steam": "Steam",
-  "!name": "steam.d.ts"
+  "!name": "steam"
 }

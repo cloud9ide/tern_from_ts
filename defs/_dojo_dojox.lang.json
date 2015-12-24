@@ -308,5 +308,5 @@
   "dojox/lang/oo/rearrange": "exp",
   "dojox/lang/oo/aop": "exp",
   "dojox/lang/oo/general": "exp",
-  "!name": "dojox.lang.d.ts"
+  "!name": "dojox.lang"
 }

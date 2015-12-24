@@ -62,5 +62,5 @@
   "PNotifyConstructor": {
     "removeAll": "fn()"
   },
-  "!name": "jquery.pnotify.d.ts"
+  "!name": "jquery.pnotify"
 }

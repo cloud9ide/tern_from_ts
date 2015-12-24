@@ -22,6 +22,7 @@
     "isEmail": "fn(str: string) -> bool",
     "isURL": "fn(str: string, options?: IURLoptions) -> bool",
     "isFQDN": "fn(str: string, options?: IFQDNoptions) -> bool",
+    "isMACAddress": "fn(str: string) -> bool",
     "isIP": "fn(str: string, version?: number) -> bool",
     "isAlpha": "fn(str: string) -> bool",
     "isNumeric": "fn(str: string) -> bool",
@@ -66,5 +67,5 @@
     "normalizeEmail": "fn(email: string, options?: IEmailoptions) -> string"
   },
   "validator": "validator",
-  "!name": "validator.d.ts"
+  "!name": "validator"
 }

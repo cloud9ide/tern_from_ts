@@ -94,7 +94,7 @@
   "URI": "uri.URIStatic",
   "'URI'": "URI",
   "'urijs'": "URI",
-  "!name": "URIjs.d.ts",
+  "!name": "URIjs",
   "!define": {
     "ret": {
       "protocol": "string",

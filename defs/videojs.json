@@ -37,5 +37,5 @@
   },
   "VideoJSStatic": {},
   "videojs": "VideoJSStatic",
-  "!name": "videojs.d.ts"
+  "!name": "videojs"
 }

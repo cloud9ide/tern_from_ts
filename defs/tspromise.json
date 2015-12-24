@@ -8,5 +8,5 @@
   "NodeCallback": {},
   "tspromise": "Promise",
   "yield": "fn(promise: ?) -> T",
-  "!name": "tspromise.d.ts"
+  "!name": "tspromise"
 }

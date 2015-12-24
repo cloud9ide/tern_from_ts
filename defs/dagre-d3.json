@@ -13,5 +13,5 @@
     "Render": {}
   },
   "dagreD3": "Dagre.DagreD3Factory",
-  "!name": "dagre-d3.d.ts"
+  "!name": "dagre-d3"
 }

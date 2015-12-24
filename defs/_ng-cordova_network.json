@@ -8,5 +8,5 @@
       "clearOnlineWatch": "fn()"
     }
   },
-  "!name": "network.d.ts"
+  "!name": "network"
 }

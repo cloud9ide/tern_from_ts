@@ -39,5 +39,5 @@
       "totalTime": "fn() -> number"
     }
   },
-  "!name": "TweenLite.d.ts"
+  "!name": "TweenLite"
 }

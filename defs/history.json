@@ -37,5 +37,5 @@
     "html4Mode": "bool",
     "delayInit": "number"
   },
-  "!name": "history.d.ts"
+  "!name": "history"
 }

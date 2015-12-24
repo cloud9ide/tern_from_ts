@@ -53,5 +53,5 @@
       "reflow": "fn(type?: string)"
     }
   },
-  "!name": "epiceditor.d.ts"
+  "!name": "epiceditor"
 }

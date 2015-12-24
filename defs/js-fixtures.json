@@ -14,5 +14,5 @@
     "cleanUp": "fn()"
   },
   "fixtures": "Fixtures",
-  "!name": "fixtures.d.ts"
+  "!name": "fixtures"
 }

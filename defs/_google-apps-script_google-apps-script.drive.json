@@ -138,5 +138,5 @@
     }
   },
   "DriveApp": "GoogleAppsScript.Drive.DriveApp",
-  "!name": "google-apps-script.drive.d.ts"
+  "!name": "google-apps-script.drive"
 }

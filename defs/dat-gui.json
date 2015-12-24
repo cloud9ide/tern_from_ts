@@ -39,5 +39,5 @@
       }
     }
   },
-  "!name": "dat-gui.d.ts"
+  "!name": "dat-gui"
 }

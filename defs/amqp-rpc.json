@@ -53,5 +53,5 @@
       }
     }
   },
-  "!name": "amqp-rpc.d.ts"
+  "!name": "amqp-rpc"
 }

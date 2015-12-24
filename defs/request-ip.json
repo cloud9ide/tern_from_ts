@@ -25,5 +25,5 @@
     },
     "getClientIp": "fn(req: Request) -> string"
   },
-  "!name": "request-ip.d.ts"
+  "!name": "request-ip"
 }

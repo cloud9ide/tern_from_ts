@@ -22,5 +22,5 @@
   },
   "NProgress": "NProgressStatic",
   "nprogress": "NProgress",
-  "!name": "NProgress.d.ts"
+  "!name": "NProgress"
 }

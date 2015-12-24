@@ -8,5 +8,5 @@
     "addGetWebGLMessage": "fn(parameters?: ?)"
   },
   "Detector": "DetectorStatic",
-  "!name": "detector.d.ts"
+  "!name": "detector"
 }

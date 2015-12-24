@@ -27,5 +27,5 @@
       "equals": "fn(uuid: UUID) -> bool"
     }
   },
-  "!name": "UUID.d.ts"
+  "!name": "UUID"
 }

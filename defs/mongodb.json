@@ -275,7 +275,7 @@
       "readPreference": "string"
     }
   },
-  "!name": "mongodb.d.ts",
+  "!name": "mongodb",
   "!define": {
     "ret": {
       "id": "string",

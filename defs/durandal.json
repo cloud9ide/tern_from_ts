@@ -149,5 +149,5 @@
     "then": "fn(thenCallback: ?)",
     "off": "fn()"
   },
-  "!name": "durandal-1.x.d.ts"
+  "!name": "durandal-1.x"
 }

@@ -54,5 +54,5 @@
       "warning": "string"
     }
   },
-  "!name": "angularjs-toaster.d.ts"
+  "!name": "angularjs-toaster"
 }

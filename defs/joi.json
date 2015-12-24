@@ -186,5 +186,5 @@
     "assert": "fn(value: ?, schema: Schema, message?: string, Error: ?)",
     "ref": "fn(key: string, options?: ReferenceOptions) -> Reference"
   },
-  "!name": "joi.d.ts"
+  "!name": "joi"
 }

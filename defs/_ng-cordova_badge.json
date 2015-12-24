@@ -10,5 +10,5 @@
       "decrease": "fn(count?: number, callback?: Function, scope?: ?) -> ?"
     }
   },
-  "!name": "badge.d.ts"
+  "!name": "badge"
 }

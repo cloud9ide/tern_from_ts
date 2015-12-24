@@ -174,7 +174,7 @@
       "message": "fn() -> ?",
       "toBe": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
       "toEqual": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
-      "toMatch": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
+      "toMatch": "fn(expected: string, RegExp: ?, expectationFailOutput?: ?) -> bool",
       "toBeDefined": "fn(expectationFailOutput?: ?) -> bool",
       "toBeUndefined": "fn(expectationFailOutput?: ?) -> bool",
       "toBeNull": "fn(expectationFailOutput?: ?) -> bool",
@@ -184,13 +184,11 @@
       "toHaveBeenCalled": "fn() -> bool",
       "toHaveBeenCalledWith": "fn(params: [?]) -> bool",
       "toContain": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
-      "toBeLessThan": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
-      "toBeGreaterThan": "fn(expected: ?, expectationFailOutput?: ?) -> bool",
-      "toBeCloseTo": "fn(expected: ?, precision: ?, expectationFailOutput?: ?) -> bool",
-      "toContainHtml": "fn(expected: string) -> bool",
-      "toContainText": "fn(expected: string) -> bool",
+      "toBeLessThan": "fn(expected: number, expectationFailOutput?: ?) -> bool",
+      "toBeGreaterThan": "fn(expected: number, expectationFailOutput?: ?) -> bool",
+      "toBeCloseTo": "fn(expected: number, precision: ?, expectationFailOutput?: ?) -> bool",
       "toThrow": "fn(expected?: ?) -> bool",
-      "toThrowError": "fn(expected?: ?, message?: string) -> bool",
+      "toThrowError": "fn(message?: string, RegExp: ?) -> bool",
       "not": "Matchers",
       "Any": "Any"
     },
@@ -333,5 +331,5 @@
     },
     "DEFAULT_TIMEOUT_INTERVAL": "number"
   },
-  "!name": "jasmine.d.ts"
+  "!name": "jasmine"
 }

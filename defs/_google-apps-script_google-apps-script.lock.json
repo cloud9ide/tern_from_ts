@@ -15,5 +15,5 @@
     }
   },
   "LockService": "GoogleAppsScript.Lock.LockService",
-  "!name": "google-apps-script.lock.d.ts"
+  "!name": "google-apps-script.lock"
 }

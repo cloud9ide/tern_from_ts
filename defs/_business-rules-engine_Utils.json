@@ -10,5 +10,5 @@
     }
   },
   "node-utils": "Utils",
-  "!name": "Utils.d.ts"
+  "!name": "Utils"
 }

@@ -36,5 +36,5 @@
     "Behavior": "Function",
     "combine": "Function"
   },
-  "!name": "emissary.d.ts"
+  "!name": "emissary"
 }

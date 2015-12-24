@@ -27,5 +27,5 @@
   "JQuery": {
     "TouchSpin": "fn() -> JQuery"
   },
-  "!name": "bootstrap-touchspin.d.ts"
+  "!name": "bootstrap-touchspin"
 }

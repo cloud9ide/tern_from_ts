@@ -63,5 +63,5 @@
     "setLocale": "fn(name: string)"
   },
   "bootbox": "BootboxStatic",
-  "!name": "bootbox.d.ts"
+  "!name": "bootbox"
 }

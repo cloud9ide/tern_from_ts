@@ -49,5 +49,5 @@
   "JQuery": {
     "owlCarousel": "fn(options?: ?) -> JQuery"
   },
-  "!name": "owlcarousel.d.ts"
+  "!name": "owlcarousel"
 }

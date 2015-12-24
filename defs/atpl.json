@@ -10,5 +10,5 @@
     "renderFileSync": "fn(viewsPath: string, filename: string, parameters: ?, cache: bool) -> string",
     "renderFile": "fn(viewsPath: string, filename: string, parameters: ?, cache: bool, done: fn(err: Error, result?: string))"
   },
-  "!name": "atpl.d.ts"
+  "!name": "atpl"
 }

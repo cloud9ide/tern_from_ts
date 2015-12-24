@@ -41,5 +41,5 @@
   "dojox/math/random/prng4": "exp",
   "dojox/math/random/Simple": "exp",
   "dojox/math/random/Secure": "exp",
-  "!name": "dojox.math.d.ts"
+  "!name": "dojox.math"
 }

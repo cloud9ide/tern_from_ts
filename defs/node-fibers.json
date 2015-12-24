@@ -6,5 +6,5 @@
   },
   "fibers": "Fiber",
   "fibers/future": "Future",
-  "!name": "node-fibers.d.ts"
+  "!name": "node-fibers"
 }

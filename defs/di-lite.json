@@ -44,5 +44,5 @@
   },
   "di-lite": "di",
   "di": "DiLite.DiLiteStatic",
-  "!name": "di-lite.d.ts"
+  "!name": "di-lite"
 }

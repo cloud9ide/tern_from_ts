@@ -9,5 +9,5 @@
     "elementVoid": "fn(tag: string, key?: string, statics?: ?, var_args: [?])",
     "text": "fn(value: string)"
   },
-  "!name": "incremental-dom.d.ts"
+  "!name": "incremental-dom"
 }

@@ -96,5 +96,5 @@
       "sqrTo": "fn(x: BigInteger, r: BigInteger)"
     }
   },
-  "!name": "jsbn.d.ts"
+  "!name": "jsbn"
 }

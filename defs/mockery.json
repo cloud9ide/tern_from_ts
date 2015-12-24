@@ -20,5 +20,5 @@
     "warnOnUnregistered": "fn(value: bool)",
     "warnOnReplace": "fn(value: bool)"
   },
-  "!name": "mockery.d.ts"
+  "!name": "mockery"
 }

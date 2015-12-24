@@ -11,5 +11,5 @@
     "safe": "fn(val: string) -> string",
     "unsafe": "fn(val: string) -> string"
   },
-  "!name": "ini.d.ts"
+  "!name": "ini"
 }

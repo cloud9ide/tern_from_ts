@@ -30,7 +30,7 @@
     "isServer": "bool",
     "isClient": "bool"
   },
-  "!name": "my-meteor.d.ts",
+  "!name": "my-meteor",
   "!define": {
     "ret": {
       "numberAffected": "number",

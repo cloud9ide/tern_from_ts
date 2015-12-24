@@ -43,7 +43,7 @@
       "results": "[]"
     }
   },
-  "!name": "node-gcm.d.ts",
+  "!name": "node-gcm",
   "!define": {
     "": {
       "message_id": "string",

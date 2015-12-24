@@ -81,5 +81,5 @@
     "height": "number"
   },
   "quixote": "Quixote",
-  "!name": "quixote.d.ts"
+  "!name": "quixote"
 }

@@ -204,5 +204,5 @@
       "done": "fn(msg: string)"
     }
   },
-  "!name": "winston.d.ts"
+  "!name": "winston"
 }

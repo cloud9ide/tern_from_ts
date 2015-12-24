@@ -35,5 +35,5 @@
   "dojox/string/Builder": "exp",
   "dojox/string/BidiComplex": "exp",
   "dojox/string/BidiEngine": "exp",
-  "!name": "dojox.string.d.ts"
+  "!name": "dojox.string"
 }

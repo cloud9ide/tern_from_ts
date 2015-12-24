@@ -10,5 +10,5 @@
   "JQuery": {
     "metisMenu": "fn(options?: MetisMenuOptions) -> JQuery"
   },
-  "!name": "metismenu.d.ts"
+  "!name": "metismenu"
 }

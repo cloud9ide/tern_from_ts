@@ -7,5 +7,5 @@
     "stringify": "fn() -> NodeJS.ReadWriteStream",
     "stringifyObject": "fn() -> NodeJS.ReadWriteStream"
   },
-  "!name": "JSONStream.d.ts"
+  "!name": "JSONStream"
 }

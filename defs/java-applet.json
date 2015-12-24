@@ -6,5 +6,5 @@
     "onStop": "Function",
     "status": "JavaAppletStatus"
   },
-  "!name": "java-applet.d.ts"
+  "!name": "java-applet"
 }

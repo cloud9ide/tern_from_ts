@@ -39,5 +39,5 @@
     }
   },
   "z-schema": "ZSchema",
-  "!name": "z-schema.d.ts"
+  "!name": "z-schema"
 }

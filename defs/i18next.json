@@ -100,5 +100,5 @@
   "i18n": "I18nextStatic",
   "'i18next'": "i18n",
   "'i18next-client'": "i18n",
-  "!name": "i18next.d.ts"
+  "!name": "i18next"
 }

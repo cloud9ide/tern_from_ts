@@ -160,5 +160,5 @@
     }
   },
   "text-buffer": "_",
-  "!name": "text-buffer.d.ts"
+  "!name": "text-buffer"
 }

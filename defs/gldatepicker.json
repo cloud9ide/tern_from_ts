@@ -53,5 +53,5 @@
   "JQuery": {
     "glDatePicker": "fn(ret: bool) -> GlDatePicker"
   },
-  "!name": "gldatepicker.d.ts"
+  "!name": "gldatepicker"
 }

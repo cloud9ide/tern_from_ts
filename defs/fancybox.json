@@ -103,5 +103,5 @@
   "JQueryStatic": {
     "fancybox": "FancyboxMethods"
   },
-  "!name": "fancybox.d.ts"
+  "!name": "fancybox"
 }

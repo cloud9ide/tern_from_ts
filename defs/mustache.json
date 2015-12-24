@@ -38,5 +38,5 @@
     "to_html": "fn(template: string, view: ?, partials?: ?, send?: ?) -> string"
   },
   "Mustache": "MustacheStatic",
-  "!name": "mustache-0.7.3.d.ts"
+  "!name": "mustache-0.7.3"
 }

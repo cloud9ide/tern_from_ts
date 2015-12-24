@@ -143,5 +143,5 @@
       "releaseAll": "fn()"
     }
   },
-  "!name": "webcl.d.ts"
+  "!name": "webcl"
 }

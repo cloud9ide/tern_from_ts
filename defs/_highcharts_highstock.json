@@ -82,5 +82,5 @@
   "JQuery": {
     "highcharts": "fn(type: string) -> HighstockChartObject"
   },
-  "!name": "highstock.d.ts"
+  "!name": "highstock"
 }

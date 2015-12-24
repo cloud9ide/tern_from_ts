@@ -7,5 +7,5 @@
     "size": "number",
     "path": "string"
   },
-  "!name": "configstore.d.ts"
+  "!name": "configstore"
 }

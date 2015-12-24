@@ -25,5 +25,5 @@
     "views": "JsRender.Views",
     "templates": "fn(markupOrSelector: string) -> JsRender.Template"
   },
-  "!name": "jsrender.d.ts"
+  "!name": "jsrender"
 }

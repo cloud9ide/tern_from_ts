@@ -11,5 +11,5 @@
     "checkIsFunction": "fn(value: ?, message?: string, formatArgs: [?]) -> ?",
     "checkIsObject": "fn(value: ?, message?: string, formatArgs: [?]) -> ?"
   },
-  "!name": "precond.d.ts"
+  "!name": "precond"
 }

@@ -4,5 +4,5 @@
     "stringify": "fn(obj: ?) -> string",
     "extract": "fn(str: string) -> string"
   },
-  "!name": "query-string.d.ts"
+  "!name": "query-string"
 }

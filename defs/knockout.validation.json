@@ -113,5 +113,5 @@
   },
   "knockout.validation": "validation",
   "validation": "KnockoutValidationStatic",
-  "!name": "knockout.validation.d.ts"
+  "!name": "knockout.validation"
 }

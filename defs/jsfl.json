@@ -843,7 +843,7 @@
   "alert": "fn(alertText: string)",
   "confirm": "fn(strAlert: string) -> bool",
   "prompt": "fn(promptMsg: string, text?: string) -> string",
-  "!name": "jsfl.d.ts",
+  "!name": "jsfl",
   "!define": {
     "ret": {
       "keyframe": "FlashFrame",

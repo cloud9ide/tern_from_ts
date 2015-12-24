@@ -26,5 +26,5 @@
   "JQuery": {
     "dropotron": "Dropotron"
   },
-  "!name": "jquery.dropotron.d.ts"
+  "!name": "jquery.dropotron"
 }

@@ -223,5 +223,5 @@
     "queue": "fn(queueName?: string) -> [?]",
     "should": "Chai.Assertion"
   },
-  "!name": "chai-jquery.d.ts"
+  "!name": "chai-jquery"
 }

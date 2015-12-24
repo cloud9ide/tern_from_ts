@@ -26,5 +26,5 @@
   "easy-jsend": {
     "init": "fn(conf?: ?)"
   },
-  "!name": "easy-jsend.d.ts"
+  "!name": "easy-jsend"
 }

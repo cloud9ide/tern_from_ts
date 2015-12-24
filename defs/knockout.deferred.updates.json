@@ -27,5 +27,5 @@
   "KnockoutExtenders": {
     "deferred": "fn(target: ?, value: bool) -> ?"
   },
-  "!name": "knockout.deferred.updates.d.ts"
+  "!name": "knockout.deferred.updates"
 }

@@ -20,5 +20,5 @@
     }
   },
   "rivets": "Rivets.Rivets",
-  "!name": "rivets.d.ts"
+  "!name": "rivets"
 }

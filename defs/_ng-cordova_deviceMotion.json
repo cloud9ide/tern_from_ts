@@ -20,5 +20,5 @@
       "clearWatch": "fn(watchId: number)"
     }
   },
-  "!name": "deviceMotion.d.ts"
+  "!name": "deviceMotion"
 }

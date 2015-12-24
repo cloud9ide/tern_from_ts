@@ -195,5 +195,5 @@
   "dojox/validate/web": "exp",
   "dojox/validate/web._cardInfo": "exp",
   "dojox/validate/web._isInRangeCache": "exp",
-  "!name": "dojox.validate.d.ts"
+  "!name": "dojox.validate"
 }

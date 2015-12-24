@@ -27,5 +27,5 @@
     "forEach": "fn(obj: [T], callback: fn(value: T, index: number, array: [T]))"
   },
   "showdown": "Showdown",
-  "!name": "showdown.d.ts"
+  "!name": "showdown"
 }

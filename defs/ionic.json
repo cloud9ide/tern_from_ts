@@ -97,6 +97,7 @@
         "initialize": "fn(options: IonicModalOptions)",
         "show": "fn() -> ?",
         "hide": "fn() -> ?",
+        "remove": "fn() -> ?",
         "isShown": "fn() -> bool"
       },
       "IonicModalOptions": {
@@ -257,7 +258,8 @@
       "IonicTabsDelegate": {
         "select": "fn(index: number)",
         "selectedIndex": "fn() -> number",
-        "$getByHandle": "fn(handle: string) -> IonicTabsDelegate"
+        "$getByHandle": "fn(handle: string) -> IonicTabsDelegate",
+        "showBar": "fn(show?: bool) -> bool"
       }
     },
     "utility": {
@@ -302,7 +304,7 @@
     }
   },
   "'ionic'": "ionic",
-  "!name": "ionic.d.ts",
+  "!name": "ionic",
   "!define": {
     "ret": {
       "left": "number",

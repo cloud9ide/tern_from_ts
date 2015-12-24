@@ -54,5 +54,5 @@
       "fetch": "fn(remote: Remote, opts: Object, callback: fn(err: ?))"
     }
   },
-  "!name": "js-git.d.ts"
+  "!name": "js-git"
 }

@@ -31,5 +31,5 @@
     "renderView": "fn(viewPath: string, optionsOrCallback: ?, callback?: fn())"
   },
   "express-handlebars": "exphbs",
-  "!name": "express-handlebars.d.ts"
+  "!name": "express-handlebars"
 }

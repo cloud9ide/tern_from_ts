@@ -5,5 +5,5 @@
     "fromGeoJSON": "fn(geojson: GeoJSON.LineString, GeoJSON: ?, Feature: ?, precision?: number) -> string"
   },
   "polyline": "Polyline",
-  "!name": "polyline.d.ts"
+  "!name": "polyline"
 }

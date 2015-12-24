@@ -704,7 +704,7 @@
   "dojox/geo/openlayers/TouchInteractionSupport": "exp",
   "dojox/geo/openlayers/Map": "exp",
   "dojox/geo/openlayers/widget/Map": "exp",
-  "!name": "dojox.geo.d.ts",
+  "!name": "dojox.geo",
   "!define": {
     "ret": {
       "unwatch": "fn()"

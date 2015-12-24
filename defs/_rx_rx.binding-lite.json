@@ -22,5 +22,5 @@
       "shareReplay": "fn(bufferSize?: number, window?: number, scheduler?: IScheduler) -> ?"
     }
   },
-  "!name": "rx.binding-lite.d.ts"
+  "!name": "rx.binding-lite"
 }

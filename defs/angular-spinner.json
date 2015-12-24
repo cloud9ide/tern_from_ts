@@ -3,5 +3,5 @@
     "spin": "fn(key: string)",
     "stop": "fn(key: string)"
   },
-  "!name": "angular-spinner.d.ts"
+  "!name": "angular-spinner"
 }

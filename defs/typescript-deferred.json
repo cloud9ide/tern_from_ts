@@ -20,5 +20,5 @@
     "create": "fn() -> ?",
     "when": "fn(value?: ?) -> ?"
   },
-  "!name": "typescript-deferred.d.ts"
+  "!name": "typescript-deferred"
 }

@@ -162,7 +162,7 @@
     "use": "?"
   },
   "blocks": "BlocksStatic",
-  "!name": "blocks.d.ts",
+  "!name": "blocks",
   "!define": {
     "ret": {
       "express": "fn() -> ?"

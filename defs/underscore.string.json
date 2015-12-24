@@ -71,5 +71,5 @@
     "toBoolean": "fn(str: string, trueValues?: [?], falseValues?: [?]) -> bool"
   },
   "'underscore.string'": "underscoreString",
-  "!name": "underscore.string.d.ts"
+  "!name": "underscore.string"
 }

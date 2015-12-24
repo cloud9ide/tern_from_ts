@@ -13,5 +13,5 @@
       "replace": "fn(text: string, origin?: string)"
     }
   },
-  "!name": "searchcursor.d.ts"
+  "!name": "searchcursor"
 }

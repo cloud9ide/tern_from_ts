@@ -373,5 +373,5 @@
   "JQueryStatic": {
     "mobile": "JQueryMobile"
   },
-  "!name": "jquerymobile.d.ts"
+  "!name": "jquerymobile"
 }

@@ -265,5 +265,5 @@
     "serialize": "fn(value: ?) -> ?",
     "unique": "fn(array: [?]) -> ?"
   },
-  "!name": "casperjs.d.ts"
+  "!name": "casperjs"
 }

@@ -15,5 +15,5 @@
     "init": "fn(opts?: InitOptions) -> NodeJS.ReadWriteStream",
     "write": "fn(path?: string, opts?: WriteOptions) -> NodeJS.ReadWriteStream"
   },
-  "!name": "gulp-sourcemaps.d.ts"
+  "!name": "gulp-sourcemaps"
 }

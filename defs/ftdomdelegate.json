@@ -8,5 +8,5 @@
       "destroy": "fn()"
     }
   },
-  "!name": "ftdomdelegate.d.ts"
+  "!name": "ftdomdelegate"
 }

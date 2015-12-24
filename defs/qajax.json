@@ -9,5 +9,5 @@
     "!type": "fn(url: string) -> ?"
   },
   "qajax": "Qajax",
-  "!name": "qajax.d.ts"
+  "!name": "qajax"
 }

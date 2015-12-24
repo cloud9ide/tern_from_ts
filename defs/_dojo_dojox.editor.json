@@ -1657,7 +1657,7 @@
   "dojox/editor/plugins/TablePlugins": "exp",
   "dojox/editor/plugins/UploadImage": "exp",
   "dojox/editor/plugins/ToolbarLineBreak": "exp",
-  "!name": "dojox.editor.d.ts",
+  "!name": "dojox.editor",
   "!define": {
     "ret": {
       "unwatch": "fn()"

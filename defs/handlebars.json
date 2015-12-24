@@ -162,7 +162,7 @@
     "log": "fn(level: number, obj: string)"
   },
   "handlebars": "Handlebars",
-  "!name": "handlebars-1.0.0.d.ts",
+  "!name": "handlebars-1.0.0",
   "!define": {
     "": {
       "0": "string",

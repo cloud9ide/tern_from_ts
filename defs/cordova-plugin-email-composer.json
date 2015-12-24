@@ -16,5 +16,5 @@
   "CordovaPlugins": {
     "email": "CordovaPluginEmailComposer"
   },
-  "!name": "cordova-plugin-email-composer.d.ts"
+  "!name": "cordova-plugin-email-composer"
 }

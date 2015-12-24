@@ -470,7 +470,7 @@
   "dojox/highlight/languages/pygments/javascript": "exp",
   "dojox/highlight/languages/pygments/javascript.defaultMode": "exp",
   "dojox/highlight/widget/Code": "exp",
-  "!name": "dojox.highlight.d.ts",
+  "!name": "dojox.highlight",
   "!define": {
     "ret": {
       "unwatch": "fn()"

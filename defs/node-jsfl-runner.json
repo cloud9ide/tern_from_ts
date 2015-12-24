@@ -7,5 +7,5 @@
     "deleteJSFL": "fn(fileName: string, callback: fn(err: NodeJS.ErrnoException))",
     "runJSFL": "fn(flashLocation: string, fileName: string, callback: fn(err: NodeJS.ErrnoException))"
   },
-  "!name": "node-jsfl-runner.d.ts"
+  "!name": "node-jsfl-runner"
 }

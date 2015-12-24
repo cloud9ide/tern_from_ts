@@ -6,5 +6,5 @@
     "each": "fn(svg: SVGElement, string: ?)"
   },
   "svg-injector": "SVGInjector",
-  "!name": "svg-injector.d.ts"
+  "!name": "svg-injector"
 }

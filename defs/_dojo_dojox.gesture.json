@@ -22,5 +22,5 @@
     }
   },
   "dojox/gesture/Base": "exp",
-  "!name": "dojox.gesture.d.ts"
+  "!name": "dojox.gesture"
 }

@@ -123,5 +123,5 @@
     }
   },
   "PayPalMobile": "PayPalCordovaPlugin.PayPalMobileStatic",
-  "!name": "PayPal-Cordova-Plugin.d.ts"
+  "!name": "PayPal-Cordova-Plugin"
 }

@@ -48,5 +48,5 @@
       "tag": "string"
     }
   },
-  "!name": "timelinejs.d.ts"
+  "!name": "timelinejs"
 }

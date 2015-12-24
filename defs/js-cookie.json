@@ -18,7 +18,7 @@
     }
   },
   "'js-cookie'": "Cookies",
-  "!name": "js-cookie.d.ts",
+  "!name": "js-cookie",
   "!define": {
     "ret": {},
     "ret1": {}

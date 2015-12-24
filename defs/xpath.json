@@ -38,5 +38,5 @@
       "lookupNamespaceURI": "fn(prefix: string) -> string"
     }
   },
-  "!name": "xpath.d.ts"
+  "!name": "xpath"
 }

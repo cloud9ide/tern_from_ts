@@ -8,5 +8,5 @@
     "pre": "fn(hook: Hook) -> Function"
   },
   "level-sublevel": "sublevel",
-  "!name": "level-sublevel.d.ts"
+  "!name": "level-sublevel"
 }

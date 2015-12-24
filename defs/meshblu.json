@@ -114,5 +114,5 @@
       "status": "string"
     }
   },
-  "!name": "meshblu.d.ts"
+  "!name": "meshblu"
 }

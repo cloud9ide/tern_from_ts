@@ -112,5 +112,5 @@
     "gQ": "GameQuery",
     "gameQuery": "GameQuery"
   },
-  "!name": "gamequery.d.ts"
+  "!name": "gamequery"
 }

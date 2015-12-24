@@ -36,5 +36,5 @@
   "dojox/collections/Stack": "exp",
   "dojox/collections/SortedList": "exp",
   "dojox/collections/_base": "exp",
-  "!name": "dojox.collections.d.ts"
+  "!name": "dojox.collections"
 }

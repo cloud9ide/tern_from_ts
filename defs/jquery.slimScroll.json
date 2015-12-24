@@ -26,5 +26,5 @@
   "JQuery": {
     "slimScroll": {}
   },
-  "!name": "jquery.slimScroll.d.ts"
+  "!name": "jquery.slimScroll"
 }

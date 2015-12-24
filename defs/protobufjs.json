@@ -260,7 +260,7 @@
     }
   },
   "protobufjs": "ProtoBuf",
-  "!name": "protobufjs.d.ts",
+  "!name": "protobufjs",
   "!define": {
     "defs": {},
     "ret": {},

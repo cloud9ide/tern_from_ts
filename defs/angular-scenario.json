@@ -105,5 +105,5 @@
   "select": "fn(ngModelBinding: string) -> angularScenario.Select",
   "element": "fn(selector: string, elementDescription?: string) -> angularScenario.Element",
   "angular": "ng.IAngularStatic",
-  "!name": "angular-scenario.d.ts"
+  "!name": "angular-scenario"
 }

@@ -20,5 +20,5 @@
     }
   },
   "'hashids'": "hashids",
-  "!name": "hashids.d.ts"
+  "!name": "hashids"
 }

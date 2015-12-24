@@ -64,5 +64,5 @@
     "$changePassword": "fn(credentials: FirebaseChangePasswordCredentials) -> ?",
     "$resetPassword": "fn(credentials: FirebaseResetPasswordCredentials) -> ?"
   },
-  "!name": "angularfire.d.ts"
+  "!name": "angularfire"
 }

@@ -617,5 +617,5 @@
     }
   },
   "Jdbc": "GoogleAppsScript.JDBC.Jdbc",
-  "!name": "google-apps-script.jdbc.d.ts"
+  "!name": "google-apps-script.jdbc"
 }

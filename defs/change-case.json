@@ -33,5 +33,5 @@
     "lcFirst": "fn(s: string) -> string",
     "lowerCaseFirst": "fn(s: string) -> string"
   },
-  "!name": "change-case.d.ts"
+  "!name": "change-case"
 }

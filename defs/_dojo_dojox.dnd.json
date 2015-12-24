@@ -57,5 +57,5 @@
   },
   "dojox/dnd/BoundingBoxController": "exp",
   "dojox/dnd/Selector": "exp",
-  "!name": "dojox.dnd.d.ts"
+  "!name": "dojox.dnd"
 }

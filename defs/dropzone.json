@@ -137,5 +137,5 @@
     "dropzone": "fn(options: DropzoneOptions) -> Dropzone"
   },
   "dropzone": "Dropzone",
-  "!name": "dropzone.d.ts"
+  "!name": "dropzone"
 }

@@ -69,5 +69,5 @@
     "user_id": "string"
   },
   "twttr": "Twitter",
-  "!name": "twitter.d.ts"
+  "!name": "twitter"
 }

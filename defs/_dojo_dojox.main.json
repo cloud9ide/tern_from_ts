@@ -114,5 +114,5 @@
   "dojox/main.umalqura": "exp",
   "dojox/main.persian": "exp",
   "dojox/main.utils": "exp",
-  "!name": "dojox.main.d.ts"
+  "!name": "dojox.main"
 }

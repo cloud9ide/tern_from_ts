@@ -213,5 +213,5 @@
     }
   },
   "business-rule-engine": "Validation",
-  "!name": "business-rules-engine.d.ts"
+  "!name": "business-rules-engine"
 }

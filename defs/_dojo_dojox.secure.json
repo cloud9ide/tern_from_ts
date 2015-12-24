@@ -13,5 +13,5 @@
   "dojox/secure/DOM": "exp",
   "dojox/secure/sandbox": "exp",
   "dojox/secure/capability": "exp",
-  "!name": "dojox.secure.d.ts"
+  "!name": "dojox.secure"
 }

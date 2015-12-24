@@ -115,5 +115,5 @@
     "localService": "bool",
     "default": "bool"
   },
-  "!name": "webspeechapi.d.ts"
+  "!name": "webspeechapi"
 }

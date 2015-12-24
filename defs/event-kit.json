@@ -30,5 +30,5 @@
     }
   },
   "event-kit": "AtomEventKit",
-  "!name": "event-kit.d.ts"
+  "!name": "event-kit"
 }

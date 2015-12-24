@@ -81,5 +81,5 @@
   "JQuery": {
     "colorbox": "Colorbox"
   },
-  "!name": "jquery.colorbox.d.ts"
+  "!name": "jquery.colorbox"
 }

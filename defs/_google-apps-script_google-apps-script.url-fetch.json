@@ -34,5 +34,5 @@
     }
   },
   "UrlFetchApp": "GoogleAppsScript.URL_Fetch.UrlFetchApp",
-  "!name": "google-apps-script.url-fetch.d.ts"
+  "!name": "google-apps-script.url-fetch"
 }

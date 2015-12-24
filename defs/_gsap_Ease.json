@@ -5,5 +5,5 @@
       "getRatio": "fn(p: number) -> number"
     }
   },
-  "!name": "Ease.d.ts"
+  "!name": "Ease"
 }

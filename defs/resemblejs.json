@@ -48,5 +48,5 @@
     }
   },
   "resemble": "Resemble.ResembleStatic",
-  "!name": "resemblejs.d.ts"
+  "!name": "resemblejs"
 }

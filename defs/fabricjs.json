@@ -110,7 +110,7 @@
     "IObservable": {
       "on": "fn(eventName: string, handler: fn(e: IEvent)) -> T",
       "trigger": "fn(eventName: string, options?: ?) -> T",
-      "off": "fn(eventName: string, any: ?, handler: fn(e: IEvent)) -> T"
+      "off": "fn(eventName?: string, any: ?, handler?: fn(e: IEvent)) -> T"
     },
     "ICanvasAnimation": {
       "FX_DURATION": "number",
@@ -1084,7 +1084,7 @@
       "string": "IUtilString"
     }
   },
-  "!name": "fabricjs.d.ts",
+  "!name": "fabricjs",
   "!define": {
     "ret": {},
     "ret1": {},

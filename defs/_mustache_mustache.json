@@ -34,5 +34,5 @@
   },
   "Mustache": "MustacheStatic",
   "'mustache'": "Mustache",
-  "!name": "mustache.d.ts"
+  "!name": "mustache"
 }

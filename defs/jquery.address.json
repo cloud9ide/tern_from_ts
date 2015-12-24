@@ -30,5 +30,5 @@
   "JQuery": {
     "address": "JQueryAddress"
   },
-  "!name": "jquery.address.d.ts"
+  "!name": "jquery.address"
 }

@@ -16,5 +16,5 @@
     "formatNumber": "fn(value: number, options?: NumberFormatterOptions) -> string"
   },
   "Globalize": "GlobalizeStatic",
-  "!name": "globalize.d.ts"
+  "!name": "globalize"
 }

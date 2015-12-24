@@ -16,5 +16,5 @@
     },
     "bundle": "fn(opts: Options)"
   },
-  "!name": "dts-bundle.d.ts"
+  "!name": "dts-bundle"
 }

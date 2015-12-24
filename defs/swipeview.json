@@ -28,5 +28,5 @@
       "wrapperHeight": "number"
     }
   },
-  "!name": "swipeview.d.ts"
+  "!name": "swipeview"
 }

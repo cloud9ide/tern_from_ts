@@ -6,5 +6,5 @@
     "replacePassword": "fn(service: string, account: string, password: string) -> bool",
     "findPassword": "fn(service: string) -> string"
   },
-  "!name": "keytar.d.ts"
+  "!name": "keytar"
 }

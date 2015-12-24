@@ -10,5 +10,5 @@
   "JQuery": {
     "leanModal": "fn() -> JQuery"
   },
-  "!name": "jquery.leanModal.d.ts"
+  "!name": "jquery.leanModal"
 }

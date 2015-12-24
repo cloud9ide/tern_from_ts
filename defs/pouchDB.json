@@ -135,5 +135,5 @@
   },
   "'pouchdb'": "PouchDB",
   "emit": "fn(key: ?, value: ?)",
-  "!name": "pouch.d.ts"
+  "!name": "pouch"
 }

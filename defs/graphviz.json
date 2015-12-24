@@ -39,5 +39,5 @@
     "ParseCallback": {},
     "parse": "fn(path: string, callback: ParseCallback, errback?: ErrorCallback)"
   },
-  "!name": "graphviz.d.ts"
+  "!name": "graphviz"
 }

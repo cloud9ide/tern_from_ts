@@ -32,5 +32,5 @@
   "DigestAlgorithm": "GoogleAppsScript.Utilities.DigestAlgorithm",
   "MacAlgorithm": "GoogleAppsScript.Utilities.MacAlgorithm",
   "Utilities": "GoogleAppsScript.Utilities.Utilities",
-  "!name": "google-apps-script.utilities.d.ts"
+  "!name": "google-apps-script.utilities"
 }

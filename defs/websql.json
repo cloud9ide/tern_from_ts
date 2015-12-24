@@ -72,5 +72,5 @@
       "message": "DOMString"
     }
   },
-  "!name": "websql.d.ts"
+  "!name": "websql"
 }

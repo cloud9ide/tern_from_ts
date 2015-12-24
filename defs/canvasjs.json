@@ -190,5 +190,5 @@
       "legendMarkerColor": "string"
     }
   },
-  "!name": "canvasjs.d.ts"
+  "!name": "canvasjs"
 }

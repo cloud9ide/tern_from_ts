@@ -79,5 +79,5 @@
     }
   },
   "fixed-data-table": "FixedDataTable",
-  "!name": "fixed-data-table.d.ts"
+  "!name": "fixed-data-table-0.4.7"
 }

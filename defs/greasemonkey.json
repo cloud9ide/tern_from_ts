@@ -81,5 +81,5 @@
   },
   "GMXMLHttpRequestResult": {},
   "GM_xmlhttpRequest": "fn(options: GMXMLHttpRequestOptions) -> GMXMLHttpRequestResult",
-  "!name": "greasemonkey.d.ts"
+  "!name": "greasemonkey"
 }

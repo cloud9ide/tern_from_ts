@@ -4,5 +4,5 @@
     "observable": "fn(el: ?) -> ?",
     "route": "fn(to: ?)"
   },
-  "!name": "riotjs.d.ts"
+  "!name": "riotjs"
 }

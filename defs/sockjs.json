@@ -25,5 +25,5 @@
     "CLOSED": "number",
     "prototype": "SockJS"
   },
-  "!name": "sockjs.d.ts"
+  "!name": "sockjs"
 }

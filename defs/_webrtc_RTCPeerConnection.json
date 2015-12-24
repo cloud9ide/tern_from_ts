@@ -172,5 +172,5 @@
     "webkitRTCIceCandidate": "webkitRTCIceCandidate",
     "mozRTCIceCandidate": "mozRTCIceCandidate"
   },
-  "!name": "RTCPeerConnection.d.ts"
+  "!name": "RTCPeerConnection"
 }

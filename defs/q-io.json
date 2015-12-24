@@ -150,7 +150,7 @@
   "q-io/reader": "QioBufferReader",
   "q-io/writer": "QioBufferWriter",
   "q-io/buffer-stream": "QioBufferStream",
-  "!name": "Q-io.d.ts",
+  "!name": "Q-io",
   "!define": {
     "ret": {}
   }

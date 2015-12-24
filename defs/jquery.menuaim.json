@@ -12,5 +12,5 @@
   "JQuery": {
     "menuAim": "fn(options: JQueryMenuAimOptions) -> JQuery"
   },
-  "!name": "jquery.menuaim.d.ts"
+  "!name": "jquery.menuaim"
 }

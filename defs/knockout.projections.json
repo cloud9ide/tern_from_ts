@@ -4,5 +4,5 @@
     "map": "fn(mappingOptions: ?) -> ?",
     "filter": "fn(predicate: fn(value: T)) -> ?"
   },
-  "!name": "knockout.projections.d.ts"
+  "!name": "knockout.projections"
 }

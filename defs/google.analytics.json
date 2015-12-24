@@ -47,5 +47,5 @@
   "ga": "UniversalAnalytics.ga",
   "_gaq": "GoogleAnalyticsCode",
   "_gat": "GoogleAnalyticsTracker",
-  "!name": "ga.d.ts"
+  "!name": "ga"
 }

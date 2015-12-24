@@ -77,5 +77,5 @@
   "JQuery": {
     "cycle": "Cycle"
   },
-  "!name": "jquery.cycle.d.ts"
+  "!name": "jquery.cycle"
 }

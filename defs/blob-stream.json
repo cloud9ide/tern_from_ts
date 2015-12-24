@@ -7,5 +7,5 @@
     "!type": "fn() -> BlobStream.IBlobStream"
   },
   "blob-stream": "BlobStream",
-  "!name": "blob-stream.d.ts"
+  "!name": "blob-stream"
 }

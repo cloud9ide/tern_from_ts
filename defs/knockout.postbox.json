@@ -23,5 +23,5 @@
   "KnockoutStatic": {
     "postbox": "KnockoutPostBox"
   },
-  "!name": "knockout-postbox.d.ts"
+  "!name": "knockout-postbox"
 }

@@ -61,5 +61,5 @@
     "run": "fn(templateFn: Function, locals?: ?, filePath?: string) -> string",
     "invalidateCache": "fn()"
   },
-  "!name": "swig.d.ts"
+  "!name": "swig"
 }

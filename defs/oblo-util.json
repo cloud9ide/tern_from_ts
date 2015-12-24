@@ -17,5 +17,5 @@
   },
   "util": "ObloUtilStatic",
   "oblo-util": "util",
-  "!name": "oblo-util.d.ts"
+  "!name": "oblo-util"
 }

@@ -70,5 +70,5 @@
   "JQuery": {
     "cleditor": "fn(options?: JQueryCLEditorOptions) -> CLEditor"
   },
-  "!name": "jquery.cleditor.d.ts"
+  "!name": "jquery.cleditor"
 }

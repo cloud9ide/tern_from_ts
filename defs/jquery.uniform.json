@@ -41,5 +41,5 @@
   "JQuery": {
     "uniform": "Uniform"
   },
-  "!name": "jquery.uniform.d.ts"
+  "!name": "jquery.uniform"
 }

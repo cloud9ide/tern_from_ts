@@ -30,5 +30,5 @@
     "off": "fn(events: string, selector?: string, handler?: fn(eventObject: DatepickerEventObject)) -> JQuery",
     "on": "fn(events: string, selector: string, data: ?, handler?: fn(eventObject: DatepickerEventObject)) -> JQuery"
   },
-  "!name": "bootstrap.datepicker.d.ts"
+  "!name": "bootstrap.datepicker"
 }

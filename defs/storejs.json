@@ -12,5 +12,5 @@
     "deserialize": "fn(value: string) -> ?"
   },
   "store": "StoreJSStatic",
-  "!name": "storejs.d.ts"
+  "!name": "storejs"
 }

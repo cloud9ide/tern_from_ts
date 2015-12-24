@@ -415,7 +415,7 @@
       }
     }
   },
-  "!name": "dropboxjs.d.ts",
+  "!name": "dropboxjs",
   "!define": {
     "ret": {},
     "ret1": {},

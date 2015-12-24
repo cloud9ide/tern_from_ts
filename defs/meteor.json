@@ -520,7 +520,7 @@
   "execFileAsync": "fn(command: string, args?: [?], options?: ?) -> ?",
   "execFileSync": "fn(command: string, args?: [?], options?: ?) -> String",
   "getExtension": "fn() -> String",
-  "!name": "meteor.d.ts",
+  "!name": "meteor",
   "!define": {
     "ret": {
       "stop": "fn()"

@@ -3,5 +3,5 @@
     "jq": {}
   },
   "dojox/jq": "exp",
-  "!name": "dojox.jq.d.ts"
+  "!name": "dojox.jq"
 }

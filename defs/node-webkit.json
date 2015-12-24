@@ -193,5 +193,5 @@
       "showItemInFolder": "fn(file_path: string)"
     }
   },
-  "!name": "node-webkit.d.ts"
+  "!name": "node-webkit"
 }

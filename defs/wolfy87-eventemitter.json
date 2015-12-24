@@ -28,7 +28,7 @@
     }
   },
   "wolfy87-eventemitter": "EventEmitter",
-  "!name": "wolfy87-eventemitter.d.ts",
+  "!name": "wolfy87-eventemitter",
   "!define": {
     "ret": {},
     "listeners": {

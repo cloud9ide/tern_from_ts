@@ -60,5 +60,5 @@
       "setOpacity": "fn(opacity: number)"
     }
   },
-  "!name": "leaflet-label.d.ts"
+  "!name": "leaflet-label"
 }

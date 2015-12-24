@@ -30,5 +30,5 @@
     "originalPoint": "number"
   },
   "Flipsnap": "FlipsnapStatic",
-  "!name": "flipsnap.d.ts"
+  "!name": "flipsnap"
 }

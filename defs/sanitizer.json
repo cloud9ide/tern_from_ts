@@ -16,5 +16,5 @@
     "sanitize": "fn(s: string) -> string",
     "unescapeEntities": "fn(s: string) -> string"
   },
-  "!name": "sanitizer.d.ts"
+  "!name": "sanitizer"
 }

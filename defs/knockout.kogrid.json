@@ -80,5 +80,5 @@
       "currentPage": "number"
     }
   },
-  "!name": "ko-grid.d.ts"
+  "!name": "ko-grid"
 }

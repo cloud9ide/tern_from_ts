@@ -9,5 +9,5 @@
   "JQuery": {
     "succinct": "fn(settings?: JQuerySuccinct.Options) -> JQuery"
   },
-  "!name": "succinct.d.ts"
+  "!name": "succinct"
 }

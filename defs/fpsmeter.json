@@ -36,5 +36,5 @@
       "destroy": "fn()"
     }
   },
-  "!name": "FPSMeter.d.ts"
+  "!name": "FPSMeter"
 }

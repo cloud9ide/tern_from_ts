@@ -28,5 +28,5 @@
     "rootLogger": "Logger",
     "registerWatcher": "fn(watcher: fn(logRecord: string))"
   },
-  "!name": "logg.d.ts"
+  "!name": "logg"
 }

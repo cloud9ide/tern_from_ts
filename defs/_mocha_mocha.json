@@ -143,5 +143,5 @@
       }
     }
   },
-  "!name": "mocha.d.ts"
+  "!name": "mocha"
 }

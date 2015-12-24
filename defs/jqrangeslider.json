@@ -47,5 +47,5 @@
     "editRangeSlider": "fn(method: string) -> ?",
     "dateRangeSlider": "fn(method: string) -> ?"
   },
-  "!name": "jqrangeslider.d.ts"
+  "!name": "jqrangeslider"
 }

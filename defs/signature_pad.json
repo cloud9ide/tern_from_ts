@@ -75,5 +75,5 @@
       "_strokeWidth": "fn(velocity: number)"
     }
   },
-  "!name": "signature_pad.d.ts"
+  "!name": "signature_pad"
 }

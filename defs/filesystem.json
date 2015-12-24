@@ -93,5 +93,5 @@
   },
   "Window": {},
   "WorkerGlobalScope": {},
-  "!name": "filesystem.d.ts"
+  "!name": "filesystem"
 }

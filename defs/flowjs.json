@@ -75,5 +75,5 @@
       "getType": "string"
     }
   },
-  "!name": "flowjs.d.ts"
+  "!name": "flowjs"
 }

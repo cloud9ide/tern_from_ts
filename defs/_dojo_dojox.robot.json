@@ -5,5 +5,5 @@
     }
   },
   "dojox/robot/recorder": "exp",
-  "!name": "dojox.robot.d.ts"
+  "!name": "dojox.robot"
 }

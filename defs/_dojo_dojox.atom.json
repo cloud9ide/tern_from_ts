@@ -842,7 +842,7 @@
   "dojox/atom/widget/FeedEntryViewer": "exp",
   "dojox/atom/widget/FeedEntryViewer.EntryHeader": "exp",
   "dojox/atom/widget/FeedEntryEditor": "exp",
-  "!name": "dojox.atom.d.ts",
+  "!name": "dojox.atom",
   "!define": {
     "ret": {
       "unwatch": "fn()"

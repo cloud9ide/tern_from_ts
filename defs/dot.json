@@ -25,5 +25,5 @@
   "String": {
     "encodeHTML": "fn() -> string"
   },
-  "!name": "dot.d.ts"
+  "!name": "dot"
 }

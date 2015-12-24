@@ -165,5 +165,5 @@
   "JQuery": {
     "pjax": "fn(setting?: PjaxSetting) -> ?"
   },
-  "!name": "jquery.pjax.d.ts"
+  "!name": "jquery.pjax"
 }

@@ -26,5 +26,5 @@
     "customizeMocha": "fn(options: MochaPhantomJSOptions)"
   },
   "mochaPhantomJS": "MochaPhantomJS",
-  "!name": "mocha-phantomjs.d.ts"
+  "!name": "mocha-phantomjs"
 }

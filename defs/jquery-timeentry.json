@@ -41,5 +41,5 @@
   "JQueryStatic": {
     "timeEntry": "ITimeEntryStatic"
   },
-  "!name": "jquery-timeentry.d.ts"
+  "!name": "jquery-timeentry"
 }

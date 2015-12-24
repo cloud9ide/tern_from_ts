@@ -2018,5 +2018,5 @@
   "dojox/gfx/vml_attach.TextPath": "exp",
   "dojox/gfx/vml_attach._bool": "exp",
   "dojox/gfx/vml_attach.text_alignment": "exp",
-  "!name": "dojox.gfx.d.ts"
+  "!name": "dojox.gfx"
 }

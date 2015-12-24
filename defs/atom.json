@@ -75,5 +75,5 @@
       "description": "string"
     }
   },
-  "!name": "api-docs.d.ts"
+  "!name": "api-docs"
 }

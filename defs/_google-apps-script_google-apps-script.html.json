@@ -36,5 +36,5 @@
     }
   },
   "HtmlService": "GoogleAppsScript.HTML.HtmlService",
-  "!name": "google-apps-script.html.d.ts"
+  "!name": "google-apps-script.html"
 }

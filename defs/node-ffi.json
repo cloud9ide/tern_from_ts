@@ -22,5 +22,5 @@
     "writeUInt64LE": "fn(offset: number, input: number) -> ?",
     "inspect": "fn() -> string"
   },
-  "!name": "node-ffi-buffer.d.ts"
+  "!name": "node-ffi-buffer"
 }

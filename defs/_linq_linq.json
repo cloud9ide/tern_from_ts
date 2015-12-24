@@ -120,5 +120,5 @@
     }
   },
   "Enumerable": "linq.EnumerableStatic",
-  "!name": "linq.d.ts"
+  "!name": "linq"
 }

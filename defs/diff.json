@@ -33,7 +33,7 @@
     "convertChangesToDMP": "fn(changes: [IDiffResult]) -> [ret]"
   },
   "diff": "JsDiff",
-  "!name": "diff.d.ts",
+  "!name": "diff",
   "!define": {
     "ret": {
       "0": "number",

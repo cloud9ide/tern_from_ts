@@ -16,5 +16,5 @@
     }
   },
   "GroupsApp": "GoogleAppsScript.Groups.GroupsApp",
-  "!name": "google-apps-script.groups.d.ts"
+  "!name": "google-apps-script.groups"
 }

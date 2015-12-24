@@ -218,5 +218,5 @@
     "dec": "fn() -> Date"
   },
   "Number": {},
-  "!name": "sugarpak.d.ts"
+  "!name": "sugarpak"
 }

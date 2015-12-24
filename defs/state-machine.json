@@ -43,6 +43,6 @@
     "error": "StateMachineErrorCallback",
     "transition": "StateMachineTransition"
   },
-  "state-machine": "StateMachineStatic",
-  "!name": "state-machine.d.ts"
+  "state-machine": "StateMachine",
+  "!name": "state-machine"
 }

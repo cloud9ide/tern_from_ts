@@ -55,5 +55,5 @@
       "unload": "fn()"
     }
   },
-  "!name": "howler.d.ts"
+  "!name": "howler"
 }

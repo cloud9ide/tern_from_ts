@@ -18,5 +18,5 @@
   "JQuery": {
     "pagination": "fn(options?: SimplePaginationOptions) -> JQuery"
   },
-  "!name": "jquery.simplePagination.d.ts"
+  "!name": "jquery.simplePagination"
 }

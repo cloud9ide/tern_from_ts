@@ -5,7 +5,7 @@
     },
     "Deferred": {
       "promise": "?",
-      "resolve": "fn(value: T)",
+      "resolve": "fn(value?: T)",
       "reject": "fn(reason: ?)",
       "notify": "fn(value: ?)",
       "makeNodeResolver": "fn() -> fn(reason: ?, value: T)"
@@ -78,5 +78,5 @@
     "!type": "fn(promise: ?) -> ?"
   },
   "q": "Q",
-  "!name": "Q.d.ts"
+  "!name": "Q"
 }

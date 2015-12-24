@@ -17,5 +17,5 @@
   "JQueryStatic": {
     "watermark": "Watermark"
   },
-  "!name": "jquery.watermark.d.ts"
+  "!name": "jquery.watermark"
 }

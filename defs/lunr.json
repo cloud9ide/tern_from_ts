@@ -132,7 +132,7 @@
     },
     "!type": "fn(config: Function) -> lunr.Index"
   },
-  "!name": "lunr.d.ts",
+  "!name": "lunr",
   "!define": {
     "ret": {}
   }

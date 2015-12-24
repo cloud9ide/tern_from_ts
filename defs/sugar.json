@@ -496,7 +496,7 @@
     "isValid": "fn() -> bool",
     "union": "fn(range: DateRange) -> DateRange"
   },
-  "!name": "sugar.d.ts",
+  "!name": "sugar",
   "!define": {
     "ret": {},
     "ret1": {},

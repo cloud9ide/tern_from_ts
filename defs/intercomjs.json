@@ -17,5 +17,5 @@
     "destroy": "fn()"
   },
   "Intercom": "IntercomStatic",
-  "!name": "intercom.d.ts"
+  "!name": "intercom"
 }

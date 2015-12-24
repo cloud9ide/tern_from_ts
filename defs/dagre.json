@@ -23,5 +23,5 @@
     }
   },
   "dagre": "Dagre.DagreFactory",
-  "!name": "dagre.d.ts"
+  "!name": "dagre"
 }

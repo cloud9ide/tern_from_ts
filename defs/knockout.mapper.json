@@ -6,5 +6,5 @@
   "KnockoutStatic": {
     "mapper": "KnockoutMapper"
   },
-  "!name": "knockout.mapper.d.ts"
+  "!name": "knockout.mapper"
 }

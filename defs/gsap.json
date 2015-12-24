@@ -57,5 +57,5 @@
       "totalTime": "fn() -> number"
     }
   },
-  "!name": "Core.d.ts"
+  "!name": "Core"
 }

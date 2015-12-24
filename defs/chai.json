@@ -182,5 +182,5 @@
   "Object": {
     "should": "Chai.Assertion"
   },
-  "!name": "chai-2.0.0.d.ts"
+  "!name": "chai-2.0.0"
 }

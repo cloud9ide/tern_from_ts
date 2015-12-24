@@ -20,5 +20,5 @@
     "instrument": "fn(fn: fn(), callback: fn(stackFrames: [StackFrame]), errorCallback: fn(error: Error), thisArg?: ?)",
     "deinstrument": "fn(fn: fn())"
   },
-  "!name": "stacktrace-js.d.ts"
+  "!name": "stacktrace-js"
 }

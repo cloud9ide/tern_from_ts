@@ -100,5 +100,5 @@
   "JQuery": {
     "datetimepicker": "fn() -> JQuery"
   },
-  "!name": "jquery.ui.datetimepicker.d.ts"
+  "!name": "jquery.ui.datetimepicker"
 }

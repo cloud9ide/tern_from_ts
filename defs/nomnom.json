@@ -40,5 +40,5 @@
   },
   "_nomnom": "NomnomInternal.Parser",
   "nomnom": "_nomnom",
-  "!name": "nomnom.d.ts"
+  "!name": "nomnom"
 }

@@ -46,5 +46,5 @@
   "dojox/io/scriptFrame._waiters": "exp",
   "dojox/io/proxy/xip": "exp",
   "dojox/io/proxy/xip._state": "exp",
-  "!name": "dojox.io.d.ts"
+  "!name": "dojox.io"
 }

@@ -11,5 +11,5 @@
   "JQuery": {
     "livestamp": "fn(date: Date) -> JQuery"
   },
-  "!name": "jquery.livestampjs.d.ts"
+  "!name": "jquery.livestampjs"
 }

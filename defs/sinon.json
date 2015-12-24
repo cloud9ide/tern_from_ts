@@ -282,5 +282,5 @@
     "SinonTestWrapper": {}
   },
   "sinon": "Sinon.SinonStatic",
-  "!name": "sinon.d.ts"
+  "!name": "sinon"
 }

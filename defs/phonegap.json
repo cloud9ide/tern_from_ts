@@ -461,5 +461,5 @@
   },
   "device": "Device",
   "phoneGapNavigator": "Navigator",
-  "!name": "phonegap.d.ts"
+  "!name": "phonegap"
 }

@@ -57,5 +57,5 @@
     }
   },
   "chroma": "Chroma.ChromaStatic",
-  "!name": "chroma-js.d.ts"
+  "!name": "chroma-js"
 }

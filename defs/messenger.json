@@ -29,5 +29,5 @@
     "parentLocations": "[string]",
     "theme": "string"
   },
-  "!name": "messenger.d.ts"
+  "!name": "messenger"
 }

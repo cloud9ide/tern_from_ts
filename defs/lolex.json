@@ -13,5 +13,5 @@
     "createClock": "fn(now?: number) -> Clock",
     "install": "fn(now?: number, toFake?: [string]) -> Clock"
   },
-  "!name": "lolex.d.ts"
+  "!name": "lolex"
 }

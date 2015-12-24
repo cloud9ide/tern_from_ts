@@ -17,5 +17,5 @@
     "Unflatten": {}
   },
   "flat": "flatten",
-  "!name": "flat.d.ts"
+  "!name": "flat"
 }

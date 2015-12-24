@@ -22,5 +22,5 @@
     "escape": "fn(text: string) -> string",
     "unescape": "Decode"
   },
-  "!name": "he.d.ts"
+  "!name": "he"
 }

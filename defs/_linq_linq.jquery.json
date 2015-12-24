@@ -11,5 +11,5 @@
   "JQueryStatic": {
     "Enumerable": "linq.EnumerableStatic"
   },
-  "!name": "linq.jquery.d.ts"
+  "!name": "linq.jquery"
 }

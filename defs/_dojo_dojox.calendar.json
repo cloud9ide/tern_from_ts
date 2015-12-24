@@ -2149,7 +2149,7 @@
   "dojox/calendar/ViewBase": "exp",
   "dojox/calendar/ColumnView": "exp",
   "dojox/calendar/ColumnViewSecondarySheet": "exp",
-  "!name": "dojox.calendar.d.ts",
+  "!name": "dojox.calendar",
   "!define": {
     "ret": {
       "unwatch": "fn()"

@@ -74,5 +74,5 @@
       "accuracy": "number"
     }
   },
-  "!name": "cordova-plugin-ibeacon.d.ts"
+  "!name": "cordova-plugin-ibeacon"
 }

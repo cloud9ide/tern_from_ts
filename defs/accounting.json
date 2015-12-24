@@ -29,5 +29,5 @@
     "settings": "IAccountingSettings"
   },
   "accounting": "IAccountingStatic",
-  "!name": "accounting.d.ts"
+  "!name": "accounting"
 }

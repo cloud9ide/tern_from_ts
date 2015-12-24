@@ -17,5 +17,5 @@
   "IHashSetStatic": {},
   "HashSet": "IHashSetStatic",
   "hashset": "HashSet",
-  "!name": "hashset.d.ts"
+  "!name": "hashset"
 }

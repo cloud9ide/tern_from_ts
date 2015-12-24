@@ -6,5 +6,5 @@
   "JQueryStatic": {
     "base64": "JQueryBase64Static"
   },
-  "!name": "jquery.base64.d.ts"
+  "!name": "jquery.base64"
 }

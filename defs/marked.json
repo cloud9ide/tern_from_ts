@@ -19,5 +19,5 @@
     "smartypants": "bool"
   },
   "marked": "marked",
-  "!name": "marked.d.ts"
+  "!name": "marked"
 }

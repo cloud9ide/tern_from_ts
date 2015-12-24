@@ -213,5 +213,5 @@
   "ZeptoEventHandlers": {},
   "Zepto": "fn(fn: fn($: ZeptoStatic))",
   "$": "ZeptoStatic",
-  "!name": "zepto.d.ts"
+  "!name": "zepto"
 }

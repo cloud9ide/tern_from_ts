@@ -18,5 +18,5 @@
   "dojox/timing/Sequence": "exp",
   "dojox/timing/doLater": "exp",
   "dojox/timing/Streamer": "exp",
-  "!name": "dojox.timing.d.ts"
+  "!name": "dojox.timing"
 }

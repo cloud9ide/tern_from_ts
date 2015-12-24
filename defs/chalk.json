@@ -65,5 +65,5 @@
     }
   },
   "chalk": "ch",
-  "!name": "chalk.d.ts"
+  "!name": "chalk"
 }

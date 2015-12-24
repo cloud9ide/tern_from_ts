@@ -10,5 +10,5 @@
   "JQuery": {
     "areYouSure": "AreYouSure"
   },
-  "!name": "jquery.are-you-sure.d.ts"
+  "!name": "jquery.are-you-sure"
 }

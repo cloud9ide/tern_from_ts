@@ -25,5 +25,5 @@
   "OfflineCheck": {
     "url": "string"
   },
-  "!name": "offline-js.d.ts"
+  "!name": "offline-js"
 }

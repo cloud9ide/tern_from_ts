@@ -4,5 +4,5 @@
       "check": "fn(urlScheme: string) -> ?"
     }
   },
-  "!name": "appAvailability.d.ts"
+  "!name": "appAvailability"
 }

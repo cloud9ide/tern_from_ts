@@ -12,5 +12,5 @@
       "nfkc": "fn(str: string) -> string"
     }
   },
-  "!name": "unorm.d.ts"
+  "!name": "unorm"
 }

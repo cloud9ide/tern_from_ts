@@ -33,5 +33,5 @@
     "trap": "string",
     "random": "string"
   },
-  "!name": "colors.d.ts"
+  "!name": "colors"
 }

@@ -62,5 +62,5 @@
   "JQuerySupport": {
     "fileInput": "bool"
   },
-  "!name": "jquery.fileupload.d.ts"
+  "!name": "jquery.fileupload"
 }

@@ -432,5 +432,5 @@
     }
   },
   "node-form": "Validation",
-  "!name": "node-form.d.ts"
+  "!name": "node-form"
 }

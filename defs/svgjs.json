@@ -174,5 +174,5 @@
     }
   },
   "svg.js": "svgjs",
-  "!name": "svgjs.d.ts"
+  "!name": "svgjs"
 }

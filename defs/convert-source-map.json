@@ -17,5 +17,5 @@
     "fromComment": "fn(comment: string) -> SourceMapConverter",
     "fromSource": "fn(source: string) -> SourceMapConverter"
   },
-  "!name": "convert-source-map.d.ts"
+  "!name": "convert-source-map"
 }

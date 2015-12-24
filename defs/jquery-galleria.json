@@ -23,5 +23,5 @@
     }
   },
   "Galleria": "GalleriaJS.GalleriaFactory",
-  "!name": "jquery-galleria.d.ts"
+  "!name": "jquery-galleria"
 }

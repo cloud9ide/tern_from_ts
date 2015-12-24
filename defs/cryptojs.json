@@ -326,5 +326,5 @@
       "PBKDF2": "CryptoJS.algo.IEvpKDFHelper"
     }
   },
-  "!name": "cryptojs.d.ts"
+  "!name": "cryptojs"
 }

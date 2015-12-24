@@ -4,5 +4,5 @@
     "K": "fn(x: T) -> fn(y?: S)",
     "I": "fn(x: T) -> T"
   },
-  "!name": "ski.d.ts"
+  "!name": "ski"
 }

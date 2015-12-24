@@ -45,5 +45,5 @@
     "version": "string"
   },
   "toastr": "Toastr",
-  "!name": "toastr.d.ts"
+  "!name": "toastr"
 }

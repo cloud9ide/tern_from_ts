@@ -22,5 +22,5 @@
     }
   },
   "Fingerprint": "FingerprintJs.FingerprintStatic",
-  "!name": "fingerprint.d.ts"
+  "!name": "fingerprint"
 }

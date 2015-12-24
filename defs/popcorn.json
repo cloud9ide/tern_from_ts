@@ -99,5 +99,5 @@
     "target": "string",
     "text": "string"
   },
-  "!name": "popcorn.d.ts"
+  "!name": "popcorn"
 }

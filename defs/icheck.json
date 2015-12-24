@@ -29,5 +29,5 @@
   "JQuery": {
     "iCheck": "fn(options?: ICheckOptions) -> JQuery"
   },
-  "!name": "icheck.d.ts"
+  "!name": "icheck"
 }

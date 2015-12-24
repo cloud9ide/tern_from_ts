@@ -161,5 +161,5 @@
     }
   },
   "SitesApp": "GoogleAppsScript.Sites.SitesApp",
-  "!name": "google-apps-script.sites.d.ts"
+  "!name": "google-apps-script.sites"
 }

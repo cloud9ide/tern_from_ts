@@ -111,10 +111,10 @@
     "cancel": "fn()"
   },
   "PDFPageProxy": {
-    "pageNumber": "fn() -> number",
-    "rotate": "fn() -> number",
-    "ref": "fn() -> PDFRef",
-    "view": "fn() -> [number]",
+    "pageNumber": "number",
+    "rotate": "number",
+    "ref": "PDFRef",
+    "view": "[number]",
     "getViewport": "fn(scale: number, rotate?: number) -> PDFPageViewport",
     "getAnnotations": "fn() -> ?",
     "render": "fn(params: PDFRenderParams) -> PDFRenderTask",
@@ -166,5 +166,5 @@
     "PDFViewer": "fn(params: PDFViewerParams)"
   },
   "PDFJS": "PDFJSStatic",
-  "!name": "pdf.d.ts"
+  "!name": "pdf"
 }

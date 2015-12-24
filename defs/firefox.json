@@ -25,5 +25,5 @@
     "launch": "fn()",
     "checkForUpdate": "fn() -> ?"
   },
-  "!name": "firefox.d.ts"
+  "!name": "firefox"
 }

@@ -25,5 +25,5 @@
     "DEFAULT_FULL_SCHEMA": "?"
   },
   "'js-yaml'": "jsyaml",
-  "!name": "js-yaml.d.ts"
+  "!name": "js-yaml"
 }

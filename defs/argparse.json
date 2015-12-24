@@ -95,5 +95,5 @@
       "metavar": "string"
     }
   },
-  "!name": "argparse.d.ts"
+  "!name": "argparse"
 }

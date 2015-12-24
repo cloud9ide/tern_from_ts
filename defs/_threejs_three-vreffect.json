@@ -23,5 +23,5 @@
       "offset": "number"
     }
   },
-  "!name": "three-vreffect.d.ts"
+  "!name": "three-vreffect"
 }

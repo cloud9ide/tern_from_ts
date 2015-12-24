@@ -35,5 +35,5 @@
     }
   },
   "KeyboardJS": "KeyboardJSStatic",
-  "!name": "keyboardjs.d.ts"
+  "!name": "keyboardjs"
 }

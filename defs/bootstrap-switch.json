@@ -54,5 +54,5 @@
     "off": "fn(events: string, selector?: string, handler?: fn(eventobject: BootstrapSwitch.BootstrapSwitchEventObject)) -> JQuery",
     "on": "fn(events: string, selector?: string, handler?: fn(eventobject: BootstrapSwitch.BootstrapSwitchEventObject)) -> JQuery"
   },
-  "!name": "bootstrap-switch.d.ts"
+  "!name": "bootstrap-switch"
 }

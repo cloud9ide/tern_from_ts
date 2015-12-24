@@ -18,5 +18,5 @@
     "defaultOptions": "fn() -> Options",
     "!type": "fn(options?: powerAssertFormatter.Options) -> powerAssertFormatter.Formatter"
   },
-  "!name": "power-assert-formatter.d.ts"
+  "!name": "power-assert-formatter"
 }

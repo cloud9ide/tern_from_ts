@@ -53,5 +53,5 @@
       "locals": "i18nAPI"
     }
   },
-  "!name": "i18n-node.d.ts"
+  "!name": "i18n-node"
 }

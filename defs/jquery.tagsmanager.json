@@ -56,5 +56,5 @@
   "JQuery": {
     "tagsManager": "fn(options?: ITagsManagerOptions) -> JQuery"
   },
-  "!name": "jquery.tagsmanager.d.ts"
+  "!name": "jquery.tagsmanager"
 }

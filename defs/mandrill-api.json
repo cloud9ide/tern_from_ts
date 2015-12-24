@@ -191,5 +191,5 @@
       }
     }
   },
-  "!name": "mandrill-api.d.ts"
+  "!name": "mandrill-api"
 }

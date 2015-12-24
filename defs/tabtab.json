@@ -16,7 +16,7 @@
       "prev": "string"
     }
   },
-  "!name": "tabtab.d.ts",
+  "!name": "tabtab",
   "!define": {
     "ret": {
       "shorts": "[string]",

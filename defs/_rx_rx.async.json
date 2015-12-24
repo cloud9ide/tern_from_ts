@@ -6,5 +6,5 @@
     }
   },
   "rx.async": "Rx",
-  "!name": "rx.async.d.ts"
+  "!name": "rx.async"
 }

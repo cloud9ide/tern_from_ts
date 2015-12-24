@@ -103,7 +103,7 @@
   "dojox/embed/Quicktime": "exp",
   "dojox/embed/flashVars": "exp",
   "dojox/embed/Object": "exp",
-  "!name": "dojox.embed.d.ts",
+  "!name": "dojox.embed",
   "!define": {
     "ret": {
       "unwatch": "fn()"

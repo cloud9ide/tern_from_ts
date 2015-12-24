@@ -47,5 +47,5 @@
   },
   "introJs": "IntroJs.Factory",
   "'intro.js'": "IntroJs",
-  "!name": "intro.js.d.ts"
+  "!name": "intro.js"
 }

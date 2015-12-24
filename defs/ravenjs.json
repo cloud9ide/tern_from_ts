@@ -22,5 +22,5 @@
     "captureMessage": "fn(msg: string, options?: RavenOptions) -> RavenStatic",
     "setUser": "fn(user?: ?) -> RavenStatic"
   },
-  "!name": "ravenjs.d.ts"
+  "!name": "ravenjs"
 }

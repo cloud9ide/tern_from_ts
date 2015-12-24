@@ -9,5 +9,5 @@
   "JQueryStatic": {
     "totalStorage": "JQueryTotalStorage"
   },
-  "!name": "jquery.total-storage.d.ts"
+  "!name": "jquery.total-storage"
 }

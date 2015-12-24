@@ -7,5 +7,5 @@
   "JQuery": {
     "customSelect": "fn(val: JQueryCustomSelectOption) -> JQuery"
   },
-  "!name": "jquery.customSelect.d.ts"
+  "!name": "jquery.customSelect"
 }

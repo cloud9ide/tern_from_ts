@@ -495,5 +495,5 @@
       "prototype": "IToolTip"
     }
   },
-  "!name": "teechart.d.ts"
+  "!name": "teechart"
 }

@@ -220,5 +220,5 @@
     "updateTask": "fn(id: string)"
   },
   "gantt": "GanttStatic",
-  "!name": "dhtmlxgantt.d.ts"
+  "!name": "dhtmlxgantt"
 }

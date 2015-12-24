@@ -55,7 +55,7 @@
   "requirejs": "Require",
   "require": "Require",
   "define": "RequireDefine",
-  "!name": "require.d.ts",
+  "!name": "require",
   "!define": {
     "ret": {}
   }

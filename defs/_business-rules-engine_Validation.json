@@ -213,5 +213,5 @@
     }
   },
   "node-validation": "Validation",
-  "!name": "Validation.d.ts"
+  "!name": "Validation"
 }

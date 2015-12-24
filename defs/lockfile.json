@@ -13,5 +13,5 @@
     "check": "fn(path: string, opts: Options, callback: fn(err: Error, isLocked: bool))",
     "checkSync": "fn(path: string, opts: Options) -> bool"
   },
-  "!name": "lockfile.d.ts"
+  "!name": "lockfile"
 }

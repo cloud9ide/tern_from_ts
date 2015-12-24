@@ -88,5 +88,5 @@
       "setDataUrlParams": "fn(params: ?)"
     }
   },
-  "!name": "magicsuggest.d.ts"
+  "!name": "magicsuggest"
 }

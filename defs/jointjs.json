@@ -128,7 +128,7 @@
       "deepSupplement": "fn(objects: [?], defaultIndicator?: ?) -> ?"
     }
   },
-  "!name": "jointjs.d.ts",
+  "!name": "jointjs",
   "!define": {
     "ret": {
       "x": "number",

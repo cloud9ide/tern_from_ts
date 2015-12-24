@@ -65,5 +65,5 @@
   "JQueryStatic": {
     "soap": "JQuerySOAP.SOAP"
   },
-  "!name": "jquery.soap.d.ts"
+  "!name": "jquery.soap"
 }

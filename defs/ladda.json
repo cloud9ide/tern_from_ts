@@ -27,5 +27,5 @@
   "JQueryStatic": {
     "ladda": "fn(action: string) -> JQuery"
   },
-  "!name": "ladda.d.ts"
+  "!name": "ladda"
 }

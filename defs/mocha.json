@@ -4,5 +4,5 @@
     "ISuite": {},
     "IRunner": {}
   },
-  "!name": "mocha-node.d.ts"
+  "!name": "mocha-node"
 }

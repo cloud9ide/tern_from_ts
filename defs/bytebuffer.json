@@ -123,5 +123,5 @@
     }
   },
   "'bytebuffer'": "ByteBuffer",
-  "!name": "bytebuffer.d.ts"
+  "!name": "bytebuffer"
 }

@@ -18,5 +18,5 @@
   },
   "TracebackStatic": {},
   "traceback": "TracebackStatic",
-  "!name": "traceback.d.ts"
+  "!name": "traceback"
 }

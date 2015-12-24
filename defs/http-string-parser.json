@@ -28,7 +28,7 @@
     "parseStatusLine": "fn(statusLine: string) -> ParseStatusLineResult",
     "parseHeaders": "fn(headerLines: [string]) -> ret"
   },
-  "!name": "http-string-parser.d.ts",
+  "!name": "http-string-parser",
   "!define": {
     "ret": {}
   }

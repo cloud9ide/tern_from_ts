@@ -400,5 +400,5 @@
       }
     }
   },
-  "!name": "node-git.d.ts"
+  "!name": "node-git"
 }

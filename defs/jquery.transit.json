@@ -11,5 +11,5 @@
     "transition": "fn(options: JQueryTransitOptions) -> JQuery",
     "css": "fn(propertyName: string, value: [number]) -> JQuery"
   },
-  "!name": "jquery.transit.d.ts"
+  "!name": "jquery.transit"
 }

@@ -32,5 +32,5 @@
     "image_alt_text": "string",
     "privacy_and_terms": "string"
   },
-  "!name": "recaptcha.d.ts"
+  "!name": "recaptcha"
 }

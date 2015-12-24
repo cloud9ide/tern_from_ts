@@ -9,5 +9,5 @@
       "decompressFromBase64": "fn(compressed: string) -> string"
     }
   },
-  "!name": "lz-string.d.ts"
+  "!name": "lz-string"
 }

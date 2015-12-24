@@ -4,5 +4,5 @@
       "matchBrackets": "bool"
     }
   },
-  "!name": "codemirror-matchbrackets.d.ts"
+  "!name": "codemirror-matchbrackets"
 }

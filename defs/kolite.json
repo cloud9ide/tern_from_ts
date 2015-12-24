@@ -45,5 +45,5 @@
   "KnockoutUtils": {
     "wrapAccessor": "fn(accessor: ?) -> Function"
   },
-  "!name": "kolite.d.ts"
+  "!name": "kolite"
 }

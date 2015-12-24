@@ -43,6 +43,7 @@
     "contain": "fn(obj: ?) -> ShouldAssertion",
     "containEql": "fn(obj: ?) -> ShouldAssertion",
     "containDeep": "fn(obj: ?) -> ShouldAssertion",
+    "containDeepOrdered": "fn(obj: ?) -> ShouldAssertion",
     "keys": "fn(allKeys: [string]) -> ShouldAssertion",
     "header": "fn(field: string, val?: string) -> ShouldAssertion",
     "status": "fn(code: number) -> ShouldAssertion",
@@ -87,5 +88,5 @@
   "Window": {
     "Should": "Internal"
   },
-  "!name": "should.d.ts"
+  "!name": "should"
 }

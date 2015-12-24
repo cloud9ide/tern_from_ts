@@ -199,5 +199,5 @@
     "getPersistData": "fn(cookieId: string, cookieOpts: DynaTreeCookieOptions) -> ?",
     "version": "number"
   },
-  "!name": "jquery.dynatree.d.ts"
+  "!name": "jquery.dynatree"
 }

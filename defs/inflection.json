@@ -18,5 +18,5 @@
     "transform": "fn(str: string, arr: [string]) -> string"
   },
   "inflection": "inflection",
-  "!name": "inflection.d.ts"
+  "!name": "inflection"
 }

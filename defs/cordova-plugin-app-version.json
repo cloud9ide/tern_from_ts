@@ -8,5 +8,5 @@
       "getVersionNumber": "fn()"
     }
   },
-  "!name": "cordova-plugin-app-version.d.ts"
+  "!name": "cordova-plugin-app-version"
 }

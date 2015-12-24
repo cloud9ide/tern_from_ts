@@ -5691,7 +5691,7 @@
   "dojox/mobile/dh/JsonContentHandler": "exp",
   "dojox/mobile/dh/StringDataSource": "exp",
   "dojox/mobile/dh/UrlDataSource": "exp",
-  "!name": "dojox.mobile.d.ts",
+  "!name": "dojox.mobile",
   "!define": {
     "ret": {
       "unwatch": "fn()"

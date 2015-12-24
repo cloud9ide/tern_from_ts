@@ -70,7 +70,8 @@
       "itself": "Assertion",
       "satisfy": "Satisfy",
       "satisfies": "Satisfy",
-      "closeTo": "fn(expected: number, delta: number, message?: string) -> Assertion",
+      "closeTo": "CloseTo",
+      "approximately": "CloseTo",
       "members": "Members",
       "increase": "PropertyChange",
       "increases": "PropertyChange",
@@ -80,7 +81,8 @@
       "changes": "PropertyChange",
       "extensible": "Assertion",
       "sealed": "Assertion",
-      "frozen": "Assertion"
+      "frozen": "Assertion",
+      "oneOf": "fn(list: [?], message?: string) -> Assertion"
     },
     "LanguageChains": {
       "to": "Assertion",
@@ -116,6 +118,7 @@
       "instanceOf": "InstanceOf"
     },
     "InstanceOf": {},
+    "CloseTo": {},
     "Deep": {
       "equal": "Equal",
       "include": "Include",
@@ -157,6 +160,8 @@
       "notDeepEqual": "fn(act: ?, exp: ?, msg?: string)",
       "isTrue": "fn(val: ?, msg?: string)",
       "isFalse": "fn(val: ?, msg?: string)",
+      "isNotTrue": "fn(val: ?, msg?: string)",
+      "isNotFalse": "fn(val: ?, msg?: string)",
       "isNull": "fn(val: ?, msg?: string)",
       "isNotNull": "fn(val: ?, msg?: string)",
       "isUndefined": "fn(val: ?, msg?: string)",
@@ -165,6 +170,8 @@
       "isNotNaN": "fn(val: ?, msg?: string)",
       "isAbove": "fn(val: number, abv: number, msg?: string)",
       "isBelow": "fn(val: number, blw: number, msg?: string)",
+      "isAtLeast": "fn(val: number, atlst: number, msg?: string)",
+      "isAtMost": "fn(val: number, atmst: number, msg?: string)",
       "isFunction": "fn(val: ?, msg?: string)",
       "isNotFunction": "fn(val: ?, msg?: string)",
       "isObject": "fn(val: ?, msg?: string)",
@@ -200,6 +207,7 @@
       "doesNotThrow": "fn(fn: Function, msg?: string)",
       "operator": "fn(val: ?, operator: string, val2: ?, msg?: string)",
       "closeTo": "fn(act: number, exp: number, delta: number, msg?: string)",
+      "approximately": "fn(act: number, exp: number, delta: number, msg?: string)",
       "sameMembers": "fn(set1: [?], set2: [?], msg?: string)",
       "sameDeepMembers": "fn(set1: [?], set2: [?], msg?: string)",
       "includeMembers": "fn(superset: [?], subset: [?], msg?: string)",
@@ -215,7 +223,8 @@
       "isFrozen": "fn(obj: Object, msg?: string)",
       "frozen": "fn(obj: Object, msg?: string)",
       "isNotFrozen": "fn(obj: Object, msg?: string)",
-      "notFrozen": "fn(obj: Object, msg?: string)"
+      "notFrozen": "fn(obj: Object, msg?: string)",
+      "oneOf": "fn(inList: ?, list: [?], msg?: string)"
     },
     "Config": {
       "includeStack": "bool"
@@ -234,5 +243,5 @@
   "Object": {
     "should": "Chai.Assertion"
   },
-  "!name": "chai.d.ts"
+  "!name": "chai"
 }

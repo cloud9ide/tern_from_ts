@@ -84,5 +84,5 @@
     }
   },
   "ScriptApp": "GoogleAppsScript.Script.ScriptApp",
-  "!name": "google-apps-script.script.d.ts"
+  "!name": "google-apps-script.script"
 }

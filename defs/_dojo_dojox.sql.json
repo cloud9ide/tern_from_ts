@@ -7,5 +7,5 @@
   },
   "dojox/sql": "exp",
   "dojox/sql/_crypto": "exp",
-  "!name": "dojox.sql.d.ts"
+  "!name": "dojox.sql"
 }

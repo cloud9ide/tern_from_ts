@@ -42,5 +42,5 @@
     }
   },
   "codemirror/addon/hint/show-hint": "CodeMirror",
-  "!name": "codemirror-showhint.d.ts"
+  "!name": "codemirror-showhint"
 }

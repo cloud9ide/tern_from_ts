@@ -92,5 +92,5 @@
       "Factorial": "fn(n: ?) -> number"
     }
   },
-  "!name": "tween.js.d.ts"
+  "!name": "tween.js"
 }

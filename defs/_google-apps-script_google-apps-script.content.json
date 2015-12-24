@@ -19,5 +19,5 @@
     }
   },
   "ContentService": "GoogleAppsScript.Content.ContentService",
-  "!name": "google-apps-script.content.d.ts"
+  "!name": "google-apps-script.content"
 }

@@ -223,5 +223,5 @@
       "method": "string"
     }
   },
-  "!name": "imgur-rest-api.d.ts"
+  "!name": "imgur-rest-api"
 }

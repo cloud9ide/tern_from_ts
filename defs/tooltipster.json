@@ -57,5 +57,5 @@
     "JQueryTooltipster": "?",
     "ITooltipsterInstance": "?"
   },
-  "!name": "tooltipster.d.ts"
+  "!name": "tooltipster"
 }

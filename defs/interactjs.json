@@ -155,5 +155,5 @@
     }
   },
   "interact": "Interact.InteractStatic",
-  "!name": "interact.d.ts"
+  "!name": "interact"
 }

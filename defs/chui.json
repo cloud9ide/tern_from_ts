@@ -195,5 +195,5 @@
   "JQueryInputEventObject": {},
   "JQueryMouseEventObject": {},
   "JQueryKeyEventObject": {},
-  "!name": "chui.d.ts"
+  "!name": "chui"
 }

@@ -17,5 +17,5 @@
     "to": "fn(val: number) -> string",
     "from": "fn(val: string) -> number"
   },
-  "!name": "wnumb.d.ts"
+  "!name": "wnumb"
 }

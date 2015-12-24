@@ -31,5 +31,5 @@
   "JQueryStatic": {
     "Color": "fn(color: HslaColor) -> JQueryColor"
   },
-  "!name": "jquery.color.d.ts"
+  "!name": "jquery.color"
 }

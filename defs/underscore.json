@@ -396,5 +396,5 @@
     "flatten": "fn() -> ?"
   },
   "underscore": "_",
-  "!name": "underscore.d.ts"
+  "!name": "underscore"
 }

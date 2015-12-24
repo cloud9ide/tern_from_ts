@@ -50,5 +50,5 @@
       }
     }
   },
-  "!name": "three-canvasrenderer.d.ts"
+  "!name": "three-canvasrenderer"
 }

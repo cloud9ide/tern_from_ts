@@ -5,5 +5,5 @@
       "activityStop": "fn(successCallback?: fn(), failureCallback?: fn(error: string))"
     }
   },
-  "!name": "cordova-plugin-spinner.d.ts"
+  "!name": "cordova-plugin-spinner"
 }

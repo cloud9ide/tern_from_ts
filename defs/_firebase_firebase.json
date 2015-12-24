@@ -122,5 +122,5 @@
   "FirebaseResetPasswordCredentials": {
     "email": "string"
   },
-  "!name": "firebase.d.ts"
+  "!name": "firebase"
 }

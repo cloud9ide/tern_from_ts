@@ -379,5 +379,5 @@
   "jquery": "$",
   "jQuery": "JQueryStatic",
   "$": "JQueryStatic",
-  "!name": "jquery.d.ts"
+  "!name": "jquery"
 }

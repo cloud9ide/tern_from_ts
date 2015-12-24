@@ -3,5 +3,5 @@
     "AutosizeStatic": {}
   },
   "'autosize'": "autosize",
-  "!name": "jquery.autosize.d.ts"
+  "!name": "jquery.autosize"
 }

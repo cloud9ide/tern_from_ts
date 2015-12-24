@@ -18,5 +18,5 @@
     "considerTransition": "bool"
   },
   "progressJs": "ProgressJsStatic",
-  "!name": "progress.d.ts"
+  "!name": "progress"
 }
